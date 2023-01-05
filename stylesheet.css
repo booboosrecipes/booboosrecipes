@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 :root {
-    --main_bg : rgba(137, 196, 244);
+    --main_bg : rgb(42, 187, 187);
+    --contrast_color : rgb(10, 134, 134);
     --card_container : rgb(255, 255, 255, 0.95);
 }
 body {
@@ -123,4 +124,11 @@ ul, ol {
     letter-spacing: 1.7px;
     color: white;
     font-weight: bold;
+}
+.author{
+    font-weight: bold;
+    font-style: italic;
+    text-align:center;
+    text-decoration:dashed;
+    color: var(--contrast_color);
 }
