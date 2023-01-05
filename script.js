@@ -1601,7 +1601,7 @@ let meals_html = ''
 recipes.forEach(recipe => {
     let index = recipe.index;
     let title = recipe.name;
-    let id = title.replace(/ /g,"_");
+    let id = (title.replace(/ /g,"_")).toLowerCase();
     let ingredients = recipe.ingredients;
     let group_html = '';
     let steps = recipe.steps;
@@ -1686,3 +1686,20 @@ document.querySelector('.search').addEventListener('click', function(){
         }
     })
 })
+
+// table script
+let table = document.querySelector('.meals_table');
+
+table_html = `<h2 class="table_title">The great table of content</h2>`;
+
+recipes.forEach(recipe => {
+    let title = recipe.name;
+    let id = (title.replace(/ /g,"_")).toLowerCase();
+
+    table_html += `
+        <a href="#${id}" title="${title}"><h4>${title}</h4></a>
+    `;
+    
+})
+
+table.innerHTML = table_html;

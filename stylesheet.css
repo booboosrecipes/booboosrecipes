@@ -45,6 +45,17 @@ ul, ol {
     padding: 30px;
     max-width: 800px;
     margin: 0 auto;
+    min-width: 800px;
+}
+.meals_table{
+    margin: 0 5vw;
+    border-radius: 10px;
+    background-color: var(--card_container);
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    min-width: 800px;
 }
 .meals_list .meals .ingredients{
     display: flex;
@@ -80,14 +91,16 @@ ul, ol {
 .title, .meals_infos{
     text-align:center;
 }
-.vege{
+.vege, .table_title{
     text-align:center;
     margin: 0 auto;
     display: block;
     padding: 5px 20px;
     background-color: var(--main_bg);
-    margin-top: -20px;
     margin-bottom: 20px;
+}
+.vege{
+    margin-top: -20px;
 }
 .search_bar{
     background-color: white;
@@ -101,6 +114,7 @@ ul, ol {
     gap: 25px;
     margin: 50px auto;
     max-width: 800px;
+    min-width: 800px;
 }
 .search-input{
     max-width: 500px;
@@ -131,4 +145,10 @@ ul, ol {
     text-align:center;
     text-decoration:dashed;
     color: var(--contrast_color);
+}
+
+@media only screen and (max-width: 900px){
+    .meals_table, .meals_list .meals, .search_bar {
+        min-width: 100%;
+    }
 }
