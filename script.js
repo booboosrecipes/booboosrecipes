@@ -1697,8 +1697,17 @@ recipes.forEach(recipe => {
     let id = (title.replace(/ /g,"_")).toLowerCase();
 
     table_html += `
-        <a href="#${id}" title="${title}"><h4>${title}</h4></a>
+        <a href="#${id}" title="${title}">
+            <h4>${title}
     `;
+    if(recipe.vegetarian == true){
+    table_html +=
+            `<span class="v">V</span>`;
+
+    }
+    table_html +=
+        `   </h4>
+        </a>`;
     
 })
 

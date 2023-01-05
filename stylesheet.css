@@ -56,6 +56,30 @@ ul, ol {
     margin: 0 auto;
     margin-bottom: 50px;
     min-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.meals_table a {
+    max-width: fit-content;
+    text-decoration: none;
+}
+.meals_table h4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.meals_table .v{
+    border-radius: 10px;
+    background-color: var(--main_bg);
+    border-radius: 50%;
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .meals_list .meals .ingredients{
     display: flex;
@@ -90,6 +114,7 @@ ul, ol {
 }
 .title, .meals_infos{
     text-align:center;
+    font-weight: bold;
 }
 .vege, .table_title{
     text-align:center;
