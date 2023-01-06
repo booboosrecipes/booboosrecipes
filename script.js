@@ -740,7 +740,7 @@ meals = [
                 name:  'Sauté de Mary-Ève Simard',
                 image: '',
                 tags: '',
-                vegetarian: true,
+                vegetarian: false,
                 author: 'Grace',
                 serves: '4',
                 prep: '15',

@@ -80,8 +80,6 @@ ul, ol {
     text-decoration: none;
 }
 .meals_table h4{
-    display: flex;
-    align-items: center;
     gap: 10px;
 }
 .meals_table .v{
@@ -92,9 +90,10 @@ ul, ol {
     width: 20px;
     height: 20px;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 16px;
 }
 .table_meal_title{
     border-bottom: 2px solid var(--main_bg);
