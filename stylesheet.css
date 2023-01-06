@@ -3,8 +3,10 @@
 }
 :root {
     --main_bg : rgb(42, 187, 187);
-    --contrast_color : rgb(10, 134, 134);
+    --title_color : rgb(48, 59, 59);
     --card_container : rgb(255, 255, 255, 0.95);
+    --secondary_color: rgba(197, 90, 140, 0.664);
+    --text_color: #555b61;
 }
 body {
     max-width: 100%;
@@ -22,6 +24,19 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: var(--text_color);
+}
+a{
+    color: var(--text_color);
+    transition: 0.3s ease;
+}
+a:hover {
+    color: var(--title_color);
+    transition: 0.3s ease;
+}
+a:visited{
+    text-decoration:none;
+    color: var(--text_color);
 }
 h1, h3, h4 {
     margin: 0;
@@ -81,6 +96,10 @@ ul, ol {
     align-items: center;
     justify-content: center;
 }
+.table_meal_title{
+    border-bottom: 2px solid var(--main_bg);
+    color: var(--title_color);
+}
 .meals_list .meals .ingredients{
     display: flex;
     flex-wrap: wrap;
@@ -112,23 +131,27 @@ ul, ol {
 .meals_list .meals .preparation ol{
     margin-top: 20px;
 }
+.meals_list .title{
+    color: var(--title_color);
+}
 .title, .meals_infos{
     text-align:center;
     font-weight: bold;
 }
 .vege, .table_title{
-    text-align:center;
-    margin: 0 auto;
     display: block;
     padding: 5px 20px;
     background-color: var(--main_bg);
     margin-bottom: 20px;
+    color: white;
 }
 .vege{
+    text-align:center;
+    margin: 0 auto;
     margin-top: -20px;
 }
 .search_bar{
-    background-color: white;
+    background-color: var(--card_container);
     padding: 5vw;
     margin: 0 auto;
     border-radius: 10px;
@@ -169,7 +192,7 @@ ul, ol {
     font-style: italic;
     text-align:center;
     text-decoration:dashed;
-    color: var(--contrast_color);
+    color: var(--secondary_color);
 }
 
 @media only screen and (max-width: 900px){
