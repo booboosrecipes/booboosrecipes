@@ -98,6 +98,32 @@ ul, ol {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.meals_table.hidden{
+    max-height: 122px;
+    transition: 0.3s;
+}
+.meals_table.hidden .minus{
+    display: none;
+}
+.meals_table.hidden .plus{
+    display: block;
+}
+.icon {
+    display: flex;
+    gap: 10px;
+}
+.minus{
+    display: block;
+}
+.plus{
+    display: none;
+}
+.minus, .plus{
+    padding: 0 5px;
+    cursor: pointer;
 }
 .meals_table a {
     max-width: fit-content;
@@ -168,6 +194,10 @@ ul, ol {
     margin-bottom: 20px;
     color: white;
 }
+.table_title{
+    display: flex;
+    justify-content: space-between;
+}
 .vege{
     text-align:center;
     margin: 0 auto;
@@ -224,6 +254,9 @@ ul, ol {
     }
 }
 @media only screen and (max-width: 500px){
+    .table_title{
+        font-size: 1.5em;
+    }
     .meals_list .meals .ingredients ul{
         flex: 0 0 100%;
     }

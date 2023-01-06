@@ -348,7 +348,7 @@ meals = [
             },
             {        
                 name:  'Crunchy honey garlic beef sesame',
-                image: '',
+                image: 'https://bakeitwithlove.com/wp-content/uploads/2017/07/Panda-Express-Beijing-Beef-tall-1.jpg.webp',
                 vegetarian: false,
                 tags: 'asian',
                 author: 'Booboos',
@@ -737,7 +737,7 @@ meals = [
             },
             {        
                 name:  'Sauté de Mary-Ève Simard',
-                image: '',
+                image: 'placeholder.jpg',
                 tags: '',
                 vegetarian: false,
                 author: 'Grace',
@@ -1913,7 +1913,7 @@ meals = [
             },
             {        
                 name:  'Red beans and rice from Louisiana',
-                image: 'Red-Beans-and-RiceIMG_8719.jpg',
+                image: 'https://s23209.pcdn.co/wp-content/uploads/2019/04/Red-Beans-and-RiceIMG_8719.jpg',
                 tags: '',
                 vegetarian: false,
                 author: 'Booboos',
@@ -2643,8 +2643,7 @@ meals = [
 
 let meals_html = '';
 let table = document.querySelector('.meals_table');
-let table_html = '<h1 class="table_title">Table of content</h1>';
-
+let table_html = '<h1 class="table_title">Table of content <div class="icon"><span class="plus">+</span><span class="minus">-</span></div></h1>';
 
 meals.forEach(meal => {
     let recipes = meal.recipes;  
@@ -2682,29 +2681,30 @@ meals.forEach(meal => {
             }
             steps_html += `</ol>`
         }
-
-        meals_html += `
-            <div class="meals in_book" id="${id}">
-                <span class="author">${recipe.author} added this recipe</span>
-                <h2 class="title">${title}</h2>
-                ${veg}
-                <div class="img" style="background-image:url(${recipe.image})"></div>
-                <div class="meals_infos">
-                    <span>Servings: ${recipe.serves} |</span>
-                    <span>Prep Time: ${recipe.prep} min |</span>
-                    <span>Cook Time: ${recipe.cook} min</span>
+        if(recipe.name !== '' && recipe.name !== null){
+            meals_html += `
+                <div class="meals in_book" id="${id}">
+                    <span class="author">${recipe.author} added this recipe</span>
+                    <h2 class="title">${title}</h2>
+                    ${veg}
+                    <div class="img" style="background-image:url(${recipe.image})"></div>
+                    <div class="meals_infos">
+                        <span>Servings: ${recipe.serves} |</span>
+                        <span>Prep Time: ${recipe.prep} min |</span>
+                        <span>Cook Time: ${recipe.cook} min</span>
+                    </div>
+                    <div class="ingredients">
+                        <h3 class="ingredients_title">INGREDIENTS</h3>
+                        ${group_html}
+                    </div>
+                    <div class="preparation">
+                        <h3 class="ingredients_title">PREPARATION</h3>
+                        ${steps_html}
+                    </div>
+                    <span class="source">Source : ${recipe.source}</span>
                 </div>
-                <div class="ingredients">
-                    <h3 class="ingredients_title">INGREDIENTS</h3>
-                    ${group_html}
-                </div>
-                <div class="preparation">
-                    <h3 class="ingredients_title">PREPARATION</h3>
-                    ${steps_html}
-                </div>
-                <span class="source">Source : ${recipe.source}</span>
-            </div>
-        `
+            `
+        }
     })
     document.querySelector('.meals_list').innerHTML = meals_html;
 
@@ -2735,6 +2735,7 @@ var meals_divs = document.querySelectorAll('.meals');
 
 books.forEach(book => {
     book.addEventListener('click', function(){
+        table.classList.add('hidden');
         let id = book.dataset.id;
         meals.forEach(meal =>{
             let recipes = meal.recipes;
@@ -2767,6 +2768,7 @@ document.querySelector('.reset-book').addEventListener('click', function(){
 })
 
 document.querySelector('.search').addEventListener('click', function(){
+    table.classList.add('hidden');
     let marks = document.querySelectorAll('mark');
     let search = document.querySelector('.search-input');
     let recipes_html = document.querySelectorAll('.meals.in_book');
@@ -2795,21 +2797,9 @@ document.querySelector('.search').addEventListener('click', function(){
     })
 })
 
-recipes.forEach(recipe => {
-    let title = recipe.name;
-    let id = (title.replace(/ /g,"_")).toLowerCase();
-
-    table_html += `
-        <a href="#${id}" title="${title}">
-            <h4>${title}
-    `;
-    if(recipe.vegetarian == true){
-    table_html +=
-            `<span class="v">v</span>`;
-
-    }
-    table_html +=
-        `   </h4>
-        </a>`;
-    
+document.querySelector('.table_title .minus').addEventListener('click', function(){
+    table.classList.add('hidden');
+})
+document.querySelector('.table_title .plus').addEventListener('click', function(){
+    table.classList.remove('hidden');
 })
