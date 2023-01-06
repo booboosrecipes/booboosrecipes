@@ -54,7 +54,6 @@ meals = [
                 image: 'https://thefoodietakesflight.com/wp-content/uploads/2021/03/Vegan-Stir-Fried-Spicy-Garlic-Udon-Noodles-Recipe-23.png',
                 vegetarian: true,
                 tags: 'asian',
-                author: '',
                 author: 'Booboos',
                 serves: '4',
                 prep: '10',
@@ -1226,6 +1225,33 @@ meals = [
     {
         type : "Fast food & Fried Food",
         recipes : [
+            {        
+                name:  'Crispy Oven Fried Chicken',
+                image: '',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '',
+                prep: '',
+                cook: '',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            
+                        ]
+                    }
+                ],
+                source: ''
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -2621,7 +2647,7 @@ let table_html = '<h1 class="table_title">Table of content</h1>';
 
 
 meals.forEach(meal => {
-    recipes = meal.recipes;  
+    let recipes = meal.recipes;  
     recipes.forEach(recipe => {
         let index = recipe.index;
         let title = recipe.name;
@@ -2658,7 +2684,7 @@ meals.forEach(meal => {
         }
 
         meals_html += `
-            <div class="meals" id="${id}">
+            <div class="meals in_book" id="${id}">
                 <span class="author">${recipe.author} added this recipe</span>
                 <h2 class="title">${title}</h2>
                 ${veg}
@@ -2704,11 +2730,46 @@ meals.forEach(meal => {
     })
     table.innerHTML = table_html;
 })
+let books = document.querySelectorAll('.book');
+var meals_divs = document.querySelectorAll('.meals');
+
+books.forEach(book => {
+    book.addEventListener('click', function(){
+        let id = book.dataset.id;
+        meals.forEach(meal =>{
+            let recipes = meal.recipes;
+            recipes.forEach(recipe =>{
+                let recipe_id = (recipe.name.replace(/ /g,"_")).toLowerCase();
+                if(recipe.author == id){
+                    console.log(recipe.author);
+                    //find matching divs
+                    meals_divs.forEach(div => {
+                        if(div.id == recipe_id){
+                            div.classList.add('in_book');
+                        }
+                    })
+                }else{
+                    console.log(recipe.author);
+                    meals_divs.forEach(div => {
+                        if(div.id == recipe_id){
+                            div.classList.remove('in_book');
+                        }
+                    })
+                }
+            })
+        })
+    })
+})
+document.querySelector('.reset-book').addEventListener('click', function(){
+    meals_divs.forEach(meal =>{
+        meal.classList.add('in_book');
+    })
+})
 
 document.querySelector('.search').addEventListener('click', function(){
     let marks = document.querySelectorAll('mark');
     let search = document.querySelector('.search-input');
-    let recipes_html = document.querySelectorAll('.meals');
+    let recipes_html = document.querySelectorAll('.meals.in_book');
     let keyword = search.value.trim();
     keyword_maj = keyword.charAt(0).toUpperCase() + keyword.slice(1);
     keyword_lower = keyword.toLowerCase();
@@ -2721,7 +2782,7 @@ document.querySelector('.search').addEventListener('click', function(){
             meal.textContent.includes(keyword_maj)
             )
             {                
-                meal.classList.add = 'active';
+                meal.style.display = "block";
                 /*
                 let re = new RegExp(keyword, "g"); // search for all instances
                 let newText = meal.innerHTML.replace(re, `<mark>${keyword}</mark>`);
@@ -2729,7 +2790,7 @@ document.querySelector('.search').addEventListener('click', function(){
                 console.log(keyword_maj);
                 */
         }else{
-            meal.classList.remove = 'active';
+            meal.style.display = "none";
         }
     })
 })

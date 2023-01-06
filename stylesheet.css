@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 :root {
-    --main_bg : rgb(42, 187, 187);
+    --main_bg : rgb(105, 184, 184);
     --title_color : rgb(48, 59, 59);
     --card_container : rgb(255, 255, 255, 0.95);
     --secondary_color: rgba(197, 90, 140, 0.664);
@@ -31,20 +31,40 @@ a{
     transition: 0.3s ease;
 }
 a:hover {
-    color: var(--title_color);
+    color: var(--secondary_color);
     transition: 0.3s ease;
 }
 a:visited{
     text-decoration:none;
-    color: var(--text_color);
 }
 h1, h3, h4 {
     margin: 0;
+}
+h1, h3, h4:not(a h4) {
+    color: var(--title);
+}
+h1{
+    line-height: 1.6;
+}
+.blog_title{
+    text-align:center;
 }
 ul, ol {
     margin: 0;
     padding: 0;
     list-style-position: inside;
+}
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.book, .reset-book {
+    background-color: var(--secondary_color);
+    color: var(--card_container);
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .meals_list {
     display: flex;
@@ -61,6 +81,10 @@ ul, ol {
     max-width: 800px;
     margin: 0 auto;
     min-width: 800px;
+    display: none;
+}
+.meals.in_book{
+    display: block;
 }
 .meals_table{
     margin: 0 5vw;
@@ -197,5 +221,10 @@ ul, ol {
 @media only screen and (max-width: 900px){
     .meals_table, .meals_list .meals, .search_bar {
         min-width: 100%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .meals_list .meals .ingredients ul{
+        flex: 0 0 100%;
     }
 }
