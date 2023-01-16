@@ -59,8 +59,11 @@ ul, ol {
 ul{
     gap: 5px;
 }
-ol{
-    gap: 10px;
+ol li:first-child{
+    margin-top: 10px;
+}
+ol h4:not(ol + h4){
+    margin-top: 20px;
 }
 li{
     display: flex;

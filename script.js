@@ -3287,8 +3287,10 @@ meals.forEach(meal => {
         // ingredients
         for (let i = 0; i < ingredients.length; i++) {
             let group = ingredients[i];
-            group_html += `<ul>
-                            <h4>${group.group_name}</h4>`
+            group_html += `<ul>`;
+            if(group.group_name !== "" && group.group_name !== null){
+                group_html += `<h4>${group.group_name}</h4>`;
+            }
             for (let i = 0; i < group.ingredients_element.length; i++){
                 group_html += `<li><label><input type="checkbox"><span class="element"><div class="checkbox"></div>${group.ingredients_element[i]}</span></label></li>`
             }
@@ -3299,8 +3301,10 @@ meals.forEach(meal => {
         for (let i = 0; i < steps.length; i++) {
             let step = steps[i];
             let step_number = 1;
-            steps_html += `<ol>
-                            <h4>${step.group_name}</h4>`
+            steps_html += `<ol>`;
+            if(step.group_name !== "" && step.group_name !== null){
+                steps_html += `<h4>${step.group_name}</h4>`;
+            }
             for (let i = 0; i < step.steps_elements.length; i++){
                 steps_html += `<li><label><input type="checkbox"><span class="element"><div class="checkbox"></div><span class="step_number">${step_number}.</span> ${step.steps_elements[i]}</span></label></li>`
                 step_number += 1;
