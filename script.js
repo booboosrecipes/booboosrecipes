@@ -3262,6 +3262,15 @@ let table_html = '<h1 class="table_title">Table of content <div class="icon"><sp
 
 meals.forEach(meal => {
     let recipes = meal.recipes;  
+    recipes.sort(function (a, b) {
+        if (a.name < b.name) {
+          return -1;
+        }
+        if (a.name > b.name) {
+          return 1;
+        }
+        return 0;
+    });
     recipes.forEach(recipe => {
         let index = recipe.index;
         let title = recipe.name;
@@ -3326,6 +3335,7 @@ meals.forEach(meal => {
     document.querySelector('.meals_list').innerHTML = meals_html;
 
     //table html
+      
     table_html += `<h2 class="table_meal_title">${meal.type}</h2>`
     recipes.forEach(recipe => {
         let title = recipe.name;
