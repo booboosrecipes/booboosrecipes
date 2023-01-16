@@ -69,6 +69,9 @@ li{
 li label input{
     display: none;
 }
+label{
+    cursor:pointer;
+}
 li label input:checked + .element{
     text-decoration: line-through;
 }
@@ -77,7 +80,7 @@ li label input:checked + .element .checkbox{
 }
 li .step_number{
     font-weight: bold;
-    margin-right: 5px;
+    padding-right: 5px;
 }
 li label input:checked + .element .checkbox::before{
     content: "✔";
@@ -227,9 +230,6 @@ li label input + .element .checkbox{
 .meals_list .meals .preparation{
     margin-top: 30px;
     margin-bottom: 45px;
-}
-.meals_list .meals .preparation ol{
-    margin-top: 20px;
 }
 .meals_list .title{
     color: var(--title_color);

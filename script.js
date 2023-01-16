@@ -917,6 +917,49 @@ meals = [
                 ],
                 source: 'https://www.allrecipes.com/recipe/265472/vegan-sweet-potato-chickpea-curry/'
             },
+            {        
+                name:  'Fried rice',
+                image: 'https://www.gimmesomeoven.com/wp-content/uploads/2017/07/How-To-Make-Fried-Rice-Recipe-1-1.jpg',
+                tags: '',
+                vegetarian: true,
+                author: 'Booboos',
+                serves: '4-6',
+                prep: '5',
+                cook: '10',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "3 Tbsp butter, divided",
+                            "2 large eggs, whisked",
+                            "2 medium carrots, peeled and diced",
+                            "1 small white onion, diced",
+                            "1/2 cup frozen peas",
+                            "3 cloves garlic, minced",
+                            "salt and black pepper",
+                            "4 cups cooked and chilled rice (I prefer short-grain white rice)",
+                            "3 green onions, thinly sliced",
+                            "3-4 Tbsp soy sauce, or more to taste",
+                            "2 tsp oyster sauce (optional)",
+                            "1/2 tsp toasted sesame oil"
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Heat 1/2 tablespoon of butter in a large wok over medium-high heat until melted. Add egg, and cook until scrambled, stirring occasionally. Remove egg, and transfer to a separate plate.",
+                            "Add an additional 1 tablespoon butter to the pan and heat until melted. Add carrots, onion, peas and garlic, and season with a generous pinch of salt and pepper. Sauté for about 5 minutes or until the onion and carrots are soft.",
+                            "Increase heat to high, add in the remaining 1 1/2 tablespoons of butter, and stir until melted.",
+                            "Immediately add the rice, green onions, soy sauce and oyster sauce (if using), and stir until combined. Continue sautéing for an additional 3 minutes to fry the rice, stirring occasionally.  (I like to let the rice rest for a bit between stirs so that it can crisp up on the bottom.)  Then add in the eggs and stir to combine.",
+                            "Remove from heat, and stir in the sesame oil until combined. Taste and season with extra soy sauce, if needed.",
+                            "Serve immediately, or refrigerate in a sealed container for up to 3 days."
+                        ]
+                    }
+                ],
+                source: 'https://www.gimmesomeoven.com/fried-rice-recipe/'
+            },
             //TEMPLATE
             {        
                 name:  '',
@@ -1614,6 +1657,45 @@ meals = [
                 ],
                 source: 'https://erableduquebec.ca'
             },
+            {        
+                name:  'Mediterranean Chicken Bowls',
+                image: 'https://hips.hearstapps.com/hmg-prod/images/mediterranean-chicken-bowls-1613759607.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '15',
+                cook: '15-20',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "1 lb boneless, skinless chicken breasts, cut into 1 1/2-in. pieces",
+                            "1 Tbsp olive oil",
+                            "1 tsp dried oregano",
+                            "1 tsp ground sumac",
+                            "Kosher salt and pepper",
+                            "1 pint grape or cherry tomatoes",
+                            "1 medium onion, roughly chopped",
+                            "1 cup couscous",
+                            "1 tsp grated lemon zest plus 1 Tbsp lemon juice, plus lemon wedges for serving",
+                            "Crumbled feta, for serving",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "In large bowl, toss chicken with oil, then oregano, sumac and ½ tsp each salt and pepper. Add tomatoes and onion and toss to combine.",
+                            "Arrange in even layer in air fryer basket and air-fry at 400°F, shaking basket occasionally, until chicken is golden brown and cooked through, 15 to 20 minutes.",
+                            "Meanwhile, toss couscous with lemon zest and prepare per package directions. Fluff with fork and fold in lemon juice and 2 tablespoons dill.",
+                            "Serve chicken and vegetables over couscous, spooning any juices collected at bottom of air fryer over top. Sprinkle with remaining dill and feta and serve with lemon wedges if desired."
+                        ]
+                    }
+                ],
+                source: 'https://www.goodhousekeeping.com/food-recipes/a34221194/mediterranean-chicken-bowls-recipe/'
+            },
              // TEMPLATE
             {        
                 name:  '',
@@ -1847,13 +1929,13 @@ meals = [
                         steps_elements : [
                             'Breakdown your chicken into even pieces.',
                             'In a mixing bowl, mix all spices mix and set aside.',
-                            'On your chicken pieces, sprinkle approx. 2 teaspoons of the spice mix and coat each side evenly. Keep the rest of the spice mix for later.',
+                            'On your chicken pieces, sprinkle approx. 2 tsp of the spice mix and coat each side evenly. Keep the rest of the spice mix for later.',
                             'In a marinating container or mixing bowl, add all ingredients of buttermilk marinade and stir a little. Add the spice coated chicken to the butter milk, cover, refrigerate and marinate overnight or a minimum of 2 hours up to 24.',
                             'Remove the chicken from the fridge. Preheat your oven to a temperature of 400°F.',
                             'While the oven is heating, add your leftover spice mix to a mixing bowl along with the all-purpose flour, cornflour (cornstarch) and baking powder. Mix well.',
                             'Remove the chicken pieces from the butter milk and place in spicy flour coating one at a time. Repeat process until each piece has been coated in flour mix. Do not double coat, one thin even coat is enough.',
                             'Place the chicken pieces over a wire rack placed over a sheet pan. Leave them to rest 5 minutes until the flour is absorbed from the chicken moisture. You shouldn’t see any dry white flour on top. If so, your coating is too thick, to fix it, brush a little butter milk on the dry spots.',
-                            'Place in oven and bake for approx 30-45 minutes at 400°F, after 5 minutes, turn oven down to 350°F.  You may need an extra 15 minutes depending on chicken size, the chicken in my recipe is quite small and only took 30 minutes in a convection oven.  Chicken will be cooked once there’s sufficient juices on the dip tray, but use a meat thermometer to be sure.'
+                            'Place in oven and bake for approx 30-45 minutes at 400°F, after 5 minutes, turn oven down to 350°F.  You may need an extra 15 minutes depending on chicken size.'
                         ]
                     }
                 ],
