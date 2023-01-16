@@ -1086,6 +1086,177 @@ meals = [
     {
         type : "Mexican",
         recipes : [
+            {        
+                name:  'Mexican rice Enchiladas Flavor',
+                image: 'https://www.cookwithmanali.com/wp-content/uploads/2019/02/Enchilada-Rice.jpg',
+                tags: '',
+                vegetarian: true,
+                author: 'Booboos',
+                serves: '4',
+                prep: '15',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "1 Tbsp olive oil",
+                            "1 cup long-grain white rice",
+                            "2 cups water",
+                            "1 minced onion",
+                            "1 cup whole corn",
+                            "1 pack (24 g) fajitas seasonings",
+                            "1 cup salsa",
+                            "1 can (540ml)  black beans, rinsed and drained",
+                            "1 cup tex-mex cheese mix",
+                            "2 Tbsp green onions, chopped"            
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "In a big saucepan, heat olive oil. Cook onion for 1-2 minutes.",
+                            "Add rice, fajitas seasonings and 2 cups water. Add salt and pepper.",
+                            "Bring to a boil, then cover and simmer 15-17 minutes at medium heat.",
+                            "Add salsa, black beans and corn. Continue cooking for 5 minutes.",
+                            "Garnish with cheese and green onions."
+                        ]
+                    }
+                ],
+                source: '5 ingredients 15 min'
+            },
+            {        
+                name:  'Ground beef Quesadillas',
+                image: 'https://www.everyday-delicious.com/wp-content/uploads/2021/12/ground-beef-quesadilla-everyday-delicious-2.jpg',
+                vegetarian: false,
+                author: 'Booboos',
+                tags: '',
+                serves: '5 tortillas',
+                prep: '15',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '1 Tbsp frying oil',
+                            '1 lb(450g) lean ground beef',
+                            '1 ½ Tbsps Fajita seasoning or taco seasoning',
+                            '¼  cup water or broth',
+                            '1 tsp Worcestershire sauce',
+                            '1 Tbsp tomato paste',
+                            '½  tsp cornstarch omit when using a store - bought seasoning mix',
+                            '1 red bell pepper',
+                            '1 medium onion',
+                            '½  cup canned corn 80g, about 1 / 3 of a can',
+                            '½ cup canned kidney or black beans 80g, about 1 / 3 of a can',
+                            '5 large tortillas',
+                            '3 ¼ cups shredded cheddar I used half mild and half sharp, 350g or 12 ounces'
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Heat the oil in a large frying pan over high heat.Add the beef in an even layer.Don’t stir! When you see that the beef is browned at the bottom, reduce the heat to medium, sprinkle with seasoning, salt, and pepper.Cook for a couple of minutes until the beef is cooked through(no longer pink).Stir the meat with a spatula to break it up.',
+                            'Add finely diced onion and bell pepper.Add water/ broth, Worcestershire sauce, corn starch, and tomato paste.Cook for a couple of minutes or until the bell pepper and onion are soft.Add more liquid if necessary so that the meat mixture is not dry.',
+                            'Add corn and beans, stir everything together, and season with salt and pepper.',
+                            'Place some shredded cheese on one half of a large tortilla(about 1/ 3 cup), top with the meat mixture(about 1 / 2 cup), top with more shredded cheese.Fold tortilla in half.',
+                            'Heat a small amount of oil in a clean pan over medium heat.Place your assembled quesadilla in the pan.Cook until browned on both sides and the cheese is melted.Put on a plate and cut in half.Repeat with remaining ingredients.'
+                        ]
+                    }
+                ],
+                source: 'https://www.everyday-delicious.com/ground-beef-quesadilla/'
+            },
+            {
+                name: 'Stuffed Peppers in Air Fryer',
+                image: 'https://therecipecritic.com/wp-content/uploads/2021/01/airfryerstuffedpeppers.jpg',
+                vegetarian: false,
+                author: 'Booboos',
+                tags: '',
+                serves: '4',
+                prep: '15',
+                cook: '15',
+                ingredients: [
+                    {
+                        group_name: '',
+                        ingredients_element: [
+                            '4 whole bell peppers',
+                            '1 Tbsp olive oil',
+                            '1 small onion diced',
+                            '1 pound lean ground beef',
+                            '1 15 ounce can of diced tomatoes',
+                            '1 8 ounce can of tomato sauce',
+                            '2 cups rice cooked',
+                            '1 Tbsp Italian Seasoning',
+                            '1 tsp garlic powder',
+                            'salt and pepper',
+                            '2 cups Colby Jack cheese shredded'
+                        ]
+                    }
+                ],
+                steps: [
+                    {
+                        group_name: '',
+                        steps_elements: [
+                            'To prepare the peppers, slice the tops off and remove any veins or seeds inside.In a medium sized saucepan over medium high heat add the olive oil and onion.Cook until almost tender.Add in the ground beef and cook and crumble until no longer pink.',
+                            'Add in the diced tomatoes, tomato sauce, rice, Italian seasoning, garlic powder, and salt and pepper.',
+                            'Stuff the peppers with the mixture and place in the basket of the air fryer.',
+                            'Cook the peppers at 360 degF until tender for 10 minutes.Top with cheese and then cook for an additional 2-3 minutes.'
+                        ]
+                    }
+                ],
+                source: 'https://therecipecritic.com/air-fryer-stuffed-peppers/'
+            },
+            {
+                name: 'One Pot Turkey Mexican Pasta',
+                image: 'https://www.cookingforkeeps.com/wp-content/uploads/2019/07/One-Pot-Mexican-Pasta-4-1-1-730x1095.jpg',
+                vegetarian: false,
+                author: 'Booboos',
+                tags: '',
+                serves: '4-6',
+                prep: '5',
+                cook: '20',
+                ingredients: [
+                    {
+                        group_name: 'Spices',
+                        ingredients_element: [
+                            '1 Tbsp chili powder',
+                            '2 tsp garlic powder',
+                            '2 tsp onion powder',
+                            '2 tsp ground cumin',
+                            '1 tsp oregano',
+                        ]
+                    },
+                    {
+                        group_name: '',
+                        ingredients_element: [
+                            '1 lb. lean ground turkey',
+                            '1 onion, diced',
+                            '3 garlic cloves, minced',
+                            '3/4 tsp.kosher salt, divided',
+                            '1 1/4 cups salsa',
+                            '3 cups water',
+                            '3 cups medium shells',
+                            '1/2 cup shredded cheddar cheese',
+                            'Beans or corns (optional), sour cream or plain Greek yogurt for serving'
+                        ]
+                    }
+                ],
+                steps: [
+                    {
+                        group_name: '',
+                        steps_elements: [
+                            'Preheat the oven to 325 degrees.',
+                            'Heat a large oven-proof skillet to a medium-high heat. Add 2 tbsp olive oil.Once oil is hot, add ground turkey.Use a wooden spoon to break up the turkey.Once the turkey is mostly cooked, add onion, garlic, and 1/4 tsp. salt. Continue to saute for 3-4 minutes until garlic and onion are softened.',
+                            'Add spices. Stir to combine and cook for 1 minute.Add salsa, water, pasta, and remaining 1/2 tsp. salt. Bring to a boil and reduce to a simmer. Cover and cook until pasta is al dente, about 10-12 minutes.',
+                            'Once the pasta is al dente, stir one last time and season to taste with salt and pepper.Sprinkle with cheese and place in the oven just until the cheese has melted, about 2 minutes.Garnish with sour cream and chopped parsley or cilantro.'
+                        ]
+                    }
+                ],
+                source: 'https://www.cookingforkeeps.com/one-pot-turkey-mexican-pasta/'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -1119,7 +1290,257 @@ meals = [
     {
         type : "Meat & Stir-fry",
         recipes : [
-            // TEMPLATE
+            {
+                name: 'Crispy-skin Drumsticks in Oven',
+                image: 'https://healthyrecipesblogs.com/wp-content/uploads/2021/07/baked-drumsticks-2-2021.jpg',
+                vegetarian: false,
+                author: 'Booboos',
+                tags: '',
+                serves: '4',
+                prep: '10',
+                cook: '40',
+                ingredients: [
+                    {
+                        group_name: '',
+                        ingredients_element: [
+                            '8(4 oz each) skin - on chicken drumsticks(about 2 lb.total weight)',
+                            '2 tbsp olive oil',
+                            '1 tsp salt',
+                            '½ tsp black pepper',
+                            '1 tsp garlic powder',
+                            '1 tsp onion powder',
+                            '1 tsp smoked paprika',
+                            '¼ tsp cayenne pepper'
+                        ]
+                    }
+                ],
+                steps: [
+                    {
+                        group_name: '',
+                        steps_elements: [
+                            'Preheat your oven to 400 degrees F.Line a rimmed baking sheet with parchment paper and arrange the drumsticks in a single layer on the parchment.',
+                            'Make the seasoning paste: In a medium bowl, use a fork or a spatula to mix the olive oil, salt, pepper, and spices.',
+                            'Using a pastry brush or your hands, coat the chicken pieces with the seasoning paste.',
+                            'Bake the drumsticks uncovered until their internal temperature reaches 165 degrees F, about 40 minutes.',
+                            'Baste the drumsticks with the pan juices using a clean pastry brush.Serve immediately.'
+                        ]
+                    }
+                ],
+                source: 'https://healthyrecipesblogs.com/baked-drumsticks/'
+            },
+            {
+                name: 'Baked Chicken Wings',
+                image: 'https://healthyrecipesblogs.com/wp-content/uploads/2021/02/baked-wings-1-2021.jpg',
+                vegetarian: false,
+                author: 'Booboos',
+                tags: '',
+                serves: '4',
+                prep: '15',
+                cook: '40',
+                ingredients: [
+                    {
+                        group_name: '',
+                        ingredients_element: [
+                            '3 lb. chicken wings, split, tips removed',
+                            '2 Tbsps butter, melted',
+                            '2 tsps Diamond Crystal kosher salt(if using fine salt, you might want to use less)',
+                            '½ tsp black pepper',
+                            '1 tsp garlic powder',
+                            '1 tsp paprika(or smoked paprika)'
+                        ]
+                    }
+                ],
+                steps: [
+                    {
+                        group_name: '',
+                        steps_elements: [
+                            'Preheat your oven to 400 degrees F.Line two rimmed baking sheets with foil and fit the baking sheets with wire racks.',
+                            'If your chicken wings are whole, cut the tips off and separate the drumettes and the flats(here’s a good video that shows how to do that).',
+                            'In a large bowl, toss the chicken wings with the melted butter.',
+                            'Arrange the coated chicken wings in a single layer on the wire racks, not touching each other.Sprinkle them with salt, pepper, garlic powder, and paprika.',
+                            'Bake the wings until they are cooked through and their skin is browned and crispy, about 40 minutes.',
+                            'HIGHLY RECOMMENDED: For extra crispy wings, bake the wings for just 30 minutes, then leave them in the oven, lower the oven temperature to the "keep warm" setting(170 degrees F), and keep the wings in the oven for 30 - 60 more minutes.'
+                        ]
+                    }
+                ],
+                source: 'https://healthyrecipesblogs.com/baked-chicken-wings/'
+            },
+            {
+                name: 'Air Fryer Pork Tenderloin',
+                image: 'https://recipeteacher.com/wp-content/uploads/2019/12/best-damn-air-fryer-pork-tenderloin-3.jpg.webp',
+                vegetarian: false,
+                author: 'Booboos',
+                tags: '',
+                serves: '4',
+                prep: '5',
+                cook: '26',
+                ingredients: [
+                    {
+                        group_name: '',
+                        ingredients_element: [
+                            'Pork tenderloin(1.25lbs – 1.75lbs)',
+                            '2 Tbsp brown sugar',
+                            '1 Tbsp smoked paprika',
+                            '1.5 tsp salt',
+                            '1 tsp ground mustard',
+                            '½ tsp onion powder',
+                            '½ tsp ground black pepper',
+                            '¼ tsp garlic powder',
+                            '¼ tsp cayenne powder(optional)',
+                            '½ Tbsp olive oil'
+                        ]
+                    }
+                ],
+                steps: [
+                    {
+                        group_name: '',
+                        steps_elements: [
+                            'Mix all dry ingredients in a bowl.',
+                            'Trim the pork tenderloin of any excess fat/silver skin.Coat with a ½ Tbsp olive oil.Rub spice mixture on entire pork tenderloin.',
+                            'Preheat the air fryer to 400° F for 5 minutes.After 5 minutes, carefully place pork tenderloin into an air fryer and airfryer at 400° F for 20 - 22 minutes.Internal temp should be 145° – 160° F.',
+                            'When the air fryer cycle is complete, carefully remove the pork tenderloin to a cutting board and let rest for 5 minutes before slicing.Save any juices to serve over sliced meat.'
+                        ]
+                    }
+                ],
+                source: 'https://recipeteacher.com/best-damn-air-fryer-pork-tenderloin/'
+            },
+            {
+                name: 'Garlic butter Ground Turkey with Cauliflower',
+                image: 'https://www.eatwell101.com/wp-content/uploads/2019/09/Garlic-Butter-Turkey-with-Cauliflower-recipe-2.jpg',
+                vegetarian: false,
+                author: 'Booboos',
+                tags: '',
+                serves: '4',
+                prep: '10',
+                cook: '20',
+                ingredients: [
+                    {
+                        group_name: '',
+                        ingredients_element: [
+                            '1 lb(450g) ground turkey / chicken',
+                            '1 head cauliflower, sliced into florets',
+                            '2 Tbsp vegetable oil',
+                            '1 Tbsp lemon juice',
+                            '3 Tbsp butter'
+                        ]
+                    },
+                    {
+                        group_name: 'Sauce',
+                        ingredients_element: [
+                            '4 garlic cloves, minced',
+                            '1 Tbsp onion powder',
+                            '4 Tbsp low - sodium soy sauce',
+                            '2 Tbsp hot sauce(Sriracha)',
+                            '4 Tbsp water'
+                        ]
+                    },
+                    {
+                        group_name: 'Garnish',
+                        ingredients_element: [
+                            '2 tsp sesame oil',
+                            'Fresh chopped cilantro(or parsley)',
+                            'Red chili pepper flakes'
+                        ]
+                    }
+                ],
+                steps: [
+                    {
+                        group_name: '',
+                        steps_elements: [
+                            'Start to cook rice.',
+                            'Heat a large skillet over medium - low with one Tbsp vegetable oil.Saute the cauliflower florets in the skillet, under slightly golden brown.',
+                            'Add lemon juice, some fresh cilantro, salt and pepper to your taste, and toss to coat well.Remove from the pan and set aside.',
+                            'In the same skillet, melt butter with one Tbsp of oil and cook ground turkey.',
+                            'When the turkey meat is no longer pink, add sauce and continue cooking, stirring regularly, for a couple of minutes.',
+                            'Return the cauliflower to the skillet.Reheat quickly and coat cauliflower in the sauce.Garnish with sesame oil, fresh cilantro and red pepper flakes.Serve on hot rice!'
+                        ]
+                    }
+                ],
+                source: 'https://www.eatwell101.com/garlic-butter-turkey-with-cauliflower-recipe'
+            },
+            {
+                name: 'Pan Fried Pork chops',
+                image: 'https://easydinnerideas.com/wp-content/uploads/2021/10/Pan-Fried-Pork-Chops-7-768x1152.jpeg',
+                vegetarian: false,
+                author: 'Booboos',
+                tags: '',
+                serves: '4',
+                prep: '5',
+                cook: '15',
+                ingredients: [
+                    {
+                        group_name: '',
+                        ingredients_element: [
+                            '2 lbs lean boneless pork chops, about 1.5 inches thick',
+                            '1 tsp garlic powder',
+                            '1 / 2 tsp salt',
+                            '1 / 2 tsp pepper',
+                            '2 Tbsps olive oil',
+                            '2 Tbsps salted butter',
+                            '1 / 2 tsp minced fresh thyme or rosemary'
+                        ]
+                    }
+                ],
+                steps: [
+                    {
+                        group_name: '',
+                        steps_elements: [
+                            'Rinse pork chops, pat dry and season both sides evenly with garlic powder, salt and pepper.',
+                            'Heat oil in a large skillet over medium- high heat.Cook pork chops until bottom side is golden brown and seared about 1 - 2 minutes.',
+                            'Turn and cook on other side about 1 - 2 minutes before turning again.Repeat flipping the chops until they are deep golden brown and an instant - read thermometer inserted into the thickest part registers 145°, 8–10 minutes(cooking time will depend on thickness of chops).',
+                            'Once pork chops reach desired temperature, add butter and thyme and continue to cook for 2 - 3 minutes, spooning the butter on top of the pork chops as they continue to cook.',
+                            'Spoon the butter- sauce from the pan over the pork chops one last time and place on a serving plate.',
+                            'Let pork chops rest for 5 minutes on a plate tented with foil, then serve. (Letting them rest allows them to become fully tender and juicy!)'
+                        ]
+                    }
+                ],
+                source: 'https://easydinnerideas.com/pan-fried-pork-chops/'
+            },
+            {
+                name: 'Deconstructed Cabbage Rolls',
+                image: 'https://spicysouthernkitchen.com/wp-content/uploads/2022/01/Unstuffed-Cabbage-Casserole-1.jpg',
+                vegetarian: false,
+                author: 'Booboos',
+                tags: '',
+                serves: '6-8',
+                prep: '10',
+                cook: '30',
+                ingredients: [
+                    {
+                        group_name: '',
+                        ingredients_element: [
+                            '2 pounds(700 - 800g) lean ground beef',
+                            '1 medium onion, chopped',
+                            '2 cloves garlic, minced',
+                            '4 Tbsp tomato paste',
+                            '1 small head green cabbage, roughly chopped',
+                            '1(28 - ounce) can diced tomatoes, undrained',
+                            '1 / 2 cup beef broth',
+                            '2 tsp packed brown sugar',
+                            '1 tsp apple cider vinegar',
+                            '1 ½  tsp salt',
+                            '¾  tsp freshly ground black pepper',
+                            '⅛  tsp ground allspice',
+                            '1 cup uncooked white rice + more cooked rice for serving'
+                        ]
+                    }
+                ],
+                steps: [
+                    {
+                        group_name: '',
+                        steps_elements: [
+                            'Lightly coat a Dutch oven with cooking spray or vegetable oil.Add ground beef and onion and cook until ground beef is no longer pink, breaking it into small pieces as it cooks.',
+                            'Add garlic and cook for one minute.',
+                            'Add tomato paste and stir in well.',
+                            'Add all remaining ingredients except rice.',
+                            'Partially cover and simmer for 10 minutes.',
+                            'Stir in rice and continue to cook partially covered for 15 to 20 minutes.',
+                            'Serve over a bit of cooked rice, mix and enjoy!'
+                        ]
+                    }
+                ],
+                source: 'https://spicysouthernkitchen.com/unstuffed-cabbage-rolls/'
+            },
             {        
                 name:  'Cuisses de poulet rôties à l’oignon',
                 image: 'https://images.ricardocuisine.com/services/recipes/1x1/5459.jpg',
@@ -1193,6 +1614,7 @@ meals = [
                 ],
                 source: 'https://erableduquebec.ca'
             },
+             // TEMPLATE
             {        
                 name:  '',
                 image: '',
@@ -1225,20 +1647,197 @@ meals = [
     {
         type : "Fast food & Fried Food",
         recipes : [
+            {
+                name: 'Creamy Tzatziki Wrap Chicken',
+                image: 'https://simply-delicious-food.com/wp-content/uploads/2019/04/tzatziki-chicken-wraps-3.jpg',
+                vegetarian: false,
+                tags: '',
+                author: 'Booboos',
+                serves: '4',
+                prep: '10',
+                cook: '10',
+                ingredients: [
+                    {
+                        group_name: 'Grilled chicken',
+                        ingredients_element: [
+                            '4 chicken breasts halved, horizontally',
+                            '2 tbsp olive oil',
+                            '2 tbsp lemon juice',
+                            '2 tsp oregano',
+                            '1 tsp paprika',
+                            '2 tsp salt'
+                        ]
+                    },
+                    {
+                        group_name: 'Wrap',
+                        ingredients_element: [
+                            '2 cups tzatziki',
+                            '4 large wraps warmed',
+                            'lettuce',
+                            'Sliced tomato',
+                            'Sliced red onion'
+                        ]
+                    },
+                ],
+                steps: [
+                    {
+                        group_name: '',
+                        steps_elements: [
+                            'Combine all the marinade ingredients then add the chicken and coat the chicken in the marinade.Cover and allow to marinade for at least 30 minutes but up to 24 hours in the fridge. ',
+                            'Make the tzatziki according to recipe instructions. ',
+                            'Cook the chicken in a hot pan/ griddle pan until golden brown on both sides and cooked through.Remove from the heat and allow to rest for 5 minutes before slicing. ',
+                            'Serve the grilled chicken with the tzatziki, lettuce, tomato and onion in a warmed wrap.'
+                        ]
+                    }
+                ],
+                source: 'https://simply-delicious-food.com/creamy-tzatziki-grilled-chicken-wraps/'
+            },
+            {
+                name: 'Homemade Hamburgers',
+                image: 'https://i0.wp.com/www.aspicyperspective.com/wp-content/uploads/2020/05/Best-Hamburger-Patty-Recipe-14.jpg?resize=650%2C882&ssl=1',
+                vegetarian: false,
+                tags: '',
+                author: 'Booboos',
+                serves: '6-8 burgers',
+                prep: '15',
+                cook: '8',
+                ingredients: [
+                    {
+                        group_name: '',
+                        ingredients_element: [
+                            '2 pounds ground beef',
+                            '½ cup crushed saltine crackers or Panko breadcrumbs',
+                            '1 large egg',
+                            '2 Tbsp Worcestershire sauce',
+                            '2 Tbsp milk',
+                            '1 tsp EACH salt, garlic powder, onion powder',
+                            '½ tsp black pepper'
+                        ]
+                    }
+                ],
+                steps: [
+                    {
+                        group_name: '',
+                        steps_elements: [
+                            'In a big bowl, add all ingredients.Mix by hand until the meat mixture is smooth, but stop once the mixture looks even. (Overmixing can create a dense heavy texture.)',
+                            'Press the meat down in the bowl, into an even disk.Use a knife to cut and divide the hamburger patty mixture into 6  or 12 thin griddle patties.',
+                            "Shape them just slightly larger than the buns you plan to use.Use a spoon to press a dent in the center of each patty so they don't puff up as they cook.",
+                            'Preheat the grill or a skillet to medium heat. (Approximately 350 - 400 degrees F)',
+                            'For thick patties: Grill or fry the patties for 3 - 4 minutes per side.',
+                            'For thin patties: Cook on the griddle for 2 minutes per side.'
+                        ]
+                    }
+                ],
+                source: 'https://www.aspicyperspective.com/best-hamburger-patty-recipe/'
+            },
+            {
+                name: 'Superiority Burger’s Crispy Fried Burger',
+                image: 'https://static01.nyt.com/images/2020/07/09/dining/aw-tofu-sandwich/aw-tofu-sandwich-master768.jpg?w=1280&q=75',
+                vegetarian: true,
+                author: 'Booboos',
+                tags: '',
+                serves: '6 burgers',
+                prep: '15',
+                cook: '30',
+                ingredients: [
+                    {
+                        group_name: 'Marinade',
+                        ingredients_element: [
+                            '1(14 - ounce) package extra - firm tofu, drained',
+                            '1 ½ cups pickle juice',
+                            '1 Tbsp hot sauce',
+                            '1 Tbsp Dijon mustard',
+                            '1 tsp gochugaru or red - pepper flakes',
+                            '2 Tbsps grapeseed oil or other neutral oil'
+                        ]
+                    },
+                    {
+                        group_name: 'Fried tofu',
+                        ingredients_element: [
+                            '½ cup Dijon mustard',
+                            '2 cups all - purpose flour',
+                            '½ tsp baking powder',
+                            '1 tsp smoked paprika',
+                            '½ tsp onion powder',
+                            '½ tsp garlic powder',
+                            '½ tsp ground cayenne',
+                            '1 tsp kosher salt, plus more as needed',
+                            '1 tsp black pepper',
+                            'Grapeseed oil or other neutral oil, for frying'
+                        ]
+                    },
+                    {
+                        group_name: 'For assembly',
+                        ingredients_element: [
+                            '6 potato buns or other soft rolls',
+                            'Vegan mayonnaise and hot sauce, as needed',
+                            'Thinly shredded green cabbage and dill pickles, for serving'
+                        ]
+                    }
+                ],
+                steps: [
+                    {
+                        group_name: 'Prepare the marinated tofu',
+                        steps_elements: [
+                            'Line a baking sheet with paper towels or a clean kitchen towel.Cut the tofu crosswise into two rectangles that are each about 2 1 / 2 inches wide and 4 inches long.',
+                            'Slice each rectangle into three 1/2-inch thick slabs and arrange in a single layer on the baking sheet. Cover the sliced tofu with more towels and gently press each piece to extract some of the moisture.',
+                            'In a large bowl, combine the pickle juice, hot sauce, mustard and gochugaru.',
+                            'Heat the grapeseed oil in a large nonstick or cast- iron skillet over high heat until shimmering.Sear the tofu to form a golden - brown crust, 4 to 5 minutes per side.Immediately drop the hot tofu into the pickle juice mixture.Refrigerate and let the tofu marinate for at least a few hours, or even overnight.'
+                        ]
+                    },
+                    {
+                        group_name: 'Frying the tofu',
+                        steps_elements: [
+                            'In a medium shallow bowl, stir the mustard with 1 / 4 cup water until it’s the consistency of heavy cream and set aside.In a large shallow bowl, whisk together the flour, baking powder, spices, salt and pepper.',
+                            'In a Dutch oven or sturdy pot, heat 2 inches of grapeseed oil over medium heat and set a wire rack on top of a baking sheet.',
+                            'Remove the tofu from the brine and pat dry.Dip the tofu in the mustard mixture, turning until coated all over, then the flour mixture; dip it again in the mustard then flour until twice coated.',
+                            'When the oil temperature reaches 350 degrees, carefully place the battered tofu into the hot oil and fry, flipping as needed, until golden brown, about 5 minutes.',
+                            'Transfer the fried tofu to the wire rack and sprinkle with a little salt.',
+                            'To serve, toast the buns and spread generously with mayo and dot with hot sauce, if desired.Top with fried tofu, cabbage and dill pickles, and eat immediately.'
+                        ]
+                    }
+                ],
+                source: 'https://cooking.nytimes.com/recipes/1021237-superiority-burgers-crispy-fried-tofu-sandwich'
+            },
             {        
                 name:  'Crispy Oven Fried Chicken',
-                image: '',
+                image: 'https://recipe30.com/wp-content/uploads/2019/01/oven-fried-chicken-848x477.jpg',
                 tags: '',
                 vegetarian: false,
                 author: 'Booboos',
-                serves: '',
-                prep: '',
-                cook: '',
+                serves: '4-6',
+                prep: '24h marination + 15',
+                cook: '45',
                 ingredients: [            
                     {
-                        group_name : '',
+                        group_name : 'Spice mix',
                         ingredients_element : [
-                            
+                            '3 tsp smoked paprika',
+                            '½ tsp turmeric',
+                            '½ tsp cayenne pepper',
+                            '1 tsp onion powder',
+                            '1 tsp garlic powder',
+                            '½ tsp white pepper',
+                            '2 tsp salt',
+                            '1 tsp brown sugar'
+                        ]
+                    },
+                    {
+                        group_name : 'Buttermilk marinade',
+                        ingredients_element : [
+                            '2 bay leaves',
+                            '1 cup buttermilk',
+                            '2 eggs',
+                            '1 tsp salt'
+                        ]
+                    },
+                    {
+                        group_name : 'Cooked chicken',
+                        ingredients_element : [
+                            '1 small to medium chicken',
+                            '2 tsp baking powder',
+                            '¾ cup all-purpose flour (plain)',
+                            '1 cup cornflour (corn starch)'
                         ]
                     }
                 ],
@@ -1246,11 +1845,19 @@ meals = [
                     {
                         group_name : '',
                         steps_elements : [
-                            
+                            'Breakdown your chicken into even pieces.',
+                            'In a mixing bowl, mix all spices mix and set aside.',
+                            'On your chicken pieces, sprinkle approx. 2 teaspoons of the spice mix and coat each side evenly. Keep the rest of the spice mix for later.',
+                            'In a marinating container or mixing bowl, add all ingredients of buttermilk marinade and stir a little. Add the spice coated chicken to the butter milk, cover, refrigerate and marinate overnight or a minimum of 2 hours up to 24.',
+                            'Remove the chicken from the fridge. Preheat your oven to a temperature of 400°F.',
+                            'While the oven is heating, add your leftover spice mix to a mixing bowl along with the all-purpose flour, cornflour (cornstarch) and baking powder. Mix well.',
+                            'Remove the chicken pieces from the butter milk and place in spicy flour coating one at a time. Repeat process until each piece has been coated in flour mix. Do not double coat, one thin even coat is enough.',
+                            'Place the chicken pieces over a wire rack placed over a sheet pan. Leave them to rest 5 minutes until the flour is absorbed from the chicken moisture. You shouldn’t see any dry white flour on top. If so, your coating is too thick, to fix it, brush a little butter milk on the dry spots.',
+                            'Place in oven and bake for approx 30-45 minutes at 400°F, after 5 minutes, turn oven down to 350°F.  You may need an extra 15 minutes depending on chicken size, the chicken in my recipe is quite small and only took 30 minutes in a convection oven.  Chicken will be cooked once there’s sufficient juices on the dip tray, but use a meat thermometer to be sure.'
                         ]
                     }
                 ],
-                source: ''
+                source: 'https://recipe30.com/crispy-oven-fried-chicken.html/'
             },
             // TEMPLATE
             {        
@@ -1328,7 +1935,7 @@ meals = [
             },
             {        
                 name:  'One pot creamy corn Mac & Cheese',
-                image: 'https://www.allrecipes.com/thmb/CanMXBeN-9DZyRSzDxLAoy0w-t8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/238691-Simple-Macaroni-And-Cheese-mfs_006-f7f521c65f894aef85e17bc9125c2c4a.jpg',
+                image: 'https://static.onecms.io/wp-content/uploads/sites/43/2022/03/19/238691-Simple-Macaroni-And-Cheese-mfs_008.jpg',
                 tags: '',
                 vegetarian: false,
                 author: 'Booboos',
@@ -1786,7 +2393,7 @@ meals = [
         recipes : [                    
             {        
                 name:  'Chili Con Carne',
-                image: 'Chili-con-Carne_EXPS_FT20_2556_F_0429_1_home.jpg',
+                image: 'https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Chili-con-Carne_EXPS_FT20_2556_F_0429_1_home.jpg',
                 tags: '',
                 vegetarian: false,
                 author: 'Booboos',
@@ -1824,7 +2431,7 @@ meals = [
                         ]
                     }
                 ],
-                source: 'Maximes mom'
+                source:  "Maxime's mom & dad"
             },
             {        
                 name:  'Chili végétarien',
@@ -1870,47 +2477,7 @@ meals = [
                     }
                 ],
                 source: 'recettes.qc.ca'
-            },
-            {        
-                name:  'Rice Enchiladas Flavor',
-                image: 'https://www.cookwithmanali.com/wp-content/uploads/2019/02/Enchilada-Rice.jpg',
-                tags: '',
-                vegetarian: true,
-                author: 'Booboos',
-                serves: '4',
-                prep: '15',
-                cook: '20',
-                ingredients: [            
-                    {
-                        group_name : '',
-                        ingredients_element : [
-                            "1 Tbsp olive oil",
-                            "1 cup long-grain white rice",
-                            "2 cups water",
-                            "1 minced onion",
-                            "1 cup whole corn",
-                            "1 pack (24 g) fajitas seasonings",
-                            "1 cup salsa",
-                            "1 can (540ml)  black beans, rinsed and drained",
-                            "1 cup tex-mex cheese mix",
-                            "2 Tbsp green onions, chopped"            
-                        ]
-                    }
-                ],
-                steps : [
-                    {
-                        group_name : '',
-                        steps_elements : [
-                            "In a big saucepan, heat olive oil. Cook onion for 1-2 minutes.",
-                            "Add rice, fajitas seasonings and 2 cups water. Add salt and pepper.",
-                            "Bring to a boil, then cover and simmer 15-17 minutes at medium heat.",
-                            "Add salsa, black beans and corn. Continue cooking for 5 minutes.",
-                            "Garnish with cheese and green onions."
-                        ]
-                    }
-                ],
-                source: '5 ingredients 15 min'
-            },
+            },            
             {        
                 name:  'Red beans and rice from Louisiana',
                 image: 'https://s23209.pcdn.co/wp-content/uploads/2019/04/Red-Beans-and-RiceIMG_8719.jpg',
@@ -1972,8 +2539,7 @@ meals = [
                     }
                 ],
                 source: 'https://www.pressurecookrecipes.com/instant-pot-red-beans-and-rice/'
-            },
-            
+            },            
             // TEMPLATE
             {        
                 name:  '',
@@ -2605,41 +3171,8 @@ meals = [
                 source: ''
             }
         ]
-    }
-    
+    }    
 ]
-
-// TEMPLATE\
-/*
-{        
-    name:  '',
-    image: '',
-    tags: '',
-    vegetarian: false,
-    author: 'Booboos',
-    serves: '',
-    prep: '',
-    cook: '',
-    ingredients: [            
-        {
-            group_name : '',
-            ingredients_element : [
-                
-            ]
-        }
-    ],
-    steps : [
-        {
-            group_name : '',
-            steps_elements : [
-                
-            ]
-        }
-    ],
-    source: ''
-}
-*/
-
 
 let meals_html = '';
 let table = document.querySelector('.meals_table');
@@ -2666,7 +3199,7 @@ meals.forEach(meal => {
             group_html += `<ul>
                             <h4>${group.group_name}</h4>`
             for (let i = 0; i < group.ingredients_element.length; i++){
-                group_html += `<li>${group.ingredients_element[i]}</li>`
+                group_html += `<li><label><input type="checkbox"><span class="element"><div class="checkbox"></div>${group.ingredients_element[i]}</span></label></li>`
             }
             group_html += `</ul>`
         }
@@ -2674,12 +3207,14 @@ meals.forEach(meal => {
         //prep
         for (let i = 0; i < steps.length; i++) {
             let step = steps[i];
+            let step_number = 1;
             steps_html += `<ol>
                             <h4>${step.group_name}</h4>`
             for (let i = 0; i < step.steps_elements.length; i++){
-                steps_html += `<li>${step.steps_elements[i]}</li>`
+                steps_html += `<li><label><input type="checkbox"><span class="element"><div class="checkbox"></div><span class="step_number">${step_number}.</span> ${step.steps_elements[i]}</span></label></li>`
+                step_number += 1;
             }
-            steps_html += `</ol>`
+            steps_html += `</ol>`;
         }
         if(recipe.name !== '' && recipe.name !== null){
             meals_html += `
