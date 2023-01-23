@@ -2440,6 +2440,102 @@ meals = [
                 ],
                 source: ''
             },
+            {        
+                name:  'Vegan Spinach Ricotta Cannelloni',
+                image: 'https://bestofvegan.com/wp-content/uploads/2020/07/Vegan-Spinach-Ricotta-Cannelloni.jpg',
+                tags: '',
+                vegetarian: true,
+                author: 'Booboos',
+                serves: '4',
+                prep: '30',
+                cook: '30',
+                ingredients: [            
+                    {
+                        group_name : 'Cashew Ricotta mix',
+                        ingredients_element : [                            
+                            "250g cashews (about 2 cups)",
+                            "2 peeled garlic cloves",
+                            "½ lemon, the juice",
+                            "4 Tbsp nutritional yeast",
+                            "¾ Tbsp salt",
+                            "150ml plant milk or water (about ⅔ cup)"
+                        ]
+                    },
+                    {
+                        group_name : 'Spinach Ricotta Filling',
+                        ingredients_element : [                            
+                            "Cashew ricotta",
+                            "300g chopped spinach",
+                            "1 onion, peeled and finely chopped",
+                            "Salt and pepper to taste",
+                        ]
+                    },
+                    {
+                        group_name : 'Tomato sauce',
+                        ingredients_element : [                            
+                            "1 can diced tomatoes 400ml (13.5fl.oz)",
+                            "1 small onion, peeled and finely chopped",
+                            "2 garlic cloves, peeled and minced",
+                            "oil for cooking",
+                            "1 Tbsp maple syrup",
+                            "Salt and pepper to taste",
+                            "Lemon juice"
+                        ]
+                    },
+                    {
+                        group_name : 'Béchamel sauce',
+                        ingredients_element : [                            
+                            "15g plant butter/margarine",
+                            "20g flour",
+                            "250ml plant milk",
+                            "Salt & pepper to taste",
+                            "Nutmeg",
+                            "Lemon juice"
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : 'Cashew Ricotta mix',
+                        steps_elements : [
+                            "Add all cashew ricotta ingredients to a food processor or blender and blend/process until you get a smooth, creamy consistency. Taste test & add more plant milk/water & seasonings if need be."
+                        ]
+                    },
+                    {
+                        group_name : 'Spinach Ricotta Filling',
+                        steps_elements : [                            
+                            "Thaw the spinach and remove excess liquid. Sauté the onions in oil until they’re caramelized.",
+                            "Add the spinach, onion & cashew ricotta to a bowl & mix with the seasonings (to taste). Set aside."
+                        ]
+                    },
+                    {
+                        group_name : 'Tomato sauce',
+                        steps_elements : [
+                            "Heat oil in a pot & sauté the garlic & onion for 2-3min.",
+                            "Add the diced tomatoes & mix in the maple syrup, spices, and lemon juice (to taste).",
+                            "Bring the sauce to a boil, then reduce heat to low & let simmer for 10 more min."
+                        ]
+                    },
+                    {
+                        group_name : 'Béchamel sauce',
+                        steps_elements : [                            
+                            "Add the vegan butter to a pot & start letting it melt. Slowly mix in the flour & cook over low heat for 2-3min. Continuously mix using a whisk.",
+                            "Little by little, add the plant milk while mixing (to avoid lumps).",
+                            "Bring to a boil & add spices & lemon juice to taste. Reduce heat & let it simmer over low heat for about 10min until the sauce thickens."
+                        ]
+                    },
+                    {
+                        group_name : 'Cannelloni',
+                        steps_elements : [                            
+                            "Preheat the oven to 180C/360F.",
+                            "Fill the cannelloni using a piping bag or a small spoon. Spread the tomato sauce at the bottom of a baking tray, then add the filled cannelloni & top with the Béchamel sauce.",
+                            "Bake in the oven for approx. 20-30min, until the cannelloni are fully cooked.",
+                            "Remove the tray from the oven, let it cool a little & serve warm and enjoy. "
+                        ]
+                    }
+                ],
+                source: 'https://bestofvegan.com/vegan-spinach-ricotta-cannelloni/'
+            },
             // TEMPLATE
             {        
                 name:  '',
