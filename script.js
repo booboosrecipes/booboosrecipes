@@ -2441,7 +2441,7 @@ meals = [
                 source: ''
             },
             {        
-                name:  'Vegan Spinach Ricotta Cannelloni',
+                name:  'Vegetarian Spinach Ricotta Cannelloni',
                 image: 'https://bestofvegan.com/wp-content/uploads/2020/07/Vegan-Spinach-Ricotta-Cannelloni.jpg',
                 tags: '',
                 vegetarian: true,
@@ -2458,7 +2458,7 @@ meals = [
                             "½ lemon, the juice",
                             "4 Tbsp nutritional yeast",
                             "¾ Tbsp salt",
-                            "150ml plant milk or water (about ⅔ cup)"
+                            "150ml milk (about ⅔ cup)"
                         ]
                     },
                     {
@@ -2466,16 +2466,16 @@ meals = [
                         ingredients_element : [                            
                             "Cashew ricotta",
                             "300g chopped spinach",
-                            "1 onion, peeled and finely chopped",
+                            "1 onion chopped",
                             "Salt and pepper to taste",
                         ]
                     },
                     {
                         group_name : 'Tomato sauce',
                         ingredients_element : [                            
-                            "1 can diced tomatoes 400ml (13.5fl.oz)",
-                            "1 small onion, peeled and finely chopped",
-                            "2 garlic cloves, peeled and minced",
+                            "1 can diced tomatoes 400ml",
+                            "1 small onion chopped",
+                            "2 garlic cloves minced",
                             "oil for cooking",
                             "1 Tbsp maple syrup",
                             "Salt and pepper to taste",
@@ -2485,11 +2485,10 @@ meals = [
                     {
                         group_name : 'Béchamel sauce',
                         ingredients_element : [                            
-                            "15g plant butter/margarine",
+                            "15g butter",
                             "20g flour",
-                            "250ml plant milk",
+                            "250ml milk",
                             "Salt & pepper to taste",
-                            "Nutmeg",
                             "Lemon juice"
                         ]
                     }
