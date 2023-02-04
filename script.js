@@ -969,6 +969,100 @@ meals = [
                 ],
                 source: 'https://www.gimmesomeoven.com/fried-rice-recipe/'
             },
+            {        
+                name:  'Filipino Crispy Tofu Sisig',
+                image: 'https://thefoodietakesflight.com/wp-content/uploads/2021/02/crispy-tofu-sisig-filipino-vegan-recipe-31.png',
+                tags: '',
+                vegetarian: true,
+                author: 'Booboos',
+                serves: '4',
+                prep: '10',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : 'Tofu cubes',
+                        ingredients_element : [
+                            '1 lb extra firm tofu, pressed and drained',
+                            'Neutral oil for frying',
+                            'Pinch salt'
+                        ]
+                    },
+                    {
+                        group_name : 'Sauce',
+                        ingredients_element : [
+                            '1 Tbsp soy sauce',
+                            '1 Tbsp vegetarian mushroom oyster sauce or stir-fry sauce',
+                            '1 Tbsp calamansi juice or lemon juice',
+                            '1 tsp sugar',
+                            'Ground black pepper',
+                            '2 Tbsp water'
+                        ]
+                    },
+                    {
+                        group_name : 'For sautéing',
+                        ingredients_element : [
+                            '1-2 Tbsp vegan butter or neutral oil',
+                            '1 medium onion diced',
+                            '2 tsp minced garlic',
+                            '1 small red bell pepper diced',
+                            '3 bird’s eye chiles siling labuyo, or Thai chiles, deseeded (if needed) and sliced',
+                            '2 long green chilies deseeded (if needed) and sliced—I used siling haba',
+                            '3.5 Tbsp fresh or rehydrated shiitake mushrooms or other mushrooms such as oyster, button, baby bella, black fungus/wood ear mushrooms, finely diced (see notes)',
+                            '1/2-1 Tbsp vegetarian mushroom oyster sauce or stir-fry sauce, to taste (if needed)',
+                            'soy sauce or liquid seasoning like Knorr to taste, if needed',
+                            '2 Tbsp vegan mayonnaise'
+                        ]
+                    },
+                    {
+                        group_name : 'Serve with',
+                        ingredients_element : [
+                            'Rice',
+                            '1/2 tsp butter',
+                            'Lemon juice'
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : 'Sauce mixture',
+                        steps_elements : [
+                            'Mix all the sauce/seasoning ingredients together. Feel free to adjust to your taste.'
+                        ]
+                    },
+                    {
+                        group_name : 'Cooking tofu',
+                        steps_elements : [
+                            'Slice the tofu into small 1/2-inch cubes. The smaller the better—so if you can slice even small, that’d be better.',
+                            'Heat your large pan over high heat. Add some oil to coat the surface of the pan.',
+                            'When hot, add in the tofu cubes. The tofu cubes should immediately sizzle when you add them in the oil. Sprinkle some salt over the tofu cubes.',
+                            'Leave the tofu cubes to cook over medium high until golden brown, around 4 to 5 minutes. You may beed to flip them over if pan-frying them. Repeat until all the sides are golden brown and crisp.',
+                            'Remove the tofu from the oil then set aside. Drain the excess oil form the pan. I have this container with a strainer on top that I use to store my oil. Since tofu are very neutral, I can still use this oil for another 1-2 times.'
+                        ]
+                    },
+                    {
+                        group_name : 'Sautéing',
+                        steps_elements : [
+                            'Add in 1-2 tbsp of oil or vegan butter on the same pan. Alternatively, you can cook the sisig directly on a cast iron pan/sizzling plate. Over high heat, sauté the onion for 1 minute.',
+                            'Add in the garlic, then sauté for another minute.',
+                            'Add in the chiles and peppers and cook for 1-2 minutes until tender.',
+                            'Add in the diced mushrooms and cook for 1 minute over high heat.',
+                            'Afterwards, add in the crispy tofu.',
+                            'Pour in the sauce mix and lower to medium high heat. Mix well.',
+                            'Taste the sisig then season with more vegetarian mushroom oyster sauce and soy sauce, if needed.',
+                            'Mix everything together and leave to cook over medium heat for 1 minute.',
+                            'Add in the vegan mayonnaise and give everything a good mix until the mayonnaise has beautiful coated the tofu.'
+                        ]
+                    },
+                    {
+                        group_name : 'Serving',
+                        steps_elements : [
+                            'Turn off the heat add 1/2 tbsp of butter until melted. Add in the cooked sisig into the sizzling pan.',
+                            'Squeeze with some more calamansi or lemon juice, if you’d like. Enjoy with rice or singangag (Filipino Fried Garlic Rice)!',
+                        ]
+                    }
+                ],
+                source: 'https://thefoodietakesflight.com/crispy-tofu-sisig/'
+            },
             //TEMPLATE
             {        
                 name:  '',
