@@ -136,13 +136,24 @@ li label input + .element .checkbox{
     background-color: var(--secondary_color);
     color: var(--card_container);
     transition: 0.3s ease;
-    padding: 5px 15px;
+    padding: 15px;
     border-radius: 5px;
     cursor: pointer;
     flex: 1 1 0;
+    line-height: 1.3;
     text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
-.book:hover, .reset-book:hover{
+.book.active::before, .reset-book.active::before{
+    position:relative;
+    content: "★";
+    display:flex;
+}
+.book:hover, .reset-book:hover,
+.book.active, .reset-book.active{
     transition: 0.3s ease;
     background-color: var(--main_bg);
 }
@@ -249,18 +260,23 @@ li label input + .element .checkbox{
     margin: 0 auto;
     margin-bottom: 10px;
 }
+.ingredients_wrapper{
+    margin-top: 30px;
+}
 .ingredients{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 30px;    
+    columns: 2;  
 }
 .ingredients .ingredients_title{
     flex: 0 0 100%;
     margin-bottom: -10px;
 }
 .ingredients ul{
-    flex: 1 1 calc(50% - 15px);
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+.ingredients ul h4{    
+    margin-top: 10px;
 }
 .preparation{
     margin-top: 30px;
@@ -298,8 +314,8 @@ li label input + .element .checkbox{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 25px;
     margin: 50px auto;
+    gap: 25px;
     max-width: 800px;
     min-width: 800px;
 }
@@ -308,23 +324,35 @@ li label input + .element .checkbox{
     height: 50px;
     padding: 20px;
     font-size: 15px;
-    border-radius: 10px;
-    border: 2px solid grey;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid var(--text_color);
+    outline: 0px solid transparent;
+    position: relative;
+    width: 100%;
 }
 .search-input:focus{
-    outline: 2px solid transparent;
+    border: 2px solid var(--main_bg);
+    outline: 0px solid transparent;
 }
 .search{
     padding: 15px 15px;
-    border-radius: 10px;
+    border-radius: 0 10px 10px 0;
     font-size: 15px;
     background-color: var(--main_bg);
-    border: 2px solid white;
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 1.7px;
     color: white;
     font-weight: bold;
+    border: 1px solid var(--main_bg);
+}
+.search_bar label{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.search_bar .description{
+    margin-top: 15px;
 }
 .author{
     font-weight: bold;
@@ -393,8 +421,8 @@ li label input:checked + .element .checkbox{
     .meals_table, .meals_list .meals, .search_bar {
         min-width: 100%;
     }
-    .ingredients ul{
-        flex: 0 0 100%;
+    .ingredients {
+        columns: 1;
     }
 }
 @media only screen and (max-width: 500px){

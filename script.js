@@ -999,6 +999,14 @@ meals = [
                         ]
                     },
                     {
+                        group_name : 'Serve with',
+                        ingredients_element : [
+                            'Rice',
+                            '1/2 tsp butter',
+                            'Lemon juice'
+                        ]
+                    },
+                    {
                         group_name : 'For sautéing',
                         ingredients_element : [
                             '1-2 Tbsp vegan butter or neutral oil',
@@ -1011,14 +1019,6 @@ meals = [
                             '1/2-1 Tbsp vegetarian mushroom oyster sauce or stir-fry sauce, to taste (if needed)',
                             'soy sauce or liquid seasoning like Knorr to taste, if needed',
                             '2 Tbsp vegan mayonnaise'
-                        ]
-                    },
-                    {
-                        group_name : 'Serve with',
-                        ingredients_element : [
-                            'Rice',
-                            '1/2 tsp butter',
-                            'Lemon juice'
                         ]
                     }
                 ],
@@ -3696,7 +3696,6 @@ let bar = [
 ]
 
 if(document.querySelector('.meals_table') !== null) {
-
     let meals_html = '';
     let table = document.querySelector('.meals_table');
     let table_html = '<h1 class="table_title">Table of content <div class="icon"><span class="plus">+</span><span class="minus">-</span></div></h1>';
@@ -3729,9 +3728,7 @@ if(document.querySelector('.meals_table') !== null) {
             for (let i = 0; i < ingredients.length; i++) {
                 let group = ingredients[i];
                 group_html += `<ul>`;
-                if(group.group_name !== "" && group.group_name !== null){
-                    group_html += `<h4>${group.group_name}</h4>`;
-                }
+                group_html += `<h4>${group.group_name}</h4>`;
                 for (let i = 0; i < group.ingredients_element.length; i++){
                     group_html += `<li><label><input type="checkbox"><span class="element"><div class="checkbox"></div>${group.ingredients_element[i]}</span></label></li>`
                 }
@@ -3764,9 +3761,9 @@ if(document.querySelector('.meals_table') !== null) {
                             <span>Prep Time: ${recipe.prep} min |</span>
                             <span>Cook Time: ${recipe.cook} min</span>
                         </div>
-                        <div class="ingredients">
+                        <div class="ingredients_wrapper">
                             <h3 class="ingredients_title">INGREDIENTS</h3>
-                            ${group_html}
+                            <div class="ingredients">${group_html}</div>
                         </div>
                         <div class="preparation">
                             <h3 class="ingredients_title">PREPARATION</h3>
@@ -3803,8 +3800,16 @@ if(document.querySelector('.meals_table') !== null) {
         table.innerHTML = table_html;
     })
     let books = document.querySelectorAll('.book');
+    let buttonBooks = document.querySelectorAll('.button-book');
     var meals_divs = document.querySelectorAll('.meals');
-
+    buttonBooks.forEach(button => {
+        button.addEventListener('click', function(){
+            buttonBooks.forEach(button =>{
+                button.classList.remove('active');
+            })
+            button.classList.add('active');
+        })
+    })
     books.forEach(book => {
         book.addEventListener('click', function(){
             table.classList.add('hidden');
@@ -3876,6 +3881,7 @@ if(document.querySelector('.meals_table') !== null) {
         table.classList.remove('hidden');
     })
 
+    document.querySelector('.reset-book').click();
 }
 
 
@@ -3914,10 +3920,8 @@ if(document.querySelector('.drinks') !== null) {
             // ingredients
             for (let i = 0; i < ingredients.length; i++) {
                 let group = ingredients[i];
-                group_html += `<ul>`;
-                if(group.group_name !== "" && group.group_name !== null){
-                    group_html += `<h4>${group.group_name}</h4>`;
-                }
+                group_html += `<ul>`;                
+                group_html += `<h4>${group.group_name}</h4>`;
                 for (let i = 0; i < group.ingredients_element.length; i++){
                     group_html += `<li><label><input type="checkbox"><span class="element"><div class="checkbox"></div>${group.ingredients_element[i]}</span></label></li>`
                 }
