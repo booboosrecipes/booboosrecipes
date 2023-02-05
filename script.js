@@ -2717,6 +2717,73 @@ meals = [
                 ],
                 source: 'https://www.saltandlavender.com/cheeseburger-macaroni/'
             },
+            {        
+                name:  'Millionaire Gnocchi with Red Sauce, Herbed Ricotta, and Golden Crispies',
+                image: 'https://pinchofyum.com/cdn-cgi/image/width=680,height=99999,fit=scale-down/wp-content/uploads/Gnocchi-2-1.jpg',
+                tags: 'italian-inspired',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '15',
+                cook: '60',
+                ingredients: [            
+                    {
+                        group_name : 'Red sauce',
+                        ingredients_element : [                            
+                            '1 pound ground Italian sausage or meatless alternative',
+                            '1–2 tablespoons extra-virgin olive oil',
+                            '1 medium yellow onion, minced',
+                            '2 large cloves garlic, minced',
+                            'one 28-ounce can crushed tomatoes',
+                            '1 teaspoon dried oregano',
+                            'salt and red pepper flakes to taste'
+                        ]
+                    },
+                    {
+                        group_name : 'Herbed Ricotta',
+                        ingredients_element : [                            
+                            '6–8 ounces of ricotta cheese',
+                            '1 small clove garlic, grated',
+                            'zest and juice of 1 lemon',
+                            'salt to taste',
+                            'minced herbs to taste (chives, parsley, and/or thyme)',
+                        ]
+                    },
+                    {
+                        group_name : 'Gnocchi',
+                        ingredients_element : [                            
+                            'two 16-ounce packages pre-cooked gnocchi',
+                        ]
+                    },
+                    {
+                        group_name : 'Golden crispies (breadcrumbs)',
+                        ingredients_element : [    
+                            '1/4 cup oil',
+                            '4 sage leaves, fried and then crumbled',
+                            '3 sprigs of fresh rosemary, fried and then crumbled',
+                            '2 cups panko breadcrumbs, lightely browned',
+                            '3/4 cup crunchy fried onions, crushed',
+                            '1 tablespoon chopped fresh Italian parsley',
+                            '1 teaspoon chopped fresh thyme',
+                            '1/2 teaspoon garlic powder',
+                            '1/2 teaspoon salt'
+                        ]
+                    },
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [     
+                            'Brown the sausage: Heat a large skillet over high heat. Add the sausage; break apart until well-browned and fully cooked. Remove sausage from the pan. If you want you can drain off excess grease from the pan (I often keep it for extra flavor). ',
+                            'Simmer the sauce: Turn the heat down (so you don’t burn the garlic). Add the olive oil, onion, and garlic; sauté for a few minutes over medium low heat until fragrant. Add the tomatoes and oregano. Add sausage back in and simmer over low heat (think of it as a “lazy” simmer) for 30-45 minutes. Taste and season with salt and red pepper flakes.',
+                            'Make the ricotta: While the sauce is simmering, mix the ricotta ingredients in a small dish. Taste and adjust as you like.',
+                            'Cook the gnocchi: Cook gnocchi according to package directions (usually this involves a short boil). Add cooked gnocchi to the pan with the sauce. Bring to a low simmer to get the gnocchi and sauce bubbling and well-coated.',
+                            'Serve: Serve hot gnocchi topped with a dollop of herbed ricotta and a generous sprinkling of golden crispies.'
+                        ]
+                    }
+                ],
+                source: 'https://pinchofyum.com/millionaire-gnocchi'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -2743,7 +2810,7 @@ meals = [
                         ]
                     }
                 ],
-                source: ''
+                source: 'https://pinchofyum.com/millionaire-gnocchi'
             }
         ]
     },
