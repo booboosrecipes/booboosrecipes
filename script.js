@@ -3645,182 +3645,333 @@ meals = [
         ]
     }    
 ]
+let bar = [
+    {
+        type : "Smoothie",
+        recipes : [
+            {        
+                name:  'Strawberry Vodka Slush',
+                image: 'https://www.simplymaderecipes.com/wp-content/uploads/2019/03/Strawberry-Vodka-Slush-1.png',
+                serves: '4',
+                prep: '15',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '1 pound strawberries hulled and frozen',
+                            '1 cup lemon juice (4 lemons)',
+                            '1/2 cup granulated sugar',
+                            '1/2 cup vodka',
+                            '1 cup seltzer water',
+                            '1 cup ice'
+                        ]
+                    },
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '2 ounces extra vodka (optional )',
+                            '2 lime slices',
+                            '2 fresh strawberries',
+                            'Whipped cream optional'
+                        ]
+                    },
 
-let meals_html = '';
-let table = document.querySelector('.meals_table');
-let table_html = '<h1 class="table_title">Table of content <div class="icon"><span class="plus">+</span><span class="minus">-</span></div></h1>';
-
-meals.forEach(meal => {
-    let recipes = meal.recipes;  
-    recipes.sort(function (a, b) {
-        if (a.name < b.name) {
-          return -1;
-        }
-        if (a.name > b.name) {
-          return 1;
-        }
-        return 0;
-    });
-    recipes.forEach(recipe => {
-        let index = recipe.index;
-        let title = recipe.name;
-        let id = (title.replace(/ /g,"_")).toLowerCase();
-        let ingredients = recipe.ingredients;
-        let group_html = '';
-        let steps = recipe.steps;
-        let steps_html = '';
-        let veg = ''
-        if(recipe.vegetarian == true){
-            veg += '<span class="vege">Vegetarian</span>'
-        }
-
-        // ingredients
-        for (let i = 0; i < ingredients.length; i++) {
-            let group = ingredients[i];
-            group_html += `<ul>`;
-            if(group.group_name !== "" && group.group_name !== null){
-                group_html += `<h4>${group.group_name}</h4>`;
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Wash, hull and freeze strawberries. I always freeze the fruits my kids don’t eat throughout the week and use for these type of recipes.",
+                            "Squeeze 1 cup worth of lemon juice from about 4 lemons.",
+                            "Place frozen berries into blender with the rest of the ingredients. Blend until smooth.",
+                            "Serve in 2 glasses and garnish with a slice of lime and a strawberry.",
+                            "Optional to add an extra ounce of vodka to float on top of each drink before serving. Try it with a dollop of whipped cream!"
+                        ]
+                    }
+                ],
+                source: 'https://www.simplymaderecipes.com/strawberry-vodka-slush/'
             }
-            for (let i = 0; i < group.ingredients_element.length; i++){
-                group_html += `<li><label><input type="checkbox"><span class="element"><div class="checkbox"></div>${group.ingredients_element[i]}</span></label></li>`
+        ]
+    }
+]
+
+if(document.querySelector('.meals_table') !== null) {
+
+    let meals_html = '';
+    let table = document.querySelector('.meals_table');
+    let table_html = '<h1 class="table_title">Table of content <div class="icon"><span class="plus">+</span><span class="minus">-</span></div></h1>';
+
+    meals.forEach(meal => {
+        let recipes = meal.recipes;  
+        recipes.sort(function (a, b) {
+            if (a.name < b.name) {
+            return -1;
             }
-            group_html += `</ul>`
-        }
-
-        //prep
-        for (let i = 0; i < steps.length; i++) {
-            let step = steps[i];
-            let step_number = 1;
-            steps_html += `<ol>`;
-            if(step.group_name !== "" && step.group_name !== null){
-                steps_html += `<h4>${step.group_name}</h4>`;
+            if (a.name > b.name) {
+            return 1;
             }
-            for (let i = 0; i < step.steps_elements.length; i++){
-                steps_html += `<li><label><input type="checkbox"><span class="element"><div class="checkbox"></div><span class="step_number">${step_number}.</span> ${step.steps_elements[i]}</span></label></li>`
-                step_number += 1;
+            return 0;
+        });
+        recipes.forEach(recipe => {
+            let index = recipe.index;
+            let title = recipe.name;
+            let id = (title.replace(/ /g,"_")).toLowerCase();
+            let ingredients = recipe.ingredients;
+            let group_html = '';
+            let steps = recipe.steps;
+            let steps_html = '';
+            let veg = ''
+            if(recipe.vegetarian == true){
+                veg += '<span class="vege">Vegetarian</span>'
             }
-            steps_html += `</ol>`;
-        }
-        if(recipe.name !== '' && recipe.name !== null){
-            meals_html += `
-                <div class="meals in_book" id="${id}">
-                    <span class="author">${recipe.author} added this recipe</span>
-                    <h2 class="title">${title}</h2>
-                    ${veg}
-                    <div class="img" style="background-image:url(${recipe.image})"></div>
-                    <div class="meals_infos">
-                        <span>Servings: ${recipe.serves} |</span>
-                        <span>Prep Time: ${recipe.prep} min |</span>
-                        <span>Cook Time: ${recipe.cook} min</span>
-                    </div>
-                    <div class="ingredients">
-                        <h3 class="ingredients_title">INGREDIENTS</h3>
-                        ${group_html}
-                    </div>
-                    <div class="preparation">
-                        <h3 class="ingredients_title">PREPARATION</h3>
-                        ${steps_html}
-                    </div>
-                    <span class="source">Source : ${recipe.source}</span>
-                </div>
-            `
-        }
-    })
-    document.querySelector('.meals_list').innerHTML = meals_html;
 
-    //table html
-      
-    table_html += `<h2 class="table_meal_title">${meal.type}</h2>`
-    recipes.forEach(recipe => {
-        let title = recipe.name;
-        let id = (title.replace(/ /g,"_")).toLowerCase();
-
-        table_html += `
-            <a href="#${id}" title="${title}">
-                <h4>${title}
-        `;
-        if(recipe.vegetarian == true){
-        table_html +=
-                `<span class="v">v</span>`;
-
-        }
-        table_html +=
-            `   </h4>
-            </a>`;
-        
-    })
-    table.innerHTML = table_html;
-})
-let books = document.querySelectorAll('.book');
-var meals_divs = document.querySelectorAll('.meals');
-
-books.forEach(book => {
-    book.addEventListener('click', function(){
-        table.classList.add('hidden');
-        let id = book.dataset.id;
-        meals.forEach(meal =>{
-            let recipes = meal.recipes;
-            recipes.forEach(recipe =>{
-                let recipe_id = (recipe.name.replace(/ /g,"_")).toLowerCase();
-                if(recipe.author == id){
-                    console.log(recipe.author);
-                    //find matching divs
-                    meals_divs.forEach(div => {
-                        if(div.id == recipe_id){
-                            div.classList.add('in_book');
-                        }
-                    })
-                }else{
-                    console.log(recipe.author);
-                    meals_divs.forEach(div => {
-                        if(div.id == recipe_id){
-                            div.classList.remove('in_book');
-                        }
-                    })
+            // ingredients
+            for (let i = 0; i < ingredients.length; i++) {
+                let group = ingredients[i];
+                group_html += `<ul>`;
+                if(group.group_name !== "" && group.group_name !== null){
+                    group_html += `<h4>${group.group_name}</h4>`;
                 }
+                for (let i = 0; i < group.ingredients_element.length; i++){
+                    group_html += `<li><label><input type="checkbox"><span class="element"><div class="checkbox"></div>${group.ingredients_element[i]}</span></label></li>`
+                }
+                group_html += `</ul>`
+            }
+
+            //prep
+            for (let i = 0; i < steps.length; i++) {
+                let step = steps[i];
+                let step_number = 1;
+                steps_html += `<ol>`;
+                if(step.group_name !== "" && step.group_name !== null){
+                    steps_html += `<h4>${step.group_name}</h4>`;
+                }
+                for (let i = 0; i < step.steps_elements.length; i++){
+                    steps_html += `<li><label><input type="checkbox"><span class="element"><div class="checkbox"></div><span class="step_number">${step_number}.</span> ${step.steps_elements[i]}</span></label></li>`
+                    step_number += 1;
+                }
+                steps_html += `</ol>`;
+            }
+            if(recipe.name !== '' && recipe.name !== null){
+                meals_html += `
+                    <div class="meals in_book" id="${id}">
+                        <span class="author">${recipe.author} added this recipe</span>
+                        <h2 class="title">${title}</h2>
+                        ${veg}
+                        <div class="img" style="background-image:url(${recipe.image})"></div>
+                        <div class="meals_infos">
+                            <span>Servings: ${recipe.serves} |</span>
+                            <span>Prep Time: ${recipe.prep} min |</span>
+                            <span>Cook Time: ${recipe.cook} min</span>
+                        </div>
+                        <div class="ingredients">
+                            <h3 class="ingredients_title">INGREDIENTS</h3>
+                            ${group_html}
+                        </div>
+                        <div class="preparation">
+                            <h3 class="ingredients_title">PREPARATION</h3>
+                            ${steps_html}
+                        </div>
+                        <span class="source">Source : ${recipe.source}</span>
+                    </div>
+                `
+            }
+        })
+        document.querySelector('.meals_list').innerHTML = meals_html;
+
+        //table html
+        
+        table_html += `<h2 class="table_meal_title">${meal.type}</h2>`
+        recipes.forEach(recipe => {
+            let title = recipe.name;
+            let id = (title.replace(/ /g,"_")).toLowerCase();
+
+            table_html += `
+                <a href="#${id}" title="${title}">
+                    <h4>${title}
+            `;
+            if(recipe.vegetarian == true){
+            table_html +=
+                    `<span class="v">v</span>`;
+
+            }
+            table_html +=
+                `   </h4>
+                </a>`;
+            
+        })
+        table.innerHTML = table_html;
+    })
+    let books = document.querySelectorAll('.book');
+    var meals_divs = document.querySelectorAll('.meals');
+
+    books.forEach(book => {
+        book.addEventListener('click', function(){
+            table.classList.add('hidden');
+            let id = book.dataset.id;
+            meals.forEach(meal =>{
+                let recipes = meal.recipes;
+                recipes.forEach(recipe =>{
+                    let recipe_id = (recipe.name.replace(/ /g,"_")).toLowerCase();
+                    if(recipe.author == id){
+                        console.log(recipe.author);
+                        //find matching divs
+                        meals_divs.forEach(div => {
+                            if(div.id == recipe_id){
+                                div.classList.add('in_book');
+                            }
+                        })
+                    }else{
+                        console.log(recipe.author);
+                        meals_divs.forEach(div => {
+                            if(div.id == recipe_id){
+                                div.classList.remove('in_book');
+                            }
+                        })
+                    }
+                })
             })
         })
     })
-})
-document.querySelector('.reset-book').addEventListener('click', function(){
-    meals_divs.forEach(meal =>{
-        meal.classList.add('in_book');
+    document.querySelector('.reset-book').addEventListener('click', function(){
+        meals_divs.forEach(meal =>{
+            meal.classList.add('in_book');
+        })
     })
-})
 
-document.querySelector('.search').addEventListener('click', function(){
-    table.classList.add('hidden');
-    let marks = document.querySelectorAll('mark');
-    let search = document.querySelector('.search-input');
-    let recipes_html = document.querySelectorAll('.meals.in_book');
-    let keyword = search.value.trim();
-    keyword_maj = keyword.charAt(0).toUpperCase() + keyword.slice(1);
-    keyword_lower = keyword.toLowerCase();
+    document.querySelector('.search').addEventListener('click', function(){
+        table.classList.add('hidden');
+        let marks = document.querySelectorAll('mark');
+        let search = document.querySelector('.search-input');
+        let recipes_html = document.querySelectorAll('.meals.in_book');
+        let keyword = search.value.trim();
+        keyword_maj = keyword.charAt(0).toUpperCase() + keyword.slice(1);
+        keyword_lower = keyword.toLowerCase();
 
-    recipes_html.forEach(meal => {
-        // get recipes that has word that matches keyword
-        if  (
-            meal.textContent.includes(keyword) ||
-            meal.textContent.includes(keyword_lower) || 
-            meal.textContent.includes(keyword_maj)
-            )
-            {                
-                meal.style.display = "block";
-                /*
-                let re = new RegExp(keyword, "g"); // search for all instances
-                let newText = meal.innerHTML.replace(re, `<mark>${keyword}</mark>`);
-                meal.innerHTML = newText;
-                console.log(keyword_maj);
-                */
-        }else{
-            meal.style.display = "none";
-        }
+        recipes_html.forEach(meal => {
+            // get recipes that has word that matches keyword
+            if  (
+                meal.textContent.includes(keyword) ||
+                meal.textContent.includes(keyword_lower) || 
+                meal.textContent.includes(keyword_maj)
+                )
+                {                
+                    meal.style.display = "block";
+                    /*
+                    let re = new RegExp(keyword, "g"); // search for all instances
+                    let newText = meal.innerHTML.replace(re, `<mark>${keyword}</mark>`);
+                    meal.innerHTML = newText;
+                    console.log(keyword_maj);
+                    */
+            }else{
+                meal.style.display = "none";
+            }
+        })
     })
-})
 
-document.querySelector('.table_title .minus').addEventListener('click', function(){
-    table.classList.add('hidden');
-})
-document.querySelector('.table_title .plus').addEventListener('click', function(){
-    table.classList.remove('hidden');
-})
+    document.querySelector('.table_title .minus').addEventListener('click', function(){
+        table.classList.add('hidden');
+    })
+    document.querySelector('.table_title .plus').addEventListener('click', function(){
+        table.classList.remove('hidden');
+    })
+
+}
+
+
+/*
+'##::::'##::::'###::::'##::::'##:'####:'##::::'##:'########:::::'######:::'#######:::'######::'##:::'##:'########::::'###::::'####:'##:::::::
+ ###::'###:::'## ##:::. ##::'##::. ##:: ###::'###: ##.....:::::'##... ##:'##.... ##:'##... ##: ##::'##::... ##..::::'## ##:::. ##:: ##:::::::
+ ####'####::'##:. ##:::. ##'##:::: ##:: ####'####: ##:::::::::: ##:::..:: ##:::: ##: ##:::..:: ##:'##:::::: ##:::::'##:. ##::: ##:: ##:::::::
+ ## ### ##:'##:::. ##:::. ###::::: ##:: ## ### ##: ######:::::: ##::::::: ##:::: ##: ##::::::: #####::::::: ##::::'##:::. ##:: ##:: ##:::::::
+ ##. #: ##: #########::: ## ##:::: ##:: ##. #: ##: ##...::::::: ##::::::: ##:::: ##: ##::::::: ##. ##:::::: ##:::: #########:: ##:: ##:::::::
+ ##:.:: ##: ##.... ##:: ##:. ##::: ##:: ##:.:: ##: ##:::::::::: ##::: ##: ##:::: ##: ##::: ##: ##:. ##::::: ##:::: ##.... ##:: ##:: ##:::::::
+ ##:::: ##: ##:::: ##: ##:::. ##:'####: ##:::: ##: ########::::. ######::. #######::. ######:: ##::. ##:::: ##:::: ##:::: ##:'####: ########:
+..:::::..::..:::::..::..:::::..::....::..:::::..::........::::::......::::.......::::......:::..::::..:::::..:::::..:::::..::....::........::
+*/
+if(document.querySelector('.drinks') !== null) {
+    bar.forEach(drink_type =>{
+        let recipes = drink_type.recipes;
+        let drinks_html = '';
+        let table_html = '';
+        recipes.sort(function (a, b) {
+            if (a.name < b.name) {
+            return -1;
+            }
+            if (a.name > b.name) {
+            return 1;
+            }
+            return 0;
+        });
+        recipes.forEach(recipe => {
+            let title = recipe.name;
+            let id = (title.replace(/ /g,"_")).toLowerCase();
+            let ingredients = recipe.ingredients;
+            let steps = recipe.steps;
+            let group_html = '';
+            let steps_html = '';
+
+            // ingredients
+            for (let i = 0; i < ingredients.length; i++) {
+                let group = ingredients[i];
+                group_html += `<ul>`;
+                if(group.group_name !== "" && group.group_name !== null){
+                    group_html += `<h4>${group.group_name}</h4>`;
+                }
+                for (let i = 0; i < group.ingredients_element.length; i++){
+                    group_html += `<li><label><input type="checkbox"><span class="element"><div class="checkbox"></div>${group.ingredients_element[i]}</span></label></li>`
+                }
+                group_html += `</ul>`
+            }
+
+            //prep
+            for (let i = 0; i < steps.length; i++) {
+                let step = steps[i];
+                let step_number = 1;
+                steps_html += `<ol>`;
+                if(step.group_name !== "" && step.group_name !== null){
+                    steps_html += `<h4>${step.group_name}</h4>`;
+                }
+                for (let i = 0; i < step.steps_elements.length; i++){
+                    steps_html += `<li><label><input type="checkbox"><span class="element"><div class="checkbox"></div><span class="step_number">${step_number}.</span> ${step.steps_elements[i]}</span></label></li>`
+                    step_number += 1;
+                }
+                steps_html += `</ol>`;
+            }
+
+            if(recipe.name !== '' && recipe.name !== null){
+                drinks_html += `
+                    <div class="drink" id="${id}">
+                        <h2 class="title">${title}</h2>
+                        <div class="img" style="background-image:url(${recipe.image})"></div>
+                        <div class="meals_infos">
+                            <span>Servings: ${recipe.serves} drinks
+                        </div>
+                        <div class="ingredients">
+                            <h3 class="ingredients_title">INGREDIENTS</h3>
+                            ${group_html}
+                        </div>
+                        <div class="preparation">
+                            <h3 class="ingredients_title">PREPARATION</h3>
+                            ${steps_html}
+                        </div>
+                        <span class="source">Source : ${recipe.source}</span>
+                    </div>
+                `
+            }
+        })
+        table_html += `<h2 class="table_meal_title">${drink_type.type}</h2>`
+        recipes.forEach(recipe => {
+            let title = recipe.name;
+            let id = (title.replace(/ /g,"_")).toLowerCase();
+
+            table_html += `
+                <a href="#${id}" title="${title}">
+                    <h4>${title}</h4>
+                </a>`;
+            
+        })
+        document.querySelector('.table__drinks').innerHTML = table_html;
+        document.querySelector('.drinks').innerHTML = drinks_html;
+    })
+}

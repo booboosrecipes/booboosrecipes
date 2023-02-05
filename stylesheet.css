@@ -7,6 +7,11 @@
     --card_container : rgb(255, 255, 255, 0.95);
     --secondary_color: rgba(197, 90, 140, 0.664);
     --text_color: #555b61;
+    --maxis9_main_bg : rgb(36, 36, 36);
+    --maxis9_title_color : rgb(185, 41, 41);
+    --maxis9_card_container : rgb(36, 36, 36, 0.95);
+    --maxis9_secondary_color: rgba(255, 149, 149, 0.664);
+    --maxis9_text_color: #c7c7c7;
 }
 body {
     max-width: 100%;
@@ -25,6 +30,10 @@ body {
     align-items: center;
     justify-content: center;
     color: var(--text_color);
+}
+body.maxis9{
+    color: var(--maxis9_text_color);
+    background-image: url(https://images.unsplash.com/photo-1581927692308-be9e43b4d860?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80);
 }
 a{
     color: var(--text_color);
@@ -111,17 +120,41 @@ li label input + .element .checkbox{
     margin-right: 10px;
     margin-top: 10px;
 }
+.header{
+    width: 100%;
+    align-items: center;
+    text-align:center;
+}
 .books{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
+    width: 100%;
 }
 .book, .reset-book {
     background-color: var(--secondary_color);
     color: var(--card_container);
+    transition: 0.3s ease;
     padding: 5px 15px;
     border-radius: 5px;
     cursor: pointer;
+    flex: 1 1 0;
+    text-align:center;
+}
+.book:hover, .reset-book:hover{
+    transition: 0.3s ease;
+    background-color: var(--main_bg);
+}
+.book.maximes-bar{
+    flex: 1 1 100%;
+    padding: 15px;
+    background-color: var(--maxis9_main_bg);
+    color: var(--maxis9_title_color);
+    text-decoration: none;
+}
+.book.maximes-bar:hover{
+    text-transform: uppercase;
 }
 .meals_list {
     display: flex;
@@ -206,14 +239,7 @@ li label input + .element .checkbox{
     border-bottom: 2px solid var(--main_bg);
     color: var(--title_color);
 }
-.meals_list .meals .ingredients{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 30px;
-    
-}
-.meals_list .meals .img{
+.img{
     width: 250px;
     height: 200px;
     position: relative;
@@ -223,14 +249,20 @@ li label input + .element .checkbox{
     margin: 0 auto;
     margin-bottom: 10px;
 }
-.meals_list .meals .ingredients .ingredients_title{
+.ingredients{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;    
+}
+.ingredients .ingredients_title{
     flex: 0 0 100%;
     margin-bottom: -10px;
 }
-.meals_list .meals .ingredients ul{
+.ingredients ul{
     flex: 1 1 calc(50% - 15px);
 }
-.meals_list .meals .preparation{
+.preparation{
     margin-top: 30px;
     margin-bottom: 45px;
 }
@@ -307,11 +339,61 @@ li label input + .element .checkbox{
     font-size: 14px;
     font-weight: bold;
 }
+/* MAXIS9'S BAR */
+.boxed{
+    margin: 0 5vw;
+    border-radius: 10px;
+    background-color: var(--maxis9_card_container);
+    padding: 30px;
+    margin: 0 auto;
+    width: 100%;
+}
+.wrapper{
+    max-width: 800px;
+}
+.maxis9 h2, .maxis9 h3{
+    color: var(--maxis9_title_color);
+    text-align: center;
+}
+.maxis9 .drinks h3{
+    text-align:left;
+}
+.maxis9 .table_title{
+    background-color: var(--maxis9_secondary_color);
+}
+.maxis9 .table_title{
+    color: var(--maxis9_text_color);
+}
+.maxis9 li label input + .element .checkbox{
+    border: 2px solid var(--maxis9_secondary_color);
+}
+li label input:checked + .element .checkbox{
+    background-color: var(--maxis9_secondary_color);
+}
+.drinks{
+    margin-top: 50px;
+}
+.table__drinks{
+    margin-top: 40px;
+    display: block;
+    position: relative;
+}
+.table__drinks .table_meal_title{
+    text-align:left;
+    border-bottom: 2px solid var(--maxis9_secondary_color);
+}
+.table__drinks a{
+    color: var(--maxis9_text_color);
+    text-decoration: none;
+}
+.table__drinks a:hover{
+    color: var(--maxis9_secondary_color);
+}
 @media only screen and (max-width: 900px){
     .meals_table, .meals_list .meals, .search_bar {
         min-width: 100%;
     }
-    .meals_list .meals .ingredients ul{
+    .ingredients ul{
         flex: 0 0 100%;
     }
 }
