@@ -11,6 +11,59 @@ meals = [
     {
         type : "Asian",
         recipes : [
+           
+            {        
+                name:  'Boulettes de porc asiatiques au gingembre et sésame',
+                image: 'https://tfpj-s3.troisfoisparjour.com/app/uploads/2019/11/04090357/boulettes-porc-l-718x1024.jpg',
+                vegetarian: false,
+                tags: 'asian',
+                author: 'Booboos',
+                serves: '4',
+                prep: '15',
+                cook: '9',
+                ingredients: [            
+                    {
+                        group_name : 'Sauce',
+                        ingredients_element : [
+                            '2 oignons verts, émincés',
+                            '1 c. à soupe de gingembre, haché',
+                            '2 c. à soupe de ketchup',
+                            '¼ tasse de sauce soya',
+                            '2 c. à soupe de sirop d’érable',
+                            '1 c. à thé d’huile de sésame',
+                            '1 ½ tasse de bouillon de poulet',
+                            '2 c. à soupe de fécule de maïs, diluée dans ¼ tasse d’eau',
+                            '2 c. à thé de graines de sésame rôties'
+                        ]
+                    },
+                    {
+                        group_name : 'Boulettes',
+                        ingredients_element : [
+                            '2 c. à soupe d’huile végétale',
+                            '2 oignons verts, émincés',
+                            '1 c. à soupe de gingembre, haché',
+                            '2 gousses d’ail, hachées',
+                            '1 œuf',
+                            '½ c. à thé d’huile de sésame',
+                            '1 lb de porc haché',
+                            'Sel et poivre, au goût'
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Dans une grande tasse à mesurer, mélanger tous les ingrédients « pour la sauce », puis réserver.',
+                            'Dans une poêle, à feu moyen, faire chauffer 1 c. à soupe d’huile végétale, puis attendrir les oignons verts, le gingembre et l’ail. Transférer le tout dans un bol et laisser tiédir.',
+                            'Ajouter le reste des ingrédients « pour les boulettes », puis bien mélanger. Avec les mains, façonner de petites boulettes d’environ 1 ½ po de diamètre, puis réserver dans une assiette.',
+                            'Dans la même poêle, à feu moyen, faire chauffer 1 c. à soupe d’huile végétale, puis dorer les boulettes de 6 à 8 minutes.',
+                            'Verser la sauce sur les boulettes, puis couvrir. Laisser mijoter à feu doux de 5 à 6 minutes, ou jusqu’à ce que les boulettes soient cuites au centre, puis servir.'
+                        ]
+                    }
+                ],
+                source: 'https://www.troisfoisparjour.com/fr/recettes/plats-principaux/porc/boulettes-de-porc-asiatiques-sauce-au-gingembre-et-au-sesame/'
+            },
             {        
                 name:  'Vietnamese Caramelised Pork Bowls',
                 image: 'https://www.recipetineats.com/wp-content/uploads/2015/11/Vietnamese-Ground-Pork-Bowls_7.jpg?resize=650,910',
@@ -1198,6 +1251,44 @@ meals = [
                     },
                 ],
                 source: ''
+            },
+            {        
+                name:  'Sweet and Spicy Nooch Coated Tofu',
+                image: 'https://images.squarespace-cdn.com/content/v1/5823c5cfd1758e248a1e2104/1615232739172-50PP07T6RCRHU6TP2F75/Sweet+and+Spicy+Nooch+Coated+Tofu-8.jpg',
+                tags: '',
+                vegetarian: true,
+                author: 'Booboos',
+                serves: '4',
+                prep: '5',
+                cook: '10',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '1/2 cup nutritional yeast (aka nooch)⠀',
+                            '2 tbsp maple syrup⠀',
+                            '2 tbsp tamari⠀',
+                            '1 tbsp rice vinegar ⠀',
+                            '1 tbsp sambal oelek or sriracha⠀',
+                            '1 tsp garlic powder ⠀',
+                            '1 454g block of extra firm tofu⠀',
+                            '1 tsp avocado oil⠀'
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Add nutritional yeast, maple syrup, tamari, rice vinegar, sambal oelek and garlic powder into a bowl. Mix to combine.⠀',
+                            'In the same bowl, break the tofu into bite sized chunks. Toss in the nooch mixture to coat. ⠀',
+                            'Preheat a pan to medium-low heat along with oil.⠀',
+                            'Once hot, drop the tofu and cook until the tofu is golden (about 5-8 minutes), stirring regularly.⠀',
+                            'Serve alongside any grain and other veggies.⠀'
+                        ]
+                    }
+                ],
+                source: 'https://www.muriellebanackissa.com/blog/sweet-and-spicy-nooch-coated-tofu?rq=tofu'
             },
             // TEMPLATE
             {        
