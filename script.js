@@ -1116,6 +1116,44 @@ meals = [
                 ],
                 source: 'https://thefoodietakesflight.com/crispy-tofu-sisig/'
             },
+            {        
+                name:  'Sweet and Spicy Nooch Coated Tofu',
+                image: 'https://images.squarespace-cdn.com/content/v1/5823c5cfd1758e248a1e2104/1615232739172-50PP07T6RCRHU6TP2F75/Sweet+and+Spicy+Nooch+Coated+Tofu-8.jpg',
+                tags: '',
+                vegetarian: true,
+                author: 'Booboos',
+                serves: '4',
+                prep: '5',
+                cook: '10',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '1/2 cup nutritional yeast (aka nooch)⠀',
+                            '2 tbsp maple syrup⠀',
+                            '2 tbsp tamari⠀',
+                            '1 tbsp rice vinegar ⠀',
+                            '1 tbsp sambal oelek or sriracha⠀',
+                            '1 tsp garlic powder ⠀',
+                            '1 454g block of extra firm tofu⠀',
+                            '1 tsp avocado oil⠀'
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Add nutritional yeast, maple syrup, tamari, rice vinegar, sambal oelek and garlic powder into a bowl. Mix to combine.⠀',
+                            'In the same bowl, break the tofu into bite sized chunks. Toss in the nooch mixture to coat. ⠀',
+                            'Preheat a pan to medium-low heat along with oil.⠀',
+                            'Once hot, drop the tofu and cook until the tofu is golden (about 5-8 minutes), stirring regularly.⠀',
+                            'Serve alongside any grain and other veggies.⠀'
+                        ]
+                    }
+                ],
+                source: 'https://www.muriellebanackissa.com/blog/sweet-and-spicy-nooch-coated-tofu?rq=tofu'
+            },
             //TEMPLATE
             {        
                 name:  '',
@@ -1146,6 +1184,15 @@ meals = [
             }
         ]
     },
+    /*
+    :::'###::::'########:::::'###::::'########::'####::'######::
+    ::'## ##::: ##.... ##:::'## ##::: ##.... ##:. ##::'##... ##:
+    :'##:. ##:: ##:::: ##::'##:. ##:: ##:::: ##:: ##:: ##:::..::
+    '##:::. ##: ########::'##:::. ##: ########::: ##:: ##:::::::
+    #########: ##.. ##::: #########: ##.... ##:: ##:: ##:::::::
+    ##.... ##: ##::. ##:: ##.... ##: ##:::: ##:: ##:: ##::: ##:
+    ##:::: ##: ##:::. ##: ##:::: ##: ########::'####:. ######::
+    ..:::::..::..:::::..::..:::::..::........:::....:::......:::*/
     {
         type : "Arabic",
         recipes : [
@@ -1251,44 +1298,6 @@ meals = [
                     },
                 ],
                 source: ''
-            },
-            {        
-                name:  'Sweet and Spicy Nooch Coated Tofu',
-                image: 'https://images.squarespace-cdn.com/content/v1/5823c5cfd1758e248a1e2104/1615232739172-50PP07T6RCRHU6TP2F75/Sweet+and+Spicy+Nooch+Coated+Tofu-8.jpg',
-                tags: '',
-                vegetarian: true,
-                author: 'Booboos',
-                serves: '4',
-                prep: '5',
-                cook: '10',
-                ingredients: [            
-                    {
-                        group_name : '',
-                        ingredients_element : [
-                            '1/2 cup nutritional yeast (aka nooch)⠀',
-                            '2 tbsp maple syrup⠀',
-                            '2 tbsp tamari⠀',
-                            '1 tbsp rice vinegar ⠀',
-                            '1 tbsp sambal oelek or sriracha⠀',
-                            '1 tsp garlic powder ⠀',
-                            '1 454g block of extra firm tofu⠀',
-                            '1 tsp avocado oil⠀'
-                        ]
-                    }
-                ],
-                steps : [
-                    {
-                        group_name : '',
-                        steps_elements : [
-                            'Add nutritional yeast, maple syrup, tamari, rice vinegar, sambal oelek and garlic powder into a bowl. Mix to combine.⠀',
-                            'In the same bowl, break the tofu into bite sized chunks. Toss in the nooch mixture to coat. ⠀',
-                            'Preheat a pan to medium-low heat along with oil.⠀',
-                            'Once hot, drop the tofu and cook until the tofu is golden (about 5-8 minutes), stirring regularly.⠀',
-                            'Serve alongside any grain and other veggies.⠀'
-                        ]
-                    }
-                ],
-                source: 'https://www.muriellebanackissa.com/blog/sweet-and-spicy-nooch-coated-tofu?rq=tofu'
             },
             // TEMPLATE
             {        
