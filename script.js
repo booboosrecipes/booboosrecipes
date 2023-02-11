@@ -13,7 +13,7 @@ meals = [
         recipes : [
            
             {        
-                name:  'Boulettes de porc asiatiques au gingembre et sésame',
+                name:  'Asian ginger and sesame meatballs',
                 image: 'https://tfpj-s3.troisfoisparjour.com/app/uploads/2019/11/04090357/boulettes-porc-l-718x1024.jpg',
                 vegetarian: false,
                 tags: 'asian',
@@ -25,28 +25,28 @@ meals = [
                     {
                         group_name : 'Sauce',
                         ingredients_element : [
-                            '2 oignons verts, émincés',
-                            '1 c. à soupe de gingembre, haché',
-                            '2 c. à soupe de ketchup',
-                            '¼ tasse de sauce soya',
-                            '2 c. à soupe de sirop d’érable',
-                            '1 c. à thé d’huile de sésame',
-                            '1 ½ tasse de bouillon de poulet',
-                            '2 c. à soupe de fécule de maïs, diluée dans ¼ tasse d’eau',
-                            '2 c. à thé de graines de sésame rôties'
+                            '2 green onions, minced',
+                            '1 Tbsp ginger, chopped',
+                            '2 ketchup',
+                            '¼ cup of soy sauce',
+                            '2 Tbsp maple syrup',
+                            '1 sesame oil',
+                            '1 ½ cups of chicken broth',
+                            '2 Tbsp cornstarch, diluted in ¼ cup water',
+                            '2 tsp roasted sesame seeds'
                         ]
                     },
                     {
                         group_name : 'Boulettes',
                         ingredients_element : [
-                            '2 c. à soupe d’huile végétale',
-                            '2 oignons verts, émincés',
-                            '1 c. à soupe de gingembre, haché',
-                            '2 gousses d’ail, hachées',
-                            '1 œuf',
-                            '½ c. à thé d’huile de sésame',
-                            '1 lb de porc haché',
-                            'Sel et poivre, au goût'
+                            '2 Tbsp vegetable oil',
+                            '2 green onions, minced',
+                            '1 Tbsp ginger, chopped',
+                            '2 cloves of garlic, minced',
+                            '1 egg',
+                            '½ tsp sesame oil',
+                            '1 lb ground pork',
+                            'Salt and pepper, to taste'
                         ]
                     }
                 ],
@@ -54,11 +54,11 @@ meals = [
                     {
                         group_name : '',
                         steps_elements : [
-                            'Dans une grande tasse à mesurer, mélanger tous les ingrédients « pour la sauce », puis réserver.',
-                            'Dans une poêle, à feu moyen, faire chauffer 1 c. à soupe d’huile végétale, puis attendrir les oignons verts, le gingembre et l’ail. Transférer le tout dans un bol et laisser tiédir.',
-                            'Ajouter le reste des ingrédients « pour les boulettes », puis bien mélanger. Avec les mains, façonner de petites boulettes d’environ 1 ½ po de diamètre, puis réserver dans une assiette.',
-                            'Dans la même poêle, à feu moyen, faire chauffer 1 c. à soupe d’huile végétale, puis dorer les boulettes de 6 à 8 minutes.',
-                            'Verser la sauce sur les boulettes, puis couvrir. Laisser mijoter à feu doux de 5 à 6 minutes, ou jusqu’à ce que les boulettes soient cuites au centre, puis servir.'
+                            'In a large measuring cup, combine all the ingredients "for the sauce", then set aside.',
+                            'In a skillet over medium heat, heat 1 tbsp. vegetable oil, then soften the green onions, ginger and garlic. Transfer everything to a bowl and let cool.',
+                            'Add the rest of the ingredients “for the dumplings”, then mix well. With your hands, form small balls about 1 ½ inches in diameter, then set aside on a plate.',
+                            'In the same pan, over medium heat, heat 1 tbsp. tablespoon vegetable oil, then brown the meatballs for 6 to 8 minutes.',
+                            'Pour the sauce over the meatballs, then cover. Simmer over low heat for 5 to 6 minutes, or until the meatballs are cooked in the center, then serve.'
                         ]
                     }
                 ],
