@@ -64,7 +64,12 @@ ul, ol {
     list-style-type: none;
     display: flex;
     flex-direction: column;
+}
+ol{
     gap: 10px;
+}
+ul{
+    gap: 5px;
 }
 ol li:first-child{
     margin-top: 10px;
