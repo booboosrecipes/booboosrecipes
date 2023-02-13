@@ -1917,6 +1917,57 @@ meals = [
                 ],
                 source: 'https://www.goodhousekeeping.com/food-recipes/a34221194/mediterranean-chicken-bowls-recipe/'
             },
+            {        
+                name:  'One pot Chicken and Rice',
+                image: 'https://www.budgetbytes.com/wp-content/uploads/2022/05/Chicken-and-Rice-V1-768x1024.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '10',
+                cook: '40',
+                ingredients: [     
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '1.88 lbs. boneless, skinless chicken thighs (4-5 thighs)',
+                            '3 Tbsp cooking oil, divided',
+                            '1.5 yellow onion, diced',
+                            '1.5 cups long-grain white rice (uncooked)',
+                            '2.63 cups vegetable broth',
+                            '1.5 Tbsp chopped parsley (optional garnish)'
+                        ]
+                    },       
+                    {
+                        group_name : 'Spice mix',
+                        ingredients_element : [
+                            '3 tsp paprika',
+                            '1 ½ tsp dried oregano',
+                            '1 ½ tsp dried thyme',
+                            '¾ tsp garlic powder',
+                            '¾ tsp onion powder',
+                            '½ tsp salt',
+                            '½ tsp pepper'
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Combine the paprika, oregano, thyme, garlic powder, onion powder, salt, and pepper in a small bowl. Coat both sides of the chicken thighs in the seasoning mix.',
+                            'Add 1 Tbsp cooking oil to a deep skillet and heat over medium. Once hot, swirl to coat the surface of the skillet, then add the chicken thighs. Cook the thighs for a few minutes on each side, or until well browned. The chicken does not need to be cooked through at this point.',
+                            'Remove the browned chicken to a clean plate. Reduce the heat to medium-low, add an additional 1 Tbsp cooking oil to the skillet, then add the diced onion. Sauté the onion for about 5 minutes, or until softened. Allow the moisture from the onion to dissolve the browned bits from the skillet as you stir.',
+                            'Add the uncooked rice to the skillet and continue to sauté for 1-2 minutes more to toast the rice.',
+                            'Add the vegetable broth to the skillet and briefly stir to dissolve any remaining brown bits from the bottom of the skillet.',
+                            'Return the chicken to the skillet, setting it on top of the rice. Place a lid on the skillet, turn the heat up to medium-high, and allow the broth to come up to a full boil.',
+                            'Once boiling, turn the heat down to low and let the chicken and rice continue to simmer over low, without lifting the lid or stirring, for 20 minutes. After 20 minutes, turn off the heat and let it rest, without lifting the lid, for an additional 5 minutes.',
+                            'Finally, remove the lid and fluff the rice around the chicken. Garnish with chopped parsley, if desired, then serve and enjoy!',
+                        ]   
+                    }
+                ],
+                source: 'https://www.budgetbytes.com/one-pot-chicken-and-rice/'
+            },
              // TEMPLATE
             {        
                 name:  '',
