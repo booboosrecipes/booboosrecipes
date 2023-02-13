@@ -1955,7 +1955,7 @@ meals = [
                     {
                         group_name : '',
                         steps_elements : [
-                            'Combine the paprika, oregano, thyme, garlic powder, onion powder, salt, and pepper in a small bowl. Coat both sides of the chicken thighs in the seasoning mix.',
+                            'Combine season mix ingredients together. Coat both sides of the chicken thighs in the seasoning mix.',
                             'Add 1 Tbsp cooking oil to a deep skillet and heat over medium. Once hot, swirl to coat the surface of the skillet, then add the chicken thighs. Cook the thighs for a few minutes on each side, or until well browned. The chicken does not need to be cooked through at this point.',
                             'Remove the browned chicken to a clean plate. Reduce the heat to medium-low, add an additional 1 Tbsp cooking oil to the skillet, then add the diced onion. Sauté the onion for about 5 minutes, or until softened. Allow the moisture from the onion to dissolve the browned bits from the skillet as you stir.',
                             'Add the uncooked rice to the skillet and continue to sauté for 1-2 minutes more to toast the rice.',
