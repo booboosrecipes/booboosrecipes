@@ -1968,6 +1968,50 @@ meals = [
                 ],
                 source: 'https://www.budgetbytes.com/one-pot-chicken-and-rice/'
             },
+            {        
+                name:  'Veggie stuffed chicken',
+                image: 'https://chefcuisto.com/files/2019/09/poitrine-poulet-brocoli-fromage-1024x728.avif',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4-6',
+                prep: '5',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '1lbs chicken breast (3-4)',
+                            '1 tsp garlic powder',
+                            '1/4 tsp paprika',
+                            '2 Tbsps olive oil'
+                        ]
+                    },
+                    {
+                        group_name : 'Filling',
+                        ingredients_element : [
+                            '1 cup broccoli florets',
+                            '1 red bell pepper',
+                            '1 cup mozarella',
+                            '1 Tbsp mayonnaise'
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [                            
+                            'Preheat oven to 425°F (218°C).',
+                            'Season both sides of chicken breasts with salt, pepper, paprika and 1/2 teaspoon garlic powder.',
+                            'Slice chicken breast in half horizontally',
+                            'In a bowl, combine the filling ingredients. Insert the mixture on the chicken breasts halves.',
+                            'Cover with foil and send to oven for 15-17 minutes or until chicken reaches 165°F',
+                            'Let stand 5 minutes and eat.'
+                        ]
+                    }
+                ],
+                source: 'https://chefcuisto.com/recette/poitrine-de-poulet-farci-aux-legumes-et-fromage/'
+            },
              // TEMPLATE
             {        
                 name:  '',
