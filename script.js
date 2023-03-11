@@ -3840,6 +3840,16 @@ meals = [
         ]
     }    
 ]
+/*
+'########:::::'###::::'########::
+ ##.... ##:::'## ##::: ##.... ##:
+ ##:::: ##::'##:. ##:: ##:::: ##:
+ ########::'##:::. ##: ########::
+ ##.... ##: #########: ##.. ##:::
+ ##:::: ##: ##.... ##: ##::. ##::
+ ########:: ##:::: ##: ##:::. ##:
+........:::..:::::..::..:::::..::*/
+
 let bar = [
     {
         type : "Smoothie",
@@ -3885,10 +3895,43 @@ let bar = [
                     }
                 ],
                 source: 'https://www.simplymaderecipes.com/strawberry-vodka-slush/'
+            },
+            {        
+                name:  'Whiskey Sour',
+                image: 'https://www.liquor.com/thmb/rSW8d-pqfyCGrTNAI4rmhfB9BWI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/whiskey-sour-720x720-primary-v2-4fc831b613964da5a19cdbfda917d7df.jpg',
+                serves: '1',
+                prep: '5',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '2oz Bourbon Whiskey',
+                            '1oz Lemon Juice',
+                            '1/2oz Simple Syrup',
+                            '1/2oz Egg White',
+                            'Ice'
+                        ]
+                    },
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Mix all ingredients in shaker",
+                            "Shake for 30 seconds",
+                            "Strain over ice in cocktail style glass",
+                            "Add 1 dash of Angostura bitters on top",
+                            "Enjoy!"
+                        ]
+                    }
+                ],
+                source: ''
             }
         ]
     }
 ]
+
+
 
 if(document.querySelector('.meals_table') !== null) {
     let meals_html = '';
