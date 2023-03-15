@@ -10,8 +10,7 @@ meals = [
     ..:::::..:::......:::....::..:::::..::..::::..::*/
     {
         type : "Asian",
-        recipes : [
-           
+        recipes : [           
             {        
                 name:  'Asian ginger and sesame meatballs',
                 image: 'https://tfpj-s3.troisfoisparjour.com/app/uploads/2019/11/04090357/boulettes-porc-l-718x1024.jpg',
@@ -1154,6 +1153,51 @@ meals = [
                 ],
                 source: 'https://www.muriellebanackissa.com/blog/sweet-and-spicy-nooch-coated-tofu?rq=tofu'
             },
+            {        
+                name:  'Teriyaki meatballs',
+                image: 'https://chefcuisto.com/files/2016/01/boulettes-de-viande-teriyaki-fb.avif',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '22 meatballs (6-7 portions)',
+                prep: '10',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : 'Meatballs',
+                        ingredients_element : [
+                            '1 lb (453 g) lean ground beef',
+                            '1 lb (453 g) ground pork',
+                            '1 egg',
+                            '1 Tbsp minced garlic',
+                            '1/2 cup (125 mL) panko breadcrumbs',
+                            '3 Tbsp teriyaki sauce',
+                            '3 green onions, finely chopped',
+                            'Salt and freshly ground pepper'
+                        ]
+                    },
+                    {
+                        group_name : 'Sauce',
+                        ingredients_element : [
+                            '1/2 cup (125 ml) teriyaki sauce',
+                            '2 shallots, chopped',
+                            '2 Tbsp sesame seeds'
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Preheat the oven to 400°F (200°C). Get out a baking sheet and lay a sheet of parchment paper on it.',
+                            'In a large bowl, mix all the meatball ingredients together and shape into 1-inch or 1.5-inch meatballs depending on your preference.',
+                            'Place meatballs on parchment paper. Bake for 20 minutes or until cooked through.',
+                            'Dip meatballs in Teriyaki sauce and sprinkle with green onions and sesame seeds. Serve with rice.'
+                        ]
+                    }
+                ],
+                source: 'https://chefcuisto.com/recette/boulettes-de-viande-teriyaki/'
+            },
             //TEMPLATE
             {        
                 name:  '',
@@ -2012,6 +2056,42 @@ meals = [
                 ],
                 source: 'https://chefcuisto.com/recette/poitrine-de-poulet-farci-aux-legumes-et-fromage/'
             },
+            {        
+                name:  'Garlic Butter Pork Chop',
+                image: 'https://theforkedspoon.com/wp-content/uploads/2019/08/Pork-Chops-3-500x500.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '5',
+                cook: '10',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '4 bone-in pork chops',
+                            'coarse salt - to season',
+                            'freshly ground black pepper - to season',
+                            '1 tablespoon olive oil',
+                            '3 tablespoon butter - divided',
+                            '2 springs fresh thyme - (plus 1 tbsp fresh chopped thyme, stems removed)',
+                            '6 cloves garlic - minced'
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Season - Generously season both sides of pork chops with salt and pepper.',
+                            'Cook - Heat the olive oil in a large skillet over medium-high heat. Once the pan is hot, and the chops, 2 tablespoons butter, and 2-3 sprigs of fresh thyme to the skillet. Cook the pork chops for 3-4 minutes on each side, or until the outside is golden and the internal temperature reads 145°F (or a little below) with a digital meat thermometer.',
+                            'Add the remaining butter, garlic, and thyme - Add the remaining butter, minced garlic, and chopped thyme to the skillet. Use a spoon to drizzle the garlic butter sauce over the pork chops before flipping the pork chops over and spooning the garlic butter over the pork chops on the other side. Repeat for 1-2 minutes.',
+                            'Serve - Immediately remove pork chops from the skillet and serve with all your favorite sides. Enjoy!'
+                        ]
+                    }
+                ],
+                source: 'https://theforkedspoon.com/pork-chop-recipe/'
+            },
              // TEMPLATE
             {        
                 name:  '',
@@ -2265,6 +2345,52 @@ meals = [
                     }
                 ],
                 source: 'https://recipe30.com/crispy-oven-fried-chicken.html/'
+            },
+            {        
+                name:  'Grilled Chicken Caesar Wrap',
+                image: 'https://cookingwithcocktailrings.com/wp-content/uploads/2022/07/Grilled-Chicken-Caesar-Wrap-46.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '10',
+                cook: '30',
+                ingredients: [            
+                    {
+                        group_name : 'Chicken',
+                        ingredients_element : [
+                            '1 lb chicken breasts',
+                            '½ tsp garlic powder',
+                            'Kosher salt, as needed',
+                            'Freshly ground black pepper, as needed',
+                            '1 tablespoon vegetable oil'
+                        ]
+                    },
+                    {
+                        group_name : 'Caesar salad assembly',
+                        ingredients_element : [
+                            '2 shredded romaine lettuce',
+                            '¼ cup Caesar dressing, homemade or store-bought',
+                            '1/3 cup freshly grated Parmesan cheese',
+                            '½ pound bacon, cooked and crumbled into pieces',
+                            '½ cup croutons, Homemade or store-bought, gently crushed',
+                            '4 extra-large flour tortillas warmed'
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Using a mallet or rolling pin, gently pound out the chicken to ½” thickness. Toss the chicken in garlic powder, salt and pepper until evenly coated.',
+                            'Heat grill to 450ºF (230ºC) or grill pan to medium-high heat. Brush the grates with vegetable oil then add the chicken breasts and grill until grill marks appear on the under-side and the chicken is about halfway cooked, about 3 to 5 minutes.',
+                            'Flip and continue to grill the chicken until it’s cooked through, about an additional 3 to 5 minutes. Remove and let sit for 10 minutes, then slice into 1” strips and set aside.',
+                            'In a bowl, toss all Caesar salad ingedients together.',
+                            'Roll the tortillas like the pro that you are.'
+                        ]
+                    }
+                ],
+                source: 'https://cookingwithcocktailrings.com/grilled-chicken-caesar-wrap/'
             },
             // TEMPLATE
             {        
@@ -2978,6 +3104,49 @@ meals = [
                     }
                 ],
                 source: 'https://pinchofyum.com/millionaire-gnocchi'
+            },
+            {        
+                name:  'Vegetarian chinese macaroni',
+                image: 'https://larecetteparfaite.com/wp-content/uploads/2021/08/F29C6CF6-7B60-41F5-BB92-5EC016EB3704-1170x1463.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '20',
+                cook: '15',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '260g macaroni',
+                            '1 C. canola oil',
+                            '1 onion, chopped',
+                            '1 green bell pepper, diced',
+                            '1 red bell pepper, diced',
+                            '2 celery stalks, thinly sliced',
+                            '2 garlic cloves, minced',
+                            '340 g of vegetable mince',
+                            '1 C. steak spice',
+                            '3/4 cup water',
+                            '1/4 cup soy sauce',
+                            'Pepper'
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Cook macaroni as directed on package.',
+                            'Meanwhile, in a large skillet, heat the oil over medium heat and cook the onion, peppers and celery for 5 minutes.',
+                            'Add ground round, garlic and steak spices. Cook for 2 minutes.',
+                            'Add water and soy sauce.',
+                            'Over medium-high heat, bring to a boil, then reduce heat to low and simmer uncovered for 5 minutes.',
+                            'Add the pasta, pepper and let stand for 1 minute.'
+                        ]
+                    }
+                ],
+                source: 'https://larecetteparfaite.com/2020/02/19/macaroni-chinois/'
             },
             // TEMPLATE
             {        
