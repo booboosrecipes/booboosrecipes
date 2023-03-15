@@ -3109,7 +3109,7 @@ meals = [
                 name:  'Vegetarian chinese macaroni',
                 image: 'https://larecetteparfaite.com/wp-content/uploads/2021/08/F29C6CF6-7B60-41F5-BB92-5EC016EB3704-1170x1463.jpg',
                 tags: '',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Booboos',
                 serves: '4',
                 prep: '20',
