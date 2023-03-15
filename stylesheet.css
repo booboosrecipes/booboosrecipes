@@ -401,7 +401,7 @@ li label input + .element .checkbox{
 .maxis9 li label input + .element .checkbox{
     border: 2px solid var(--maxis9_secondary_color);
 }
-li label input:checked + .element .checkbox{
+.maxis9 li label input:checked + .element .checkbox{
     background-color: var(--maxis9_secondary_color);
 }
 .drinks{
