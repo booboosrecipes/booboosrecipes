@@ -1198,6 +1198,84 @@ meals = [
                 ],
                 source: 'https://chefcuisto.com/recette/boulettes-de-viande-teriyaki/'
             },
+            {        
+                name:  'Orange chicken',
+                image: 'https://christieathome.com/wp-content/uploads/2022/01/Orange-Chicken-10.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '15',
+                cook: '15',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '2 lb boneless skinless chicken thighs',
+                            '0.5 cup cornstarch or sub with potato starch/tapioca starch',
+                            '0.67 cup vegetable oil or any neutral tasting oil'
+                        ]
+                    },
+                    {
+                        group_name : 'Sauce',
+                        ingredients_element : [
+                            '2 cup freshly squeezed orange juice, pulp removed',
+                            '4 tablespoon white vinegar or rice vinegar',
+                            '0.5 cup + 2 tbsp brown sugar',
+                            '4 tablespoon regular soy sauce',
+                            '4 teaspoon garlic minced',
+                            '0.5 teaspoon ginger powder',
+                            '2 tablespoon cornstarch',
+                            '1 tsp red chili flakes',
+                        ]
+                    },
+                    {
+                        group_name : 'Optional garnish',
+                        ingredients_element : [
+                            '4 tablespoon green onion finely chopped',
+                            '2 Tbsp orange zest grated',
+                            '2 tsp sesame seeds toasted',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'In a small bowl, combine sauce ingredients. Mix well and set aside.',
+                            'Do not pat chicken thighs dry, some moisture is needed for the next step (See Notes below for more information). Slice thighs into bite size pieces, about 1.5 x 1.5-inch-wide pieces (about 6-8 pcs per thigh, depending on size).',
+                            'Transfer pieces of chicken into a large bowl, followed by cornstarch. Mix to coat each piece evenly with tongs.',
+                            'Choose one of the two following methodsto fry chicken:'
+                        ]
+                    },
+                    {
+                        group_name : 'Option 01: Frying the chicken in oil',
+                        steps_elements : [
+                            'In a wok, heat oil until hot enough (To test, insert a wooden chopstick into the oil and look for bubbles. If you see bubbles, the oil is hot.).',
+                            'Allow pieces to sear and form a golden crust, about 5-6 minutes on each side',
+                            'Remove and transfer fried chicken onto a wire rack resting on a baking sheet'
+                        ]
+                    },
+                    {
+                        group_name : 'Option 02: Air-frying the chicken',
+                        steps_elements : [
+                            'Lightly spray air fryer basket with oil.',
+                            'Lay coated chicken into air fryer basket in a single layer giving each piece enough space. Air fry in batches if needed.',
+                            'Lightly spray coated chicken with oil.',
+                            'Air fry at 400F for 12-14 minutes until golden crispy brown (the amount of time depends on your air fryer).'
+                        ]
+                    },
+                    {
+                        group_name : 'Making the sauce',
+                        steps_elements : [
+                            'In a small bowl, combine sauce ingredients. Mix well and set aside.',
+                            'Do not pat chicken thighs dry, some moisture is needed for the next step (See Notes below for more information). Slice thighs into bite size pieces, about 1.5 x 1.5-inch-wide pieces (about 6-8 pcs per thigh, depending on size).',
+                            'Transfer pieces of chicken into a large bowl, followed by cornstarch. Mix to coat each piece evenly with tongs.',
+                        ]
+                    }
+                ],
+                source: 'https://christieathome.com/blog/orange-chicken/'
+            },
             //TEMPLATE
             {        
                 name:  '',
@@ -2092,7 +2170,58 @@ meals = [
                 ],
                 source: 'https://theforkedspoon.com/pork-chop-recipe/'
             },
-             // TEMPLATE
+            {        
+                name:  'Creamy chicken casserole with garlic and citrus',
+                image: 'https://chefcuisto.com/files/2019/06/casserole-poulet-cremeux-ail-citron-1024x766.avif',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '10',
+                cook: '20',
+                ingredients: [      
+                    {
+                        group_name : 'Sauce mix',
+                        ingredients_element : [
+                            '4 chicken breasts',
+                            'Salt and freshly ground pepper',
+                            '1 Tbsp olive oil',
+                            '2 Tbsps butter',
+                            '1/4 cup (65 ml) 35% cream',
+                            '2 Tbsps parsley or basil finely cut'
+                        ]
+                    },      
+                    {
+                        group_name : 'Broth mixture',
+                        ingredients_element : [
+                            '1 cup (250 ml) chicken broth',
+                            '2 tbsp lemon juice',
+                            '1 tbsp minced garlic clove',
+                            '1/2 tsp cayenne pepper flakes',
+                            '1/3 cup (90 ml) shallots, minced'
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Press or cut the chicken breasts to obtain a thickness of about 1/2 inch. Sprinkle salt and pepper on both sides of the chicken pieces.',
+                            'In a measuring cup, combine broth mixture ingredients.',
+                            'Preheat the oven to 375°F (190°C)',
+                            'Heat the olive oil in a saucepan over medium high heat.',
+                            'Add the chicken and sear for 2 to 3 minutes on each side. Set the chicken aside.',
+                            'Reduce the heat to medium, add the broth mixture to the pot.',
+                            'Reduce for 8 to 10 minutes, stirring regularly, until about 1/3 of the sauce remains.',
+                            'Remove from the heat, add the butter and mix until it is completely incorporated. Add the cream and mix well.',
+                            'Return the chicken pieces to the pot and toss well to ensure they are well coated with the sauce.',
+                            'Place the pan in the oven for 5 to 8 minutes or until the chicken is cooked through. Garnish with the herbs.'
+                        ]
+                    }
+                ],
+                source: 'https://chefcuisto.com/recette/casserole-de-poulet-cremeux-ail-citron/'
+            },
+            // TEMPLATE
             {        
                 name:  '',
                 image: '',
@@ -3339,7 +3468,60 @@ meals = [
                     }
                 ],
                 source: 'https://www.pressurecookrecipes.com/instant-pot-red-beans-and-rice/'
-            },            
+            },      
+            {        
+                name:  'Tomato Herb Rice with White Beans and Spinach',
+                image: 'https://www.budgetbytes.com/wp-content/uploads/2016/10/Tomato-Herb-Rice-with-White-Beans-and-Spinach-V-768x1024.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '10',
+                cook: '45',
+                ingredients: [            
+                    {
+                        group_name : 'Herb mix',
+                        ingredients_element : [
+                            '2 Tbsp olive oil',
+                            '2 cloves garlic, minced',
+                            '1/2 tsp dried oregano',
+                            '1/2 tsp dried basil',
+                            '1/4 tsp dried thyme',
+                            '1/4 tsp dried rosemary',
+                            '1 pinch crushed red pepper',
+                            'Freshly cracked black pepper'
+                        ]
+                    },
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '3 oz. tomato paste (about 1/4 cup)',
+                            '1/2 tsp brown sugar',
+                            '1/4 tsp salt',
+                            '1 yellow onion',
+                            '1 15oz. can fire roasted diced tomatoes',
+                            '1 15oz. can cannellini beans',
+                            '1/4 lb. frozen chopped spinach',
+                            '1 cup uncooked long grain white rice',
+                            '1.5 cups vegetable broth',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Place the spinach in a bowl and allow it to thaw slightly as you prepare the beginning of the recipe.',
+                            'Add herb mix to a heavy bottomed pot or deep skillet. Sauté over medium-low heat for about one minute.',
+                            'Add the tomato paste and brown sugar to the pot and continue to sauté for 2-3 minutes, or until the tomato paste takes on a deep burgundy color. Add the onion and salt and continue to sauté for a few minutes more, or until the onions become soft and transparent.',
+                            'Add the diced tomatoes (with juices), cannellini beans, spinach, and uncooked rice to the pot. Pour in the vegetable broth and stir briefly to combine the ingredients.',
+                            'Place a lid on the pot and turn the heat up to medium-high. Allow the contents to come up to a boil. Once it reaches a boil, turn the heat down to the lowest setting that allows the liquid to maintain a simmer. Let the pot simmer for 15-20 minutes, or until most of the liquid is absorbed (there may still be some around the edges. Turn the heat off and let the pot rest, undisturbed, for 10 additional minutes.',
+                            'Finally, fluff the contents of the pot with a fork, making sure to not stir vigorously. Serve immediately.'
+                        ]
+                    }
+                ],
+                source: 'https://www.budgetbytes.com/tomato-herb-rice-with-white-beans-and-spinach/'
+            },      
             // TEMPLATE
             {        
                 name:  '',
