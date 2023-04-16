@@ -3473,7 +3473,7 @@ meals = [
                 name:  'Tomato Herb Rice with White Beans and Spinach',
                 image: 'https://www.budgetbytes.com/wp-content/uploads/2016/10/Tomato-Herb-Rice-with-White-Beans-and-Spinach-V-768x1024.jpg',
                 tags: '',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Booboos',
                 serves: '6',
                 prep: '10',
