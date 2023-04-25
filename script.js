@@ -895,7 +895,7 @@ meals = [
             {        
                 name:  'Lok Lak de Yeiyei',
                 image: 'https://i.pinimg.com/originals/a1/58/c6/a158c6220aa740f5b5a98d28ef83b43e.jpg',
-                tags: 'asian',
+                tags: 'Summer, fresh, salad',
                 vegetarian: false,
                 author: 'Grace',
                 serves: '5',
@@ -1275,6 +1275,70 @@ meals = [
                     }
                 ],
                 source: 'https://christieathome.com/blog/orange-chicken/'
+            },
+            {        
+                name:  'Bún Thịt Nướng (Vietnamese Grilled Pork with Rice Noodles)',
+                image: 'https://i0.wp.com/tarasmulticulturaltable.com/wp-content/uploads/2015/01/Bun-Thit-Nuong-3-of-3.jpg',
+                tags: 'Salad, fresh, summer',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '30',
+                cook: '10',
+                ingredients: [            
+                    {
+                        group_name : 'Thịt Nướng (Pork)',
+                        ingredients_element : [
+                            "2 tablespoons soy sauce",
+                            "1 tablespoon fish sauce",
+                            "1 tablespoon honey",
+                            "1 tablespoon dark brown sugar",
+                            "2 small shallots (3-4 tablespoons), peeled and minced",
+                            "1 stalk lemongrass bruised with the flat side of a knife, fibrous layers discarded, and finely minced",
+                            "4 garlic cloves finely minced",
+                            "2 green onions finely chopped",
+                            "3 tablespoons finely chopped cilantro",
+                            "1 teaspoon freshly ground black pepper",
+                            "1 pound pork shoulder (thinly sliced into 2-3 inch strips)",
+                        ]
+                    },
+                    {
+                        group_name : 'Seasoned fish sauce',
+                        ingredients_element : [
+                            "1/2 cup fish sauce",
+                            "1/2 cup water",
+                            "1/3 cup granulated sugar",
+                            "1/4 cup distilled white vinegar lemon, or lime juice",
+                            "2 garlic cloves minced",
+                            "1-2 red Thai chiles stem removed and minced",
+                        ]
+                    },
+                    {
+                        group_name : 'To assemble',
+                        ingredients_element : [
+                            "2 medium carrots peeled and julienned",
+                            "1 large cucumber peeled and julienned",
+                            "8 ounces Bun rice noodles cooked and refrigerated",
+                            "Fresh lettuce thinly sliced",
+                            "Fresh bean sprouts",
+                            "Fresh cilantro",
+                            "Roasted peanuts (crushed)",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : 'Prepare pork',
+                        steps_elements : [
+                            "In a large bowl or large ziploc bag, combine all pork marinade ingredients. Add the pork, tossing to coat thoroughly. Refrigerate 30-45 minutes",
+                            "In a soup container, whisk together seasoned fish sauce ingredients until sugar dissolves. Whisk in garlic and chiles. Cover and refrigerate until ready to assemble.",
+                            "After pork is done marinating, place a grill over medium high heat. Lightly grease with oil. Remove the pork from the refrigerator and allow to sit at room temperature 5-10 minutes.",
+                            "Once the grill/skillet is heated, grill the meat in a single layer in batches until browned, 1-2 minutes. Flip to brown the other side, another 1-2 minutes. Repeat with remaining pork.",
+                            "Divide cooked rice noodles among serving bowls. Top with lettuce, cilantro, and bean sprouts, then carrots/cucumber and grilled pork. Sprinkle with peanuts and serve immediately with nuoc cham.",
+                        ]
+                    }
+                ],
+                source: 'https://tarasmulticulturaltable.com/bun-thit-nuong-vietnamese-grilled-pork-with-rice-noodles/'
             },
             //TEMPLATE
             {        
@@ -1795,7 +1859,7 @@ meals = [
                 image: 'https://www.eatwell101.com/wp-content/uploads/2019/09/Garlic-Butter-Turkey-with-Cauliflower-recipe-2.jpg',
                 vegetarian: false,
                 author: 'Booboos',
-                tags: '',
+                tags: 'Light, low-carb, keto, paleo',
                 serves: '4',
                 prep: '10',
                 cook: '20',
@@ -2003,7 +2067,7 @@ meals = [
             {        
                 name:  'Mediterranean Chicken Bowls',
                 image: 'https://hips.hearstapps.com/hmg-prod/images/mediterranean-chicken-bowls-1613759607.jpg',
-                tags: '',
+                tags: 'Light, low-carb, ',
                 vegetarian: false,
                 author: 'Booboos',
                 serves: '4',
@@ -2267,7 +2331,7 @@ meals = [
                 name: 'Creamy Tzatziki Wrap Chicken',
                 image: 'https://simply-delicious-food.com/wp-content/uploads/2019/04/tzatziki-chicken-wraps-3.jpg',
                 vegetarian: false,
-                tags: '',
+                tags: 'Summer, fresh, salad',
                 author: 'Booboos',
                 serves: '4',
                 prep: '10',
@@ -2478,7 +2542,7 @@ meals = [
             {        
                 name:  'Grilled Chicken Caesar Wrap',
                 image: 'https://cookingwithcocktailrings.com/wp-content/uploads/2022/07/Grilled-Chicken-Caesar-Wrap-46.jpg',
-                tags: '',
+                tags: 'Summer, fresh, salad',
                 vegetarian: false,
                 author: 'Booboos',
                 serves: '4',
@@ -2898,7 +2962,7 @@ meals = [
             {        
                 name:  'Penne with Tomato Pesto & Mozzarella',
                 image: 'https://media.self.com/photos/5d8e268e29ac84000828a020/4:3/w_728,c_limit/penne-tomato-pesto-smoked-mozzarella.jpg',
-                tags: '',
+                tags: 'Summer, fresh, salad',
                 vegetarian: true,
                 author: 'Booboos',
                 serves: '4',
@@ -3674,6 +3738,45 @@ meals = [
                 ],
                 source: 'www.kraftcanada.com'
             },
+            {        
+                name:  'Sole Meunière',
+                image: 'https://healthyrecipesblogs.com/wp-content/uploads/2022/07/sole-meuniere-2-NEW.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '10',
+                cook: '10',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "2 (4-ounce) sole fillets skinless, boneless, patted dry (flounder works too)",
+                            "½ teaspoon Diamond Crystal kosher salt",
+                            "¼ teaspoon black pepper",
+                            "¼ teaspoon garlic powder",
+                            "¼ cup blanched almond flour (or all-purpose flour)",
+                            "1 tablespoon clarified butter",
+                            "1 tablespoon butter",
+                            "½ tablespoon lemon juice freshly squeezed",
+                            "1 tablespoon minced parsley",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Heat your oven on the “keep warm” setting (150 degrees F).",
+                            "Season both sides of the fish with kosher salt, black pepper, and garlic powder. Sprinkle 2 tablespoons of almond flour on each fillet, 1 tablespoon per side, and use your hand to gently spread to coat.",
+                            "In a large 12-inch nonstick skillet over medium-high heat, heat the clarified butter. Swirl or brush to coat. Place the fish pieces in the skillet and cook them until just done, about 2 minutes per side. Lower the heat to medium in the pan overheats. Transfer the cooked fish to oven-safe plates and keep them in the warm oven.",
+                            "Carefully wipe the skillet clean with paper towels. Add the butter. Heat the butter over medium-high heat, swirling to melt. Cook until the butter starts to brown, about 1 minute, then immediately remove the skillet from the heat and stir in the lemon juice.",
+                            "Remove the plates from the oven. Pour the butter-lemon sauce over the fish pieces and sprinkle them with parsley. Serve with vegetable of choice (asparagus, cauliflower) and rice.",
+                        ]
+                    }
+                ],
+                source: 'https://healthyrecipesblogs.com/fried-sole-recipe/'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -3720,7 +3823,7 @@ meals = [
             {        
                 name:  'Chicken Caesar salad',
                 image: 'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/3/3/0/FNM_040110-W-N-Dinners-015_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371591380107.jpeg',
-                tags: '',
+                tags: 'Summer, salad, fresh',
                 vegetarian: false,
                 author: 'Booboos',
                 serves: '4',
@@ -4087,7 +4190,7 @@ meals = [
             {        
                 name:  'Chaudrée de goberge',
                 image: 'https://producteurslaitiersducanada.ca/sites/default/files/styles/recipe_image/public/image_file_browser/conso_recipe/classic-maritime-seafood-chowder.jpg.jpeg?itok=CLkNqthF',
-                tags: 'seafood',
+                tags: 'Seafood',
                 vegetarian: false,
                 author: 'Grace',
                 serves: 'x',
@@ -4359,6 +4462,7 @@ if(document.querySelector('.meals_table') !== null) {
                             ${steps_html}
                         </div>
                         <span class="source">Source : ${recipe.source}</span>
+                        <span class="tags">${recipe.tags}</span>
                     </div>
                 `
             }

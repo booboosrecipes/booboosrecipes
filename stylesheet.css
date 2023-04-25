@@ -252,6 +252,12 @@ li label input + .element .checkbox{
     text-align: center;
     line-height: 16px;
 }
+.tags{
+    margin-top: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 12px;
+}
 .table_meal_title{
     border-bottom: 2px solid var(--main_bg);
     color: var(--title_color);
