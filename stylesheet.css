@@ -412,6 +412,9 @@ li label input + .element .checkbox{
 }
 .drinks{
     margin-top: 50px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
 }
 .table__drinks{
     margin-top: 40px;

@@ -4352,7 +4352,7 @@ let bar = [
             },
             {        
                 name:  'Whiskey Sour',
-                image: 'https://www.liquor.com/thmb/rSW8d-pqfyCGrTNAI4rmhfB9BWI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/whiskey-sour-720x720-primary-v2-4fc831b613964da5a19cdbfda917d7df.jpg',
+                image: 'https://www.lemontreedwelling.com/wp-content/uploads/2020/01/whiskey-sour-20.jpg',
                 serves: '1',
                 prep: '5',
                 ingredients: [            
@@ -4638,15 +4638,17 @@ if(document.querySelector('.drinks') !== null) {
 
             if(recipe.name !== '' && recipe.name !== null){
                 drinks_html += `
-                    <div class="drink" id="${id}">
+                    <div class="drink boxed" id="${id}">
                         <h2 class="title">${title}</h2>
                         <div class="img" style="background-image:url(${recipe.image})"></div>
                         <div class="meals_infos">
                             <span>Servings: ${recipe.serves} drinks
                         </div>
-                        <div class="ingredients">
+                        <div class="ingredients_wrapper">
                             <h3 class="ingredients_title">INGREDIENTS</h3>
-                            ${group_html}
+                            <div class="ingredients">
+                                ${group_html}
+                            </div>
                         </div>
                         <div class="preparation">
                             <h3 class="ingredients_title">PREPARATION</h3>
