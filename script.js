@@ -1340,6 +1340,143 @@ meals = [
                 ],
                 source: 'https://tarasmulticulturaltable.com/bun-thit-nuong-vietnamese-grilled-pork-with-rice-noodles/'
             },
+            {        
+                name:  'Spicy Garlic Fried Chicken',
+                image: 'https://www.maangchi.com/wp-content/uploads/2016/02/kkanpunggi-1-590x358.jpg',
+                tags: 'Korean-Chinese, Asian',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4-6',
+                prep: '20',
+                cook: '30-40',
+                ingredients: [            
+                    {
+                        group_name : 'Chicken',
+                        ingredients_element : [
+                            "1 pound chicken breast, cut into bite size small pieces",
+                            "1 tsp minced ginger",
+                            "2 tsp soy sauce",
+                            "1/2 tsp ground black pepper",
+                            "1 cup potato starch (or corn starch)",
+                            "1 egg"
+                        ]
+                    },
+                    {
+                        group_name : 'Spicy garlic- and leek-infused oil',
+                        ingredients_element : [
+                            "1/2 cup vegetable or corn oil",
+                            "1 cup thinly shredded leek",
+                            "8 garlic cloves minced",
+                            "2 Tbsps coarse red chili flakes"
+                        ]
+                    },
+                    {
+                        group_name : 'Vegetables and seasonings',
+                        ingredients_element : [
+                            "3-4 fresh red chili pepper, deseeded, sliced thinly",
+                            "2 green onions, chopped",
+                            "1 medium sized onion, chopped"
+                        ]
+                    },
+                    {
+                        group_name : 'Sweet and sour sauce (combined)',
+                        ingredients_element : [
+                            "2 Tbsp soy sauce",
+                            "4 Tbsps water",
+                            "4 Tbsps rice syrup (or sugar)",
+                            "2 Tbsp white vinegar",
+                            "2 tsp potato starch"
+                        ]
+                    },
+                    {
+                        group_name : 'Oil',
+                        ingredients_element : [
+                            "1 cup cooking oil (grapeseed oil, vegetable oil, or corn oil)",
+                            "1 teaspoon toasted sesame oil"
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : 'Prep the chicken',
+                        steps_elements : [
+                            "Combine the chicken, ginger, soy sauce, and ground black pepper in a bowl. Mix well with a spoon and let sit for 10 to 20 minutes.",
+                            "Add the egg white and ½ cup potato starch. Mix well by hand."
+                        ]
+                    },
+                    {
+                        group_name : 'Prep the spicy garlic-infused oil',
+                        steps_elements : [
+                            "Heat up a small pan with ¼ cup cooking oil. When the oil is heated, lower the heat to medium and add the garlic and leek. Stir them with a wooden spoon for a couple of minutes until the garlic and leek turn light golden brown and crispy.",
+                            "Strain oil to remove garlic and leeks into a plate (do not discard).",
+                            "Turn off the heat and add the chili pepper flakes to the hot oil. Stir it and let it cool for a few minutes. Strain the oil.",
+                        ]
+                    },
+                    {
+                        group_name : 'Fry the chicken',
+                        steps_elements : [
+                            "Heat up 1 cup of cooking oil in a 12 inch in a wok for 3-4 minutes over high heat (335-350°F).",
+                            "Fry the chicken. When the bottom of a piece of chicken turns crunchy and light golden brown, turn it over with your tongs. It’s ok if the skillet is crowded, but split the chicken pieces with your tongs if they get stuck together. Keep rotating the chicken pieces and turning them over so they’re cooked evenly, about 5 minutes.",
+                            "When done frying all batches of chicken, rinse Wok and discard oil."
+                        ]
+                    },
+                    {
+                        group_name : 'Assembly',
+                        steps_elements : [
+                            "Heat up the wok. Add the spicy garlic leek infused oil. When the oil is heated, add all vegetables. Stir over medium high heat until the onion starts turning crispy for about 2 to 3 minutes.",
+                            "Add the sweet and sour sauce and stir it for about 20 to 30 seconds. Turn off the heat.",
+                            "Reheat the sauce until it’s sizzling. Add the chicken, the fried leek and garlic, and a drop of toasted sesame oil. Stir and mix to coat the chicken."
+                        ]
+                    }
+                ],
+                source: 'https://www.maangchi.com/recipe/kkanpunggi'
+            },
+            {        
+                name:  'Japanese Onigiris',
+                image: 'https://christieathome.com/wp-content/uploads/2020/07/Tuna-Onigiri1-300x300.jpg',
+                tags: 'Asian, summer, sandwich',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '8-10 onigiris',
+                prep: '10',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : 'Rice',
+                        ingredients_element : [
+                            "2 cups uncooked rice",
+                            "2 cups water",
+                            "1 tsp sesame oil",
+                            "2 tsp sesame seeds",
+                            "¼ tsp salt",
+                            "2-3 sheets nori",
+                        ]
+                    },
+                    {
+                        group_name : 'Tuna filling (mixed together)',
+                        ingredients_element : [
+                            "1 canned tuna",
+                            "2 Tbsp mayonnaise Japanese kind if available",
+                            "1 Tbsp Sriracha",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : 'Rice',
+                        steps_elements : [
+                            "Cook the rice with the water in a rice cooker. After it's cooked, mix your cooked rice, sesame oil, salt and sesame seeds until well combined."
+                        ]
+                    },
+                    {
+                        group_name : 'Assembly (with onigiri molds)',
+                        steps_elements : [
+                            "Put rice in mold, about half filled with rice. Flatten with small spoon. Put about 1 tablespoon of filling, and flatten gain with spoon. Put rice to cover the filling, flatten and close mold. Press, then tap the onigiri mold to make them come out."
+                        ]
+                    }
+                ],
+                source: 'https://christieathome.com/blog/japanese-tuna-onigiri/'
+            },
             //TEMPLATE
             {        
                 name:  '',
