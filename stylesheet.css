@@ -364,7 +364,10 @@ li label input + .element .checkbox{
     margin-bottom: 25px;
 }
 .search_bar .description{
-    margin-top: 15px;
+    margin-top: 30px;
+}
+.search_bar .description p{
+    margin: 0;
 }
 .author{
     font-weight: bold;
