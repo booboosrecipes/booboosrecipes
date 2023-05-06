@@ -1652,6 +1652,86 @@ meals = [
             }
         ]
     },
+    {
+        type : "Turkish",
+        recipes : [      
+            {        
+                name:  'Veal stew with tomatoes and peppers',
+                image: 'pepper.jpg',
+                tags: 'turkish, stew, comfort',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '20',
+                cook: '2h00',
+                ingredients: [            
+                    {
+                        group_name : 'First ingredients',
+                        ingredients_element : [
+                            '4 Tbsp extra virgin olive oil',
+                            '2 red onions, sliced',
+                            '3 garlic cloves, minced',
+                            '3 jalapenos, sliced',
+                            '1 tsp dried oregano',
+                            '1 tsp dried mint'
+                        ]
+                    },
+                    {
+                        group_name : 'Rest of ingredients',
+                        ingredients_element : [
+                            '2lb veal or pork',
+                            '4 long tomatoes, cubed',
+                            '1 Tbsp tomato paste',
+                            '2 Tbsp Biber Salcasi (Turkish Pepper Paste)',
+                            '1 cinnamon stick',
+                            '2 Bay leaves',
+                            'Salt and pepper'
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'In a casserole, reheat oil at medium-high and sauté all first ingredients group in for 5 min. Transfer to a bowl.',
+                            'Put veal pieces in the same casserole and let brown the veal on all sides for 5-7 min, mixing constantly.',
+                            'Put all the ingredients in the pan, with salt and pepper. Pour water to cover the meat, cover and simmr for 1h30 to 2h, until veal is soft and sauce has thicken.',
+                            'Serve with rice, enjoy!'
+                        ]
+                    }
+                ],
+                source: 'Eat Istanbul - Andy Harris and David Loftus'
+            },
+            // TEMPLATE
+            {        
+                name:  '',
+                image: '',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '',
+                prep: '',
+                cook: '',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            
+                        ]
+                    }
+                ],
+                source: ''
+            }
+        ]
+    },
     /*
     '##::::'##:'########:'##::::'##:'####::'######:::::'###::::'##::: ##:
     ###::'###: ##.....::. ##::'##::. ##::'##... ##:::'## ##::: ###:: ##:
@@ -4060,7 +4140,14 @@ meals = [
                 serves: '6',
                 prep: '15',
                 cook: '1h45',
-                ingredients: [            
+                ingredients: [       
+                    {
+                        group_name : 'Chicken broth',
+                        ingredients_element : [
+                            "1 whole chicken",
+                            "8 cups water",
+                        ]
+                    },     
                     {
                         group_name : 'Firt ingredient group',
                         ingredients_element : [
@@ -4080,10 +4167,8 @@ meals = [
                             "2 Tbsp soy sauce low sodium",
                             "½ tsp salt or to taste",
                             "½ tsp pepper or to taste",
-                            "3 cups cooked chicken shredded or chopped",
                             "2 Tbsp fresh dill chopped",
                             "¼ cup fresh parsley chopped",
-                            "8 cups chicken broth low sodium, 2 32 oz boxes",
                             "3 cups dry egg noodles",
                             "2 green onions chopped for garnish"
                         ]
@@ -4093,7 +4178,7 @@ meals = [
                     {
                         group_name : '',
                         steps_elements : [
-                            "Cook chicken at 350 degrees for 1h20.",
+                            "In a big casserole, put the water and the chicken.  Slowly bring to a boil; reduce heat until mixture is just at a simmer. Simmer, uncovered, for 3-4 hours.",
                             "In a large Dutch oven or soup pot heat the olive oil over medium high heat.",
                             "Add all the ingredients of first group and stir. Cook for about 3 to 5 minutes until the onion softens a bit and becomes translucent.",
                             "Add the rest of ingredients and stir, and bring to a boil.",
