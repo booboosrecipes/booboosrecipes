@@ -2614,7 +2614,7 @@ meals = [
             },
             {        
                 name:  'Homemade Italian Sausage',
-                image: 'https://www.daringgourmet.com/wp-content/uploads/2019/09/Homemade-Sausage-1-square-edit-3.jpg',
+                image: 'https://iowagirleats.com/wp-content/uploads/2019/06/Homemade-Ground-Italian-Sausage-iowagirleats-10.jpg',
                 tags: '',
                 vegetarian: false,
                 author: 'Booboos',
