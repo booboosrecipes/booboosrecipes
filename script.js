@@ -1459,6 +1459,19 @@ meals = [
                             "2 Tbsp mayonnaise Japanese kind if available",
                             "1 Tbsp Sriracha",
                         ]
+                    },
+                    {
+                        group_name : 'Spicy salmon filling',
+                        ingredients_element : [
+                            "1lb salmon",
+                            "Pinch Salt",
+                            "Pepper",
+                            "1 tsp Garlic Powder",
+                            "Drizzle of Olive oil",
+                            "1 Tbsp Mayonnaise",
+                            "1 Tbsp Kew Pew (Japanese mayo)",
+                            "1 Tbsp Sriracha",
+                        ]
                     }
                 ],
                 steps : [
@@ -1469,6 +1482,13 @@ meals = [
                         ]
                     },
                     {
+                        group_name : 'Cooking the salmon (if spicy salmon filling is chosen)',
+                        steps_elements : [
+                            "Don't remove salmon skin and put it in the Air Fryer. Add salt, pepper and garlic powder, drizzle with Olive oil and brush.",
+                            "Cook at 375F for 14 minutes."
+                        ]
+                    },
+                    {
                         group_name : 'Assembly (with onigiri molds)',
                         steps_elements : [
                             "Put rice in mold, about half filled with rice. Flatten with small spoon. Put about 1 tablespoon of filling, and flatten gain with spoon. Put rice to cover the filling, flatten and close mold. Press, then tap the onigiri mold to make them come out."
@@ -1476,6 +1496,96 @@ meals = [
                     }
                 ],
                 source: 'https://christieathome.com/blog/japanese-tuna-onigiri/'
+            },
+            {        
+                name:  'Spicy Pork Bulgogi (Jeyuk Bokkeum)',
+                image: 'https://www.beyondkimchee.com/wp-content/uploads/2021/09/korean-spicy-pork-recipe.jpg',
+                tags: 'korean',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '10',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "2 lb (900 g) pork shoulder , or pork butt, very thinly sliced",
+                            "2 Tbsp canola oil",
+                            "2 tsp sugar",
+                            "1 Asian leek , or 4 green onion, chopped",
+                            "1/2 large onion, sliced"
+                        ]
+                    },
+                    {
+                        group_name : 'Seasoning paste',
+                        ingredients_element : [
+                            "6 Tbsp Korean chili paste (gochujang)",
+                            "1/2 Tbsp Korean chili flakes (gochugaru)",
+                            "2 Tbsp soy sauce",
+                            "2 Tbsp sweet rice wine (mirim)",
+                            "2 Tbsp sugar",
+                            "3 cloves garlic, finely minced",
+                            "1 1/2 tsp ginger paste",
+                            "1 Tbsp sesame oil",
+                            "1 Tbsp toasted sesame seeds",
+                            "1/2 tsp black pepper",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "To make the seasoning paste for pork, combine chili paste, chili flakes, soy sauce, rice wine, sugar, garlic, ginger puree, sesame oil, sesame seeds, and black pepper in a small mixing bowl; mix well.",
+                            "In a large mixing bowl, separate each slice of pork and put them in a bowl. Add the seasoning paste and mix well (Wearing a disposable food glove is helpful). You can make this step ahead of time and let it marinate in the refrigerator up to 24 hrs. Or you can go straight to stir-fry without marinating at all.",
+                            "Heat 2 tablespoon of oil in a deep skillet or wok over high heat. Add 2 teaspoon of sugar and swirl the pan around. Let the sugar turn brown and caramelized.",
+                            "Quickly add the chopped Asian leek (or green onion) and stir-fry for 30 seconds to infuse the oil. Add pork and onion. Stir-fry pork and onion until they are fully cooked and tender, about 3-4 minutes. Serve immediately with rice and lettuce (if desired).",
+                            "Serve pork with lettuce and rice! :) "
+                        ]
+                    }
+                ],
+                source: 'https://www.beyondkimchee.com/spicy-korean-pork/'
+            },
+            {        
+                name:  '15-Minute Tomato Egg Noodles',
+                image: 'https://omnivorescookbook.com/wp-content/uploads/2019/09/1403_15-Minute-Tomato-Egg-Noodles_003.jpg',
+                tags: '',
+                vegetarian: true,
+                author: 'Booboos',
+                serves: '4',
+                prep: '5',
+                cook: '15',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "16 oz. (225 g) wheat noodles , dried (or udon noodles)",
+                            "2 and 1/2 tablespoons peanut oil (or vegetable oil)",
+                            "8 eggs , beaten",
+                            "4 green onions , chopped",
+                            "6 cloves garlic , chopped (yields about 1 tablespoon)",
+                            "4 cans (28 oz. / 800 g in total) tomatoes , diced (or 4 ripe tomatoes, or a mix of both)",
+                            "2 teaspoon soy sauce",
+                            "2 teaspoon salt (or to taste)",
+                            "2 tablespoon sugar",
+                            "Homemade nutty sauce to serve with (Optional)"
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Bring a large pot of water to a boil over high heat. Cook the noodles according to the instructions on the package. Once done, run under tap water to cool. Drain and set aside.",
+                            "Heat 1 tablespoon of oil in a medium-sized non-stick pan over medium-high heat until hot. Add the eggs and let them sit without touching until the bottom side is done, but the top is still raw, about 30 seconds. Stir with a spatula, chopping the egg into bite-sized pieces, until the eggs are just cooked. Transfer the eggs to a plate and set aside.",
+                            "Add the remaining 1/2 tablespoon oil, green onion, and garlic to the pan. Stir a few times to release the fragrance. Add the tomatoes and/or canned tomato. Stir and cook until the tomatoes turn tender, about 2 minutes. Add the soy sauce and stir to mix well.",
+                            "Add the cooked eggs, salt, and sugar. Stir everything together to mix well. Taste the sauce. Adjust the seasoning by adding more salt and/or sugar, if needed. Transfer everything to a big plate.",
+                            "To serve, divide the noodles among the serving bowls. Add a few spoonfuls of the tomato egg sauce. Mix well and enjoy! To spice up the noodles, you can use the nutty sauce from this recipe. The flavors go very well together.",
+                        ]
+                    }
+                ],
+                source: 'https://omnivorescookbook.com/tomato-egg-noodles/'
             },
             //TEMPLATE
             {        
@@ -2501,6 +2611,98 @@ meals = [
                     }
                 ],
                 source: 'https://chefcuisto.com/recette/casserole-de-poulet-cremeux-ail-citron/'
+            },
+            {        
+                name:  'Homemade Italian Sausage',
+                image: 'https://www.daringgourmet.com/wp-content/uploads/2019/09/Homemade-Sausage-1-square-edit-3.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '1lb sausages',
+                prep: '15',
+                cook: '15',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "1 pound freshly ground well-marbled pork butt*",
+                            "OR pre-packaged ground pork*",
+                            "*can substitute ground chicken, turkey or meat of choice",
+                            "1 tablespoon finely minced garlic",
+                            "1 tablespoon finely chopped fresh parsley",
+                            "1 tablespoon red wine",
+                            "1 tablespoon sweet Hungarian paprika",
+                            "2 teaspoons salt",
+                            "1 1/2 teaspoons coarsely cracked black peppercorns (toast in a dry skillet for a minute or two until fragrant for maximum flavor)",
+                            "1 teaspoon coarsely cracked fennel seeds (toast in a dry skillet for a minute or two until fragrant for maximum flavor)",
+                            "1 teaspoon onion powder",
+                            "1/2 teaspoon red pepper flakes (omit if you want a mild sausage)",
+                            "1/4 teaspoon dried thyme",
+                            "1/4 teaspoon dried rosemary",
+                            "1/4 teaspoon dried oregano",
+                            "1/4 teaspoon dried ground sage",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Place the ground meat in a bowl and add all remaining ingredients. Use your hands or a stand mixer paddle attachment to thoroughly combine the ingredients.",
+                            "Wrap and chill for at least 6 hours before using, preferably overnight for best flavor.",
+                            "The sausage will keep in the fridge for 3 days or can be frozen, well wrapped, for up to 3 months.",
+                            "Makes 1 pound of ground sausage.",
+                        ]
+                    }
+                ],
+                source: 'https://www.daringgourmet.com/italian-sausage-recipe/'
+            },
+            {        
+                name:  'Lemon Garlic Butter Chicken Baked with Asparagus',
+                image: 'https://www.eatwell101.com/wp-content/uploads/2021/07/oven-baked-chicken-bites-recipe.jpg',
+                tags: 'Keto, low-carb',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '15',
+                cook: '25',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "3 boneless, skinless chicken breasts, cut into bite-sized chunks",
+                            "1 teaspoon salt",
+                            "1 teaspoon fresh cracked black pepper",
+                            "2 teaspoons onion powder",
+                            "1 teaspoon Italian seasoning or Herbes de Provence",
+                            "1 teaspoon paprika, optional",
+                            "Crushed red chili pepper flakes, optional",
+                            "2 bunch of asparagus, rinsed and trimmed",
+                            "1/2 cup butter, melted",
+                            "1 teaspoon olive oil",
+                            "2 teaspoons minced garlic",
+                            "1 tablespoon hot sauce, optional (we used Sriracha)",
+                            "1/4 cup (60ml) low-sodium chicken broth or soy sauce",
+                            "Juice of 1/2 lemon",
+                            "1 tablespoon minced parsley",
+                            "Slices of lemon, for garnish",
+                        
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "To prepare the baked chicken bites: preheat your oven to 400ºF (200ºC). Start to slice chicken breasts into bite-sized chunks and season with salt, pepper, Italian seasoning, red crushed chili pepper flakes, paprika, and onion powder. Marinate in a bowl while you prepare the asparagus and the sauce.",
+                            "Wash and trim the ends of the asparagus. Drain and arrange on one side of the baking sheet, sprinkle with salt and pepper.",
+                            "In a small bowl, combine melted butter, olive oil, minced garlic, hot sauce, chicken broth (or soy sauce), and lemon juice.",
+                            "Arrange chicken bites next to the asparagus in the sheet pan, then drizzle the chicken bites and asparagus with the lemon butter sauce.",
+                            "Transfer to the oven and bake at 400ºF (200ºC) for 20-25 minutes, or until the chicken is no longer pink on the inside. Remove from oven, garnish the chicken bites and asparagus with parsley, crushed chili pepper, and lemon slices and serve your garlic butter baked chicken bites and asparagus immediately. Enjoy! ❤️",
+                        ]
+                    }
+                ],
+                source: 'https://www.eatwell101.com/baked-chicken-bites-recipe'
             },
             // TEMPLATE
             {        
@@ -3558,6 +3760,50 @@ meals = [
                 ],
                 source: 'https://larecetteparfaite.com/2020/02/19/macaroni-chinois/'
             },
+            {        
+                name:  'Pasta with sausage, sun-dried tomato pesto and feta',
+                image: 'https://www.leporcduquebec.com/wp-content/uploads/2021/10/14_Pa%CC%82tes-a%CC%80-la-saucisse-pesto-de-tomates-se%CC%81che%CC%81es-et-feta_web-1155x825-700x500-c-default.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '20',
+                cook: '25',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [                            
+                            "<a href='#homemade_italian_sausage'>1lb homemade italian sausage</a>",
+                            "340 g 3/4 lb gemelli pasta (or penne, rigate, etc.)",
+                            "1 eggplant, about 454 g (1 lb), peeled or unpeeled, cut into 2 cm (¾ inch) cubes",
+                            "60 ml 1/4 cup olive oil",
+                            "1 onion, diced",
+                            "2.5 ml 1/2 tsp. crushed hot pepper flakes, or more to taste",
+                            "2.5 ml 1/2 tsp. dried oregano",
+                            "1 can 14 oz (398 ml) diced pezzettoni tomatoes",
+                            "80 ml 1/3 cup store-bought sun-dried tomato pesto",
+                            "2 garlic cloves, minced",
+                            "80 mL 3/4 cup feta cheese, crumbled, or more to taste",
+                            "125 ml 1/2 cup fresh basil, torn into pieces",
+                            "Ground pepper, to taste",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Prepare italian sausages one dya before",
+                            "In a large pot of salted boiling water, cook the pasta al dente. Reserve 125 ml (½ cup) cooking water. Drain.",
+                            "Over a plate, with your hands, push the meat of the sausages out of the casings to form pieces of about 10 ml (2 tsp).",
+                            "In a large skillet over medium heat, heat 45 ml (3 tbsp) of the oil and sauté the eggplant, stirring, until it begins to brown, about 6 minutes. Pepper. Reserve on a plate.",
+                            "In the same skillet, over medium heat, brown the meat of the sausages in the remaining oil for about 3 minutes. Add the onion, crushed pepper and oregano and continue cooking for 2 minutes. Add the tomatoes, pesto, garlic and eggplant, scraping up the bottom of the pan with a wooden spoon. Simmer, uncovered, about 5 minutes.",
+                            "Add pasta and cooking water. Continue cooking for 2 minutes, stirring to coat the pasta with the sauce. Remove from fire. Add feta cheese and basil. Mix gently and adjust the seasoning. Serve.",
+                        ]
+                    }
+                ],
+                source: 'https://www.leporcduquebec.com/recette/447-pates-a-la-saucisse-pesto-de-tomates-sechees-et-feta/'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -3584,7 +3830,7 @@ meals = [
                         ]
                     }
                 ],
-                source: 'https://pinchofyum.com/millionaire-gnocchi'
+                source: ''
             }
         ]
     },
@@ -4514,7 +4760,76 @@ meals = [
                 source: ''
             }
         ]
-    }    
+    },
+    /*
+    :'######:::::'###::::'##::::::::::'###::::'########:::::'########::'########::'########::'######:::'######::'####:'##::: ##::'######::::'######::
+    '##... ##:::'## ##::: ##:::::::::'## ##::: ##.... ##:::: ##.... ##: ##.... ##: ##.....::'##... ##:'##... ##:. ##:: ###:: ##:'##... ##::'##... ##:
+    ##:::..:::'##:. ##:: ##::::::::'##:. ##:: ##:::: ##:::: ##:::: ##: ##:::: ##: ##::::::: ##:::..:: ##:::..::: ##:: ####: ##: ##:::..::: ##:::..::
+    . ######::'##:::. ##: ##:::::::'##:::. ##: ##:::: ##:::: ##:::: ##: ########:: ######:::. ######::. ######::: ##:: ## ## ##: ##::'####:. ######::
+    :..... ##: #########: ##::::::: #########: ##:::: ##:::: ##:::: ##: ##.. ##::: ##...:::::..... ##::..... ##:: ##:: ##. ####: ##::: ##:::..... ##:
+    '##::: ##: ##.... ##: ##::::::: ##.... ##: ##:::: ##:::: ##:::: ##: ##::. ##:: ##:::::::'##::: ##:'##::: ##:: ##:: ##:. ###: ##::: ##::'##::: ##:
+    . ######:: ##:::: ##: ########: ##:::: ##: ########::::: ########:: ##:::. ##: ########:. ######::. ######::'####: ##::. ##:. ######:::. ######::
+    :......:::..:::::..::........::..:::::..::........::::::........:::..:::::..::........:::......::::......:::....::..::::..:::......:::::......:::*/
+    {
+        type : "Salad dressings",
+        recipes : [      
+            {        
+                name:  '',
+                image: '',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '',
+                prep: '',
+                cook: '',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            
+                        ]
+                    }
+                ],
+                source: ''
+            },      
+            // TMEPLATE
+            {        
+                name:  '',
+                image: '',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '',
+                prep: '',
+                cook: '',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            
+                        ]
+                    }
+                ],
+                source: ''
+            }
+        ]
+    }     
 ]
 /*
 '########:::::'###::::'########::
