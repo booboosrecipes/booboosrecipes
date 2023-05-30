@@ -4433,7 +4433,7 @@ meals = [
                     {
                         group_name : '',
                         steps_elements : [
-                            "In a big casserole, put the water and the chicken.  Slowly bring to a boil; reduce heat until mixture is just at a simmer. Simmer, uncovered, for 3-4 hours.",
+                            "In a big casserole, stir-fry chicken broth vegetables until caramelized. Put all chicken broth ingredients together.  Slowly bring to a boil; reduce heat until mixture is just at a simmer. Simmer, covered, for 3-4 hours.",
                             "In a large Dutch oven or soup pot heat the olive oil over medium high heat.",
                             "Add all the ingredients of first group and stir. Cook for about 3 to 5 minutes until the onion softens a bit and becomes translucent.",
                             "Add the rest of ingredients and stir, and bring to a boil.",
