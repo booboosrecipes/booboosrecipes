@@ -4391,6 +4391,15 @@ meals = [
                         group_name : 'Chicken broth',
                         ingredients_element : [
                             "1 whole chicken",
+                            "1 onion, roughly chopped",
+                            "1 head garlic",
+                            "3 large carrots, roughly chopped",
+                            "3 large celery stalks, cut it half",
+                            "1 ounce dried Shiitake Mushrooms",
+                            "A handful of basil leaves",
+                            "6 sprigs of flat-leaves parsley",
+                            "3 fresh bay leaves",
+                            "Black peppercorn",
                             "8 cups water",
                         ]
                     },     
