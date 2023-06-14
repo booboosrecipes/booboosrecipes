@@ -1587,7 +1587,58 @@ meals = [
                 ],
                 source: 'https://omnivorescookbook.com/tomato-egg-noodles/'
             },
-            //TEMPLATE
+            {        
+                name:  'Chinese pickled mustard greens stir fry ground pork',
+                image: 'https://sassychopsticks.com/wp-content/uploads/2022/07/IMG_0330.jpg',
+                tags: 'Asian',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '10',
+                cook: '10',
+                ingredients: [ 
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '1 bag Suan Cai one sealed bag, about one big bunch or two small bunches, diced',
+                            '3 green onion the white part only',
+                            '5 slices fresh ginger',
+                            '3 cloves of garlic sliced',
+                            '1 tablespoon Sugar use less or more, depends on your taste',
+                            '1 tablespoon Oyster sauce',
+                            '½ tablespoon Light soy sauce',
+                            'salt to taste',
+                            'black pepper to taste',
+                            'red chili optional, for garnish',
+                        ]
+                    },           
+                    {
+                        group_name : 'Ground pork',
+                        ingredients_element : [
+                            "1.5 pound ground pork",
+                            "2 teaspoons corn starch",
+                            "1 tablespoon Shaoxing cooking wine",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Let’s start by soaking the mustard greens in water for 10-15 minutes to remove the sourness and saltiness. The store-bought ready-made Chinese mustard green can sometimes be pretty salty. If you are using the homemade Chinese mustard green, you can cut down the soaking time to 5 minutes.',
+                            'Drain them with clear running water. Pat dry the Chinese mustard greens with paper towels. Then chop them up into small pieces. Set aside.',
+                            'Set the ground pork in a large bowl, add Shaoxing cooking wine, and corn starch and mix well. Tap in salt and pepper to taste over the ground pork.',
+                            'Add the cooking oil to a nonstick wok. Heat it on medium-high heat till it is hot, add the green onion (white part), ginger and garlic in, and stir fry until fragrant.',
+                            'Put pre-marinated ground pork into wok and stir fry until no longer pink.',
+                            'Fold in Chinese mustard greens, stir frequently, for about 5 minutes.',
+                            'Add sugar, oyster sauce, light soy sauce and salt, pepper to taste.',
+                            'Serve it with steamed white rice. Yum! Enjoy!',
+                        ]
+                    }
+                ],
+                source: 'https://sassychopsticks.com/chinese-pickled-mustard-greens-stir-fry-ground-pork/'
+            },
+            // TEMPLATE
             {        
                 name:  '',
                 image: '',
@@ -2703,6 +2754,46 @@ meals = [
                     }
                 ],
                 source: 'https://www.eatwell101.com/baked-chicken-bites-recipe'
+            },
+            {        
+                name:  'Honey Sriracha Ground Chicken and Broccoli',
+                image: 'https://masonfit.com/wp-content/uploads/2021/06/honey-sriracha-ground-chicken-and-broccoli-735x827.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '5',
+                cook: '15',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "1 Tbsp (16g) Olive Oil, divided",
+                            "12 oz Broccoli Florets, cut into bite-size pieces",
+                            "1 lb Ground Chicken (97/3)",
+                            "1/4 C (60g) Sweet Chili Sauce",
+                            "2 Tbsp (42g) Honey",
+                            "2-3 Tbsp (30-45g) Sriracha, to spice preference",
+                            "2 Tbsp (30g) Soy Sauce",
+                            "1 Tbsp (16g) Toasted Sesame Oil",
+                            "1 tsp Garlic Powder",
+                            "1 tsp Ground Ginger",
+                            "Sesame Seeds and Green Onion, for garnish",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Heat 1/2 Tbsp of olive oil in a large skillet over medium-high heat. Add the broccoli and leave untouched for 1-2 minutes to develop some browning on one side. Stir and continue cooking until the broccoli is a dark green, about 3-4 minutes longer. Transfer to a plate and set aside.',
+                            'Add the remaining olive oil to the skillet and brown both sides of the ground chicken before mincing and fully cooking.',
+                            'While the chicken cooks, mix the remaining sauce ingredients together. Add the sauce to the fully cooked chicken and cook until thick. Be careful not to burn.',
+                            'Once the sauce is thick, add the broccoli back to the skillet and stir everything together. Garnish with sesame seeds and green onion before serving.',
+                        ]
+                    }
+                ],
+                source: 'https://masonfit.com/honey-sriracha-ground-chicken-and-broccoli/'
             },
             // TEMPLATE
             {        
@@ -4239,6 +4330,60 @@ meals = [
                     }
                 ],
                 source: 'https://healthyrecipesblogs.com/fried-sole-recipe/'
+            },
+            {        
+                name:  'Air Fryer Honey Garlic Salmon',
+                image: 'https://meikoandthedish.com/wp-content/uploads/2022/03/honey-garlic-air-fryer-salmon-1-683x1024.jpg',
+                tags: 'Fish',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '',
+                prep: '',
+                cook: '',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '4 x 6-8 oz salmon fillets, skinless (or approx. 1lb salmon)'
+                        ]
+                    },
+                    {
+                        group_name : 'Honey Garlic Marinade',
+                        ingredients_element : [
+                            '⅓ cup honey',
+                            '2 tablespoons butter melted',
+                            '4 cloves garlic minced',
+                            '3 tablespoons lemon juice',
+                            '2 tablespoons soy sauce',
+                            '2 teaspoons garlic powder',
+                            '1 teaspoon onion powder',
+                            '2 teaspoons kosher salt divided',
+                            '2 teaspoons black pepper divided',
+                            '1 tablespoon avocado oil or olive oil',
+                            '½ teaspoon smoked paprika',
+                        ]
+                    },
+                    {
+                        group_name : 'Garnish (optional)',
+                        ingredients_element : [
+                            '½ tablespoon chopped parsley'
+                        ]
+                    },
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Line air fryer tray with aluminum foil if using an oven air fryer. If using a basket air fryer check manual to make sure it’s ok to use aluminum foil but does keep things a lot cleaner.',
+                            'In a large microwave-safe dish whisk together honey, butter, minced garlic, lemon juice, soy sauce, garlic powder, onion powder, kosher salt, black pepper, oil, and smoked paprika. Separate half the marinade into a separate bowl.',
+                            'First pat salmon fillets dry with a paper towel, then add them to the marinade bowl and douse in the marinade to ensure all sides are coated.',
+                            'Transfer salmon fillets to foil-lined air fryer tray. Put tray into the air fryer set the temperature to 375°F and set time to 7-10 minutes depending on thickness.',
+                            'Carefully transfer salmon to a serving platter and pour over remaining honey garlic marinade over the top then sprinkle with chopped parsley for garnish.',
+
+                        ]
+                    }
+                ],
+                source: 'https://meikoandthedish.com/air-fryer-honey-garlic-salmon/'
             },
             // TEMPLATE
             {        
