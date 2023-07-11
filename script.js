@@ -76,8 +76,8 @@ meals = [
                     {
                         group_name : '',
                         ingredients_element : [
-                            "1 1/2 tbsp cooking oil (I use peanut oil)",
-                            "1/2 onion , finely diced (brown, white or yellow) (~1/2 cup)",
+                            "1 ½ tbsp cooking oil (I use peanut oil)",
+                            "½ onion , finely diced (brown, white or yellow) (~½ cup)",
                             "2 tsp ginger , grated or minced",
                             "2 garlic cloves , minced (2 tsp paste)",
                             "1 birds eye or Thai chili , deseeded and finely chopped (Note 1)",
@@ -223,9 +223,9 @@ meals = [
                             '1 cup fresh bean sprouts',
                             '1 red bell pepper , thinly sliced',
                             '3 green onions , chopped',
-                            '1/2 cup dry roasted peanuts',
+                            '½ cup dry roasted peanuts',
                             '2 limes',
-                            '1/2 cup Fresh cilantro , chopped'
+                            '½ cup Fresh cilantro , chopped'
                         ]
                     }
                 ],
@@ -296,7 +296,7 @@ meals = [
                         steps_elements : [
                             'Place noodles in a large heatproof bowl and cover with hot tap water. Soak until loose and pliable, about 30 minutes. Separate noodles by hand and drain; set aside.',
                             'Meanwhile, place tofu cubes on a paper-towel-lined plate; set aside. ',
-                            'Heat 1/4 cup water in a non-stick pan. Add broccoli, cover, and cook until just beginning to soften, about 2-4 minutes. Remove broccoli to a plate and set aside.',
+                            'Heat ¼ cup water in a non-stick pan. Add broccoli, cover, and cook until just beginning to soften, about 2-4 minutes. Remove broccoli to a plate and set aside.',
                             'Add eggs, scramble them until solid and set aside with broccoli.',
                             'Return the pan to medium-high heat, add oil. Add reserved tofu and sauté, turning occasionally, until golden brown on all sides (be careful—the oil will splatter), about 8 to 10 minutes.',
                             'Reduce heat to medium, add garlic, and cook until just beginning to color. Add reserved soy sauce mixture, noodles, and broccoli and cook, tossing gently, until noodles are soft, warmed through, and coated with sauce, about 4-8 minutes.'
@@ -333,7 +333,7 @@ meals = [
                             '2 shallots, thinly sliced',
                             '2 carrots, cut into thin strips',
                             '1 red bell pepper, cut into thin strips',
-                            '1/2 white cabbage, shredded',
+                            '½ white cabbage, shredded',
                             '1 broccoli, cut into small florets',
                             '300g bean sprouts',
                             '400g chow mein noodles / ramen noodles',
@@ -491,7 +491,7 @@ meals = [
                         ]
                     }
                 ],
-                source: 'https://www.5ingredients15minutes.com/fr/recettes/plats-principaux/poisson-fruits-de-mer/duo-de-nouilles-vertes-au-saumon/'
+                source: 'https://www ½ingredients15minutes.com/fr/recettes/plats-principaux/poisson-fruits-de-mer/duo-de-nouilles-vertes-au-saumon/'
             },
             {        
                 name:  'Stir-fry ramen noodles',
@@ -554,7 +554,7 @@ meals = [
                         group_name : 'Dumpling wrappers',
                         ingredients_element : [
                             '250 g all-purpose flour (about 2 cups)',
-                            '130 ml water (about 0.5 cups)'
+                            '130 ml water (about 0 ½ cups)'
                         ]
                     },
                     {
@@ -605,11 +605,11 @@ meals = [
                         ingredients_element : [
                             '1 tsp fresh ginger, grated',
                             '2 tsp garlic, grated (from 3 cloves)',
-                            '1/2 cup hot water',
+                            '½ cup hot water',
                             '6 Tbsp low sodium soy sauce',
                             '3 Tbsp packed light brown sugar',
-                            '1 1/2 Tbsp corn starch',
-                            '1/4 tsp black pepper',
+                            '1 ½ Tbsp corn starch',
+                            '¼ tsp black pepper',
                             '2 Tbsp sesame oil'
                         ]
                     },
@@ -725,7 +725,7 @@ meals = [
                         steps_elements : [
                             'Start to cook rice.',
                             'Mix Sauce ingredients in a bowl.',
-                            'Trim the tough end of the beans, then chop into small 2 - 2.5cm / 4/5 - 1" pieces.',
+                            'Trim the tough end of the beans, then chop into small 2 - 2 ½cm / 4/5 - 1" pieces.',
                             'Heat a bit of oil and cook beans for 2-3 minutes until a bit soft. Remove into bowl.',
                             'Turn heat down to medium high, add 1 tbsp oil. Add onion, then garlic and ginger. Cook for 1 minute until the edges of the onion are golden.',
                             'Turn heat back up to high. Add pork and cook, breaking it up as you go. Cook for 2 minutes until the pork is cooked through, then add Sauce. Cook for 30 seconds, then add beans and stir for another 30 seconds.',
@@ -995,14 +995,14 @@ meals = [
                             "2 large eggs, whisked",
                             "2 medium carrots, peeled and diced",
                             "1 small white onion, diced",
-                            "1/2 cup frozen peas",
+                            "½ cup frozen peas",
                             "3 cloves garlic, minced",
                             "salt and black pepper",
                             "4 cups cooked and chilled rice (I prefer short-grain white rice)",
                             "3 green onions, thinly sliced",
                             "3-4 Tbsp soy sauce, or more to taste",
                             "2 tsp oyster sauce (optional)",
-                            "1/2 tsp toasted sesame oil"
+                            "½ tsp toasted sesame oil"
                         ]
                     }
                 ],
@@ -1010,9 +1010,9 @@ meals = [
                     {
                         group_name : '',
                         steps_elements : [
-                            "Heat 1/2 tablespoon of butter in a large wok over medium-high heat until melted. Add egg, and cook until scrambled, stirring occasionally. Remove egg, and transfer to a separate plate.",
+                            "Heat ½ tablespoon of butter in a large wok over medium-high heat until melted. Add egg, and cook until scrambled, stirring occasionally. Remove egg, and transfer to a separate plate.",
                             "Add an additional 1 tablespoon butter to the pan and heat until melted. Add carrots, onion, peas and garlic, and season with a generous pinch of salt and pepper. Sauté for about 5 minutes or until the onion and carrots are soft.",
-                            "Increase heat to high, add in the remaining 1 1/2 tablespoons of butter, and stir until melted.",
+                            "Increase heat to high, add in the remaining 1 ½ tablespoons of butter, and stir until melted.",
                             "Immediately add the rice, green onions, soy sauce and oyster sauce (if using), and stir until combined. Continue sautéing for an additional 3 minutes to fry the rice, stirring occasionally.  (I like to let the rice rest for a bit between stirs so that it can crisp up on the bottom.)  Then add in the eggs and stir to combine.",
                             "Remove from heat, and stir in the sesame oil until combined. Taste and season with extra soy sauce, if needed.",
                             "Serve immediately, or refrigerate in a sealed container for up to 3 days."
@@ -1054,7 +1054,7 @@ meals = [
                         group_name : 'Serve with',
                         ingredients_element : [
                             'Rice',
-                            '1/2 tsp butter',
+                            '½ tsp butter',
                             'Lemon juice'
                         ]
                     },
@@ -1067,8 +1067,8 @@ meals = [
                             '1 small red bell pepper diced',
                             '3 bird’s eye chiles siling labuyo, or Thai chiles, deseeded (if needed) and sliced',
                             '2 long green chilies deseeded (if needed) and sliced—I used siling haba',
-                            '3.5 Tbsp fresh or rehydrated shiitake mushrooms or other mushrooms such as oyster, button, baby bella, black fungus/wood ear mushrooms, finely diced (see notes)',
-                            '1/2-1 Tbsp vegetarian mushroom oyster sauce or stir-fry sauce, to taste (if needed)',
+                            '3 ½ Tbsp fresh or rehydrated shiitake mushrooms or other mushrooms such as oyster, button, baby bella, black fungus/wood ear mushrooms, finely diced (see notes)',
+                            '½-1 Tbsp vegetarian mushroom oyster sauce or stir-fry sauce, to taste (if needed)',
                             'soy sauce or liquid seasoning like Knorr to taste, if needed',
                             '2 Tbsp vegan mayonnaise'
                         ]
@@ -1084,7 +1084,7 @@ meals = [
                     {
                         group_name : 'Cooking tofu',
                         steps_elements : [
-                            'Slice the tofu into small 1/2-inch cubes. The smaller the better—so if you can slice even small, that’d be better.',
+                            'Slice the tofu into small ½-inch cubes. The smaller the better—so if you can slice even small, that’d be better.',
                             'Heat your large pan over high heat. Add some oil to coat the surface of the pan.',
                             'When hot, add in the tofu cubes. The tofu cubes should immediately sizzle when you add them in the oil. Sprinkle some salt over the tofu cubes.',
                             'Leave the tofu cubes to cook over medium high until golden brown, around 4 to 5 minutes. You may beed to flip them over if pan-frying them. Repeat until all the sides are golden brown and crisp.',
@@ -1108,7 +1108,7 @@ meals = [
                     {
                         group_name : 'Serving',
                         steps_elements : [
-                            'Turn off the heat add 1/2 tbsp of butter until melted. Add in the cooked sisig into the sizzling pan.',
+                            'Turn off the heat add ½ tbsp of butter until melted. Add in the cooked sisig into the sizzling pan.',
                             'Squeeze with some more calamansi or lemon juice, if you’d like. Enjoy with rice or singangag (Filipino Fried Garlic Rice)!',
                         ]
                     }
@@ -1128,7 +1128,7 @@ meals = [
                     {
                         group_name : '',
                         ingredients_element : [
-                            '1/2 cup nutritional yeast (aka nooch)⠀',
+                            '½ cup nutritional yeast (aka nooch)⠀',
                             '2 tbsp maple syrup⠀',
                             '2 tbsp tamari⠀',
                             '1 tbsp rice vinegar ⠀',
@@ -1170,7 +1170,7 @@ meals = [
                             '1 lb (453 g) ground pork',
                             '1 egg',
                             '1 Tbsp minced garlic',
-                            '1/2 cup (125 mL) panko breadcrumbs',
+                            '½ cup (125 mL) panko breadcrumbs',
                             '3 Tbsp teriyaki sauce',
                             '3 green onions, finely chopped',
                             'Salt and freshly ground pepper'
@@ -1179,7 +1179,7 @@ meals = [
                     {
                         group_name : 'Sauce',
                         ingredients_element : [
-                            '1/2 cup (125 ml) teriyaki sauce',
+                            '½ cup (125 ml) teriyaki sauce',
                             '2 shallots, chopped',
                             '2 Tbsp sesame seeds'
                         ]
@@ -1190,7 +1190,7 @@ meals = [
                         group_name : '',
                         steps_elements : [
                             'Preheat the oven to 400°F (200°C). Get out a baking sheet and lay a sheet of parchment paper on it.',
-                            'In a large bowl, mix all the meatball ingredients together and shape into 1-inch or 1.5-inch meatballs depending on your preference.',
+                            'In a large bowl, mix all the meatball ingredients together and shape into 1-inch or 1 ½-inch meatballs depending on your preference.',
                             'Place meatballs on parchment paper. Bake for 20 minutes or until cooked through.',
                             'Dip meatballs in Teriyaki sauce and sprinkle with green onions and sesame seeds. Serve with rice.'
                         ]
@@ -1212,7 +1212,7 @@ meals = [
                         group_name : '',
                         ingredients_element : [
                             '2 lb boneless skinless chicken thighs',
-                            '0.5 cup cornstarch or sub with potato starch/tapioca starch',
+                            '0 ½ cup cornstarch or sub with potato starch/tapioca starch',
                             '0.67 cup vegetable oil or any neutral tasting oil'
                         ]
                     },
@@ -1221,10 +1221,10 @@ meals = [
                         ingredients_element : [
                             '2 cup freshly squeezed orange juice, pulp removed',
                             '4 tablespoon white vinegar or rice vinegar',
-                            '0.5 cup + 2 tbsp brown sugar',
+                            '0 ½ cup + 2 tbsp brown sugar',
                             '4 tablespoon regular soy sauce',
                             '4 teaspoon garlic minced',
-                            '0.5 teaspoon ginger powder',
+                            '0 ½ teaspoon ginger powder',
                             '2 tablespoon cornstarch',
                             '1 tsp red chili flakes',
                         ]
@@ -1243,7 +1243,7 @@ meals = [
                         group_name : '',
                         steps_elements : [
                             'In a small bowl, combine sauce ingredients. Mix well and set aside.',
-                            'Do not pat chicken thighs dry, some moisture is needed for the next step (See Notes below for more information). Slice thighs into bite size pieces, about 1.5 x 1.5-inch-wide pieces (about 6-8 pcs per thigh, depending on size).',
+                            'Do not pat chicken thighs dry, some moisture is needed for the next step (See Notes below for more information). Slice thighs into bite size pieces, about 1 ½ x 1 ½-inch-wide pieces (about 6-8 pcs per thigh, depending on size).',
                             'Transfer pieces of chicken into a large bowl, followed by cornstarch. Mix to coat each piece evenly with tongs.',
                             'Choose one of the two following methodsto fry chicken:'
                         ]
@@ -1269,7 +1269,7 @@ meals = [
                         group_name : 'Making the sauce',
                         steps_elements : [
                             'In a small bowl, combine sauce ingredients. Mix well and set aside.',
-                            'Do not pat chicken thighs dry, some moisture is needed for the next step (See Notes below for more information). Slice thighs into bite size pieces, about 1.5 x 1.5-inch-wide pieces (about 6-8 pcs per thigh, depending on size).',
+                            'Do not pat chicken thighs dry, some moisture is needed for the next step (See Notes below for more information). Slice thighs into bite size pieces, about 1 ½ x 1 ½-inch-wide pieces (about 6-8 pcs per thigh, depending on size).',
                             'Transfer pieces of chicken into a large bowl, followed by cornstarch. Mix to coat each piece evenly with tongs.',
                         ]
                     }
@@ -1305,10 +1305,10 @@ meals = [
                     {
                         group_name : 'Seasoned fish sauce',
                         ingredients_element : [
-                            "1/2 cup fish sauce",
-                            "1/2 cup water",
-                            "1/3 cup granulated sugar",
-                            "1/4 cup distilled white vinegar lemon, or lime juice",
+                            "½ cup fish sauce",
+                            "½ cup water",
+                            "⅓ cup granulated sugar",
+                            "¼ cup distilled white vinegar lemon, or lime juice",
                             "2 garlic cloves minced",
                             "1-2 red Thai chiles stem removed and minced",
                         ]
@@ -1356,7 +1356,7 @@ meals = [
                             "1 pound chicken breast, cut into bite size small pieces",
                             "1 tsp minced ginger",
                             "2 tsp soy sauce",
-                            "1/2 tsp ground black pepper",
+                            "½ tsp ground black pepper",
                             "1 cup potato starch (or corn starch)",
                             "1 egg"
                         ]
@@ -1364,7 +1364,7 @@ meals = [
                     {
                         group_name : 'Spicy garlic- and leek-infused oil',
                         ingredients_element : [
-                            "1/2 cup vegetable or corn oil",
+                            "½ cup vegetable or corn oil",
                             "1 cup thinly shredded leek",
                             "8 garlic cloves minced",
                             "2 Tbsps coarse red chili flakes"
@@ -1514,22 +1514,22 @@ meals = [
                             "2 Tbsp canola oil",
                             "2 tsp sugar",
                             "1 Asian leek , or 4 green onion, chopped",
-                            "1/2 large onion, sliced"
+                            "½ large onion, sliced"
                         ]
                     },
                     {
                         group_name : 'Seasoning paste',
                         ingredients_element : [
                             "6 Tbsp Korean chili paste (gochujang)",
-                            "1/2 Tbsp Korean chili flakes (gochugaru)",
+                            "½ Tbsp Korean chili flakes (gochugaru)",
                             "2 Tbsp soy sauce",
                             "2 Tbsp sweet rice wine (mirim)",
                             "2 Tbsp sugar",
                             "3 cloves garlic, finely minced",
-                            "1 1/2 tsp ginger paste",
+                            "1 ½ tsp ginger paste",
                             "1 Tbsp sesame oil",
                             "1 Tbsp toasted sesame seeds",
-                            "1/2 tsp black pepper",
+                            "½ tsp black pepper",
                         ]
                     }
                 ],
@@ -1561,7 +1561,7 @@ meals = [
                         group_name : '',
                         ingredients_element : [
                             "16 oz. (225 g) wheat noodles , dried (or udon noodles)",
-                            "2 and 1/2 tablespoons peanut oil (or vegetable oil)",
+                            "2½ tablespoons peanut oil (or vegetable oil)",
                             "8 eggs , beaten",
                             "4 green onions , chopped",
                             "6 cloves garlic , chopped (yields about 1 tablespoon)",
@@ -1579,7 +1579,7 @@ meals = [
                         steps_elements : [
                             "Bring a large pot of water to a boil over high heat. Cook the noodles according to the instructions on the package. Once done, run under tap water to cool. Drain and set aside.",
                             "Heat 1 tablespoon of oil in a medium-sized non-stick pan over medium-high heat until hot. Add the eggs and let them sit without touching until the bottom side is done, but the top is still raw, about 30 seconds. Stir with a spatula, chopping the egg into bite-sized pieces, until the eggs are just cooked. Transfer the eggs to a plate and set aside.",
-                            "Add the remaining 1/2 tablespoon oil, green onion, and garlic to the pan. Stir a few times to release the fragrance. Add the tomatoes and/or canned tomato. Stir and cook until the tomatoes turn tender, about 2 minutes. Add the soy sauce and stir to mix well.",
+                            "Add the remaining ½ tablespoon oil, green onion, and garlic to the pan. Stir a few times to release the fragrance. Add the tomatoes and/or canned tomato. Stir and cook until the tomatoes turn tender, about 2 minutes. Add the soy sauce and stir to mix well.",
                             "Add the cooked eggs, salt, and sugar. Stir everything together to mix well. Taste the sauce. Adjust the seasoning by adding more salt and/or sugar, if needed. Transfer everything to a big plate.",
                             "To serve, divide the noodles among the serving bowls. Add a few spoonfuls of the tomato egg sauce. Mix well and enjoy! To spice up the noodles, you can use the nutty sauce from this recipe. The flavors go very well together.",
                         ]
@@ -1741,15 +1741,15 @@ meals = [
                             "1oignon jaune, pelé et tranché",
                             "2 carottes, pelées et coupées en rondelles de 2,5 cm (1 po)",
                             "3petits navets, pelés et coupés en quartiers",
-                            "1/4 tasse de raisins secs",
+                            "¼ tasse de raisins secs",
                             "1 c. à soupe de pâte harissa (ou 1 c. à thé de flocons de piment fort broyés)",
                             "1/8 c. à thé de cannelle moulue (facultatif)",
                             "4 tassesde bouillon de poulet",
                             "Sel et poivre du moulin",
-                            "1 courgette, coupée en rondelles de 1,5 cm (1/2 po) d’épaisseur",
+                            "1 courgette, coupée en rondelles de 1,5 cm (½ po) d’épaisseur",
                             "1 poivron rouge, tranché en grosses lanières",
                             "19 oz liq.de pois chiches en conserve, rincés et égouttés",
-                            "1/2 tasse de feuilles de coriandre fraîche, pour servir (facultatif)"
+                            "½ tasse de feuilles de coriandre fraîche, pour servir (facultatif)"
                         ]
                     },
                     {
@@ -1981,7 +1981,7 @@ meals = [
                             'Heat the oil in a large frying pan over high heat.Add the beef in an even layer.Don’t stir! When you see that the beef is browned at the bottom, reduce the heat to medium, sprinkle with seasoning, salt, and pepper.Cook for a couple of minutes until the beef is cooked through(no longer pink).Stir the meat with a spatula to break it up.',
                             'Add finely diced onion and bell pepper.Add water/ broth, Worcestershire sauce, corn starch, and tomato paste.Cook for a couple of minutes or until the bell pepper and onion are soft.Add more liquid if necessary so that the meat mixture is not dry.',
                             'Add corn and beans, stir everything together, and season with salt and pepper.',
-                            'Place some shredded cheese on one half of a large tortilla(about 1/ 3 cup), top with the meat mixture(about 1 / 2 cup), top with more shredded cheese.Fold tortilla in half.',
+                            'Place some shredded cheese on one half of a large tortilla(about 1/ 3 cup), top with the meat mixture(about  ½ cup), top with more shredded cheese.Fold tortilla in half.',
                             'Heat a small amount of oil in a clean pan over medium heat.Place your assembled quesadilla in the pan.Cook until browned on both sides and the cheese is melted.Put on a plate and cut in half.Repeat with remaining ingredients.'
                         ]
                     }
@@ -2055,10 +2055,10 @@ meals = [
                             '1 onion, diced',
                             '3 garlic cloves, minced',
                             '3/4 tsp.kosher salt, divided',
-                            '1 1/4 cups salsa',
+                            '1 ¼ cups salsa',
                             '3 cups water',
                             '3 cups medium shells',
-                            '1/2 cup shredded cheddar cheese',
+                            '½ cup shredded cheddar cheese',
                             'Beans or corns (optional), sour cream or plain Greek yogurt for serving'
                         ]
                     }
@@ -2068,8 +2068,8 @@ meals = [
                         group_name: '',
                         steps_elements: [
                             'Preheat the oven to 325 degrees.',
-                            'Heat a large oven-proof skillet to a medium-high heat. Add 2 tbsp olive oil.Once oil is hot, add ground turkey.Use a wooden spoon to break up the turkey.Once the turkey is mostly cooked, add onion, garlic, and 1/4 tsp. salt. Continue to saute for 3-4 minutes until garlic and onion are softened.',
-                            'Add spices. Stir to combine and cook for 1 minute.Add salsa, water, pasta, and remaining 1/2 tsp. salt. Bring to a boil and reduce to a simmer. Cover and cook until pasta is al dente, about 10-12 minutes.',
+                            'Heat a large oven-proof skillet to a medium-high heat. Add 2 tbsp olive oil.Once oil is hot, add ground turkey.Use a wooden spoon to break up the turkey.Once the turkey is mostly cooked, add onion, garlic, and ¼ tsp. salt. Continue to saute for 3-4 minutes until garlic and onion are softened.',
+                            'Add spices. Stir to combine and cook for 1 minute.Add salsa, water, pasta, and remaining ½ tsp. salt. Bring to a boil and reduce to a simmer. Cover and cook until pasta is al dente, about 10-12 minutes.',
                             'Once the pasta is al dente, stir one last time and season to taste with salt and pepper.Sprinkle with cheese and place in the oven just until the cheese has melted, about 2 minutes.Garnish with sour cream and chopped parsley or cilantro.'
                         ]
                     }
@@ -2209,7 +2209,7 @@ meals = [
                             'Pork tenderloin(1.25lbs – 1.75lbs)',
                             '2 Tbsp brown sugar',
                             '1 Tbsp smoked paprika',
-                            '1.5 tsp salt',
+                            '1½ tsp salt',
                             '1 tsp ground mustard',
                             '½ tsp onion powder',
                             '½ tsp ground black pepper',
@@ -2299,13 +2299,13 @@ meals = [
                     {
                         group_name: '',
                         ingredients_element: [
-                            '2 lbs lean boneless pork chops, about 1.5 inches thick',
+                            '2 lbs lean boneless pork chops, about 1 ½ inches thick',
                             '1 tsp garlic powder',
-                            '1 / 2 tsp salt',
-                            '1 / 2 tsp pepper',
+                            '½ tsp salt',
+                            '½ tsp pepper',
                             '2 Tbsps olive oil',
                             '2 Tbsps salted butter',
-                            '1 / 2 tsp minced fresh thyme or rosemary'
+                            '½ tsp minced fresh thyme or rosemary'
                         ]
                     }
                 ],
@@ -2343,7 +2343,7 @@ meals = [
                             '4 Tbsp tomato paste',
                             '1 small head green cabbage, roughly chopped',
                             '1(28 - ounce) can diced tomatoes, undrained',
-                            '1 / 2 cup beef broth',
+                            ' ½ cup beef broth',
                             '2 tsp packed brown sugar',
                             '1 tsp apple cider vinegar',
                             '1 ½  tsp salt',
@@ -2455,7 +2455,7 @@ meals = [
                     {
                         group_name : '',
                         ingredients_element : [
-                            "1 lb boneless, skinless chicken breasts, cut into 1 1/2-in. pieces",
+                            "1 lb boneless, skinless chicken breasts, cut into 1 ½-in. pieces",
                             "1 Tbsp olive oil",
                             "1 tsp dried oregano",
                             "1 tsp ground sumac",
@@ -2496,10 +2496,10 @@ meals = [
                         ingredients_element : [
                             '1.88 lbs. boneless, skinless chicken thighs (4-5 thighs)',
                             '3 Tbsp cooking oil, divided',
-                            '1.5 yellow onion, diced',
-                            '1.5 cups long-grain white rice (uncooked)',
+                            '1 ½ yellow onion, diced',
+                            '1 ½ cups long-grain white rice (uncooked)',
                             '2.63 cups vegetable broth',
-                            '1.5 Tbsp chopped parsley (optional garnish)'
+                            '1 ½ Tbsp chopped parsley (optional garnish)'
                         ]
                     },       
                     {
@@ -2547,7 +2547,7 @@ meals = [
                         ingredients_element : [
                             '1lbs chicken breast (3-4)',
                             '1 tsp garlic powder',
-                            '1/4 tsp paprika',
+                            '¼ tsp paprika',
                             '2 Tbsps olive oil'
                         ]
                     },
@@ -2566,7 +2566,7 @@ meals = [
                         group_name : '',
                         steps_elements : [                            
                             'Preheat oven to 425°F (218°C).',
-                            'Season both sides of chicken breasts with salt, pepper, paprika and 1/2 teaspoon garlic powder.',
+                            'Season both sides of chicken breasts with salt, pepper, paprika and ½ teaspoon garlic powder.',
                             'Slice chicken breast in half horizontally',
                             'In a bowl, combine the filling ingredients. Insert the mixture on the chicken breasts halves.',
                             'Cover with foil and send to oven for 15-17 minutes or until chicken reaches 165°F',
@@ -2629,7 +2629,7 @@ meals = [
                             'Salt and freshly ground pepper',
                             '1 Tbsp olive oil',
                             '2 Tbsps butter',
-                            '1/4 cup (65 ml) 35% cream',
+                            '¼ cup (65 ml) 35% cream',
                             '2 Tbsps parsley or basil finely cut'
                         ]
                     },      
@@ -2639,8 +2639,8 @@ meals = [
                             '1 cup (250 ml) chicken broth',
                             '2 tbsp lemon juice',
                             '1 tbsp minced garlic clove',
-                            '1/2 tsp cayenne pepper flakes',
-                            '1/3 cup (90 ml) shallots, minced'
+                            '½ tsp cayenne pepper flakes',
+                            '⅓ cup (90 ml) shallots, minced'
                         ]
                     }
                 ],
@@ -2648,13 +2648,13 @@ meals = [
                     {
                         group_name : '',
                         steps_elements : [
-                            'Press or cut the chicken breasts to obtain a thickness of about 1/2 inch. Sprinkle salt and pepper on both sides of the chicken pieces.',
+                            'Press or cut the chicken breasts to obtain a thickness of about ½ inch. Sprinkle salt and pepper on both sides of the chicken pieces.',
                             'In a measuring cup, combine broth mixture ingredients.',
                             'Preheat the oven to 375°F (190°C)',
                             'Heat the olive oil in a saucepan over medium high heat.',
                             'Add the chicken and sear for 2 to 3 minutes on each side. Set the chicken aside.',
                             'Reduce the heat to medium, add the broth mixture to the pot.',
-                            'Reduce for 8 to 10 minutes, stirring regularly, until about 1/3 of the sauce remains.',
+                            'Reduce for 8 to 10 minutes, stirring regularly, until about ⅓ of the sauce remains.',
                             'Remove from the heat, add the butter and mix until it is completely incorporated. Add the cream and mix well.',
                             'Return the chicken pieces to the pot and toss well to ensure they are well coated with the sauce.',
                             'Place the pan in the oven for 5 to 8 minutes or until the chicken is cooked through. Garnish with the herbs.'
@@ -2684,14 +2684,14 @@ meals = [
                             "1 tablespoon red wine",
                             "1 tablespoon sweet Hungarian paprika",
                             "2 teaspoons salt",
-                            "1 1/2 teaspoons coarsely cracked black peppercorns (toast in a dry skillet for a minute or two until fragrant for maximum flavor)",
+                            "1 ½ teaspoons coarsely cracked black peppercorns (toast in a dry skillet for a minute or two until fragrant for maximum flavor)",
                             "1 teaspoon coarsely cracked fennel seeds (toast in a dry skillet for a minute or two until fragrant for maximum flavor)",
                             "1 teaspoon onion powder",
-                            "1/2 teaspoon red pepper flakes (omit if you want a mild sausage)",
-                            "1/4 teaspoon dried thyme",
-                            "1/4 teaspoon dried rosemary",
-                            "1/4 teaspoon dried oregano",
-                            "1/4 teaspoon dried ground sage",
+                            "½ teaspoon red pepper flakes (omit if you want a mild sausage)",
+                            "¼ teaspoon dried thyme",
+                            "¼ teaspoon dried rosemary",
+                            "¼ teaspoon dried oregano",
+                            "¼ teaspoon dried ground sage",
                         ]
                     }
                 ],
@@ -2729,12 +2729,12 @@ meals = [
                             "1 teaspoon paprika, optional",
                             "Crushed red chili pepper flakes, optional",
                             "2 bunch of asparagus, rinsed and trimmed",
-                            "1/2 cup butter, melted",
+                            "½ cup butter, melted",
                             "1 teaspoon olive oil",
                             "2 teaspoons minced garlic",
                             "1 tablespoon hot sauce, optional (we used Sriracha)",
-                            "1/4 cup (60ml) low-sodium chicken broth or soy sauce",
-                            "Juice of 1/2 lemon",
+                            "¼ cup (60ml) low-sodium chicken broth or soy sauce",
+                            "Juice of ½ lemon",
                             "1 tablespoon minced parsley",
                             "Slices of lemon, for garnish",
                         
@@ -2969,8 +2969,8 @@ meals = [
                     {
                         group_name: 'Prepare the marinated tofu',
                         steps_elements: [
-                            'Line a baking sheet with paper towels or a clean kitchen towel.Cut the tofu crosswise into two rectangles that are each about 2 1 / 2 inches wide and 4 inches long.',
-                            'Slice each rectangle into three 1/2-inch thick slabs and arrange in a single layer on the baking sheet. Cover the sliced tofu with more towels and gently press each piece to extract some of the moisture.',
+                            'Line a baking sheet with paper towels or a clean kitchen towel.Cut the tofu crosswise into two rectangles that are each about 2  ½ inches wide and 4 inches long.',
+                            'Slice each rectangle into three ½-inch thick slabs and arrange in a single layer on the baking sheet. Cover the sliced tofu with more towels and gently press each piece to extract some of the moisture.',
                             'In a large bowl, combine the pickle juice, hot sauce, mustard and gochugaru.',
                             'Heat the grapeseed oil in a large nonstick or cast- iron skillet over high heat until shimmering.Sear the tofu to form a golden - brown crust, 4 to 5 minutes per side.Immediately drop the hot tofu into the pickle juice mixture.Refrigerate and let the tofu marinate for at least a few hours, or even overnight.'
                         ]
@@ -3074,7 +3074,7 @@ meals = [
                         ingredients_element : [
                             '2 shredded romaine lettuce',
                             '¼ cup Caesar dressing, homemade or store-bought',
-                            '1/3 cup freshly grated Parmesan cheese',
+                            '⅓ cup freshly grated Parmesan cheese',
                             '½ pound bacon, cooked and crumbled into pieces',
                             '½ cup croutons, Homemade or store-bought, gently crushed',
                             '4 extra-large flour tortillas warmed'
@@ -3349,14 +3349,14 @@ meals = [
                         ingredients_element : [
                             "2 pints (20 oz) grape tomatoes",
                             "5 medium garlic cloves, peeled and halved",
-                            "1/2 cup extra-virgin olive oil",
+                            "½ cup extra-virgin olive oil",
                             "7 - 8 oz. block feta cheese (sheep's milk variety, such as Murray's), drained",
                             "10 oz. dry pasta such as campanelle, rigatoni, rotini, penne, bow tie, or cavatappi",
                             "8 oz. spinach, roughly chopped (8 packed cups)",
-                            "1/4 cup thinly sliced fresh basil",
+                            "¼ cup thinly sliced fresh basil",
                             "2 Tbsp minced fresh parsley",
-                            "1/4 tsp crushed red pepper flakes, or more to taste",
-                            "1/2 cup reserved pasta water"
+                            "¼ tsp crushed red pepper flakes, or more to taste",
+                            "½ cup reserved pasta water"
                         ]
                     }
                 ],
@@ -3366,9 +3366,9 @@ meals = [
                         steps_elements : [
                             "Preheat oven to 400 degrees.",
                             "Add grape tomatoes and garlic to a 3 quart baking dish. Toss with olive oil and a few pinches of salt and pepper. Place feta in the center of tomatoes, turn to coat with oil.",
-                            "Bake in center of preheated oven for 30 minutes. Then remove the baking dish, raise oven rack up to upper 1/3 of the oven. Return baking dish to oven and increase oven to 450 degrees. Bake until tomatoes and cheese are starting to brown slightly, about 10 minutes longer.",
+                            "Bake in center of preheated oven for 30 minutes. Then remove the baking dish, raise oven rack up to upper ⅓ of the oven. Return baking dish to oven and increase oven to 450 degrees. Bake until tomatoes and cheese are starting to brown slightly, about 10 minutes longer.",
                             "Meanwhile boil pasta to al dente in salted water (I use 1 Tbsp salt and about 3 or 4 quarts of water), according to time listed on pasta package.",
-                            "Reserve 1/2 cup pasta water and right before draining pour and submerge spinach in with the pasta (it should wilt almost instantly). Drain pasta and spinach.",
+                            "Reserve ½ cup pasta water and right before draining pour and submerge spinach in with the pasta (it should wilt almost instantly). Drain pasta and spinach.",
                             "Smash the tomatoes, garlic, oil and feta together with the back of a wooden spoon. Toss pasta in with mixture along with basil, parsley and red pepper flakes. Season with salt and pepper as needed."
                         ]
                     }
@@ -3482,13 +3482,13 @@ meals = [
                     {
                         group_name : '',
                         ingredients_element : [
-                            "1/4 cup almonds",
+                            "¼ cup almonds",
                             "2 cups loosely packed fresh parsley",
                             "12 sun-dried tomato halves",
                             "2 cloves garlic, roughly chopped",
                             "2 tablespoons olive oil",
-                            "1/4 pound smoked mozzarella, diced",
-                            "1/2 pound whole-wheat penne"
+                            "¼ pound smoked mozzarella, diced",
+                            "½ pound whole-wheat penne"
                         ]
                     }
                 ],
@@ -3713,7 +3713,7 @@ meals = [
                         ingredients_element : [
                             '4 strips bacon cut into small pieces',
                             '1 pound lean ground beef',
-                            '1/2 medium onion chopped',
+                            '½ medium onion chopped',
                             '3 Tbsp tomato paste',
                             '3 Tbsp tomato ketchup',
                             '1 Tbsp yellow mustard',
@@ -3722,7 +3722,7 @@ meals = [
                             '3 cups beef broth',
                             '1 cup uncooked elbow macaroni',
                             '2 cups grated cheddar cheese',
-                            '1/4 cup chopped pickles (optional)'
+                            '¼ cup chopped pickles (optional)'
                         ]
                     }
                 ],
@@ -3782,15 +3782,15 @@ meals = [
                     {
                         group_name : 'Golden crispies (breadcrumbs)',
                         ingredients_element : [    
-                            '1/4 cup oil',
+                            '¼ cup oil',
                             '4 sage leaves, fried and then crumbled',
                             '3 sprigs of fresh rosemary, fried and then crumbled',
                             '2 cups panko breadcrumbs, lightely browned',
                             '3/4 cup crunchy fried onions, crushed',
                             '1 tablespoon chopped fresh Italian parsley',
                             '1 teaspoon chopped fresh thyme',
-                            '1/2 teaspoon garlic powder',
-                            '1/2 teaspoon salt'
+                            '½ teaspoon garlic powder',
+                            '½ teaspoon salt'
                         ]
                     },
                 ],
@@ -3831,7 +3831,7 @@ meals = [
                             '340 g of vegetable mince',
                             '1 C. steak spice',
                             '3/4 cup water',
-                            '1/4 cup soy sauce',
+                            '¼ cup soy sauce',
                             'Pepper'
                         ]
                     }
@@ -3867,15 +3867,15 @@ meals = [
                             "<a href='#homemade_italian_sausage'>1lb homemade italian sausage</a>",
                             "340 g 3/4 lb gemelli pasta (or penne, rigate, etc.)",
                             "1 eggplant, about 454 g (1 lb), peeled or unpeeled, cut into 2 cm (¾ inch) cubes",
-                            "60 ml 1/4 cup olive oil",
+                            "60 ml ¼ cup olive oil",
                             "1 onion, diced",
-                            "2.5 ml 1/2 tsp. crushed hot pepper flakes, or more to taste",
-                            "2.5 ml 1/2 tsp. dried oregano",
+                            "2 ½ ml ½ tsp. crushed hot pepper flakes, or more to taste",
+                            "2 ½ ml ½ tsp. dried oregano",
                             "1 can 14 oz (398 ml) diced pezzettoni tomatoes",
-                            "80 ml 1/3 cup store-bought sun-dried tomato pesto",
+                            "80 ml ⅓ cup store-bought sun-dried tomato pesto",
                             "2 garlic cloves, minced",
                             "80 mL 3/4 cup feta cheese, crumbled, or more to taste",
-                            "125 ml 1/2 cup fresh basil, torn into pieces",
+                            "125 ml ½ cup fresh basil, torn into pieces",
                             "Ground pepper, to taste",
                         ]
                     }
@@ -4055,7 +4055,7 @@ meals = [
                             "6 cloves (20g) garlic , minced",
                             "3 bay leaves",
                             "½ teaspoon (0.4g) dried thyme",
-                            "½ teaspoon (0.5g) dried oregano",
+                            "½ teaspoon (0 ½g) dried oregano",
                             "1 teaspoon (3g) smoked paprika",
                             "½ - 1 teaspoon (1.2g) cayenne pepper"
                         ]
@@ -4102,10 +4102,10 @@ meals = [
                         ingredients_element : [
                             '2 Tbsp olive oil',
                             '2 cloves garlic, minced',
-                            '1/2 tsp dried oregano',
-                            '1/2 tsp dried basil',
-                            '1/4 tsp dried thyme',
-                            '1/4 tsp dried rosemary',
+                            '½ tsp dried oregano',
+                            '½ tsp dried basil',
+                            '¼ tsp dried thyme',
+                            '¼ tsp dried rosemary',
                             '1 pinch crushed red pepper',
                             'Freshly cracked black pepper'
                         ]
@@ -4113,15 +4113,15 @@ meals = [
                     {
                         group_name : '',
                         ingredients_element : [
-                            '3 oz. tomato paste (about 1/4 cup)',
-                            '1/2 tsp brown sugar',
-                            '1/4 tsp salt',
+                            '3 oz. tomato paste (about ¼ cup)',
+                            '½ tsp brown sugar',
+                            '¼ tsp salt',
                             '1 yellow onion',
                             '1 15oz. can fire roasted diced tomatoes',
                             '1 15oz. can cannellini beans',
-                            '1/4 lb. frozen chopped spinach',
+                            '¼ lb. frozen chopped spinach',
                             '1 cup uncooked long grain white rice',
-                            '1.5 cups vegetable broth',
+                            '1 ½ cups vegetable broth',
                         ]
                     }
                 ],
@@ -4442,7 +4442,7 @@ meals = [
                         group_name : 'Salad',
                         ingredients_element : [
                             "3 cloves garlic",
-                            "1/2 cup extra-virgin olive oil, plus more for brushing",
+                            "½ cup extra-virgin olive oil, plus more for brushing",
                             "2 to 4 anchovy filets, chopped",
                             "Juice of 1 lemon",
                             "Kosher salt and freshly ground pepper",
@@ -4472,7 +4472,7 @@ meals = [
                     {
                         group_name : 'Salad dressing',
                         steps_elements : [
-                            "Chop 2 garlic cloves and puree with 1/2 cup olive oil, the anchovies and lemon juice in a blender until smooth; season with salt and pepper.",
+                            "Chop 2 garlic cloves and puree with ½ cup olive oil, the anchovies and lemon juice in a blender until smooth; season with salt and pepper.",
                             "In a saucepan, season chicken with salt and pepper and toss with 1 tablespoon of the Caesar dressing. Grill the chicken until golden and crisp, 3 to 4 minutes per side.",
                             "In a large casserole, toss everything with the remaining dressing, the parmesan, and pepper to taste. Garnish with more parmesan."
                         ]
@@ -4603,7 +4603,7 @@ meals = [
                         group_name : 'Meatballs',
                         ingredients_element : [
                             "1 onion, minced",
-                            "1 1/4 pounds lean ground beef",
+                            "1 ¼ pounds lean ground beef",
                             "2 teaspoons ground cinnamon",
                             "1 teaspoon ground cumin",
                             "1 teaspoon ground allspice",
@@ -5010,8 +5010,8 @@ let bar = [
                         ingredients_element : [
                             '1 pound strawberries hulled and frozen',
                             '1 cup lemon juice (4 lemons)',
-                            '1/2 cup granulated sugar',
-                            '1/2 cup vodka',
+                            '½ cup granulated sugar',
+                            '½ cup vodka',
                             '1 cup seltzer water',
                             '1 cup ice'
                         ]
@@ -5052,8 +5052,8 @@ let bar = [
                         ingredients_element : [
                             '2oz Bourbon Whiskey',
                             '1oz Lemon Juice',
-                            '1/2oz Simple Syrup',
-                            '1/2oz Egg White',
+                            '½oz Simple Syrup',
+                            '½oz Egg White',
                             'Ice'
                         ]
                     },
@@ -5113,7 +5113,7 @@ if(document.querySelector('.meals_table') !== null) {
                 group_html += `<ul>`;
                 group_html += `<h4>${group.group_name}</h4>`;
                 for (let i = 0; i < group.ingredients_element.length; i++){
-                    group_html += `<li><label><input type="checkbox"><span class="element"><div class="checkbox"></div>${group.ingredients_element[i]}</span></label></li>`
+                    group_html += `<li><label><input type="checkbox"><span class="element"><div class="checkbox"></div><span>${group.ingredients_element[i]}</span><span class="original_ingredient">${group.ingredients_element[i]}</span></span></label></li>`
                 }
                 group_html += `</ul>`
             }
@@ -5133,6 +5133,10 @@ if(document.querySelector('.meals_table') !== null) {
                 steps_html += `</ol>`;
             }
             if(recipe.name !== '' && recipe.name !== null){
+                let input_portion = recipe.serves;
+                if(recipe.serves == '4-6'){
+                    input_portion = 5;
+                }
                 meals_html += `
                     <div class="meals in_book" id="${id}">
                         <span class="author">${recipe.author} added this recipe</span>
@@ -5143,6 +5147,12 @@ if(document.querySelector('.meals_table') !== null) {
                             <span>Servings: ${recipe.serves} |</span>
                             <span>Prep Time: ${recipe.prep} min |</span>
                             <span>Cook Time: ${recipe.cook} min</span>
+                        </div>
+                        <div class="scale">
+                            <span class="scale_title"><b>PORTIONS:</b></span>
+                            <div class="scale_input">
+                                <span class="minus">-</span><input type="number" value="${input_portion}"> <span class="plus">+</span>
+                            </div>
                         </div>
                         <div class="ingredients_wrapper">
                             <h3 class="ingredients_title">INGREDIENTS</h3>
@@ -5267,6 +5277,68 @@ if(document.querySelector('.meals_table') !== null) {
 
     document.querySelector('.reset-book').click();
 }
+
+/*
+:'######:::'######:::::'###::::'##:::::::'########::::'##::: ##:'##::::'##:'##::::'##:'########::'########:'########::
+'##... ##:'##... ##:::'## ##::: ##::::::: ##.....::::: ###:: ##: ##:::: ##: ###::'###: ##.... ##: ##.....:: ##.... ##:
+ ##:::..:: ##:::..:::'##:. ##:: ##::::::: ##:::::::::: ####: ##: ##:::: ##: ####'####: ##:::: ##: ##::::::: ##:::: ##:
+. ######:: ##:::::::'##:::. ##: ##::::::: ######:::::: ## ## ##: ##:::: ##: ## ### ##: ########:: ######::: ########::
+:..... ##: ##::::::: #########: ##::::::: ##...::::::: ##. ####: ##:::: ##: ##. #: ##: ##.... ##: ##...:::: ##.. ##:::
+'##::: ##: ##::: ##: ##.... ##: ##::::::: ##:::::::::: ##:. ###: ##:::: ##: ##:.:: ##: ##:::: ##: ##::::::: ##::. ##::
+. ######::. ######:: ##:::: ##: ########: ########:::: ##::. ##:. #######:: ##:::: ##: ########:: ########: ##:::. ##:
+:......::::......:::..:::::..::........::........:::::..::::..:::.......:::..:::::..::........:::........::..:::::..::*/
+let input_scales = document.querySelectorAll('.scale_input');
+input_scales.forEach(scale => {
+    let input = scale.querySelector('input[type="number"]');
+    let plus = scale.querySelector('.plus');
+    let minus = scale.querySelector('.minus');
+    let initial_value = input.value;
+    let plusValue = parseInt(input.value);
+    plus.addEventListener('click', function(){
+        plusValue += 1;
+        input.value = plusValue;
+        changePortions();
+    })
+    minus.addEventListener('click', function(){
+        plusValue -= 1;
+        input.value = plusValue;
+        changePortions();
+    })
+    input.addEventListener('change', function(){
+        changePortions();
+    })
+    function changePortions(){
+        let value = input.value;
+        let incrementation = ((parseInt(initial_value) + 1) / initial_value) - 1;
+        let ingredients = input.closest('.meals').querySelectorAll('.ingredients .element');
+        let qty = value / initial_value;
+        if(value !== initial_value){
+            ingredients.forEach(ingredient =>{
+                // for those with points: /\$(\d\.\d+)/
+                let original_ingredient = ingredient.querySelector('.original_ingredient');
+                let updated_ingredients = ingredient.querySelector('span:not(.original_ingredient)');
+                let number = original_ingredient.innerText.replace(/(^\d+)(.+$)/i,'$1');
+                let multiplied_number = Math.round(parseInt(number) * qty);
+                //console.log(number + 'x' + ratioPlus + '=' + multiplied_number);
+                if(!isNaN(multiplied_number)){
+                    updated_ingredients.innerText = original_ingredient.innerText.replace(number, multiplied_number);
+                }
+            })
+        }else{
+            ingredients.forEach(ingredient =>{
+                // for those with points: /\$(\d\.\d+)/i
+                let original_ingredient = ingredient.querySelector('.original_ingredient');
+                let updated_ingredients = ingredient.querySelector('span:not(.original_ingredient)');
+                let number = original_ingredient.innerText.replace(/(^\d+)(.+$)/i,'$1');
+                let multiplied_number = Math.round(parseInt(number) * incrementation);
+                //console.log(number + 'x' + ratioPlus + '=' + multiplied_number);
+                if(!isNaN(multiplied_number)){
+                    updated_ingredients.innerText = original_ingredient.innerText;
+                }
+            })
+        }        
+    }
+})
 
 
 /*
