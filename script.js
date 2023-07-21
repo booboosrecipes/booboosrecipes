@@ -4530,7 +4530,7 @@ meals = [
                 name:  'Shrimp Summer Salad With Creamy Cilantro Dressing',
                 image: 'https://img.buzzfeed.com/tasty-app-user-assets-prod-us-east-1/recipes/dbccd3ca691b467185d910918146407c.jpeg',
                 tags: 'Summer, salad, seafood',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Booboos',
                 serves: '4',
                 prep: '20',
