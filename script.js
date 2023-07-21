@@ -56,7 +56,7 @@ meals = [
                             'In a large measuring cup, combine all the ingredients "for the sauce", then set aside.',
                             'In a skillet over medium heat, heat 1 tbsp. vegetable oil, then soften the green onions, ginger and garlic. Transfer everything to a bowl and let cool.',
                             'Add the rest of the ingredients “for the dumplings”, then mix well. With your hands, form small balls about 1 ½ inches in diameter, then set aside on a plate.',
-                            'In the same pan, over medium heat, heat 1 tbsp. tablespoon vegetable oil, then brown the meatballs for 6 to 8 minutes.',
+                            'In the same pan, over medium heat, heat 1 Tbsp vegetable oil, then brown the meatballs for 6 to 8 minutes.',
                             'Pour the sauce over the meatballs, then cover. Simmer over low heat for 5 to 6 minutes, or until the meatballs are cooked in the center, then serve.'
                         ]
                     }
@@ -280,7 +280,7 @@ meals = [
                         group_name : 'Tofu (marinate 24hrs)',
                         ingredients_element : [
                             '4 Tbsp water',
-                            '2 tablespoons soy sauce',
+                            '2 Tbsps soy sauce',
                             '1 teaspoon onion powder',
                             '1 teaspoon garlic powder',
                             '1 teaspoon nutritional yeast',
@@ -584,7 +584,7 @@ meals = [
                     {
                         group_name : 'Meat filling',
                         steps_elements : [
-                            'Combine all filling ingredients. To make dumplings, place a tablespoon of the filling in the center of a wrapper. Fold. Arrange the dumplings in a bamboo steamer (lined with parchment paper at the bottom) and steam for 8-10 minutes.'
+                            'Combine all filling ingredients. To make dumplings, place a Tbsp of the filling in the center of a wrapper. Fold. Arrange the dumplings in a bamboo steamer (lined with parchment paper at the bottom) and steam for 8-10 minutes.'
                         ]
                     }
                 ],
@@ -786,8 +786,8 @@ meals = [
                         steps_elements : [
                             'Cook ramen noodles according to the package.',
                             'Marinate the chicken with all the seasonings in the Marinade, for 15 minutes.',
-                            'Heat 1 tablespoon of the cooking oil. Add the chicken into the wok and pan-fry the chicken until slightly charred and blackened on both sides. Remove the chicken and set aside.',
-                            'Clean the wok and heat it up with the remaining 2 tablespoons of oil. Add in the minced garlic and stir-fry until light brown or aromatic.',
+                            'Heat 1 Tbsp of the cooking oil. Add the chicken into the wok and pan-fry the chicken until slightly charred and blackened on both sides. Remove the chicken and set aside.',
+                            'Clean the wok and heat it up with the remaining 2 Tbsps of oil. Add in the minced garlic and stir-fry until light brown or aromatic.',
                             'Add the shredded cabbage and carrot into the wok and do a few quick stirs.',
                             'Stir in the noodles, soy sauce, oyster sauce, water, and chicken. Continue to stir fry until the noodles are well blended with the seasonings and completely cooked through.',
                             'Garnish with the sesame seeds and scallion. Serve immediately.'
@@ -1010,9 +1010,9 @@ meals = [
                     {
                         group_name : '',
                         steps_elements : [
-                            "Heat ½ tablespoon of butter in a large wok over medium-high heat until melted. Add egg, and cook until scrambled, stirring occasionally. Remove egg, and transfer to a separate plate.",
-                            "Add an additional 1 tablespoon butter to the pan and heat until melted. Add carrots, onion, peas and garlic, and season with a generous pinch of salt and pepper. Sauté for about 5 minutes or until the onion and carrots are soft.",
-                            "Increase heat to high, add in the remaining 1 ½ tablespoons of butter, and stir until melted.",
+                            "Heat ½ Tbsp of butter in a large wok over medium-high heat until melted. Add egg, and cook until scrambled, stirring occasionally. Remove egg, and transfer to a separate plate.",
+                            "Add an additional 1 Tbsp butter to the pan and heat until melted. Add carrots, onion, peas and garlic, and season with a generous pinch of salt and pepper. Sauté for about 5 minutes or until the onion and carrots are soft.",
+                            "Increase heat to high, add in the remaining 1 ½ Tbsps of butter, and stir until melted.",
                             "Immediately add the rice, green onions, soy sauce and oyster sauce (if using), and stir until combined. Continue sautéing for an additional 3 minutes to fry the rice, stirring occasionally.  (I like to let the rice rest for a bit between stirs so that it can crisp up on the bottom.)  Then add in the eggs and stir to combine.",
                             "Remove from heat, and stir in the sesame oil until combined. Taste and season with extra soy sauce, if needed.",
                             "Serve immediately, or refrigerate in a sealed container for up to 3 days."
@@ -1220,19 +1220,19 @@ meals = [
                         group_name : 'Sauce',
                         ingredients_element : [
                             '2 cup freshly squeezed orange juice, pulp removed',
-                            '4 tablespoon white vinegar or rice vinegar',
+                            '4 Tbsp white vinegar or rice vinegar',
                             '0 ½ cup + 2 tbsp brown sugar',
-                            '4 tablespoon regular soy sauce',
+                            '4 Tbsp regular soy sauce',
                             '4 teaspoon garlic minced',
                             '0 ½ teaspoon ginger powder',
-                            '2 tablespoon cornstarch',
+                            '2 Tbsp cornstarch',
                             '1 tsp red chili flakes',
                         ]
                     },
                     {
                         group_name : 'Optional garnish',
                         ingredients_element : [
-                            '4 tablespoon green onion finely chopped',
+                            '4 Tbsp green onion finely chopped',
                             '2 Tbsp orange zest grated',
                             '2 tsp sesame seeds toasted',
                         ]
@@ -1289,15 +1289,15 @@ meals = [
                     {
                         group_name : 'Thịt Nướng (Pork)',
                         ingredients_element : [
-                            "2 tablespoons soy sauce",
-                            "1 tablespoon fish sauce",
-                            "1 tablespoon honey",
-                            "1 tablespoon dark brown sugar",
-                            "2 small shallots (3-4 tablespoons), peeled and minced",
+                            "2 Tbsps soy sauce",
+                            "1 Tbsp fish sauce",
+                            "1 Tbsp honey",
+                            "1 Tbsp dark brown sugar",
+                            "2 small shallots (3-4 Tbsps), peeled and minced",
                             "1 stalk lemongrass bruised with the flat side of a knife, fibrous layers discarded, and finely minced",
                             "4 garlic cloves finely minced",
                             "2 green onions finely chopped",
-                            "3 tablespoons finely chopped cilantro",
+                            "3 Tbsps finely chopped cilantro",
                             "1 teaspoon freshly ground black pepper",
                             "1 pound pork shoulder (thinly sliced into 2-3 inch strips)",
                         ]
@@ -1491,7 +1491,7 @@ meals = [
                     {
                         group_name : 'Assembly (with onigiri molds)',
                         steps_elements : [
-                            "Put rice in mold, about half filled with rice. Flatten with small spoon. Put about 1 tablespoon of filling, and flatten gain with spoon. Put rice to cover the filling, flatten and close mold. Press, then tap the onigiri mold to make them come out."
+                            "Put rice in mold, about half filled with rice. Flatten with small spoon. Put about 1 Tbsp of filling, and flatten gain with spoon. Put rice to cover the filling, flatten and close mold. Press, then tap the onigiri mold to make them come out."
                         ]
                     }
                 ],
@@ -1539,7 +1539,7 @@ meals = [
                         steps_elements : [
                             "To make the seasoning paste for pork, combine chili paste, chili flakes, soy sauce, rice wine, sugar, garlic, ginger puree, sesame oil, sesame seeds, and black pepper in a small mixing bowl; mix well.",
                             "In a large mixing bowl, separate each slice of pork and put them in a bowl. Add the seasoning paste and mix well (Wearing a disposable food glove is helpful). You can make this step ahead of time and let it marinate in the refrigerator up to 24 hrs. Or you can go straight to stir-fry without marinating at all.",
-                            "Heat 2 tablespoon of oil in a deep skillet or wok over high heat. Add 2 teaspoon of sugar and swirl the pan around. Let the sugar turn brown and caramelized.",
+                            "Heat 2 Tbsp of oil in a deep skillet or wok over high heat. Add 2 teaspoon of sugar and swirl the pan around. Let the sugar turn brown and caramelized.",
                             "Quickly add the chopped Asian leek (or green onion) and stir-fry for 30 seconds to infuse the oil. Add pork and onion. Stir-fry pork and onion until they are fully cooked and tender, about 3-4 minutes. Serve immediately with rice and lettuce (if desired).",
                             "Serve pork with lettuce and rice! :) "
                         ]
@@ -1561,14 +1561,14 @@ meals = [
                         group_name : '',
                         ingredients_element : [
                             "16 oz. (225 g) wheat noodles , dried (or udon noodles)",
-                            "2½ tablespoons peanut oil (or vegetable oil)",
+                            "2½ Tbsps peanut oil (or vegetable oil)",
                             "8 eggs , beaten",
                             "4 green onions , chopped",
-                            "6 cloves garlic , chopped (yields about 1 tablespoon)",
+                            "6 cloves garlic , chopped (yields about 1 Tbsp)",
                             "4 cans (28 oz. / 800 g in total) tomatoes , diced (or 4 ripe tomatoes, or a mix of both)",
                             "2 teaspoon soy sauce",
                             "2 teaspoon salt (or to taste)",
-                            "2 tablespoon sugar",
+                            "2 Tbsp sugar",
                             "Homemade nutty sauce to serve with (Optional)"
                         ]
                     }
@@ -1578,8 +1578,8 @@ meals = [
                         group_name : '',
                         steps_elements : [
                             "Bring a large pot of water to a boil over high heat. Cook the noodles according to the instructions on the package. Once done, run under tap water to cool. Drain and set aside.",
-                            "Heat 1 tablespoon of oil in a medium-sized non-stick pan over medium-high heat until hot. Add the eggs and let them sit without touching until the bottom side is done, but the top is still raw, about 30 seconds. Stir with a spatula, chopping the egg into bite-sized pieces, until the eggs are just cooked. Transfer the eggs to a plate and set aside.",
-                            "Add the remaining ½ tablespoon oil, green onion, and garlic to the pan. Stir a few times to release the fragrance. Add the tomatoes and/or canned tomato. Stir and cook until the tomatoes turn tender, about 2 minutes. Add the soy sauce and stir to mix well.",
+                            "Heat 1 Tbsp of oil in a medium-sized non-stick pan over medium-high heat until hot. Add the eggs and let them sit without touching until the bottom side is done, but the top is still raw, about 30 seconds. Stir with a spatula, chopping the egg into bite-sized pieces, until the eggs are just cooked. Transfer the eggs to a plate and set aside.",
+                            "Add the remaining ½ Tbsp oil, green onion, and garlic to the pan. Stir a few times to release the fragrance. Add the tomatoes and/or canned tomato. Stir and cook until the tomatoes turn tender, about 2 minutes. Add the soy sauce and stir to mix well.",
                             "Add the cooked eggs, salt, and sugar. Stir everything together to mix well. Taste the sauce. Adjust the seasoning by adding more salt and/or sugar, if needed. Transfer everything to a big plate.",
                             "To serve, divide the noodles among the serving bowls. Add a few spoonfuls of the tomato egg sauce. Mix well and enjoy! To spice up the noodles, you can use the nutty sauce from this recipe. The flavors go very well together.",
                         ]
@@ -1604,9 +1604,9 @@ meals = [
                             '3 green onion the white part only',
                             '5 slices fresh ginger',
                             '3 cloves of garlic sliced',
-                            '1 tablespoon Sugar use less or more, depends on your taste',
-                            '1 tablespoon Oyster sauce',
-                            '½ tablespoon Light soy sauce',
+                            '1 Tbsp Sugar use less or more, depends on your taste',
+                            '1 Tbsp Oyster sauce',
+                            '½ Tbsp Light soy sauce',
                             'salt to taste',
                             'black pepper to taste',
                             'red chili optional, for garnish',
@@ -1615,9 +1615,9 @@ meals = [
                     {
                         group_name : 'Ground pork',
                         ingredients_element : [
-                            "1.5 pound ground pork",
-                            "2 teaspoons corn starch",
-                            "1 tablespoon Shaoxing cooking wine",
+                            "1 ½ pound ground pork",
+                            "2 tsp corn starch",
+                            "1 Tbsp Shaoxing cooking wine",
                         ]
                     }
                 ],
@@ -2474,7 +2474,7 @@ meals = [
                         steps_elements : [
                             "In large bowl, toss chicken with oil, then oregano, sumac and ½ tsp each salt and pepper. Add tomatoes and onion and toss to combine.",
                             "Arrange in even layer in air fryer basket and air-fry at 400°F, shaking basket occasionally, until chicken is golden brown and cooked through, 15 to 20 minutes.",
-                            "Meanwhile, toss couscous with lemon zest and prepare per package directions. Fluff with fork and fold in lemon juice and 2 tablespoons dill.",
+                            "Meanwhile, toss couscous with lemon zest and prepare per package directions. Fluff with fork and fold in lemon juice and 2 Tbsps dill.",
                             "Serve chicken and vegetables over couscous, spooning any juices collected at bottom of air fryer over top. Sprinkle with remaining dill and feta and serve with lemon wedges if desired."
                         ]
                     }
@@ -2592,8 +2592,8 @@ meals = [
                             '4 bone-in pork chops',
                             'coarse salt - to season',
                             'freshly ground black pepper - to season',
-                            '1 tablespoon olive oil',
-                            '3 tablespoon butter - divided',
+                            '1 Tbsp olive oil',
+                            '3 Tbsp butter - divided',
                             '2 springs fresh thyme - (plus 1 tbsp fresh chopped thyme, stems removed)',
                             '6 cloves garlic - minced'
                         ]
@@ -2604,7 +2604,7 @@ meals = [
                         group_name : '',
                         steps_elements : [
                             'Season - Generously season both sides of pork chops with salt and pepper.',
-                            'Cook - Heat the olive oil in a large skillet over medium-high heat. Once the pan is hot, and the chops, 2 tablespoons butter, and 2-3 sprigs of fresh thyme to the skillet. Cook the pork chops for 3-4 minutes on each side, or until the outside is golden and the internal temperature reads 145°F (or a little below) with a digital meat thermometer.',
+                            'Cook - Heat the olive oil in a large skillet over medium-high heat. Once the pan is hot, and the chops, 2 Tbsps butter, and 2-3 sprigs of fresh thyme to the skillet. Cook the pork chops for 3-4 minutes on each side, or until the outside is golden and the internal temperature reads 145°F (or a little below) with a digital meat thermometer.',
                             'Add the remaining butter, garlic, and thyme - Add the remaining butter, minced garlic, and chopped thyme to the skillet. Use a spoon to drizzle the garlic butter sauce over the pork chops before flipping the pork chops over and spooning the garlic butter over the pork chops on the other side. Repeat for 1-2 minutes.',
                             'Serve - Immediately remove pork chops from the skillet and serve with all your favorite sides. Enjoy!'
                         ]
@@ -2679,12 +2679,12 @@ meals = [
                             "1 pound freshly ground well-marbled pork butt*",
                             "OR pre-packaged ground pork*",
                             "*can substitute ground chicken, turkey or meat of choice",
-                            "1 tablespoon finely minced garlic",
-                            "1 tablespoon finely chopped fresh parsley",
-                            "1 tablespoon red wine",
-                            "1 tablespoon sweet Hungarian paprika",
-                            "2 teaspoons salt",
-                            "1 ½ teaspoons coarsely cracked black peppercorns (toast in a dry skillet for a minute or two until fragrant for maximum flavor)",
+                            "1 Tbsp finely minced garlic",
+                            "1 Tbsp finely chopped fresh parsley",
+                            "1 Tbsp red wine",
+                            "1 Tbsp sweet Hungarian paprika",
+                            "2 tsp salt",
+                            "1 ½ tsp coarsely cracked black peppercorns (toast in a dry skillet for a minute or two until fragrant for maximum flavor)",
                             "1 teaspoon coarsely cracked fennel seeds (toast in a dry skillet for a minute or two until fragrant for maximum flavor)",
                             "1 teaspoon onion powder",
                             "½ teaspoon red pepper flakes (omit if you want a mild sausage)",
@@ -2724,18 +2724,18 @@ meals = [
                             "3 boneless, skinless chicken breasts, cut into bite-sized chunks",
                             "1 teaspoon salt",
                             "1 teaspoon fresh cracked black pepper",
-                            "2 teaspoons onion powder",
+                            "2 tsp onion powder",
                             "1 teaspoon Italian seasoning or Herbes de Provence",
                             "1 teaspoon paprika, optional",
                             "Crushed red chili pepper flakes, optional",
                             "2 bunch of asparagus, rinsed and trimmed",
                             "½ cup butter, melted",
                             "1 teaspoon olive oil",
-                            "2 teaspoons minced garlic",
-                            "1 tablespoon hot sauce, optional (we used Sriracha)",
+                            "2 tsp minced garlic",
+                            "1 Tbsp hot sauce, optional (we used Sriracha)",
                             "¼ cup (60ml) low-sodium chicken broth or soy sauce",
                             "Juice of ½ lemon",
-                            "1 tablespoon minced parsley",
+                            "1 Tbsp minced parsley",
                             "Slices of lemon, for garnish",
                         
                         ]
@@ -3066,7 +3066,7 @@ meals = [
                             '½ tsp garlic powder',
                             'Kosher salt, as needed',
                             'Freshly ground black pepper, as needed',
-                            '1 tablespoon vegetable oil'
+                            '1 Tbsp vegetable oil'
                         ]
                     },
                     {
@@ -3232,12 +3232,12 @@ meals = [
                             '1⁄8 teaspoon garlic powder',
                             '1⁄4 teaspoon salt',
                             '1⁄8 teaspoon pepper',
-                            '2 tablespoons flour',
+                            '2 Tbsps flour',
                             '1 cup chicken broth',
                             '1 can (317ml) cream of mushroom soup',
                             '2 cups mushrooms',
                             '1⁄2 cup sour cream',
-                            '1 tablespoon tomato paste (optional)'
+                            '1 Tbsp tomato paste (optional)'
                         ]
                     }
                 ],
@@ -3435,7 +3435,7 @@ meals = [
                         group_name : '',
                         ingredients_element : [
                             "3 cups penne pasta",
-                            "1½ teaspoons olive oil",
+                            "1½ tsp olive oil",
                             "1 onion diced",
                             "1 green bell pepper diced",
                             "1½ cups sliced fresh mushrooms",
@@ -3444,8 +3444,8 @@ meals = [
                             "1 cup turkey pepperonis",
                             "28 ounces diced tomatoes 1 can, drained",
                             "15 ounces tomato sauce 1 can",
-                            "½ Tablespoon balsamic vinegar",
-                            "½ Tablespoon Italian seasoning",
+                            "½ Tbsp balsamic vinegar",
+                            "½ Tbsp Italian seasoning",
                             "salt and pepper, to taste",
                             "1½ cups shredded Mozzarella cheese"
                         ]
@@ -3486,7 +3486,7 @@ meals = [
                             "2 cups loosely packed fresh parsley",
                             "12 sun-dried tomato halves",
                             "2 cloves garlic, roughly chopped",
-                            "2 tablespoons olive oil",
+                            "2 Tbsps olive oil",
                             "¼ pound smoked mozzarella, diced",
                             "½ pound whole-wheat penne"
                         ]
@@ -3755,7 +3755,7 @@ meals = [
                         group_name : 'Red sauce',
                         ingredients_element : [                            
                             '1 pound ground Italian sausage or meatless alternative',
-                            '1–2 tablespoons extra-virgin olive oil',
+                            '1–2 Tbsps extra-virgin olive oil',
                             '1 medium yellow onion, minced',
                             '2 large cloves garlic, minced',
                             'one 28-ounce can crushed tomatoes',
@@ -3787,7 +3787,7 @@ meals = [
                             '3 sprigs of fresh rosemary, fried and then crumbled',
                             '2 cups panko breadcrumbs, lightely browned',
                             '3/4 cup crunchy fried onions, crushed',
-                            '1 tablespoon chopped fresh Italian parsley',
+                            '1 Tbsp chopped fresh Italian parsley',
                             '1 teaspoon chopped fresh thyme',
                             '½ teaspoon garlic powder',
                             '½ teaspoon salt'
@@ -3894,6 +3894,52 @@ meals = [
                     }
                 ],
                 source: 'https://www.leporcduquebec.com/recette/447-pates-a-la-saucisse-pesto-de-tomates-sechees-et-feta/'
+            },
+            {        
+                name:  'Beef and macaroni (macaroni chinois)',
+                image: 'https://lecoupdegrace.ca/app/uploads/2023/03/macaroni-chinois-inpage.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '10',
+                cook: '30',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '375g macaroni',
+                            '1 medium Spanish onion, finely chopped',
+                            '3 garlic cloves, finely chopped',
+                            'Olive oil',
+                            '2 large carrots, sliced ​​into half rounds',
+                            '3 celery stalks, sliced',
+                            '550g semi-lean ground beef',
+                            '2 cups broccoli heads',
+                            '1/2 tsp. herbs de Provence',
+                            '1/2 tsp. Italian spices',
+                            '227g button mushrooms, halved',
+                            '1 green bell pepper, diced',
+                            '1/2 cup low-sodium soy sauce',
+                            'Salt and pepper'
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements :[
+                            'In a large pot, bring a good quantity of water to a boil and cook the pasta according to the instructions. Drain and reserve.',
+                            'In another large pot over medium heat, heat a drizzle of olive oil. Cook the onion and garlic for 5 minutes. Stir often.',
+                            'Add the carrots and celery then cook for 10 minutes, stirring regularly. Salt and pepper.',
+                            'Add the meat, broccoli and spices then cook for 5-7 minutes, or until the meat is slightly pink. Break the meat into small pieces. Drain the fat.',
+                            'Add the mushrooms and peppers then cook another 5 minutes, stirring regularly.',
+                            'Now add the pasta and soy sauce and mix well. Add more soy sauce, if needed.',
+
+                        ]
+                    }
+                ],
+                source: 'https://lecoupdegrace.ca/recette/macaroni-chinois/'
             },
             // TEMPLATE
             {        
@@ -4310,10 +4356,10 @@ meals = [
                             "¼ teaspoon black pepper",
                             "¼ teaspoon garlic powder",
                             "¼ cup blanched almond flour (or all-purpose flour)",
-                            "1 tablespoon clarified butter",
-                            "1 tablespoon butter",
-                            "½ tablespoon lemon juice freshly squeezed",
-                            "1 tablespoon minced parsley",
+                            "1 Tbsp clarified butter",
+                            "1 Tbsp butter",
+                            "½ Tbsp lemon juice freshly squeezed",
+                            "1 Tbsp minced parsley",
                         ]
                     }
                 ],
@@ -4322,7 +4368,7 @@ meals = [
                         group_name : '',
                         steps_elements : [
                             "Heat your oven on the “keep warm” setting (150 degrees F).",
-                            "Season both sides of the fish with kosher salt, black pepper, and garlic powder. Sprinkle 2 tablespoons of almond flour on each fillet, 1 tablespoon per side, and use your hand to gently spread to coat.",
+                            "Season both sides of the fish with kosher salt, black pepper, and garlic powder. Sprinkle 2 Tbsps of almond flour on each fillet, 1 Tbsp per side, and use your hand to gently spread to coat.",
                             "In a large 12-inch nonstick skillet over medium-high heat, heat the clarified butter. Swirl or brush to coat. Place the fish pieces in the skillet and cook them until just done, about 2 minutes per side. Lower the heat to medium in the pan overheats. Transfer the cooked fish to oven-safe plates and keep them in the warm oven.",
                             "Carefully wipe the skillet clean with paper towels. Add the butter. Heat the butter over medium-high heat, swirling to melt. Cook until the butter starts to brown, about 1 minute, then immediately remove the skillet from the heat and stir in the lemon juice.",
                             "Remove the plates from the oven. Pour the butter-lemon sauce over the fish pieces and sprinkle them with parsley. Serve with vegetable of choice (asparagus, cauliflower) and rice.",
@@ -4351,22 +4397,22 @@ meals = [
                         group_name : 'Honey Garlic Marinade',
                         ingredients_element : [
                             '⅓ cup honey',
-                            '2 tablespoons butter melted',
+                            '2 Tbsps butter melted',
                             '4 cloves garlic minced',
-                            '3 tablespoons lemon juice',
-                            '2 tablespoons soy sauce',
-                            '2 teaspoons garlic powder',
+                            '3 Tbsps lemon juice',
+                            '2 Tbsps soy sauce',
+                            '2 tsp garlic powder',
                             '1 teaspoon onion powder',
-                            '2 teaspoons kosher salt divided',
-                            '2 teaspoons black pepper divided',
-                            '1 tablespoon avocado oil or olive oil',
+                            '2 tsp kosher salt divided',
+                            '2 tsp black pepper divided',
+                            '1 Tbsp avocado oil or olive oil',
                             '½ teaspoon smoked paprika',
                         ]
                     },
                     {
                         group_name : 'Garnish (optional)',
                         ingredients_element : [
-                            '½ tablespoon chopped parsley'
+                            '½ Tbsp chopped parsley'
                         ]
                     },
                 ],
@@ -4473,12 +4519,69 @@ meals = [
                         group_name : 'Salad dressing',
                         steps_elements : [
                             "Chop 2 garlic cloves and puree with ½ cup olive oil, the anchovies and lemon juice in a blender until smooth; season with salt and pepper.",
-                            "In a saucepan, season chicken with salt and pepper and toss with 1 tablespoon of the Caesar dressing. Grill the chicken until golden and crisp, 3 to 4 minutes per side.",
+                            "In a saucepan, season chicken with salt and pepper and toss with 1 Tbsp of the Caesar dressing. Grill the chicken until golden and crisp, 3 to 4 minutes per side.",
                             "In a large casserole, toss everything with the remaining dressing, the parmesan, and pepper to taste. Garnish with more parmesan."
                         ]
                     }
                 ],
                 source: ' https://www.foodnetwork.com/recipes/food-network-kitchen/grilled-chicken-ceasar-salad-recipe-211820'
+            },
+            {        
+                name:  'Shrimp Summer Salad With Creamy Cilantro Dressing',
+                image: 'https://img.buzzfeed.com/tasty-app-user-assets-prod-us-east-1/recipes/dbccd3ca691b467185d910918146407c.jpeg',
+                tags: 'Summer, salad, seafood',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '20',
+                cook: '',
+                ingredients: [            
+                    {
+                        group_name : 'Dressing',
+                        ingredients_element : [
+                            '½ cup fresh cilantro (20 g), chopped',
+                            '¼ cup sour cream (60 g)',
+                            '¼ cup mayonnaise (60 g)',
+                            '1 small lemon, juiced',
+                            '1 clove garlic',
+                            '1 Tbsp nutritional yeast',
+                            '1 Tbsp fresh chives, chopped',
+                            '2 Tbsps water',
+                            'kosher salt, to taste',
+                            'freshly ground black pepper, to taste',
+                        ]
+                    },
+                    {
+                        group_name : 'Salad',
+                        ingredients_element : [
+                            '1 romaine lettuce heart, chopped',
+                            '¼ medium red onion, sliced',
+                            '1 english cucumber, diced',
+                            '1 jalapeño, seeded and sliced',
+                            '10 mini heirloom tomatoes, quartered',
+                            '8 ears baby corn, cooked and chopped',
+                            '1 mango, peeled, pitted, and diced',
+                            '1 avocado, peeled, pitted, and diced',
+                            '1 lb medium shrimp (425 g), peeled, deveined, and cooked',
+                            '4 Tbsp crumbled feta cheese',
+                            '4 tsp fresh chives, chopped',
+                            'kosher salt, to taste',
+                            'freshly ground black pepper, to taste',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Make the dressing: Add the cilantro, sour cream, mayonnaise, lemon juice, garlic, nutritional yeast, chives, and water to a blender and blend until smooth. Season with salt and pepper to taste.',
+                            'Assemble the salad: In a large bowl, combine the romaine, red onion, cucumber, jalapeño, cherry tomatoes, baby corn, mango, and avocado. Drizzle the cilantro dressing over the salad and toss until evenly coated.',
+                            'Divide the salad between 4 serving bowls and top with the shrimp, feta, and chives. Season with salt and pepper.',
+                            'Any leftover salad will keep in an airtight container in the refrigerator for up to 1 day.',
+                        ]
+                    }
+                ],
+                source: 'https://tasty.co/recipe/shrimp-summer-salad-with-creamy-cilantro-dressing'
             },
             // TEMPLATE
             {        
@@ -4604,7 +4707,7 @@ meals = [
                         ingredients_element : [
                             "1 onion, minced",
                             "1 ¼ pounds lean ground beef",
-                            "2 teaspoons ground cinnamon",
+                            "2 tsp ground cinnamon",
                             "1 teaspoon ground cumin",
                             "1 teaspoon ground allspice",
                             "Kosher salt and freshly ground pepper"
