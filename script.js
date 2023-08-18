@@ -1638,6 +1638,53 @@ meals = [
                 ],
                 source: 'https://sassychopsticks.com/chinese-pickled-mustard-greens-stir-fry-ground-pork/'
             },
+            {        
+                name:  'Ground Pork and Bok Choy Stir Fry',
+                image: 'https://thealmondeater.com/wp-content/uploads/2022/03/ground-pork-stir-fry_web-9-1024x1536.jpg.webp',
+                tags: 'Asian',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '15',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '1 lb. ground pork',
+                            '2 green onions greens and whites, chopped',
+                            '4 cups cabbage chopped (about ½ head)',
+                            '2 heads baby bok choy ends trimmed',
+                            '1 carrot shredded/grated',
+                            '3 garlic cloves minced',
+                        ]
+                    },
+                    {
+                        group_name : 'Sauce',
+                        ingredients_element : [
+                            '⅓ cup soy sauce or coconut aminos',
+                            '¼ cup water',
+                            '2 tablespoon honey',
+                            '1 teaspoon toasted sesame oil',
+                            '1 teaspoon cornstarch or arrowroot',
+                            'pinch of red pepper flakes',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Start by cooking the pork: add the pork to a large skillet or wok (no need to add any oil!) and cook it over medium heat, using a wooden spoon or spatula to break it up. Continue cooking until it's no longer pink, then let it sit undisturbed for 3-4 minutes, which will allow the bottom to crisp up nicely, which enhances the flavor. Remove the pork with a slotted spoon and set aside.",
+                            "Next, make the sauce: whisk all of the sauce ingredients together in a small bowl and set aside.",
+                            "To the skillet, add the green onions and cabbage and sauté for 2 minutes. Then, add the bok choy and carrots and cook until the bok choy is wilted, 2-3 minutes. Last, add the garlic and sauté for 1 more minute.",
+                            "Add the pork back into the skillet and reduce the heat to low. Pour the sauce into the skillet, using a rubber spatula or wooden spoon to stir so that the pork and veggies are coated in the sauce. If the sauce doesn't seem to be thickening, turn the heat back to up to medium.",
+                            "Serve pork stir fry over rice or cauliflower rice, and garnish with green onions, red pepper flakes and/or sesame seeds. Enjoy!",
+                        ]
+                    }
+                ],
+                source: 'https://thealmondeater.com/ground-pork-stir-fry/'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -2794,6 +2841,46 @@ meals = [
                     }
                 ],
                 source: 'https://masonfit.com/honey-sriracha-ground-chicken-and-broccoli/'
+            },
+            {        
+                name:  'Pesto Fried Rice with Vegetables',
+                image: 'https://frommybowl.com/wp-content/uploads/2021/07/Vegan_Pesto_Fried_Rice_FromMyBowl_Pinterest.png',
+                tags: '',
+                vegetarian: true,
+                author: 'Booboos',
+                serves: '4',
+                prep: '5',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '1 tablespoon high-heat cooking oil, divided',
+                            '4 cups (500 g) cooked day-old white or brown rice*',
+                            '1/2 cup (115 g) Vegan Nut-Free Pesto, divided; or use store-bought',
+                            '3 cloves garlic, minced',
+                            '10 ounces (280 g) cherry tomatoes, cut in half',
+                            '10–12 kalamata olives, roughly chopped (optional)',
+                            '1 small zucchini, quartered and sliced',
+                            '1/2 teaspoon salt, plus more to taste',
+                            '1 cup (145 g) thawed frozen peas',
+                            '2 ounces (55 g) baby spinach',
+                            'Optional Toppings: pine nuts, fresh basil, and/or red chili flakes',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Toast the Rice: Heat 2 teaspoons of oil in a large sauté pan over high heat. Cook for 8 to 9 minutes, stirring only every 2 to 3 minutes to make sure the rice gets nicely browned and toasty. Season with a pinch of salt, then remove from the pan and set aside.",
+                            "Cook the Veggies: Reduce the heat to medium-high, then warm the remaining teaspoon of oil in the pan. Add 2 tablespoons of pesto along with the garlic and sauté for 45 to 60 seconds, until the pesto turns bright green. Then, add the cherry tomatoes and sauté for 3 minutes, stirring occasionally. Add in the zucchini, olives, and 1/2 teaspoon of salt, then sauté for an additional 5 to 6 minutes, until most of the extra liquid cooks off.",
+                            "Add the Rice: return the rice to the pan, along with the peas and pesto. Stir well, then reduce the heat to low. Fold in the spinach and cook until the spinach has wilted and the rice is warm. Season with additional salt, if necessary.",
+                            "Serve: Transfer the rice to serving plates and top with fresh basil, pine nuts, and/or red chili flakes. Serve warm; leftovers will keep in the fridge for up to 4 days.",
+                        ]
+                    }
+                ],
+                source: 'https://frommybowl.com/pesto-fried-rice-vegan/#respond'
             },
             // TEMPLATE
             {        
@@ -4431,6 +4518,88 @@ meals = [
                 ],
                 source: 'https://meikoandthedish.com/air-fryer-honey-garlic-salmon/'
             },
+            {        
+                name:  'Cod with Leeks, Tomatoes, and Olives',
+                image: 'https://images.eatsmarter.com/sites/default/files/styles/facebook/public/cod-fillets-in-tomato-leek-caper-sauce-674121.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '15',
+                cook: '30',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '4 skinless cod/pangasius fillets',
+                            '2 Tbsp extra-virgin Olive oil',
+                            '3 medium leeks',
+                            '3 garlic cloves, sliced thin',
+                            '1 can (14oz) diced tomatoes, drained',
+                            '1½ cups dry white wine',
+                            '½ cup pitted kalamata olives, halved',
+                            '2 tsp finely chopped fresh oregano',
+                            '1 bay leaf',
+                            'salt and pepper',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Heat oil in a large skillet over medium heat until shimmering. Cook leeks until soften, about 5 minutes.',
+                            'Stir in garlic and cook until fragrant, about 30 seconds.',
+                            'Add tomatoes, wine, olives, oregano, bay leaf, 1/4 tsp salt and 1/4 tsp pepper and simmer, covered, until leeks are completely tender, about 10 minutes.',
+                            'Season fillets with salt and pepper. Nestle fillets into sauce and simmer, covered, until fish is cooked through, about 10 minutes. Discard bay leaf. Serve on rice.'
+                        ]
+                    }
+                ],
+                source: ''
+            },
+            {        
+                name:  'Doug’s Clams Linguine',
+                image: 'https://img.buzzfeed.com/video-api-prod/assets/8a7e994a197045bdb80239f68d4a5035/clamslinguine_reels.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '15',
+                cook: '15',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "⅓ cup extra virgin olive oil (80 mL)",
+                            "½ medium yellow onion, finely chopped",
+                            "½ teaspoon kosher salt, plus more to taste",
+                            "1 teaspoon dried Italian seasoning",
+                            "½ teaspoon red pepper flakes, plus more to taste",
+                            "3 cloves garlic, minced",
+                            "2 cans clams, drained, 1/4 cup (60 ml) clam juice reserved",
+                            "½ cup dry white wine (120 mL), such as sauvignon Blanc",
+                            "½ cup fresh italian parsley (20 g)",
+                            "2 tablespoons salted butter",
+                            "½ lb dried linguine (100 g), cooked and drained",
+                            "olive oil, to taste",
+                            "crusty bread, for serving",
+                            "lemon wedge, for serving",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Heat the extra-virgin olive oil in a large skillet over medium heat until shimmering. Add the onion and season with salt. Cook for 2–3 minutes, until the onions are softened and translucent. Add the Italian seasoning, red pepper flakes, and garlic. Stir and cook for 1–2 minutes, until the garlic is fragrant.',
+                            'Stir in the chopped clams, reserved clam juice, and white wine. Cook for 2–3 minutes, until the liquid is reduced by about half. Add the butter and parsley and swirl the pan until the butter is melted.',
+                            'Add the linguine to the pan and toss to combine until the pasta is well coated.',
+                            'Divide the pasta between 4 bowls and drizzle with finishing olive oil, if desired. Season with more red pepper flakes. Serve with crusty bread and lemon wedges.',
+                        ]
+                    }
+                ],
+                source: 'https://tasty.co/recipe/dougs-clams-linguine'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -5390,6 +5559,7 @@ if(document.querySelector('.meals_table') !== null) {
 '##::: ##: ##::: ##: ##.... ##: ##::::::: ##:::::::::: ##:. ###: ##:::: ##: ##:.:: ##: ##:::: ##: ##::::::: ##::. ##::
 . ######::. ######:: ##:::: ##: ########: ########:::: ##::. ##:. #######:: ##:::: ##: ########:: ########: ##:::. ##:
 :......::::......:::..:::::..::........::........:::::..::::..:::.......:::..:::::..::........:::........::..:::::..::*/
+let fractions = ['½', '⅓', '¼', '⅛'];
 let input_scales = document.querySelectorAll('.scale_input');
 input_scales.forEach(scale => {
     let input = scale.querySelector('input[type="number"]');
@@ -5418,13 +5588,46 @@ input_scales.forEach(scale => {
         if(value !== initial_value){
             ingredients.forEach(ingredient =>{
                 // for those with points: /\$(\d\.\d+)/
+                let number;
                 let original_ingredient = ingredient.querySelector('.original_ingredient');
                 let updated_ingredients = ingredient.querySelector('span:not(.original_ingredient)');
-                let number = original_ingredient.innerText.replace(/(^\d+)(.+$)/i,'$1');
-                let multiplied_number = Math.round(parseInt(number) * qty);
+                let replaced_fractions = original_ingredient.innerText.replace('½', 0.50).replace('¼', 0.25);
+                let has_numbers = replaced_fractions.match(/\d+/g);
+                if(has_numbers !== null){
+                    number = has_numbers.map(Number);
+                }
+                let fraction_to_replace = false;
+                // if has fractions in first 3 letters, do the addition
+                if(
+                updated_ingredients.innerText.indexOf('½') < 4  && updated_ingredients.innerText.indexOf('½') > -1 ||
+                updated_ingredients.innerText.indexOf('⅓') < 4  && updated_ingredients.innerText.indexOf('⅓') > -1||
+                updated_ingredients.innerText.indexOf('¼') < 4  && updated_ingredients.innerText.indexOf('¼') > -1||
+                updated_ingredients.innerText.indexOf('⅛') < 4  && updated_ingredients.innerText.indexOf('⅛') > -1){
+                    fraction_to_replace = true;
+                    let decimal;
+                    // addition the two numbers of the decimal                  
+                    decimal = number[number.indexOf(0) + 1] / 100;
+                    if(decimal === 0.05){
+                        decimal = 0.5;
+                    }
+                    // addition first element of array + decimal
+                    number = number[0] + decimal;
+                    
+                }
+                let multiplied_number = (parseFloat(number) * qty);
+                //console.log(multiplied_number);
                 //console.log(number + 'x' + ratioPlus + '=' + multiplied_number);
                 if(!isNaN(multiplied_number)){
-                    updated_ingredients.innerText = original_ingredient.innerText.replace(number, multiplied_number);
+                    // calculations are right but how do i distinghuish what i should change of the string>??
+                    if(fraction_to_replace){
+                        // remove all nuumbers and fractions from string and replac
+                        fractions.forEach(fraction =>{
+                            let text = updated_ingredients.innerText = updated_ingredients.innerText.replace(/[0-9]/g, "").replace(fraction, multiplied_number);
+                            console.log(text, multiplied_number);
+                        })
+                    }else{
+                        updated_ingredients.innerText = original_ingredient.innerText.replace(/[0-9]/g, multiplied_number)
+                    }
                 }
             })
         }else{
