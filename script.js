@@ -2033,13 +2033,13 @@ meals = [
                     {
                         group_name : '',
                         ingredients_element : [
-                            "2 Tablespoons extra-virgin olive oil",
+                            "2 Tbsps extra-virgin olive oil",
                             "1 small onion, sliced into half moons",
                             "2 cloves garlic, minced",
                             "1¼ pounds ground turkey",
-                            "1½ teaspoons each ground cinnamon and paprika",
-                            "1 teaspoon each ground ginger and cumin",
-                            "½ teaspoon red pepper flakes",
+                            "1½ tsps each ground cinnamon and paprika",
+                            "1 tsp each ground ginger and cumin",
+                            "½ tsp red pepper flakes",
                             "1 x 32-ounce jar marinara sauce",
                             "1 x 15-ounce can chickpeas, drained and rinsed",
                             "2 cups fresh spinach, torn into bite-sized pieces",
