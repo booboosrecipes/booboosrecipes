@@ -1685,6 +1685,116 @@ meals = [
                 ],
                 source: 'https://thealmondeater.com/ground-pork-stir-fry/'
             },
+            {        
+                name:  'Stir Fried Vermicelli with Pork (Ma Yi Shang Shu, 蚂蚁上树)',
+                image: 'https://omnivorescookbook.com/wp-content/uploads/2022/06/220519_Ma-Yi-Shang-Shu_2.jpg',
+                tags: 'Chinese',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '10',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "4 oz. (110 g) dried mung bean vermicelli noodles",
+                            "1 Tbsps peanut oil (or vegetable oil)",
+                            "1 Tbsp minced ginger",
+                            "2 cloves garlic , minced",
+                            "2 green onions , sliced",
+                            "1 Tbsp doubanjiang",
+                            "4 oz. (120 g) ground pork",
+                            "½ cup chicken broth (or water)",
+                        ]
+                    },
+                    {
+                        group_name : 'Sauce',
+                        ingredients_element : [
+                            "1 Tbsp light soy sauce",
+                            "1 tsp dark soy sauce",
+                            "1 Tbsp Shaoxing wine (or dry sherry)",
+                            "1 tsp sugar",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Place the vermicelli noodles in a big bowl and add hot water to cover. Soak according to the package instructions. If the package does not have instructions, soak the noodles in hot water for 15 minutes. Once done, drain thoroughly, toss with 1/2 tablespoon oil, and set aside.",
+                            "Mix the sauce ingredients in a small bowl and set aside.",
+                            "Heat 1/2 tablespoon oil in a nonstick pan over medium heat until hot. Add the ginger, garlic and green onion. Cook and stir for 30 seconds to release fragrance.",
+                            "Add the ground pork. Cook and chop the pork into smaller pieces, until the pork is fully cooked, 2 minutes or so.",
+                            "Add the doubanjiang. Cook and stir for 1 minute, until the pork is covered evenly.",
+                            "Pour in the chicken broth, the soaked vermicelli noodles, and the sauce. Stir a few times to mix well. Cover and cook for 2 to 3 minutes. Uncover the pan. Stir to mix well and check the doneness of the noodles. If the noodles are still tough, cover it and cook for another minute or so. Once the noodles have turned soft, cook uncovered over medium-high heat until the liquid evaporates, about 1 minute. Once done, transfer everything to a plate. Serve hot as a main dish.",
+                            "Use 1/2 teaspoon toasted sesame oil at the end (step 6, after uncovering the pan) if you use vegetable oil instead of peanut oil.",
+
+                        ]
+                    }
+                ],
+                source: 'https://omnivorescookbook.com/ma-yi-shang-shu/'
+            },
+            {        
+                name:  'Kung Pao Chicken',
+                image: 'https://i0.wp.com/www.onceuponachef.com/images/2018/05/Kung-Pao-Chicken-16-scaled.jpg?resize=760%2C938&ssl=1',
+                tags: 'asian',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '20',
+                cook: '10',
+                ingredients: [            
+                    {
+                        group_name : 'Marinade',
+                        ingredients_element : [
+                            "1½ Tbsps soy sauce",
+                            "1 Tbsp dry sherry",
+                            "2 tsps corn starch",
+                            "1½ lb chicken tenderloins, cut into 1-in pieces",
+                        ]
+                    },
+                    {
+                        group_name : 'Sauce',
+                        ingredients_element : [
+                            "1 Tbsp balsamic vinegar",
+                            "2 Tbsps soy sauce",
+                            "1 Tbsp hoisin sauce, best quality such as Kikkoman or Lee Kum Kee",
+                            "1 Tbsp Asian/toasted sesame oil",
+                            "1½ Tbsps sugar",
+                            "1 Tbsp corn starch",
+                            "½ tsp crushed red pepper flakes (use half the amount for a milder sauce)",
+                            "¼ tsp ground ginger",
+                            "⅓ cup water",
+                        ]
+                    },
+                    {
+                        group_name : 'Stir-fry',
+                        ingredients_element : [
+                            "2½ Tbsps vegetable oil",
+                            "1 large red bell pepper, diced",
+                            "2 stalks celery, halved lengthwise and thinly sliced",
+                            "¼ tsp salt",
+                            "3 cloves garlic, chopped",
+                            "5 scallions, white and green parts, thinly sliced",
+                            "⅓ cup whole roasted unsalted peanuts or cashews",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Marinate the chicken: In a medium bowl, whisk together the soy sauce, dry sherry, and cornstarch until the cornstarch is dissolved. Add the chicken and toss to coat. Let stand at room temperature for 15 minutes, stirring occasionally.",
+                            "Prepare the sauce: In another medium bowl, whisk together all of the sauce ingredients until the cornstarch is dissolved (it can stick to the bottom of the bowl so be sure to scrape it up).",
+                            "Heat a large nonstick skillet over high heat until very hot. Add 1 tablespoon of the oil and swirl to coat. Add the bell pepper, celery, and salt and cook, stirring frequently, until slightly softened and starting to brown, about 5 minutes. Transfer the vegetables to a large bowl and set aside.",
+                            "Add an additional ½ tablespoon of oil to the pan and set over high heat. Add half of the chicken (it's important not to crowd the pan) and brown on one side, about 1½ minutes. Turn the chicken pieces and continue cooking for about 1½ minutes more, or until the chicken is just cooked through. Transfer the chicken to the bowl with the peppers and celery. Add another ½ tablespoon of oil to the pan. Add the remaining chicken and cook until golden on one side, about 1½ minutes. Turn the chicken pieces over and cook for 1 minute. Add ½ tablespoon more oil to the pan, along with the garlic and scallions, and cook, stirring with the chicken, for about 30 seconds more.",
+                            "Add the reserved vegetables and reserved chicken to the pan, along with the sauce. Reduce the heat to low and cook until the chicken and vegetables are warmed through and the sauce is thickened, about 30 seconds. Stir in the nuts. Taste and adjust seasoning, if necessary, and serve. (Note: the sauce will thicken as it sits; thin it with a few tablespoons of water, if necessary.)",
+                        ]
+                    }
+                ],
+                source: 'https://www.onceuponachef.com/recipes/kung-pao-chicken.html'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -1909,6 +2019,45 @@ meals = [
                     }
                 ],
                 source: 'Eat Istanbul - Andy Harris and David Loftus'
+            },
+            {        
+                name:  'Moroccan Turkey Ragù with Chickpeas and Spinach',
+                image: 'http://turniptheoven.com/wp-content/uploads/2017/11/Moroccan-Turkey-Ragu-2.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '30',
+                cook: '30',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "2 Tablespoons extra-virgin olive oil",
+                            "1 small onion, sliced into half moons",
+                            "2 cloves garlic, minced",
+                            "1¼ pounds ground turkey",
+                            "1½ teaspoons each ground cinnamon and paprika",
+                            "1 teaspoon each ground ginger and cumin",
+                            "½ teaspoon red pepper flakes",
+                            "1 x 32-ounce jar marinara sauce",
+                            "1 x 15-ounce can chickpeas, drained and rinsed",
+                            "2 cups fresh spinach, torn into bite-sized pieces",
+                            "⅓ cup raisins",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Heat the olive oil in a large pot, Dutch oven, or skillet with high sides. Add onion and saute until translucent, about 5 minutes. Add the garlic and cook until fragrant, about 1 minute. ",
+                            "Add the turkey, and cook, breaking up with a wooden spoon, until no longer pink, about 5 minutes. Stir in the spices and marinara sauce. Bring to a boil, then reduce the heat and simmer until the turkey is cooked through and the sauce has thickened slightly, 15 to 20 minutes.",
+                            "Stir in the spinach and raisins and cook just until the spinach is wilted, about 2 minutes. Taste, and season with salt and pepper as needed. ",
+                        ]
+                    }
+                ],
+                source: 'http://turniptheoven.com/moroccan-turkey-ragu-with-chickpeas-and-spinach/?fbclid=IwAR311FV9huRq2mXZ_dYSCePi_7s15ApTk2ygoj6Ux4kIEPMuKJXzT8YtIs8'
             },
             // TEMPLATE
             {        
@@ -4027,6 +4176,51 @@ meals = [
                     }
                 ],
                 source: 'https://lecoupdegrace.ca/recette/macaroni-chinois/'
+            },
+            {        
+                name:  'One-Pot Lemon Garlic Shrimp Pasta',
+                image: 'https://img.buzzfeed.com/video-api-prod/assets/9ee2dadcbfcb4095872e6cdbaa24ff14/Thumb_A_FB.jpg',
+                tags: '',
+                vegetarian: true,
+                author: 'Booboos',
+                serves: '4',
+                prep: '15',
+                cook: '15',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "8 oz linguine(225 g)",
+                            "2 Tbsp olive oil",
+                            "8 Tbsp unsalted butter, 1 stick",
+                            "4 cloves garlic, minced",
+                            "1 tsp red pepper flakes",
+                            "1¼ lb large shrimp(570 g)",
+                            "salt, to taste",
+                            "pepper, to taste",
+                            "1 tsp dried oregano",
+                            "4 cups baby spinach(160 g)",
+                            "¼ cup parmesan cheese(25 g), grated",
+                            "2 Tbsp fresh parsley, chopped",
+                            "1 Tbsp lemon juice",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "In a large pot, boil water and add pasta. Cook (stirring frequently) until al dente.",
+                            "Drain and set pasta aside.",
+                            "In the same pan, heat olive oil and 2 tablespoons of butter. Add garlic and crushed red pepper, cook until fragrant.",
+                            "Toss in shrimp, salt and pepper to taste, and stir until shrimp start to turn pink, but are not fully cooked.",
+                            "Add oregano and spinach, cook until wilted.",
+                            "Return cooked pasta to the pot, add remaining butter, parmesan, and parsley. Stir until well mixed and the butter is melted.",
+                            "When the shrimp are cooked, add lemon juice, mix once more, then serve while hot.",
+                        ]
+                    }
+                ],
+                source: 'https://tasty.co/recipe/one-pot-lemon-garlic-shrimp-pasta'
             },
             // TEMPLATE
             {        
