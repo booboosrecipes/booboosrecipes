@@ -1795,6 +1795,49 @@ meals = [
                 ],
                 source: 'https://www.onceuponachef.com/recipes/kung-pao-chicken.html'
             },
+            {        
+                name:  'Mongolian Beef and Broccoli with Noodles',
+                image: 'https://www.lecremedelacrumb.com/wp-content/uploads/2020/09/mongolian-beef-noodles-1sm-5.jpg',
+                tags: 'asian, ramen',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '10',
+                cook: '15',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '⅔ cup low sodium soy sauce or ½ cup regular soy sauce',
+                            '½ cup water',
+                            '½ cup brown sugar',
+                            '2 teaspoons minced garlic',
+                            '1 teaspoon sriracha',
+                            '2 tablespoons hoisin sauce',
+                            '2 tablespoons rice vinegar',
+                            '3 tablespoons cold water + 2 teaspoons corn starch',
+                            '2 cups broccoli florets',
+                            '2 tablespoons oil - I used sesame oil',
+                            '1½ pounds stir fry beef - or very thin sliced steak',
+                            '2 packages ramen noodles - boiled til tender and drained',
+                            'chopped green onions - for garnish',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Whisk together soy sauce, water, brown sugar, garlic, sriracha, hoisin, and rice vinegar. Set aside.',
+                            'Heat oil in a large skillet over medium-high heat. Saute beef/steak in the oil for 5-6 minutes. Add broccoli and saute 3-4 minutes longer.',
+                            'Stir together cold water and corn starch til dissolved.',
+                            'Add sauce and bring to a boil. Stir in corn starch slurry til thickened. Reduce heat to low.',
+                            'Stir in noodles. Garnish with green onions if desired and serve.',
+                        ]
+                    }
+                ],
+                source: 'https://www.lecremedelacrumb.com/mongolian-beef-and-broccoli-with-noodles/comment-page-1/'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -3030,6 +3073,82 @@ meals = [
                     }
                 ],
                 source: 'https://frommybowl.com/pesto-fried-rice-vegan/#respond'
+            },
+            {        
+                name:  'Instant Pot Chicken Biryani',
+                image: 'https://ministryofcurry.com/wp-content/uploads/2017/05/IMG_3549-927x1024.jpg',
+                tags: 'indian',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '8',
+                prep: '40',
+                cook: '40',
+                ingredients: [            
+                    {
+                        group_name : 'Marinade',
+                        ingredients_element : [
+                            '2 teaspoons garam masala Add 3 teaspoon for spicier Biryani',
+                            '1 tablespoon ginger grated',
+                            '1 tablespoon garlic minced',
+                            '1 tablespoon Kashmiri red chili powder',
+                            '½ teaspoon ground turmeric',
+                            '¼ cup mint leaves',
+                            '¼ cup cilantro chopped',
+                            '2 tablespoons lemon juice',
+                            '¾ cup plain yogurt',
+                            '2 teaspoons kosher salt',
+                            '2 pounds whole bone in chicken skinless cut into 12 pieces (If using chicken thighs cut into 2 inch pieces)',
+                        ]
+                    },
+                    {
+                        group_name : 'Other ingredients',
+                        ingredients_element : [
+                            '4 tablespoons ghee divided',
+                            '2 large yellow onions thinly sliced',
+                            '2 bay leaves',
+                            '3 cups extra long grain Basmati rice',
+                            '2 teaspoon kosher salt',
+                            '3 cups water',
+                            '1 teaspoon saffron mixed in 1 tablespoon warm milk',
+                            '6 eggs hard boiled and shelled, optional',
+                            '1 jalapeno sliced into 8 wedges optional for extra spicy **',
+                        ]
+                    },
+                    {
+                        group_name : 'Raita',
+                        ingredients_element : [
+                            '2 cups plain yogurt',
+                            '1 medium yellow onion finely diced',
+                            '2 tomatoes diced',
+                            '½ teaspoon kosher salt',
+                            '1 tablespoon cilantro chopped',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Make Marinade by mixing garam masala, ginger, garlic, red chili powder, turmeric, mint leaves, half of the chopped cilantro, lemon juice, yogurt, and salt. Add chicken and coat evenly with the marinade. Keep in the refrigerator for at least 30 minutes.',
+                            'While the chicken is marinating, wash and soak the basmati rice in water. Keep aside for 20 minutes.',
+                            'Turn the Instant Pot to Saute(Hi). After the ‘hot’ sign displays, add half of the ghee and add thinly sliced onions. Cook stirring frequently for 10 minutes or until the onions are golden brown and caramelized. Take out half of the onion and keep aside for garnishing the biryani. Note: You can also air fry the onions (Air fry at 320F 20 minutes)',
+                            'Add the remaining ghee to the Instant Pot with half of the caramelized onions already in the pot. For extra spicy Biryani add sliced jalapeno. Add bay leaves and half of the marinated chicken and the liquid from the marinade. Press Cancel. Mix well, deglazing the pot with a spatula to take out all the browning of the pot from sautéing the onions. This is an important step that will prevent the possible "BURN" signal during pressure cooking. Once all the browning on the pot is completely removed, stir in the remaining chicken.  ',
+                            'a) For Chicken on bone - Close the Instant Pot and turn the pressure valve to sealing. Select Manual/Pressure Cook(Hi) and adjust the time to 4 minutes. Follow with Quick release. Mix the chicken well, once again scraping the bottom of the pot removing any food stuck to the bottom. ',
+                            'or',
+                            'b) For boneless Chicken thighs - Cook on Saute mode for 2 to 3 minutes. Scrape the bottom of the pot to make sure there is no food sticking to the bottom. ',
+                            'Drain the rice and gently pour it over the chicken. Add salt from the other ingredients list. Add water and gently push all the rice under the liquids. Do not stir. Close the Instant Pot and turn the pressure valve to sealing. Select Manual/Pressure Cook(Hi) mode and adjust the time to 6 minutes. Follow with Quick release.',
+                            'Open the Instant Pot. If the top layer of the rice looks uncooked, simply fluff the top layer of the rice. Then mix the rice with the chicken on the bottom of the pan. Using a silicone spatula to gently mix will also prevent the rice grains from breaking. ',
+                            'Garnish with the remaining caramelized onions, saffron mixed with milk and cilantro. Serve with Raita, hard-boiled egg, and lemon wedges.',
+                        ]
+                    },
+                    {
+                        group_name : 'Raita',
+                        steps_elements : [
+                            'To make the raita, whisk the yogurt in a medium bowl. Add onions, tomatoes, salt, and mix well. Garnish with cilantro. '
+                        ]
+                    }
+                ],
+                source: 'https://ministryofcurry.com/chicken-biryani-instant-pot/'
             },
             // TEMPLATE
             {        
