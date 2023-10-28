@@ -5115,7 +5115,7 @@ meals = [
                 name:  'Tomato Pesto Salmon and Rice Recipe',
                 image: 'https://diethood.com/wp-content/uploads/2016/02/STAR-Tomato-Pesto-Salmon-and-Rice.jpg',
                 tags: '',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Booboos',
                 serves: '5',
                 prep: '10',
