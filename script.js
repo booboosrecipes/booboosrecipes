@@ -1838,6 +1838,121 @@ meals = [
                 ],
                 source: 'https://www.lecremedelacrumb.com/mongolian-beef-and-broccoli-with-noodles/comment-page-1/'
             },
+            {        
+                name:  'Brothy Beef Soup with Watercress and Cilantro',
+                image: 'https://small-pantry.com/wp-content/uploads/2022/10/Brothy-Beef-and-Watercress-Soup-13-678x1024.jpg',
+                tags: 'cambodian',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '15',
+                cook: '15',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '4 stalks lemongrass, trimmed to the bottom 6 inches',
+                            '2 cups cilantro, stems and leaves reserved separately',
+                            '1 pound 80% lean ground beef / pork',
+                            '3 Tbsp fish sauce, divided',
+                            'Kosher salt and black pepper',
+                            '3 Tbsp neutral oil',
+                            '4 medium shallots, halved and thinly sliced',
+                            '2 cups baby watercress, roughly chopped',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Bruise the lemongrass by smacking it with the back or flat of a large knife. Cut into three pieces, roughly 2 inches each. Set aside.',
+                            'Chop the cilantro leaves and set aside for later. Mince the cilantro stems. In a medium bowl, mix the cilantro stems, beef, 2 tablespoons fish sauce, and 1 teaspoon black pepper. Make sure everything is evenly distributed.',
+                            'In a large saucepan or medium pot, heat the oil over medium until shimmering. Add the lemongrass and shallots and stir until the shallots are very soft, about 3 minutes. Add the beef mixture and stir to break into small pieces. Stir in 6 cups water and 1 teaspoon salt, then increase heat and bring to a boil. Reduce heat to maintain a lively simmer, and cook for about 10 minutes, to let the flavors meld. Off heat, stir in the remaining fish sauce. Taste and adjust seasoning with salt, pepper, or fish sauce.',
+                            'Just before serving, stir the watercress and cilantro leaves into the hot soup. Serve immediately.',
+                        ]
+                    }
+                ],
+                source: 'https://small-pantry.com/recipes/brothy-beef-soup-with-watercress/'
+            },
+            // TEMPLATE
+            {        
+                name:  '',
+                image: '',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '',
+                prep: '',
+                cook: '',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            
+                        ]
+                    }
+                ],
+                source: ''
+            }
+        ]
+    },
+    // INDIAN
+    {
+        type : "Indian",
+        recipes : [
+            {        
+                name:  'Pumpkin Curry with Chicken',
+                image: 'https://krollskorner.com/wp-content/uploads/2023/09/pumpkincurry_19-683x1024.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '10',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '1 Tbsp. oil (olive, canola, or vegetable)',
+                            '2 Tbsp. shallot, minced',
+                            '3 cloves garlic, chopped',
+                            '2 tsp. ginger, minced',
+                            '1, 15 oz. can coconut milk, full fat',
+                            '1 cup 100% pumpkin puree',
+                            '2 Tbsp. yellow curry powder',
+                            '1 Tbsp. red curry paste',
+                            '2 Tbsp. brown sugar',
+                            'salt and pepper, to taste',
+                            '1 1/2 lb. boneless skinless chicken thighs, diced into 1-inch cubes',
+                            '1/4 cup fresh cilantro, chopped',
+                            '2 green onions (green parts only), diced',
+                            '1 cup cooked U.S.-grown long grain white rice',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Heat the oil over medium heat in a large sauté pan. Then add the shallot, garlic, and ginger. Sauté for 1-2 minutes until shallot softens.',
+                            'Add the coconut milk, pumpkin, curry powder, curry paste, brown sugar, salt and pepper and whisk.',
+                            'Bring to a gentle boil. Add the chicken cubes and bring the sauce to a simmer. Cook until the chicken is fully cooked, this will take ~10 minutes or until chicken reaches an internal temperature of 165°F. The idea here is to let the chicken simmer in the sauce so it stays nice and tender.',
+                            'Add the cilantro and green onions. Stir to combine. Taste and adjust any seasonings as desired.',
+                            'Serve over cooked rice with plenty of the yummy curry sauce.',
+                        ]
+                    }
+                ],
+                source: 'https://krollskorner.com/recipes/main-dishes/pumpkin-curry-with-chicken/'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -3149,6 +3264,48 @@ meals = [
                     }
                 ],
                 source: 'https://ministryofcurry.com/chicken-biryani-instant-pot/'
+            },
+            {        
+                name:  'One Pot Chicken and Pumpkin Rice',
+                image: 'https://dishingupbalance.com/wp-content/uploads/2015/09/One-Pot-Chicken-and-Pumpkin-Rice-featured.jpg',
+                tags: 'Caribbean',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '10',
+                cook: '40',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '2 boneless skinless chicken breasts cut into small cubes',
+                            '1 cup white rice short to medium grain',
+                            '3 cups chicken or vegetable broth',
+                            '2 cups raw, peeled, diced pumpkin sugar or pie variety pumpkin or butternut squash',
+                            '½ medium onion chopped',
+                            '2 cloves garlic pressed',
+                            '1 teaspoon dried thyme',
+                            '½ teaspoon grated ginger',
+                            'olive oil',
+                            'salt black pepper, sweet paprika',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Preheat oven to 350F / 180ºC',
+                            'Season chicken with salt, pepper and sweet paprika',
+                            'In a skillet over medium heat, heat olive oil and cook chicken pieces until no longer pink. Transfer to a plate and set aside.',
+                            'Add additional olive oil and cook onions for about 2 minutes then add garlic, grated ginger, thyme and pumpkin. Cook for 10 minutes.',
+                            'Add rice. Stir to combine then add stock.',
+                            'Transfer skillet to the oven. Cook for approximately 30 minutes.',
+                            'Remove skillet from the oven and add in chicken pieces. Cook for another 10 minutes then check for rice doneness. Add additional water or stock, if rice is too dry or uncooked.',
+                        ]
+                    }
+                ],
+                source: 'https://dishingupbalance.com/one-pot-chicken-and-pumpkin-rice/'
             },
             // TEMPLATE
             {        
@@ -4586,6 +4743,47 @@ meals = [
                 ],
                 source: 'https://www.budgetbytes.com/tomato-herb-rice-with-white-beans-and-spinach/'
             },      
+            {        
+                name:  'Middle Eastern Chicken Stew with White Beans',
+                image: 'https://www.servingdumplings.com/wp-content/uploads/2023/01/middle-eastern-chicken-stew-with-white-beans-4-06e45c71-600x902.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '5',
+                cook: '25',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '1 Tbsp olive oil',
+                            '1 small brown onion, finely chopped',
+                            '6 garlic cloves, minced',
+                            '1 tsp each: salt, black pepper, sweet paprika',
+                            '½ tsp each: chili flakes, ground coriander',
+                            '5 Tbsp double concentrated tomato paste',
+                            '1 cup/240 ml chicken broth',
+                            '2 cups/500 ml crushed tomatoes',
+                            '2 cans (14 oz/400 g) white beans, drained',
+                            '1.1 pounds/500 g chicken fillets',
+                            '1 tsp sumac',
+                            '2 bay leaves',
+                            '2 Tbsp chopped dill',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : 'https://www.servingdumplings.com/recipes/middle-eastern-chicken-stew-with-white-beans/',
+                        steps_elements : [
+                            'Heat oil over medium low in a large heavy bottomed pot. Add garlic and onion, cook for 2 minutes. Stir in salt, pepper, coriander, paprika, chili flakes and tomato paste. Cook for 1 minute.',
+                            'Pour in chicken broth and crushed tomatoes. Add white beans and chicken fillets. Next stir in sumac and bay leaves. Bring to a boil, cover the pot and simmer for 15 minutes.',
+                            'When ready, transfer the chicken fillets onto a clean plate. Shred the chicken using two forks. Hold a fork in each hand, and use them to pull the meat apart. Return the chicken to the pot and add dill. Give it a good stir. Taste and adjust salt. Serve!',
+                        ]
+                    }
+                ],
+                source: ''
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -4912,6 +5110,52 @@ meals = [
                     }
                 ],
                 source: 'https://tasty.co/recipe/dougs-clams-linguine'
+            },
+            {        
+                name:  'Tomato Pesto Salmon and Rice Recipe',
+                image: 'https://diethood.com/wp-content/uploads/2016/02/STAR-Tomato-Pesto-Salmon-and-Rice.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '5',
+                prep: '10',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '6 heavy duty foil sheets',
+                            '2 cups instant rice (you can use brown rice)',
+                            '2 cups warm water',
+                            '6 (about 4 to 5 ounces each) Salmon Fillets, skins removed',
+                            'salt and fresh ground pepper , to taste',
+                            'STAR Extra Virgin Olive Oil',
+                            '1/2- cup Sundried Tomato Pesto',
+                            '2 garlic cloves , minced',
+                            '6 sprigs fresh thyme',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Preheat oven to 400F.',
+                            'Place rice and water in a small bowl and stir to combine.',
+                            'Lay out the foil sheets and divide the rice mixture evenly over each foil, squeezing the water out as much as possible. I just spoon out some rice, then hold the spoon to the side of the bowl and tilt the spoon a bit to drain out the excess water.',
+                            'Top rice with salmon fillets; season with salt and pepper, and rub with a drizzle of olive oil.',
+                            'Add a tablespoon of tomato pesto on top and spread it over each fillet.',
+                            'Sprinkle some garlic over fillets.',
+                            'Place a sprig of fresh thyme over each fillet.',
+                            'Fold the sides of the foil over the fish, covering completely; seal the packets closed.',
+                            'Transfer fillets to a jelly roll pan or large baking sheet.',
+                            'Bake for 20 to 22 minutes, or until salmon is cooked through.',
+                            'Transfer foil packets to plates.',
+                            'Carefully open up the foil packets and serve.',
+                        ]
+                    }
+                ],
+                source: 'https://diethood.com/tomato-pesto-salmon-and-rice-recipe-baked-in-foil/'
             },
             // TEMPLATE
             {        
@@ -5313,6 +5557,50 @@ meals = [
                     }
                 ],
                 source: '5ingredients15minutes.com'
+            },
+            {        
+                name:  'Easy Beef and Barley Soup',
+                image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.15752-9/387323828_724665699527867_855381859480066906_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=106&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=KmG3dWuAVekAX_SUlMD&_nc_ht=scontent-lga3-1.xx&oh=03_AdSieGovZ8U_8QHgBEN9CzXdlpKLXZmi4UzShcsSs9cvQw&oe=6563F22E',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6-8',
+                prep: '15',
+                cook: '8',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '375g beef ground chuck',
+                            '1 Tbsp Worcestershire sauce',
+                            'salt and freshly ground pepper',
+                            '1/4 cup fresh flat-leaf parsley, minced',
+                            '1/4 cup grated parmesan cheese',
+                            '1 large egg, beaten',
+                            '1 clove garlic, pressed',
+                            '1 yellow onion, chopped',
+                            '2 carrots, chopped',
+                            '2 Tbsp butter',
+                            '1 Tbsp olive oil',
+                            '440g (1 can) chopped tomatoes',
+                            '3 cups each low-sodium chicken broth and beef broth (6 cups in total)',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'To make the meatballs, put the meat in a bowl and sprinkle it with the Worcestershire sauce, 1/2 teaspoon salt, and 1/2 teaspoon pepper. Add the parsley, cheese, egg, and garlic and blend the mixture with your hands. Shape into small meatballs about 1 inch (2.5 cm) in diameter. Set aside.',
+                            'In the pressure cooker pot, sauté the onion and carrots in the butter and oil until softened, about 5 minutes. Add the tomatoes and stir well.',
+                            'Rinse the barley in a small sieve, then stir it into the vegetables. Add the chicken and beef broths and meatballs to the pot. If using an electric cooker, switch off the sauté function.',
+                            'Lock the lid into place and cook on high pressure for 8 minutes. Let the steam release naturally.',
+                            'When the pressure valve drops, remove the lid, tilting it away from your face to allow residual steam to escape. Let the soup stand for 5 minutes to settle the flavors and cool down.',
+                            'Serve right away.',
+                        ]
+                    }
+                ],
+                source: 'The pressure cooker cookbook - Torie Ritchie'
             },
             // TMEPLATE
             {        
