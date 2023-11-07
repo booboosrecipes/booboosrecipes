@@ -3307,6 +3307,72 @@ meals = [
                 ],
                 source: 'https://dishingupbalance.com/one-pot-chicken-and-pumpkin-rice/'
             },
+            {        
+                name:  'Swedish Meatballs (homemade Ikea Meatballs)',
+                image: 'https://www.recipetineats.com/wp-content/uploads/2020/05/Swedish-Meatballs-3.jpg?',
+                tags: 'Freezable',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '20',
+                cook: '30',
+                ingredients: [            
+                    {
+                        group_name : 'Meatballs',
+                        ingredients_element : [
+                            '2 slices white sandwich bread , crusts removed, chopped into small cubes',
+                            '1 onion , small (brown, white or yellow)',
+                            '300g / 10 oz ground beef (mince)',
+                            '300g / 10 oz ground pork (mince) , or sub with more beef',
+                            '1 egg',
+                            '1/4 tsp ground nutmeg , preferably freshly grated',
+                            '1/4 tsp All Spice powder',
+                            '1/4 tsp black pepper',
+                            '3/4 tsp salt',
+                            '1 tbsp oil',
+                        ]
+                    },
+                    {
+                        group_name : 'Gravy',
+                        ingredients_element : [
+                            '40g / 3 tbsp butter , unsalted',
+                            '3 tbsp flour',
+                            '2 cups beef broth/stock (salt reduced), or sub with chicken',
+                            '1/2 cup heavy / thickened cream (Note 4)',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Grate onion using a standard box grater (see video).',
+                            'Scrape onion and juices into bowl. Add bread and mix well – onion juice should make bread soggy (if not, add a tiny splash of milk). Set aside to soak for 1 minute.',
+                            'Add remaining Meatball ingredients EXCEPT oil. Mix well.',
+                            'Using a tablespoon measure and measure out a heaped tablespoon (or use ice cream scooper which is what I do), dollop on work surface. Repeat with remaining mixture: 25 – 30 meatballs. Then roll into shape.',
+                        ]
+                    },
+                    {
+                        group_name : 'Cooking',
+                        steps_elements : [
+                            'Heat 1 tbsp oil in a skillet over medium high heat. Add half the meatballs and brown all over (but raw inside still) – about 3 minutes. Remove onto plate, then brown the remaining batch.',
+                            'If there is lots of oil, pour off excess and discard. Lower heat to medium.',
+                        ]
+                    },
+                    {
+                        group_name : 'Gravy',
+                        steps_elements : [
+                            'Add butter into skillet and melt. Add flour and stir in. Cook for 1 minute.',
+                            'While mixing, add about 1/4 of the beef broth – it will thicken quickly. Then gradually add remaining beef broth, stirring as you go. Switch to whisk if required to make it lump free.',
+                            'When the liquid is simmering, add meatball and juices pooled on plate.',
+                            'Turn up heat slightly to keep it at a rapid simmer. Cook for 8 – 10 minutes or until the liquid thickens into a thin gravy, stirring occasionally.',
+                            'Add cream, simmer for a further 2 minutes then remove from stove.',
+                            'Serve over mashed potato (or Cauliflower Mash for low carb). For a truly authentic experience, add a dollop of ligonberry jam on the side!',
+                        ]
+                    }
+                ],
+                source: 'https://www.recipetineats.com/swedish-meatballs/'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -3336,6 +3402,111 @@ meals = [
                 source: ''
             }
         ]
+    },
+    /*
+    ::::'######::'########:'########:'##:::::'##:
+    :::'##... ##:... ##..:: ##.....:: ##:'##: ##:
+    ::: ##:::..::::: ##:::: ##::::::: ##: ##: ##:
+    :::. ######::::: ##:::: ######::: ##: ##: ##:
+    ::::..... ##:::: ##:::: ##...:::: ##: ##: ##:
+    :::'##::: ##:::: ##:::: ##::::::: ##: ##: ##:
+    :::. ######::::: ##:::: ########:. ###. ###::
+    ::::......::::::..:::::........:::...::...:::*/
+    {
+        type : "Stews",
+        recipes : [
+            {        
+                name:  'Instant pot beef stew',
+                image: 'https://www.savorysweetspoon.com/wp-content/uploads/2021/02/Instant-Pot-Beef-Stew-A1x1.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '15',
+                cook: '1h15',
+                ingredients: [            
+                    {
+                        group_name : 'Beef',
+                        ingredients_element : [
+                            "2 pounds well-marbled chuck roast beef (cut 1-inch thick)",
+                            "1 tsp salt",
+                            "½ tsp pepper",
+                            "1 tsp paprika",
+                            "¼ tsp ground cayenne pepper",
+                        ]
+                    },
+                    {
+                        group_name : 'Vegetables',
+                        ingredients_element : [
+                            "1 Tbsp olive oil",
+                            "1 yellow onion (diced)",
+                            "1 cup dry red wine",
+                            "1 cup beef stock",
+                            "1 Tbsp worcestershire sauce",
+                            "2 cloves of garlic (minced)",
+                            "1 Tbsp tomato paste",
+                            "4-5 sprigs of fresh thyme (or 2 tsps dry thyme)",
+                            "1 cup sliced mushrooms (button or baby Bella mushrooms)",
+                            "2 stalks of celery (cut ½-inch in length)",
+                            "4-5 carrots (cut 1-inch in length)",
+                            "6-8 baby potatoes (cut in half or in quarters to equal 1-inch)",
+                            "1 Tbsp cornstarch (mixed with 1 Tbsp of water)",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : 'Beef',
+                        steps_elements : [
+                            "Sprinkle salt, pepper, ground cayenne pepper, and paprika onto the chuck roast beef.",
+                            "Turn the Instant Pot on [SAUTE] mode. Wait until the instant pot reads “hot”, then add a generous amount of olive oil to the pot. Sear the chuck roast beef on all sides. (It is best to work in 2-3 batches. Do not overcrowd so you can get a nice crust. Add more olive oil, if needed, to prevent the beef from sticking). Then, set the beef aside in another bowl.",
+                        ]
+                    },
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Add onion; cook and stir for 2-3 minutes or until the onion is soft.",
+                            "Press [CANCEL] and deglaze the pot with red wine, beef broth and Worcestershire sauce. Be sure to scrape any bits stuck to the bottom of the pot with a rubber spatula.",
+                            "Stir in garlic, and browned chuck roast beef. Layer on tomato paste and thyme (do not stir). Close the lid; make sure the pressure release valve is turned to the “sealing” position. Press [PRESSURE COOK] (or “manual” for older models) and set it on high pressure for 20 minutes.",
+                            "Once it is done cooking, let the pressure naturally release for 10 minutes until the screen reads L00:10, and then quick release the rest of the pressure by turning the knob to “venting”.",
+                            "Open the lid; take the thyme out (if using fresh thyme). Layer in the carrots, celery, potatoes, and mushrooms. Close the lid; make sure the knob is back to “sealing”; press [PRESSURE COOK] (or “manual”) and cook on high pressure for an additional 6 minutes. Once it is done cooking, let it naturally release the pressure completely until the pin drops. (If you’re in a rush let it naturally release for at least 10 minutes before quick releasing so the beef doesn’t dry out.)",
+                            "In a small bowl, mix cornstarch and water until well combined. Open the lid and press [SAUTE] for 2 minutes. Add in cornstarch mixture to thicken up the sauce; add salt and pepper to taste.",
+                            "Serve warm with crusty bread.",
+                        ]
+                    },
+                ],
+                source: 'https://www.savorysweetspoon.com/instant-pot-beef-stew/'
+            },
+            // TEMPLATE
+            {        
+                name:  '',
+                image: '',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '',
+                prep: '',
+                cook: '',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            
+                        ]
+                    }
+                ],
+                source: ''
+            }
+        ]
+
     },
     /*
     '########::::'###:::::'######::'########::::::::::'########::'#######:::'#######::'########:::::::'####:::::::'########:'########::'####:'########:'########:::::'########::'#######:::'#######::'########::
@@ -4498,6 +4669,46 @@ meals = [
                 ],
                 source: 'https://tasty.co/recipe/one-pot-lemon-garlic-shrimp-pasta'
             },
+            {        
+                name:  'Skillet ricotta pasta with roasted broccoli',
+                image: 'https://www.howsweeteats.com/wp-content/uploads/2021/09/skillet-ricotta-pasta-10.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '20',
+                cook: '10',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '3 cups broccoli florets',
+                            '2 tablespoons olive oil',
+                            'kosher salt and pepper',
+                            '8 ounces cavatappi pasta (or any noodle you like!)',
+                            '4 garlic cloves, minced',
+                            '1 cup ricotta cheese',
+                            '1 tablespoon freshly squeezed lemon juice',
+                            '½ to ¾ cup reserved pasta water',
+                            'crushed red pepper flakes, for topping',
+                            'parmesan cheese, optional, for sprinkling',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Preheat the oven to 425 degrees F. Place the broccoli florets on a baking sheet and toss with 1 tablespoon of olive oil (or use a spray olive oil if you wish!). Season all over with salt and pepper. Roast for 20 minutes, or until golden and slightly charred.',
+                            'While the broccoli is roasting, bring a pot of salted water to a boil and cook your pasta according to the directions. Remember to reserve your pasta water!',
+                            "Heat the remaining 1 tablespoon of olive oil in a nonstick skillet over medium-low heat. Stir in the garlic and cook for 1 minute. Reduce the heat to low and stir in the ricotta cheese. It will take a few minutes for it to become creamy. Add a big pinch of salt and pepper. Stir in the lemon juice and ½ cup of reserved pasta water until the sauce is smooth and silky. You can add a bit more pasta water if you find it needs to be thinner or smoother! This will all depend on the brand of your ricotta. Taste the ricotta mixture and add more salt and pepper if needed. Don't skip tasting it!",
+                            'Add in the pasta and toss well to coat in the ricotta mixture. Toss in the roasted broccoli.',
+                            'Top with crushed red pepper flakes and serve! Sprinkle with parmesan if you’d like!',
+                        ]
+                    }
+                ],
+                source: 'https://www.howsweeteats.com/2021/10/ricotta-pasta/'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -5157,6 +5368,39 @@ meals = [
                 ],
                 source: 'https://diethood.com/tomato-pesto-salmon-and-rice-recipe-baked-in-foil/'
             },
+            {        
+                name:  'Quick Creole Shrimp',
+                image: 'https://assets.kraftfoods.com/recipe_images/opendeploy/115893_MXM_K57644V0EC_OR1_CR_640x428.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Grace',
+                serves: '4',
+                prep: '10',
+                cook: '5',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '1 lb. (450 g) frozen uncooked cleaned large shrimp, thawed',
+                            '1 Tbsp. Cajun seasoning',
+                            '1/4 cup Kraft Sun-Dried Tomato & Oregano Dressing',
+                            '2 cloves garlic, minced',
+                            '1 Tbsp. chopped fresh parsley',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : 'https://www.kraftcanada.ca/recipe/quick-creole-shrimp-563081',
+                        steps_elements : [
+                            'Heat medium skillet on medium-high heat. Meanwhile, toss shrimp with seasoning until evenly coated.',
+                            'Add dressing and garlic to skillet; cook and stir 1 min.',
+                            'Stir in shrimp; cook 2 to 3 min. or until shrimp turn pink, stirring frequently. Sprinkle with parsley.',
+                        ]
+                    }
+                ],
+                source: 'https://www.kraftcanada.ca/recipe/quick-creole-shrimp-563081'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -5564,7 +5808,7 @@ meals = [
                 tags: '',
                 vegetarian: false,
                 author: 'Booboos',
-                serves: '6-8',
+                serves: '6',
                 prep: '15',
                 cook: '8',
                 ingredients: [            
@@ -5872,6 +6116,7 @@ let bar = [
     {
         type : "Smoothie",
         recipes : [
+            /*
             {        
                 name:  'Strawberry Vodka Slush',
                 image: 'https://www.simplymaderecipes.com/wp-content/uploads/2019/03/Strawberry-Vodka-Slush-1.png',
@@ -5914,8 +6159,14 @@ let bar = [
                 ],
                 source: 'https://www.simplymaderecipes.com/strawberry-vodka-slush/'
             },
+            */
+        ]
+    },
+    {
+        type : "Cocktail",
+        recipes : [
             {        
-                name:  'Whiskey Sour',
+                name:  'Whiskey Sour (Bourbon Whiskey)',
                 image: 'https://www.lemontreedwelling.com/wp-content/uploads/2020/01/whiskey-sour-20.jpg',
                 serves: '1',
                 prep: '5',
