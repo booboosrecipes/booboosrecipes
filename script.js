@@ -4673,7 +4673,7 @@ meals = [
                 name:  'Skillet ricotta pasta with roasted broccoli',
                 image: 'https://www.howsweeteats.com/wp-content/uploads/2021/09/skillet-ricotta-pasta-10.jpg',
                 tags: '',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Booboos',
                 serves: '4',
                 prep: '20',
