@@ -2132,53 +2132,6 @@ meals = [
         type : "Turkish",
         recipes : [      
             {        
-                name:  'Veal stew with tomatoes and peppers',
-                image: 'pepper.jpg',
-                tags: 'turkish, stew, comfort',
-                vegetarian: false,
-                author: 'Booboos',
-                serves: '6',
-                prep: '20',
-                cook: '2h00',
-                ingredients: [            
-                    {
-                        group_name : 'First ingredients',
-                        ingredients_element : [
-                            '4 Tbsp extra virgin olive oil',
-                            '2 red onions, sliced',
-                            '3 garlic cloves, minced',
-                            '3 jalapenos, sliced',
-                            '1 tsp dried oregano',
-                            '1 tsp dried mint'
-                        ]
-                    },
-                    {
-                        group_name : 'Rest of ingredients',
-                        ingredients_element : [
-                            '2lb veal or pork',
-                            '4 long tomatoes, cubed',
-                            '1 Tbsp tomato paste',
-                            '2 Tbsp Biber Salcasi (Turkish Pepper Paste)',
-                            '1 cinnamon stick',
-                            '2 Bay leaves',
-                            'Salt and pepper'
-                        ]
-                    }
-                ],
-                steps : [
-                    {
-                        group_name : '',
-                        steps_elements : [
-                            'In a casserole, reheat oil at medium-high and sauté all first ingredients group in for 5 min. Transfer to a bowl.',
-                            'Put veal pieces in the same casserole and let brown the veal on all sides for 5-7 min, mixing constantly.',
-                            'Put all the ingredients in the pan, with salt and pepper. Pour water to cover the meat, cover and simmr for 1h30 to 2h, until veal is soft and sauce has thicken.',
-                            'Serve with rice, enjoy!'
-                        ]
-                    }
-                ],
-                source: 'Eat Istanbul - Andy Harris and David Loftus'
-            },
-            {        
                 name:  'Moroccan Turkey Ragù with Chickpeas and Spinach',
                 image: 'http://turniptheoven.com/wp-content/uploads/2017/11/Moroccan-Turkey-Ragu-2.jpg',
                 tags: '',
@@ -3476,6 +3429,53 @@ meals = [
                     },
                 ],
                 source: 'https://www.savorysweetspoon.com/instant-pot-beef-stew/'
+            },
+            {        
+                name:  'Veal stew with tomatoes and peppers',
+                image: 'pepper.jpg',
+                tags: 'turkish, stew, comfort',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '20',
+                cook: '2h00',
+                ingredients: [            
+                    {
+                        group_name : 'First ingredients',
+                        ingredients_element : [
+                            '4 Tbsp extra virgin olive oil',
+                            '2 red onions, sliced',
+                            '3 garlic cloves, minced',
+                            '3 jalapenos, sliced',
+                            '1 tsp dried oregano',
+                            '1 tsp dried mint'
+                        ]
+                    },
+                    {
+                        group_name : 'Rest of ingredients',
+                        ingredients_element : [
+                            '2lb veal or pork',
+                            '4 long tomatoes, cubed',
+                            '1 Tbsp tomato paste',
+                            '2 Tbsp Biber Salcasi (Turkish Pepper Paste)',
+                            '1 cinnamon stick',
+                            '2 Bay leaves',
+                            'Salt and pepper'
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'In a casserole, reheat oil at medium-high and sauté all first ingredients group in for 5 min. Transfer to a bowl.',
+                            'Put veal pieces in the same casserole and let brown the veal on all sides for 5-7 min, mixing constantly.',
+                            'Put all the ingredients in the pan, with salt and pepper. Pour water to cover the meat, cover and simmr for 1h30 to 2h, until veal is soft and sauce has thicken.',
+                            'Serve with rice, enjoy!'
+                        ]
+                    }
+                ],
+                source: 'Eat Istanbul - Andy Harris and David Loftus'
             },
             // TEMPLATE
             {        
