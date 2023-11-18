@@ -1953,6 +1953,104 @@ meals = [
                 ],
                 source: 'https://krollskorner.com/recipes/main-dishes/pumpkin-curry-with-chicken/'
             },
+            {        
+                name:  'Asian Chicken Lettuce Wraps',
+                image: 'https://1.bp.blogspot.com/-7gOPfvySjNg/XhHowV2aFtI/AAAAAAAAKfo/o0mKzv50B-kyCDxURIM_lYrEOlbtGWATgCEwYBhgL/s1600/best%2Bground%2Bchicken%2Bsesame%2Bgarlic%2Bchicken%2Blettuce%2Bwraps.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '10',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : 'Sauce',
+                        ingredients_element : [
+                            '3 Tbsp Honey',
+                            '1/4 tsp Salt',
+                            '2 Tbsp Soy Sauce',
+                            '1 Tbsp Ketchup',
+                            '1 tsp White Vinegar',
+                            '1.5 Tbsp Sriracha',
+                            '2 Cloves Garlic , minced/ 1/2 tsp Garlic Powder',
+                            '1 Tbsp Hoisin Sauce',
+                            '1 Tbsp Oyster Sauce',
+                            '1/4 Cup Chicken /Vegetable Stock',
+                            '1 tsp Sugar  ',
+                        ]
+                    },
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '1lb chicken, minced',
+                            '1 small Onion,chopped',
+                            '1 Inch Ginger,grated',
+                            '4 Cloves Garlic,minced',
+                            '2 Tbsp Vegetable /Sesame Oil',
+                            'Sesame Seeds for garnish',
+                            'Spring Onion,greens,chopped ',
+                            'Red Pepper Flakes',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : 'https://www.savorybitesrecipes.com/2020/01/asian-chicken-wrap-recipe.html',
+                        steps_elements : [
+                            'In a bowl add the ingredients for the sauce and mix well.',
+                            "In a wok/pan, add oil, when it's hot, add ginger, garlic, onion, and saute till soft.",
+                            'Add minced chicken and stir to separate the chicken and cook evenly.',
+                            'Add sauce mix and mix well.',
+                            'Cook this till chicken is cooked well and sauce is mostly dried.',
+                            'Add the sesame seeds, spring onion greens, red pepper flakes.',
+                            'Arrange the lettuce cups/leaves and place two to three tablespoons of chicken on each leaf and serve.',
+                        ]
+                    }
+                ],
+                source: ''
+            },
+            {        
+                name:  'Pork and Peanut Dragon Noodles',
+                image: 'https://www.budgetbytes.com/wp-content/uploads/2018/01/Pork-and-Peanut-Dragon-Noodles-eat-2-768x1024.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '',
+                cook: '',
+                ingredients: [            
+                    {
+                        group_name : 'Dragon Sauce',
+                        ingredients_element : [
+                            "1/4 cup chili garlic sauce",
+                            "1/4 cup soy sauce",
+                            "1/4 cup brown sugar",
+                        ]
+                    },
+                    {
+                        group_name : 'Pork and Noodles',
+                        ingredients_element : [
+                            "1 lb. ground pork",
+                            "2 3oz. packages ramen noodles (seasoning packets discarded)",
+                            "Green cabbage, finely chopped (optional)",
+                            "3 green onions, sliced",
+                            "1/4 cup unsalted peanuts, chopped",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Combine the chili garlic sauce, soy sauce, and brown sugar in a bowl.",
+                            "Add the ground pork to a skillet and cook over medium heat until it is fully browned*. Once browned, add the prepared dragon sauce and chopped peanuts. Allow the pork and peanuts to simmer in the sauce for another 5 minutes, or until the sauce has reduced by half.",
+                            "While the pork is browning, begin boiling water for your noodles. Once boiling, add your noodles and cook according to the package directions. Drain the noodles in a colander.",
+                            "Once the sauce has reduced and the noodles have drained, add the noodles to the skillet and toss until everything is combined and coated in sauce. Top with sliced green onions and serve!",
+                        ]
+                    }
+                ],
+                source: 'https://www.budgetbytes.com/pork-peanut-dragon-noodles/'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -2169,6 +2267,89 @@ meals = [
                     }
                 ],
                 source: 'http://turniptheoven.com/moroccan-turkey-ragu-with-chickpeas-and-spinach/?fbclid=IwAR311FV9huRq2mXZ_dYSCePi_7s15ApTk2ygoj6Ux4kIEPMuKJXzT8YtIs8'
+            },
+            // TEMPLATE
+            {        
+                name:  '',
+                image: '',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '',
+                prep: '',
+                cook: '',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            
+                        ]
+                    }
+                ],
+                source: ''
+            }
+        ]
+    },
+    {
+        type : "Greek",
+        recipes : [     
+            {        
+                name:  'One Pot Greek Chicken Orzo',
+                image: 'https://www.jocooks.com/wp-content/uploads/2019/08/one-pot-greek-chicken-orzo-1-22-730x913.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '10',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "½ cup all-purpose flour",
+                            "1 Tbsp smoked paprika",
+                            "1 tsp garlic powder",
+                            "½ tsp salt (or to taste)",
+                            "¼ tsp pepper (or to taste)",
+                            "8 chicken thighs (boneless and skinless)",
+                            "2 Tbsps olive oil",
+                            "1 large onion (chopped)",
+                            "3 cloves garlic (minced)",
+                            "¼ tsp red pepper flakes",
+                            "½ Tbsp dried oregano",
+                            "1 Tbsp fresh thyme (chopped)",
+                            "1½ cups orzo (dry)",
+                            "1 cup white wine",
+                            "2 cups chicken broth (low sodium)",
+                            "¾ cup kalamata olives (pitted)",
+                            "¼ cup feta cheese (crumbled)",
+                            "2 Tbsps fresh parsley (chopped)",
+                            "½ lemon (cut into wedges)",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Start by whisking together the flour, smoked paprika, garlic powder, salt, and pepper in a medium-sized bowl. Dredge your chicken thighs through this flavorful flour mixture, ensuring an even coating.",
+                            "In a large skillet, warm 1 tablespoon of olive oil over medium-high heat. Introduce the chicken thighs to the skillet and sear for approximately 4 minutes on each side until they develop a crispy, golden-brown exterior. The chicken does not need to be completely cooked through at this stage. Once seared, transfer the chicken to a plate and set aside for later.",
+                            "In the same skillet, heat the remaining tablespoon of olive oil. Incorporate the chopped onion, minced garlic, red pepper flakes, oregano, and thyme, stirring continuously. Allow these ingredients to sauté for about a minute, until the garlic becomes fragrant and the onion starts to soften. Season this aromatic mix with a pinch of salt and pepper.",
+                            "Pour the dry orzo into the skillet followed by the white wine and chicken broth. Stir well to ensure all ingredients are mixed and then bring the dish to a gentle boil.",
+                            "As soon as the skillet starts boiling, reduce the heat to medium. Return the seared chicken thighs to the skillet, nestling them among the orzo. Cover the skillet with a lid and allow the dish to cook for about 10 minutes, or until the orzo is perfectly cooked through. Remember to stir occasionally to prevent sticking.",
+                            "Once your dish is cooked, garnish it with kalamata olives, crumbled feta cheese, freshly chopped parsley, and lemon wedges. Serve this delightful one pot Greek chicken orzo while it's warm for the best experience.",
+                        ]
+                    }
+                ],
+                source: 'https://www.jocooks.com/recipes/one-pot-greek-chicken-orzo/'
             },
             // TEMPLATE
             {        
@@ -4708,6 +4889,40 @@ meals = [
                     }
                 ],
                 source: 'https://www.howsweeteats.com/2021/10/ricotta-pasta/'
+            },
+            {        
+                name:  "Maxou's macaroni",
+                image: 'https://simple-nourished-living.com/wp-content/uploads/2008/10/hamburger-goulash-american-chop-suey.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '5',
+                cook: '30',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '3 cups macaronis',
+                            '1lb beef',
+                            '1 onion, chopped',
+                            '1 can tomato juice',
+                            '2 cups mozarella cheese',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Preheat oven to 350deg. Cook macaroni al dente.",
+                            "Meanwhile, heat a pan with olive oil and cook beef and onion.",
+                            "When macaroni is ready, put in the beef mix saucepan, add tomato juice and mix well.",
+                            "Transfer to an oven-safe baking pan, cover with cheese and cook for around 30 minutes. Then, broil for 2 minutes."
+                        ]
+                    }
+                ],
+                source: 'Parents de Maxou'
             },
             // TEMPLATE
             {        
