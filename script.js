@@ -1200,7 +1200,7 @@ meals = [
             },
             {        
                 name:  'Orange chicken',
-                image: 'https://christieathome.com/wp-content/uploads/2022/01/Orange-Chicken-10.jpg',
+                image: 'https://christieathome.com/wp-content/uploads/2022/01/Orange-Chicken-8.jpg',
                 tags: '',
                 vegetarian: false,
                 author: 'Booboos',
