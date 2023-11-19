@@ -30,7 +30,7 @@ meals = [
                             '¼ cup of soy sauce',
                             '2 Tbsp maple syrup',
                             '1 sesame oil',
-                            '1 ½ cups of chicken broth',
+                            '1½ cups of chicken broth',
                             '2 Tbsp cornstarch, diluted in ¼ cup water',
                             '2 tsp roasted sesame seeds'
                         ]
@@ -76,7 +76,7 @@ meals = [
                     {
                         group_name : '',
                         ingredients_element : [
-                            "1 ½ tbsp cooking oil (I use peanut oil)",
+                            "1½ tbsp cooking oil (I use peanut oil)",
                             "½ onion , finely diced (brown, white or yellow) (~½ cup)",
                             "2 tsp ginger , grated or minced",
                             "2 garlic cloves , minced (2 tsp paste)",
@@ -430,7 +430,7 @@ meals = [
                     {
                         group_name : '',
                         ingredients_element : [
-                            '1 ½ Tbsp low-sodium soy sauce',
+                            '1½ Tbsp low-sodium soy sauce',
                             '2 tsp minced garlic',
                             '1 Tbsp grated ginger',
                             '450g (1 lb) steak de surlonge, cut in strips',
@@ -554,7 +554,7 @@ meals = [
                         group_name : 'Dumpling wrappers',
                         ingredients_element : [
                             '250 g all-purpose flour (about 2 cups)',
-                            '130 ml water (about 0 ½ cups)'
+                            '130 ml water (about ½ cups)'
                         ]
                     },
                     {
@@ -608,7 +608,7 @@ meals = [
                             '½ cup hot water',
                             '6 Tbsp low sodium soy sauce',
                             '3 Tbsp packed light brown sugar',
-                            '1 ½ Tbsp corn starch',
+                            '1½ Tbsp corn starch',
                             '¼ tsp black pepper',
                             '2 Tbsp sesame oil'
                         ]
@@ -851,7 +851,7 @@ meals = [
                         ingredients_element : [
                             "1 c. à soupe (15 ml) de gingembre haché",
                             "¼ tasse (60 ml) sauce soya réduite en sodium",
-                            "1 ½ tasse (375 ml) lentilles rouges ou corail",
+                            "1½ tasse (375 ml) lentilles rouges ou corail",
                             "1 poivron rouge coupé en dés",
                             "2 oignons verts hachés",
                             "1 oignon haché",
@@ -1067,7 +1067,7 @@ meals = [
                             '1 small red bell pepper diced',
                             '3 bird’s eye chiles siling labuyo, or Thai chiles, deseeded (if needed) and sliced',
                             '2 long green chilies deseeded (if needed) and sliced—I used siling haba',
-                            '3 ½ Tbsp fresh or rehydrated shiitake mushrooms or other mushrooms such as oyster, button, baby bella, black fungus/wood ear mushrooms, finely diced (see notes)',
+                            '3½ Tbsp fresh or rehydrated shiitake mushrooms or other mushrooms such as oyster, button, baby bella, black fungus/wood ear mushrooms, finely diced (see notes)',
                             '½-1 Tbsp vegetarian mushroom oyster sauce or stir-fry sauce, to taste (if needed)',
                             'soy sauce or liquid seasoning like Knorr to taste, if needed',
                             '2 Tbsp vegan mayonnaise'
@@ -1212,7 +1212,7 @@ meals = [
                         group_name : '',
                         ingredients_element : [
                             '2 lb boneless skinless chicken thighs',
-                            '0 ½ cup cornstarch or sub with potato starch/tapioca starch',
+                            '½ cup cornstarch or sub with potato starch/tapioca starch',
                             '0.67 cup vegetable oil or any neutral tasting oil'
                         ]
                     },
@@ -1221,10 +1221,10 @@ meals = [
                         ingredients_element : [
                             '2 cup freshly squeezed orange juice, pulp removed',
                             '4 Tbsp white vinegar or rice vinegar',
-                            '0 ½ cup + 2 tbsp brown sugar',
+                            '½ cup + 2 tbsp brown sugar',
                             '4 Tbsp regular soy sauce',
                             '4 teaspoon garlic minced',
-                            '0 ½ teaspoon ginger powder',
+                            '½ teaspoon ginger powder',
                             '2 Tbsp cornstarch',
                             '1 tsp red chili flakes',
                         ]
@@ -1526,7 +1526,7 @@ meals = [
                             "2 Tbsp sweet rice wine (mirim)",
                             "2 Tbsp sugar",
                             "3 cloves garlic, finely minced",
-                            "1 ½ tsp ginger paste",
+                            "1½ tsp ginger paste",
                             "1 Tbsp sesame oil",
                             "1 Tbsp toasted sesame seeds",
                             "½ tsp black pepper",
@@ -1615,7 +1615,7 @@ meals = [
                     {
                         group_name : 'Ground pork',
                         ingredients_element : [
-                            "1 ½ pound ground pork",
+                            "1½ pound ground pork",
                             "2 tsp corn starch",
                             "1 Tbsp Shaoxing cooking wine",
                         ]
@@ -1722,13 +1722,13 @@ meals = [
                     {
                         group_name : '',
                         steps_elements : [
-                            "Place the vermicelli noodles in a big bowl and add hot water to cover. Soak according to the package instructions. If the package does not have instructions, soak the noodles in hot water for 15 minutes. Once done, drain thoroughly, toss with 1/2 tablespoon oil, and set aside.",
+                            "Place the vermicelli noodles in a big bowl and add hot water to cover. Soak according to the package instructions. If the package does not have instructions, soak the noodles in hot water for 15 minutes. Once done, drain thoroughly, toss with ½ tablespoon oil, and set aside.",
                             "Mix the sauce ingredients in a small bowl and set aside.",
-                            "Heat 1/2 tablespoon oil in a nonstick pan over medium heat until hot. Add the ginger, garlic and green onion. Cook and stir for 30 seconds to release fragrance.",
+                            "Heat ½ tablespoon oil in a nonstick pan over medium heat until hot. Add the ginger, garlic and green onion. Cook and stir for 30 seconds to release fragrance.",
                             "Add the ground pork. Cook and chop the pork into smaller pieces, until the pork is fully cooked, 2 minutes or so.",
                             "Add the doubanjiang. Cook and stir for 1 minute, until the pork is covered evenly.",
                             "Pour in the chicken broth, the soaked vermicelli noodles, and the sauce. Stir a few times to mix well. Cover and cook for 2 to 3 minutes. Uncover the pan. Stir to mix well and check the doneness of the noodles. If the noodles are still tough, cover it and cook for another minute or so. Once the noodles have turned soft, cook uncovered over medium-high heat until the liquid evaporates, about 1 minute. Once done, transfer everything to a plate. Serve hot as a main dish.",
-                            "Use 1/2 teaspoon toasted sesame oil at the end (step 6, after uncovering the pan) if you use vegetable oil instead of peanut oil.",
+                            "Use ½ teaspoon toasted sesame oil at the end (step 6, after uncovering the pan) if you use vegetable oil instead of peanut oil.",
 
                         ]
                     }
@@ -1932,8 +1932,8 @@ meals = [
                             '1 Tbsp. red curry paste',
                             '2 Tbsp. brown sugar',
                             'salt and pepper, to taste',
-                            '1 1/2 lb. boneless skinless chicken thighs, diced into 1-inch cubes',
-                            '1/4 cup fresh cilantro, chopped',
+                            '1 ½ lb. boneless skinless chicken thighs, diced into 1-inch cubes',
+                            '¼ cup fresh cilantro, chopped',
                             '2 green onions (green parts only), diced',
                             '1 cup cooked U.S.-grown long grain white rice',
                         ]
@@ -1967,15 +1967,15 @@ meals = [
                         group_name : 'Sauce',
                         ingredients_element : [
                             '3 Tbsp Honey',
-                            '1/4 tsp Salt',
+                            '¼ tsp Salt',
                             '2 Tbsp Soy Sauce',
                             '1 Tbsp Ketchup',
                             '1 tsp White Vinegar',
                             '1.5 Tbsp Sriracha',
-                            '2 Cloves Garlic , minced/ 1/2 tsp Garlic Powder',
+                            '2 Cloves Garlic , minced/ ½ tsp Garlic Powder',
                             '1 Tbsp Hoisin Sauce',
                             '1 Tbsp Oyster Sauce',
-                            '1/4 Cup Chicken /Vegetable Stock',
+                            '¼ Cup Chicken /Vegetable Stock',
                             '1 tsp Sugar  ',
                         ]
                     },
@@ -2022,9 +2022,9 @@ meals = [
                     {
                         group_name : 'Dragon Sauce',
                         ingredients_element : [
-                            "1/4 cup chili garlic sauce",
-                            "1/4 cup soy sauce",
-                            "1/4 cup brown sugar",
+                            "¼ cup chili garlic sauce",
+                            "¼ cup soy sauce",
+                            "¼ cup brown sugar",
                         ]
                     },
                     {
@@ -2034,7 +2034,7 @@ meals = [
                             "2 3oz. packages ramen noodles (seasoning packets discarded)",
                             "Green cabbage, finely chopped (optional)",
                             "3 green onions, sliced",
-                            "1/4 cup unsalted peanuts, chopped",
+                            "¼ cup unsalted peanuts, chopped",
                         ]
                     }
                 ],
@@ -2156,8 +2156,8 @@ meals = [
                             "3petits navets, pelés et coupés en quartiers",
                             "¼ tasse de raisins secs",
                             "1 c. à soupe de pâte harissa (ou 1 c. à thé de flocons de piment fort broyés)",
-                            "1/8 c. à thé de cannelle moulue (facultatif)",
-                            "4 tassesde bouillon de poulet",
+                            "⅛ c. à thé de cannelle moulue (facultatif)",
+                            "4 tasses de bouillon de poulet",
                             "Sel et poivre du moulin",
                             "1 courgette, coupée en rondelles de 1,5 cm (½ po) d’épaisseur",
                             "1 poivron rouge, tranché en grosses lanières",
@@ -2448,7 +2448,7 @@ meals = [
                         ingredients_element : [
                             '1 Tbsp frying oil',
                             '1 lb(450g) lean ground beef',
-                            '1 ½ Tbsps Fajita seasoning or taco seasoning',
+                            '1½ Tbsps Fajita seasoning or taco seasoning',
                             '¼  cup water or broth',
                             '1 tsp Worcestershire sauce',
                             '1 Tbsp tomato paste',
@@ -2458,7 +2458,7 @@ meals = [
                             '½  cup canned corn 80g, about 1 / 3 of a can',
                             '½ cup canned kidney or black beans 80g, about 1 / 3 of a can',
                             '5 large tortillas',
-                            '3 ¼ cups shredded cheddar I used half mild and half sharp, 350g or 12 ounces'
+                            '3¼ cups shredded cheddar I used half mild and half sharp, 350g or 12 ounces'
                         ]
                     }
                 ],
@@ -2542,8 +2542,8 @@ meals = [
                             '1 lb. lean ground turkey',
                             '1 onion, diced',
                             '3 garlic cloves, minced',
-                            '3/4 tsp.kosher salt, divided',
-                            '1 ¼ cups salsa',
+                            '¾ tsp.kosher salt, divided',
+                            '1¼ cups salsa',
                             '3 cups water',
                             '3 cups medium shells',
                             '½ cup shredded cheddar cheese',
@@ -2787,7 +2787,7 @@ meals = [
                     {
                         group_name: '',
                         ingredients_element: [
-                            '2 lbs lean boneless pork chops, about 1 ½ inches thick',
+                            '2 lbs lean boneless pork chops, about 1½ inches thick',
                             '1 tsp garlic powder',
                             '½ tsp salt',
                             '½ tsp pepper',
@@ -2831,10 +2831,10 @@ meals = [
                             '4 Tbsp tomato paste',
                             '1 small head green cabbage, roughly chopped',
                             '1(28 - ounce) can diced tomatoes, undrained',
-                            ' ½ cup beef broth',
+                            '½ cup beef broth',
                             '2 tsp packed brown sugar',
                             '1 tsp apple cider vinegar',
-                            '1 ½  tsp salt',
+                            '1½  tsp salt',
                             '¾  tsp freshly ground black pepper',
                             '⅛  tsp ground allspice',
                             '1 cup uncooked white rice + more cooked rice for serving'
@@ -2912,7 +2912,7 @@ meals = [
                             "1 sachet de soupe à l’oignon",
                             "½ tasse de sirop d’érable",
                             "2 tasses de riz à grains longs pas cuit",
-                            "2 ½ tasses d’eau",
+                            "2½ tasses d’eau",
                             "Sel et poivre au goût"
                         ]
                     }
@@ -2984,18 +2984,18 @@ meals = [
                         ingredients_element : [
                             '1.88 lbs. boneless, skinless chicken thighs (4-5 thighs)',
                             '3 Tbsp cooking oil, divided',
-                            '1 ½ yellow onion, diced',
-                            '1 ½ cups long-grain white rice (uncooked)',
+                            '1½ yellow onion, diced',
+                            '1½ cups long-grain white rice (uncooked)',
                             '2.63 cups vegetable broth',
-                            '1 ½ Tbsp chopped parsley (optional garnish)'
+                            '1½ Tbsp chopped parsley (optional garnish)'
                         ]
                     },       
                     {
                         group_name : 'Spice mix',
                         ingredients_element : [
                             '3 tsp paprika',
-                            '1 ½ tsp dried oregano',
-                            '1 ½ tsp dried thyme',
+                            '1½ tsp dried oregano',
+                            '1½ tsp dried thyme',
                             '¾ tsp garlic powder',
                             '¾ tsp onion powder',
                             '½ tsp salt',
@@ -3172,7 +3172,7 @@ meals = [
                             "1 Tbsp red wine",
                             "1 Tbsp sweet Hungarian paprika",
                             "2 tsp salt",
-                            "1 ½ tsp coarsely cracked black peppercorns (toast in a dry skillet for a minute or two until fragrant for maximum flavor)",
+                            "1½ tsp coarsely cracked black peppercorns (toast in a dry skillet for a minute or two until fragrant for maximum flavor)",
                             "1 teaspoon coarsely cracked fennel seeds (toast in a dry skillet for a minute or two until fragrant for maximum flavor)",
                             "1 teaspoon onion powder",
                             "½ teaspoon red pepper flakes (omit if you want a mild sausage)",
@@ -3259,7 +3259,7 @@ meals = [
                             "1 Tbsp (16g) Olive Oil, divided",
                             "12 oz Broccoli Florets, cut into bite-size pieces",
                             "1 lb Ground Chicken (97/3)",
-                            "1/4 C (60g) Sweet Chili Sauce",
+                            "¼ C (60g) Sweet Chili Sauce",
                             "2 Tbsp (42g) Honey",
                             "2-3 Tbsp (30-45g) Sriracha, to spice preference",
                             "2 Tbsp (30g) Soy Sauce",
@@ -3274,7 +3274,7 @@ meals = [
                     {
                         group_name : '',
                         steps_elements : [
-                            'Heat 1/2 Tbsp of olive oil in a large skillet over medium-high heat. Add the broccoli and leave untouched for 1-2 minutes to develop some browning on one side. Stir and continue cooking until the broccoli is a dark green, about 3-4 minutes longer. Transfer to a plate and set aside.',
+                            'Heat ½ Tbsp of olive oil in a large skillet over medium-high heat. Add the broccoli and leave untouched for 1-2 minutes to develop some browning on one side. Stir and continue cooking until the broccoli is a dark green, about 3-4 minutes longer. Transfer to a plate and set aside.',
                             'Add the remaining olive oil to the skillet and brown both sides of the ground chicken before mincing and fully cooking.',
                             'While the chicken cooks, mix the remaining sauce ingredients together. Add the sauce to the fully cooked chicken and cook until thick. Be careful not to burn.',
                             'Once the sauce is thick, add the broccoli back to the skillet and stir everything together. Garnish with sesame seeds and green onion before serving.',
@@ -3298,12 +3298,12 @@ meals = [
                         ingredients_element : [
                             '1 tablespoon high-heat cooking oil, divided',
                             '4 cups (500 g) cooked day-old white or brown rice*',
-                            '1/2 cup (115 g) Vegan Nut-Free Pesto, divided; or use store-bought',
+                            '½ cup (115 g) Vegan Nut-Free Pesto, divided; or use store-bought',
                             '3 cloves garlic, minced',
                             '10 ounces (280 g) cherry tomatoes, cut in half',
                             '10–12 kalamata olives, roughly chopped (optional)',
                             '1 small zucchini, quartered and sliced',
-                            '1/2 teaspoon salt, plus more to taste',
+                            '½ teaspoon salt, plus more to taste',
                             '1 cup (145 g) thawed frozen peas',
                             '2 ounces (55 g) baby spinach',
                             'Optional Toppings: pine nuts, fresh basil, and/or red chili flakes',
@@ -3315,7 +3315,7 @@ meals = [
                         group_name : '',
                         steps_elements : [
                             "Toast the Rice: Heat 2 teaspoons of oil in a large sauté pan over high heat. Cook for 8 to 9 minutes, stirring only every 2 to 3 minutes to make sure the rice gets nicely browned and toasty. Season with a pinch of salt, then remove from the pan and set aside.",
-                            "Cook the Veggies: Reduce the heat to medium-high, then warm the remaining teaspoon of oil in the pan. Add 2 tablespoons of pesto along with the garlic and sauté for 45 to 60 seconds, until the pesto turns bright green. Then, add the cherry tomatoes and sauté for 3 minutes, stirring occasionally. Add in the zucchini, olives, and 1/2 teaspoon of salt, then sauté for an additional 5 to 6 minutes, until most of the extra liquid cooks off.",
+                            "Cook the Veggies: Reduce the heat to medium-high, then warm the remaining teaspoon of oil in the pan. Add 2 tablespoons of pesto along with the garlic and sauté for 45 to 60 seconds, until the pesto turns bright green. Then, add the cherry tomatoes and sauté for 3 minutes, stirring occasionally. Add in the zucchini, olives, and ½ teaspoon of salt, then sauté for an additional 5 to 6 minutes, until most of the extra liquid cooks off.",
                             "Add the Rice: return the rice to the pan, along with the peas and pesto. Stir well, then reduce the heat to low. Fold in the spinach and cook until the spinach has wilted and the rice is warm. Season with additional salt, if necessary.",
                             "Serve: Transfer the rice to serving plates and top with fresh basil, pine nuts, and/or red chili flakes. Serve warm; leftovers will keep in the fridge for up to 4 days.",
                         ]
@@ -3459,10 +3459,10 @@ meals = [
                             '300g / 10 oz ground beef (mince)',
                             '300g / 10 oz ground pork (mince) , or sub with more beef',
                             '1 egg',
-                            '1/4 tsp ground nutmeg , preferably freshly grated',
-                            '1/4 tsp All Spice powder',
-                            '1/4 tsp black pepper',
-                            '3/4 tsp salt',
+                            '¼ tsp ground nutmeg , preferably freshly grated',
+                            '¼ tsp All Spice powder',
+                            '¼ tsp black pepper',
+                            '¾ tsp salt',
                             '1 tbsp oil',
                         ]
                     },
@@ -3472,7 +3472,7 @@ meals = [
                             '40g / 3 tbsp butter , unsalted',
                             '3 tbsp flour',
                             '2 cups beef broth/stock (salt reduced), or sub with chicken',
-                            '1/2 cup heavy / thickened cream (Note 4)',
+                            '½ cup heavy / thickened cream (Note 4)',
                         ]
                     }
                 ],
@@ -3497,7 +3497,7 @@ meals = [
                         group_name : 'Gravy',
                         steps_elements : [
                             'Add butter into skillet and melt. Add flour and stir in. Cook for 1 minute.',
-                            'While mixing, add about 1/4 of the beef broth – it will thicken quickly. Then gradually add remaining beef broth, stirring as you go. Switch to whisk if required to make it lump free.',
+                            'While mixing, add about ¼ of the beef broth – it will thicken quickly. Then gradually add remaining beef broth, stirring as you go. Switch to whisk if required to make it lump free.',
                             'When the liquid is simmering, add meatball and juices pooled on plate.',
                             'Turn up heat slightly to keep it at a rapid simmer. Cook for 8 – 10 minutes or until the liquid thickens into a thin gravy, stirring occasionally.',
                             'Add cream, simmer for a further 2 minutes then remove from stove.',
@@ -3798,7 +3798,7 @@ meals = [
                         group_name: 'Marinade',
                         ingredients_element: [
                             '1(14 - ounce) package extra - firm tofu, drained',
-                            '1 ½ cups pickle juice',
+                            '1½ cups pickle juice',
                             '1 Tbsp hot sauce',
                             '1 Tbsp Dijon mustard',
                             '1 tsp gochugaru or red - pepper flakes',
@@ -4021,7 +4021,7 @@ meals = [
                             '1 Tbsp Worcestershire sauce',
                             '1 can (910 ml) tomato sauce',
                             '1 can (796 ml) cubed tomatoes',
-                            '1 ½ Tbsp italian spices',
+                            '1½ Tbsp italian spices',
                             '2 tsp salt',
                             '½ tsp ground  pepper',
                             '1 cup (250 ml) grated cheddar cheese'
@@ -4060,7 +4060,7 @@ meals = [
                             '1 can (284 ml) corn cream',
                             '⅓ cup (80 ml) cooking 15%',
                             '2 cups italian cheese mix',
-                            '3 ½ cups chicken broth',
+                            '3½ cups chicken broth',
                             '6 slices cooked bacon / 6 sausages',
                             '⅓ cup green onions'
                         ]
@@ -4598,7 +4598,7 @@ meals = [
                             "Add the ground beef and onion to the pot. Cook it, breaking it up with your spoon as you go along, until browned (about 8 minutes). Spoon out most of the excess fat.",
                             "Stir in the tomato paste, ketchup, mustard, garlic powder, Worcestershire sauce, and beef broth. Increase the heat to high and bring to a boil.",
                             "Once it's boiling, add in the macaroni. Reduce the heat so it's not boiling like crazy (a rapid simmer is good). I cooked mine over medium heat. Let it cook uncovered until the pasta is tender and most of the liquid has been absorbed (about 13-15 minutes). Stir it every couple of minutes so nothing sticks to the bottom of the pot.",
-                            "Take the pot off the heat and stir in the cheddar and cooked bacon (I reserve some for topping the bowls). Season with salt & pepper as needed, and let it sit for a few minutes to absorb more of the liquid (if needed) and for the flavors to meld more. If you want to have a layer of cheese on top, stir in about 3/4 of the cheese and then sprinkle the rest on top and cover the pot so it melts faster.",
+                            "Take the pot off the heat and stir in the cheddar and cooked bacon (I reserve some for topping the bowls). Season with salt & pepper as needed, and let it sit for a few minutes to absorb more of the liquid (if needed) and for the flavors to meld more. If you want to have a layer of cheese on top, stir in about ¾ of the cheese and then sprinkle the rest on top and cover the pot so it melts faster.",
                             "Serve with the chopped pickles if using. "
                         ]
                     }
@@ -4650,7 +4650,7 @@ meals = [
                             '4 sage leaves, fried and then crumbled',
                             '3 sprigs of fresh rosemary, fried and then crumbled',
                             '2 cups panko breadcrumbs, lightely browned',
-                            '3/4 cup crunchy fried onions, crushed',
+                            '¾ cup crunchy fried onions, crushed',
                             '1 Tbsp chopped fresh Italian parsley',
                             '1 teaspoon chopped fresh thyme',
                             '½ teaspoon garlic powder',
@@ -4694,7 +4694,7 @@ meals = [
                             '2 garlic cloves, minced',
                             '340 g of vegetable mince',
                             '1 C. steak spice',
-                            '3/4 cup water',
+                            '¾ cup water',
                             '¼ cup soy sauce',
                             'Pepper'
                         ]
@@ -4729,7 +4729,7 @@ meals = [
                         group_name : '',
                         ingredients_element : [                            
                             "<a href='#homemade_italian_sausage'>1lb homemade italian sausage</a>",
-                            "340 g 3/4 lb gemelli pasta (or penne, rigate, etc.)",
+                            "340 g ¾ lb gemelli pasta (or penne, rigate, etc.)",
                             "1 eggplant, about 454 g (1 lb), peeled or unpeeled, cut into 2 cm (¾ inch) cubes",
                             "60 ml ¼ cup olive oil",
                             "1 onion, diced",
@@ -4738,7 +4738,7 @@ meals = [
                             "1 can 14 oz (398 ml) diced pezzettoni tomatoes",
                             "80 ml ⅓ cup store-bought sun-dried tomato pesto",
                             "2 garlic cloves, minced",
-                            "80 mL 3/4 cup feta cheese, crumbled, or more to taste",
+                            "80 mL ¾ cup feta cheese, crumbled, or more to taste",
                             "125 ml ½ cup fresh basil, torn into pieces",
                             "Ground pepper, to taste",
                         ]
@@ -4780,11 +4780,11 @@ meals = [
                             '3 celery stalks, sliced',
                             '550g semi-lean ground beef',
                             '2 cups broccoli heads',
-                            '1/2 tsp. herbs de Provence',
-                            '1/2 tsp. Italian spices',
+                            '½ tsp. herbs de Provence',
+                            '½ tsp. Italian spices',
                             '227g button mushrooms, halved',
                             '1 green bell pepper, diced',
-                            '1/2 cup low-sodium soy sauce',
+                            '½ cup low-sodium soy sauce',
                             'Salt and pepper'
                         ]
                     }
@@ -5150,7 +5150,7 @@ meals = [
                             '1 15oz. can cannellini beans',
                             '¼ lb. frozen chopped spinach',
                             '1 cup uncooked long grain white rice',
-                            '1 ½ cups vegetable broth',
+                            '1½ cups vegetable broth',
                         ]
                     }
                 ],
@@ -5487,7 +5487,7 @@ meals = [
                         steps_elements : [
                             'Heat oil in a large skillet over medium heat until shimmering. Cook leeks until soften, about 5 minutes.',
                             'Stir in garlic and cook until fragrant, about 30 seconds.',
-                            'Add tomatoes, wine, olives, oregano, bay leaf, 1/4 tsp salt and 1/4 tsp pepper and simmer, covered, until leeks are completely tender, about 10 minutes.',
+                            'Add tomatoes, wine, olives, oregano, bay leaf, ¼ tsp salt and ¼ tsp pepper and simmer, covered, until leeks are completely tender, about 10 minutes.',
                             'Season fillets with salt and pepper. Nestle fillets into sauce and simmer, covered, until fish is cooked through, about 10 minutes. Discard bay leaf. Serve on rice.'
                         ]
                     }
@@ -5513,7 +5513,7 @@ meals = [
                             "1 teaspoon dried Italian seasoning",
                             "½ teaspoon red pepper flakes, plus more to taste",
                             "3 cloves garlic, minced",
-                            "2 cans clams, drained, 1/4 cup (60 ml) clam juice reserved",
+                            "2 cans clams, drained, ¼ cup (60 ml) clam juice reserved",
                             "½ cup dry white wine (120 mL), such as sauvignon Blanc",
                             "½ cup fresh italian parsley (20 g)",
                             "2 tablespoons salted butter",
@@ -5556,7 +5556,7 @@ meals = [
                             '6 (about 4 to 5 ounces each) Salmon Fillets, skins removed',
                             'salt and fresh ground pepper , to taste',
                             'STAR Extra Virgin Olive Oil',
-                            '1/2- cup Sundried Tomato Pesto',
+                            '½- cup Sundried Tomato Pesto',
                             '2 garlic cloves , minced',
                             '6 sprigs fresh thyme',
                         ]
@@ -5598,7 +5598,7 @@ meals = [
                         ingredients_element : [
                             '1 lb. (450 g) frozen uncooked cleaned large shrimp, thawed',
                             '1 Tbsp. Cajun seasoning',
-                            '1/4 cup Kraft Sun-Dried Tomato & Oregano Dressing',
+                            '¼ cup Kraft Sun-Dried Tomato & Oregano Dressing',
                             '2 cloves garlic, minced',
                             '1 Tbsp. chopped fresh parsley',
                         ]
@@ -5679,7 +5679,7 @@ meals = [
                             "Kosher salt and freshly ground pepper",
                             "1 pound skin-on, boneless chicken breasts",
                             "4 romaine lettuce hearts, halved lengthwise",
-                            "3/4 cup grated parmesan cheese (for garnish)"
+                            "¾ cup grated parmesan cheese (for garnish)"
                         ]
                     },
                     {
@@ -6033,8 +6033,8 @@ meals = [
                             '375g beef ground chuck',
                             '1 Tbsp Worcestershire sauce',
                             'salt and freshly ground pepper',
-                            '1/4 cup fresh flat-leaf parsley, minced',
-                            '1/4 cup grated parmesan cheese',
+                            '¼ cup fresh flat-leaf parsley, minced',
+                            '¼ cup grated parmesan cheese',
                             '1 large egg, beaten',
                             '1 clove garlic, pressed',
                             '1 yellow onion, chopped',
@@ -6050,7 +6050,7 @@ meals = [
                     {
                         group_name : '',
                         steps_elements : [
-                            'To make the meatballs, put the meat in a bowl and sprinkle it with the Worcestershire sauce, 1/2 teaspoon salt, and 1/2 teaspoon pepper. Add the parsley, cheese, egg, and garlic and blend the mixture with your hands. Shape into small meatballs about 1 inch (2.5 cm) in diameter. Set aside.',
+                            'To make the meatballs, put the meat in a bowl and sprinkle it with the Worcestershire sauce, ½ teaspoon salt, and ½ teaspoon pepper. Add the parsley, cheese, egg, and garlic and blend the mixture with your hands. Shape into small meatballs about 1 inch (2.5 cm) in diameter. Set aside.',
                             'In the pressure cooker pot, sauté the onion and carrots in the butter and oil until softened, about 5 minutes. Add the tomatoes and stir well.',
                             'Rinse the barley in a small sieve, then stir it into the vegetables. Add the chicken and beef broths and meatballs to the pot. If using an electric cooker, switch off the sauté function.',
                             'Lock the lid into place and cook on high pressure for 8 minutes. Let the steam release naturally.',
