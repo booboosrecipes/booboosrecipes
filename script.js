@@ -1437,7 +1437,7 @@ meals = [
                 tags: 'Asian, summer, sandwich',
                 vegetarian: false,
                 author: 'Booboos',
-                serves: '8-10 onigiris',
+                serves: '12 onigiris',
                 prep: '10',
                 cook: '20',
                 ingredients: [            
@@ -6421,6 +6421,7 @@ if(document.querySelector('.meals_table') !== null) {
     let meals_html = '';
     let table = document.querySelector('.meals_table');
     let table_html = '<h1 class="table_title">Table of content <div class="icon"><span class="plus">+</span><span class="minus">-</span></div></h1>';
+    var total_recipes = 0;
 
     meals.forEach(meal => {
         let recipes = meal.recipes;  
@@ -6442,6 +6443,7 @@ if(document.querySelector('.meals_table') !== null) {
             let steps = recipe.steps;
             let steps_html = '';
             let veg = ''
+            total_recipes += 1;
             if(recipe.vegetarian == true){
                 veg += '<span class="vege">Vegetarian</span>'
             }
@@ -6472,7 +6474,7 @@ if(document.querySelector('.meals_table') !== null) {
                 steps_html += `</ol>`;
             }
             if(recipe.name !== '' && recipe.name !== null){
-                let input_portion = recipe.serves;
+                let input_portion = recipe.serves.replace(/\D/g, '');
                 if(recipe.serves == '4-6'){
                     input_portion = 5;
                 }
@@ -6503,6 +6505,7 @@ if(document.querySelector('.meals_table') !== null) {
                         </div>
                         <span class="source">Source : ${recipe.source}</span>
                         <span class="tags">${recipe.tags}</span>
+                        ${total_recipes}
                     </div>
                 `
             }
@@ -6577,6 +6580,8 @@ if(document.querySelector('.meals_table') !== null) {
         })
     })
 
+    $ = jQuery;
+
     document.querySelector('.search').addEventListener('click', function(){
         table.classList.add('hidden');
         let marks = document.querySelectorAll('mark');
@@ -6605,6 +6610,12 @@ if(document.querySelector('.meals_table') !== null) {
                 meal.style.display = "none";
             }
         })
+    })
+    $('.search-input').keyup(function(e){
+        var key=e.keyCode || e.which;
+        if (key==13){
+            $('.search').click();
+        }
     })
 
     document.querySelector('.table_title .minus').addEventListener('click', function(){
@@ -6652,62 +6663,67 @@ input_scales.forEach(scale => {
         let incrementation = ((parseInt(initial_value) + 1) / initial_value) - 1;
         let ingredients = input.closest('.meals').querySelectorAll('.ingredients .element');
         let qty = value / initial_value;
+        console.log(qty);
         if(value !== initial_value){
             ingredients.forEach(ingredient =>{
                 // for those with points: /\$(\d\.\d+)/
                 let number;
                 let original_ingredient = ingredient.querySelector('.original_ingredient');
                 let updated_ingredients = ingredient.querySelector('span:not(.original_ingredient)');
-                let replaced_fractions = original_ingredient.innerText.replace('½', 0.50).replace('¼', 0.25);
-                let has_numbers = replaced_fractions.match(/\d+/g);
-                if(has_numbers !== null){
-                    number = has_numbers.map(Number);
-                }
-                let fraction_to_replace = false;
-                // if has fractions in first 3 letters, do the addition
-                if(
-                updated_ingredients.innerText.indexOf('½') < 4  && updated_ingredients.innerText.indexOf('½') > -1 ||
-                updated_ingredients.innerText.indexOf('⅓') < 4  && updated_ingredients.innerText.indexOf('⅓') > -1||
-                updated_ingredients.innerText.indexOf('¼') < 4  && updated_ingredients.innerText.indexOf('¼') > -1||
-                updated_ingredients.innerText.indexOf('⅛') < 4  && updated_ingredients.innerText.indexOf('⅛') > -1){
-                    fraction_to_replace = true;
-                    let decimal;
-                    // addition the two numbers of the decimal                  
-                    decimal = number[number.indexOf(0) + 1] / 100;
-                    if(decimal === 0.05){
-                        decimal = 0.5;
+                let replaced_fractions = original_ingredient.innerText.slice(0, 4).replace('½', '.5').replace('¼', '.25').replace('⅓', '.333').replace('⅛', '.125').replace('¾', '.75');
+
+                let trimmed_number = replaced_fractions.replace(/[^0-9.]/g,'');
+
+                if(trimmed_number !== ""){
+                    let rest_of_text = updated_ingredients.innerHTML.split(" ").slice(1).join(' ');
+                    let oz = false;
+                    let gram = false;
+                    let lb = false;
+                    if(updated_ingredients.innerHTML.split(" ")[0].indexOf('g') > -1){
+                        gram = true;
                     }
-                    // addition first element of array + decimal
-                    number = number[0] + decimal;
-                    
-                }
-                let multiplied_number = (parseFloat(number) * qty);
-                //console.log(multiplied_number);
-                //console.log(number + 'x' + ratioPlus + '=' + multiplied_number);
-                if(!isNaN(multiplied_number)){
-                    // calculations are right but how do i distinghuish what i should change of the string>??
-                    if(fraction_to_replace){
-                        // remove all nuumbers and fractions from string and replac
-                        fractions.forEach(fraction =>{
-                            let text = updated_ingredients.innerText = updated_ingredients.innerText.replace(/[0-9]/g, "").replace(fraction, multiplied_number);
-                            console.log(text, multiplied_number);
-                        })
-                    }else{
-                        updated_ingredients.innerText = original_ingredient.innerText.replace(/[0-9]/g, multiplied_number)
+                    if(updated_ingredients.innerHTML.split(" ")[0].indexOf('oz') > -1){
+                        oz = true;
                     }
+                    if(updated_ingredients.innerHTML.split(" ")[0].indexOf('lb') > -1){
+                        lb = true;
+                    }
+                    let updated_number = parseFloat((trimmed_number) * qty);
+                    let decimal_split = updated_number.toString().split('.');
+                    // if is number with decimal
+                    if (decimal_split.length === 2 && decimal_split[1].length >= 3) {
+                        updated_number = parseFloat((trimmed_number) * qty).toFixed(3);
+                        if(updated_number == 0.500){
+                            updated_number = 0.5;
+                        }
+                        if(updated_number == 0.999){
+                            updated_number = 1;
+                        }
+                        //console.log(updated_number);
+                    }
+                    if (decimal_split.length === 2 && decimal_split[1].length == 2) {
+                        updated_number = parseFloat((trimmed_number) * qty).toFixed(2);
+                        //console.log(updated_number);
+                    }
+                    //console.log(updated_number.toString());
+                    updated_ingredients_html = `${updated_number.toString()}${(gram ? 'g' : '')}${(oz ? 'oz' : '')}${(lb ? 'lb' : '')} ${rest_of_text}`;
+                    updated_ingredients.innerHTML = updated_ingredients_html.replace('0.', '.').replace('.5 ', '½ ').replace('.25 ', '¼ ').replace('.333 ', '⅓ ').replace('.666 ', '⅔ ').replace('.75 ', '¾ ').replace('.125 ', '⅛ ').replace('.375 ', '⅜ ').replace('.625 ', '⅝ ').replace('.875 ', '⅞ ');
                 }
             })
         }else{
+            console.log('back to start');
+            // RESET TO INITIAL VALUES
             ingredients.forEach(ingredient =>{
-                // for those with points: /\$(\d\.\d+)/i
                 let original_ingredient = ingredient.querySelector('.original_ingredient');
                 let updated_ingredients = ingredient.querySelector('span:not(.original_ingredient)');
+                updated_ingredients.innerHTML = original_ingredient.innerHTML;
+                /*
                 let number = original_ingredient.innerText.replace(/(^\d+)(.+$)/i,'$1');
                 let multiplied_number = Math.round(parseInt(number) * incrementation);
-                //console.log(number + 'x' + ratioPlus + '=' + multiplied_number);
                 if(!isNaN(multiplied_number)){
                     updated_ingredients.innerText = original_ingredient.innerText;
                 }
+                */
             })
         }        
     }
