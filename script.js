@@ -461,7 +461,7 @@ meals = [
             {        
                 name:  'Smoked Salmon & Green Tea Noodles',
                 image: 'https://cdn.pratico-pratiques.com/app/uploads/sites/2/2020/11/10112956/duo-de-nouilles-vertes-au-saumon.jpg',
-                vegetarian: false,
+                vegetarian: true,
                 tags: 'asian, fish/seafood',
                 author: 'Booboos',
                 serves: '4',
@@ -1061,7 +1061,7 @@ meals = [
                     {
                         group_name : 'For sautéing',
                         ingredients_element : [
-                            '1-2 Tbsp vegan butter or neutral oil',
+                            '1 to 2 Tbsp vegan butter or neutral oil',
                             '1 medium onion diced',
                             '2 tsp minced garlic',
                             '1 small red bell pepper diced',
@@ -1310,7 +1310,7 @@ meals = [
                             "⅓ cup granulated sugar",
                             "¼ cup distilled white vinegar lemon, or lime juice",
                             "2 garlic cloves minced",
-                            "1-2 red Thai chiles stem removed and minced",
+                            "1 to 2 red Thai chiles stem removed and minced",
                         ]
                     },
                     {
@@ -1449,7 +1449,7 @@ meals = [
                             "1 tsp sesame oil",
                             "2 tsp sesame seeds",
                             "¼ tsp salt",
-                            "2-3 sheets nori",
+                            "2 to 3 sheets nori",
                         ]
                     },
                     {
@@ -1875,84 +1875,6 @@ meals = [
                 ],
                 source: 'https://small-pantry.com/recipes/brothy-beef-soup-with-watercress/'
             },
-            // TEMPLATE
-            {        
-                name:  '',
-                image: '',
-                tags: '',
-                vegetarian: false,
-                author: 'Booboos',
-                serves: '',
-                prep: '',
-                cook: '',
-                ingredients: [            
-                    {
-                        group_name : '',
-                        ingredients_element : [
-                            
-                        ]
-                    }
-                ],
-                steps : [
-                    {
-                        group_name : '',
-                        steps_elements : [
-                            
-                        ]
-                    }
-                ],
-                source: ''
-            }
-        ]
-    },
-    // INDIAN
-    {
-        type : "Indian",
-        recipes : [
-            {        
-                name:  'Pumpkin Curry with Chicken',
-                image: 'https://krollskorner.com/wp-content/uploads/2023/09/pumpkincurry_19-683x1024.jpg',
-                tags: '',
-                vegetarian: false,
-                author: 'Booboos',
-                serves: '4',
-                prep: '10',
-                cook: '20',
-                ingredients: [            
-                    {
-                        group_name : '',
-                        ingredients_element : [
-                            '1 Tbsp. oil (olive, canola, or vegetable)',
-                            '2 Tbsp. shallot, minced',
-                            '3 cloves garlic, chopped',
-                            '2 tsp. ginger, minced',
-                            '1, 15 oz. can coconut milk, full fat',
-                            '1 cup 100% pumpkin puree',
-                            '2 Tbsp. yellow curry powder',
-                            '1 Tbsp. red curry paste',
-                            '2 Tbsp. brown sugar',
-                            'salt and pepper, to taste',
-                            '1 ½ lb. boneless skinless chicken thighs, diced into 1-inch cubes',
-                            '¼ cup fresh cilantro, chopped',
-                            '2 green onions (green parts only), diced',
-                            '1 cup cooked U.S.-grown long grain white rice',
-                        ]
-                    }
-                ],
-                steps : [
-                    {
-                        group_name : '',
-                        steps_elements : [
-                            'Heat the oil over medium heat in a large sauté pan. Then add the shallot, garlic, and ginger. Sauté for 1-2 minutes until shallot softens.',
-                            'Add the coconut milk, pumpkin, curry powder, curry paste, brown sugar, salt and pepper and whisk.',
-                            'Bring to a gentle boil. Add the chicken cubes and bring the sauce to a simmer. Cook until the chicken is fully cooked, this will take ~10 minutes or until chicken reaches an internal temperature of 165°F. The idea here is to let the chicken simmer in the sauce so it stays nice and tender.',
-                            'Add the cilantro and green onions. Stir to combine. Taste and adjust any seasonings as desired.',
-                            'Serve over cooked rice with plenty of the yummy curry sauce.',
-                        ]
-                    }
-                ],
-                source: 'https://krollskorner.com/recipes/main-dishes/pumpkin-curry-with-chicken/'
-            },
             {        
                 name:  'Asian Chicken Lettuce Wraps',
                 image: 'https://1.bp.blogspot.com/-7gOPfvySjNg/XhHowV2aFtI/AAAAAAAAKfo/o0mKzv50B-kyCDxURIM_lYrEOlbtGWATgCEwYBhgL/s1600/best%2Bground%2Bchicken%2Bsesame%2Bgarlic%2Bchicken%2Blettuce%2Bwraps.jpg',
@@ -2081,17 +2003,171 @@ meals = [
             }
         ]
     },
-    /*
-    :::'###::::'########:::::'###::::'########::'####::'######::
-    ::'## ##::: ##.... ##:::'## ##::: ##.... ##:. ##::'##... ##:
-    :'##:. ##:: ##:::: ##::'##:. ##:: ##:::: ##:: ##:: ##:::..::
-    '##:::. ##: ########::'##:::. ##: ########::: ##:: ##:::::::
-    #########: ##.. ##::: #########: ##.... ##:: ##:: ##:::::::
-    ##.... ##: ##::. ##:: ##.... ##: ##:::: ##:: ##:: ##::: ##:
-    ##:::: ##: ##:::. ##: ##:::: ##: ########::'####:. ######::
-    ..:::::..::..:::::..::..:::::..::........:::....:::......:::*/
+    // INDIAN
     {
-        type : "Arabic",
+        type : "Indian",
+        recipes : [
+            {        
+                name:  'Instant Pot Chicken Biryani',
+                image: 'https://ministryofcurry.com/wp-content/uploads/2017/05/IMG_3549-927x1024.jpg',
+                tags: 'indian',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '8',
+                prep: '40',
+                cook: '40',
+                ingredients: [            
+                    {
+                        group_name : 'Marinade',
+                        ingredients_element : [
+                            '2 teaspoons garam masala Add 3 teaspoon for spicier Biryani',
+                            '1 tablespoon ginger grated',
+                            '1 tablespoon garlic minced',
+                            '1 tablespoon Kashmiri red chili powder',
+                            '½ teaspoon ground turmeric',
+                            '¼ cup mint leaves',
+                            '¼ cup cilantro chopped',
+                            '2 tablespoons lemon juice',
+                            '¾ cup plain yogurt',
+                            '2 teaspoons kosher salt',
+                            '2 pounds whole bone in chicken skinless cut into 12 pieces (If using chicken thighs cut into 2 inch pieces)',
+                        ]
+                    },
+                    {
+                        group_name : 'Other ingredients',
+                        ingredients_element : [
+                            '4 tablespoons ghee divided',
+                            '2 large yellow onions thinly sliced',
+                            '2 bay leaves',
+                            '3 cups extra long grain Basmati rice',
+                            '2 teaspoon kosher salt',
+                            '3 cups water',
+                            '1 teaspoon saffron mixed in 1 tablespoon warm milk',
+                            '6 eggs hard boiled and shelled, optional',
+                            '1 jalapeno sliced into 8 wedges optional for extra spicy **',
+                        ]
+                    },
+                    {
+                        group_name : 'Raita',
+                        ingredients_element : [
+                            '2 cups plain yogurt',
+                            '1 medium yellow onion finely diced',
+                            '2 tomatoes diced',
+                            '½ teaspoon kosher salt',
+                            '1 tablespoon cilantro chopped',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Make Marinade by mixing garam masala, ginger, garlic, red chili powder, turmeric, mint leaves, half of the chopped cilantro, lemon juice, yogurt, and salt. Add chicken and coat evenly with the marinade. Keep in the refrigerator for at least 30 minutes.',
+                            'While the chicken is marinating, wash and soak the basmati rice in water. Keep aside for 20 minutes.',
+                            'Turn the Instant Pot to Saute(Hi). After the ‘hot’ sign displays, add half of the ghee and add thinly sliced onions. Cook stirring frequently for 10 minutes or until the onions are golden brown and caramelized. Take out half of the onion and keep aside for garnishing the biryani. Note: You can also air fry the onions (Air fry at 320F 20 minutes)',
+                            'Add the remaining ghee to the Instant Pot with half of the caramelized onions already in the pot. For extra spicy Biryani add sliced jalapeno. Add bay leaves and half of the marinated chicken and the liquid from the marinade. Press Cancel. Mix well, deglazing the pot with a spatula to take out all the browning of the pot from sautéing the onions. This is an important step that will prevent the possible "BURN" signal during pressure cooking. Once all the browning on the pot is completely removed, stir in the remaining chicken.  ',
+                            'a) For Chicken on bone - Close the Instant Pot and turn the pressure valve to sealing. Select Manual/Pressure Cook(Hi) and adjust the time to 4 minutes. Follow with Quick release. Mix the chicken well, once again scraping the bottom of the pot removing any food stuck to the bottom. ',
+                            'or',
+                            'b) For boneless Chicken thighs - Cook on Saute mode for 2 to 3 minutes. Scrape the bottom of the pot to make sure there is no food sticking to the bottom. ',
+                            'Drain the rice and gently pour it over the chicken. Add salt from the other ingredients list. Add water and gently push all the rice under the liquids. Do not stir. Close the Instant Pot and turn the pressure valve to sealing. Select Manual/Pressure Cook(Hi) mode and adjust the time to 6 minutes. Follow with Quick release.',
+                            'Open the Instant Pot. If the top layer of the rice looks uncooked, simply fluff the top layer of the rice. Then mix the rice with the chicken on the bottom of the pan. Using a silicone spatula to gently mix will also prevent the rice grains from breaking. ',
+                            'Garnish with the remaining caramelized onions, saffron mixed with milk and cilantro. Serve with Raita, hard-boiled egg, and lemon wedges.',
+                        ]
+                    },
+                    {
+                        group_name : 'Raita',
+                        steps_elements : [
+                            'To make the raita, whisk the yogurt in a medium bowl. Add onions, tomatoes, salt, and mix well. Garnish with cilantro. '
+                        ]
+                    }
+                ],
+                source: 'https://ministryofcurry.com/chicken-biryani-instant-pot/'
+            },
+            {        
+                name:  'Pumpkin Curry with Chicken',
+                image: 'https://krollskorner.com/wp-content/uploads/2023/09/pumpkincurry_19-683x1024.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '10',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '1 Tbsp. oil (olive, canola, or vegetable)',
+                            '2 Tbsp. shallot, minced',
+                            '3 cloves garlic, chopped',
+                            '2 tsp. ginger, minced',
+                            '1, 15 oz. can coconut milk, full fat',
+                            '1 cup 100% pumpkin puree',
+                            '2 Tbsp. yellow curry powder',
+                            '1 Tbsp. red curry paste',
+                            '2 Tbsp. brown sugar',
+                            'salt and pepper, to taste',
+                            '1 ½ lb. boneless skinless chicken thighs, diced into 1-inch cubes',
+                            '¼ cup fresh cilantro, chopped',
+                            '2 green onions (green parts only), diced',
+                            '1 cup cooked U.S.-grown long grain white rice',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Heat the oil over medium heat in a large sauté pan. Then add the shallot, garlic, and ginger. Sauté for 1-2 minutes until shallot softens.',
+                            'Add the coconut milk, pumpkin, curry powder, curry paste, brown sugar, salt and pepper and whisk.',
+                            'Bring to a gentle boil. Add the chicken cubes and bring the sauce to a simmer. Cook until the chicken is fully cooked, this will take ~10 minutes or until chicken reaches an internal temperature of 165°F. The idea here is to let the chicken simmer in the sauce so it stays nice and tender.',
+                            'Add the cilantro and green onions. Stir to combine. Taste and adjust any seasonings as desired.',
+                            'Serve over cooked rice with plenty of the yummy curry sauce.',
+                        ]
+                    }
+                ],
+                source: 'https://krollskorner.com/recipes/main-dishes/pumpkin-curry-with-chicken/'
+            },
+            // TEMPLATE
+            {        
+                name:  '',
+                image: '',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '',
+                prep: '',
+                cook: '',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            
+                        ]
+                    }
+                ],
+                source: ''
+            }
+        ]
+    },
+    /*
+    '##::::'##:'####:'########::'########::'##:::::::'########::::'########::::'###:::::'######::'########:
+    ###::'###:. ##:: ##.... ##: ##.... ##: ##::::::: ##.....::::: ##.....::::'## ##:::'##... ##:... ##..::
+    ####'####:: ##:: ##:::: ##: ##:::: ##: ##::::::: ##:::::::::: ##::::::::'##:. ##:: ##:::..::::: ##::::
+    ## ### ##:: ##:: ##:::: ##: ##:::: ##: ##::::::: ######:::::: ######:::'##:::. ##:. ######::::: ##::::
+    ##. #: ##:: ##:: ##:::: ##: ##:::: ##: ##::::::: ##...::::::: ##...:::: #########::..... ##:::: ##::::
+    ##:.:: ##:: ##:: ##:::: ##: ##:::: ##: ##::::::: ##:::::::::: ##::::::: ##.... ##:'##::: ##:::: ##::::
+    ##:::: ##:'####: ########:: ########:: ########: ########:::: ########: ##:::: ##:. ######::::: ##::::
+    ..:::::..::....::........:::........:::........::........:::::........::..:::::..:::......::::::..:::::*/
+    {
+        type : "Middle eastern",
         recipes : [
             {        
                 name:  'La Tajine',
@@ -2196,39 +2272,6 @@ meals = [
                 ],
                 source: ''
             },
-            // TEMPLATE
-            {        
-                name:  '',
-                image: '',
-                tags: '',
-                vegetarian: false,
-                author: 'Booboos',
-                serves: '',
-                prep: '',
-                cook: '',
-                ingredients: [            
-                    {
-                        group_name : '',
-                        ingredients_element : [
-                            
-                        ]
-                    }
-                ],
-                steps : [
-                    {
-                        group_name : '',
-                        steps_elements : [
-                            
-                        ]
-                    }
-                ],
-                source: ''
-            }
-        ]
-    },
-    {
-        type : "Turkish",
-        recipes : [      
             {        
                 name:  'Moroccan Turkey Ragù with Chickpeas and Spinach',
                 image: 'http://turniptheoven.com/wp-content/uploads/2017/11/Moroccan-Turkey-Ragu-2.jpg',
@@ -2267,6 +2310,94 @@ meals = [
                     }
                 ],
                 source: 'http://turniptheoven.com/moroccan-turkey-ragu-with-chickpeas-and-spinach/?fbclid=IwAR311FV9huRq2mXZ_dYSCePi_7s15ApTk2ygoj6Ux4kIEPMuKJXzT8YtIs8'
+            },
+            {        
+                name:  'Middle Eastern Chicken Stew with White Beans',
+                image: 'https://www.servingdumplings.com/wp-content/uploads/2023/01/middle-eastern-chicken-stew-with-white-beans-4-06e45c71-600x902.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '5',
+                cook: '25',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '1 Tbsp olive oil',
+                            '1 small brown onion, finely chopped',
+                            '6 garlic cloves, minced',
+                            '1 tsp each: salt, black pepper, sweet paprika',
+                            '½ tsp each: chili flakes, ground coriander',
+                            '5 Tbsp double concentrated tomato paste',
+                            '1 cup/240 ml chicken broth',
+                            '2 cups/500 ml crushed tomatoes',
+                            '2 cans (14 oz/400 g) white beans, drained',
+                            '1.1 pounds/500 g chicken fillets',
+                            '1 tsp sumac',
+                            '2 bay leaves',
+                            '2 Tbsp chopped dill',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Heat oil over medium low in a large heavy bottomed pot. Add garlic and onion, cook for 2 minutes. Stir in salt, pepper, coriander, paprika, chili flakes and tomato paste. Cook for 1 minute.',
+                            'Pour in chicken broth and crushed tomatoes. Add white beans and chicken fillets. Next stir in sumac and bay leaves. Bring to a boil, cover the pot and simmer for 15 minutes.',
+                            'When ready, transfer the chicken fillets onto a clean plate. Shred the chicken using two forks. Hold a fork in each hand, and use them to pull the meat apart. Return the chicken to the pot and add dill. Give it a good stir. Taste and adjust salt. Serve!',
+                        ]
+                    }
+                ],
+                source: 'https://www.servingdumplings.com/recipes/middle-eastern-chicken-stew-with-white-beans/'
+            },
+            {        
+                name:  'Veal stew with tomatoes and peppers',
+                image: 'pepper.jpg',
+                tags: 'turkish, stew, comfort',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '20',
+                cook: '2h00',
+                ingredients: [            
+                    {
+                        group_name : 'First ingredients',
+                        ingredients_element : [
+                            '4 Tbsp extra virgin olive oil',
+                            '2 red onions, sliced',
+                            '3 garlic cloves, minced',
+                            '3 jalapenos, sliced',
+                            '1 tsp dried oregano',
+                            '1 tsp dried mint'
+                        ]
+                    },
+                    {
+                        group_name : 'Rest of ingredients',
+                        ingredients_element : [
+                            '2lb veal or pork',
+                            '4 long tomatoes, cubed',
+                            '1 Tbsp tomato paste',
+                            '2 Tbsp Biber Salcasi (Turkish Pepper Paste)',
+                            '1 cinnamon stick',
+                            '2 Bay leaves',
+                            'Salt and pepper'
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'In a casserole, reheat oil at medium-high and sauté all first ingredients group in for 5 min. Transfer to a bowl.',
+                            'Put veal pieces in the same casserole and let brown the veal on all sides for 5-7 min, mixing constantly.',
+                            'Put all the ingredients in the pan, with salt and pepper. Pour water to cover the meat, cover and simmr for 1h30 to 2h, until veal is soft and sauce has thicken.',
+                            'Serve with rice, enjoy!'
+                        ]
+                    }
+                ],
+                source: 'Eat Istanbul - Andy Harris and David Loftus'
             },
             // TEMPLATE
             {        
@@ -3261,7 +3392,7 @@ meals = [
                             "1 lb Ground Chicken (97/3)",
                             "¼ C (60g) Sweet Chili Sauce",
                             "2 Tbsp (42g) Honey",
-                            "2-3 Tbsp (30-45g) Sriracha, to spice preference",
+                            "2 to 3 Tbsp (30-45g) Sriracha, to spice preference",
                             "2 Tbsp (30g) Soy Sauce",
                             "1 Tbsp (16g) Toasted Sesame Oil",
                             "1 tsp Garlic Powder",
@@ -3322,82 +3453,6 @@ meals = [
                     }
                 ],
                 source: 'https://frommybowl.com/pesto-fried-rice-vegan/#respond'
-            },
-            {        
-                name:  'Instant Pot Chicken Biryani',
-                image: 'https://ministryofcurry.com/wp-content/uploads/2017/05/IMG_3549-927x1024.jpg',
-                tags: 'indian',
-                vegetarian: false,
-                author: 'Booboos',
-                serves: '8',
-                prep: '40',
-                cook: '40',
-                ingredients: [            
-                    {
-                        group_name : 'Marinade',
-                        ingredients_element : [
-                            '2 teaspoons garam masala Add 3 teaspoon for spicier Biryani',
-                            '1 tablespoon ginger grated',
-                            '1 tablespoon garlic minced',
-                            '1 tablespoon Kashmiri red chili powder',
-                            '½ teaspoon ground turmeric',
-                            '¼ cup mint leaves',
-                            '¼ cup cilantro chopped',
-                            '2 tablespoons lemon juice',
-                            '¾ cup plain yogurt',
-                            '2 teaspoons kosher salt',
-                            '2 pounds whole bone in chicken skinless cut into 12 pieces (If using chicken thighs cut into 2 inch pieces)',
-                        ]
-                    },
-                    {
-                        group_name : 'Other ingredients',
-                        ingredients_element : [
-                            '4 tablespoons ghee divided',
-                            '2 large yellow onions thinly sliced',
-                            '2 bay leaves',
-                            '3 cups extra long grain Basmati rice',
-                            '2 teaspoon kosher salt',
-                            '3 cups water',
-                            '1 teaspoon saffron mixed in 1 tablespoon warm milk',
-                            '6 eggs hard boiled and shelled, optional',
-                            '1 jalapeno sliced into 8 wedges optional for extra spicy **',
-                        ]
-                    },
-                    {
-                        group_name : 'Raita',
-                        ingredients_element : [
-                            '2 cups plain yogurt',
-                            '1 medium yellow onion finely diced',
-                            '2 tomatoes diced',
-                            '½ teaspoon kosher salt',
-                            '1 tablespoon cilantro chopped',
-                        ]
-                    }
-                ],
-                steps : [
-                    {
-                        group_name : '',
-                        steps_elements : [
-                            'Make Marinade by mixing garam masala, ginger, garlic, red chili powder, turmeric, mint leaves, half of the chopped cilantro, lemon juice, yogurt, and salt. Add chicken and coat evenly with the marinade. Keep in the refrigerator for at least 30 minutes.',
-                            'While the chicken is marinating, wash and soak the basmati rice in water. Keep aside for 20 minutes.',
-                            'Turn the Instant Pot to Saute(Hi). After the ‘hot’ sign displays, add half of the ghee and add thinly sliced onions. Cook stirring frequently for 10 minutes or until the onions are golden brown and caramelized. Take out half of the onion and keep aside for garnishing the biryani. Note: You can also air fry the onions (Air fry at 320F 20 minutes)',
-                            'Add the remaining ghee to the Instant Pot with half of the caramelized onions already in the pot. For extra spicy Biryani add sliced jalapeno. Add bay leaves and half of the marinated chicken and the liquid from the marinade. Press Cancel. Mix well, deglazing the pot with a spatula to take out all the browning of the pot from sautéing the onions. This is an important step that will prevent the possible "BURN" signal during pressure cooking. Once all the browning on the pot is completely removed, stir in the remaining chicken.  ',
-                            'a) For Chicken on bone - Close the Instant Pot and turn the pressure valve to sealing. Select Manual/Pressure Cook(Hi) and adjust the time to 4 minutes. Follow with Quick release. Mix the chicken well, once again scraping the bottom of the pot removing any food stuck to the bottom. ',
-                            'or',
-                            'b) For boneless Chicken thighs - Cook on Saute mode for 2 to 3 minutes. Scrape the bottom of the pot to make sure there is no food sticking to the bottom. ',
-                            'Drain the rice and gently pour it over the chicken. Add salt from the other ingredients list. Add water and gently push all the rice under the liquids. Do not stir. Close the Instant Pot and turn the pressure valve to sealing. Select Manual/Pressure Cook(Hi) mode and adjust the time to 6 minutes. Follow with Quick release.',
-                            'Open the Instant Pot. If the top layer of the rice looks uncooked, simply fluff the top layer of the rice. Then mix the rice with the chicken on the bottom of the pan. Using a silicone spatula to gently mix will also prevent the rice grains from breaking. ',
-                            'Garnish with the remaining caramelized onions, saffron mixed with milk and cilantro. Serve with Raita, hard-boiled egg, and lemon wedges.',
-                        ]
-                    },
-                    {
-                        group_name : 'Raita',
-                        steps_elements : [
-                            'To make the raita, whisk the yogurt in a medium bowl. Add onions, tomatoes, salt, and mix well. Garnish with cilantro. '
-                        ]
-                    }
-                ],
-                source: 'https://ministryofcurry.com/chicken-biryani-instant-pot/'
             },
             {        
                 name:  'One Pot Chicken and Pumpkin Rice',
@@ -3610,53 +3665,6 @@ meals = [
                     },
                 ],
                 source: 'https://www.savorysweetspoon.com/instant-pot-beef-stew/'
-            },
-            {        
-                name:  'Veal stew with tomatoes and peppers',
-                image: 'pepper.jpg',
-                tags: 'turkish, stew, comfort',
-                vegetarian: false,
-                author: 'Booboos',
-                serves: '6',
-                prep: '20',
-                cook: '2h00',
-                ingredients: [            
-                    {
-                        group_name : 'First ingredients',
-                        ingredients_element : [
-                            '4 Tbsp extra virgin olive oil',
-                            '2 red onions, sliced',
-                            '3 garlic cloves, minced',
-                            '3 jalapenos, sliced',
-                            '1 tsp dried oregano',
-                            '1 tsp dried mint'
-                        ]
-                    },
-                    {
-                        group_name : 'Rest of ingredients',
-                        ingredients_element : [
-                            '2lb veal or pork',
-                            '4 long tomatoes, cubed',
-                            '1 Tbsp tomato paste',
-                            '2 Tbsp Biber Salcasi (Turkish Pepper Paste)',
-                            '1 cinnamon stick',
-                            '2 Bay leaves',
-                            'Salt and pepper'
-                        ]
-                    }
-                ],
-                steps : [
-                    {
-                        group_name : '',
-                        steps_elements : [
-                            'In a casserole, reheat oil at medium-high and sauté all first ingredients group in for 5 min. Transfer to a bowl.',
-                            'Put veal pieces in the same casserole and let brown the veal on all sides for 5-7 min, mixing constantly.',
-                            'Put all the ingredients in the pan, with salt and pepper. Pour water to cover the meat, cover and simmr for 1h30 to 2h, until veal is soft and sauce has thicken.',
-                            'Serve with rice, enjoy!'
-                        ]
-                    }
-                ],
-                source: 'Eat Istanbul - Andy Harris and David Loftus'
             },
             // TEMPLATE
             {        
@@ -4375,7 +4383,7 @@ meals = [
                 name:  'Spicy Shrimp & Feta pastas',
                 image: 'https://tfpj-s3.troisfoisparjour.com/app/uploads/2022/11/04130701/pate_crevette_feta.jpg',
                 tags: 'seafood',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Booboos',
                 serves: '4',
                 prep: '15',
@@ -5169,47 +5177,6 @@ meals = [
                 ],
                 source: 'https://www.budgetbytes.com/tomato-herb-rice-with-white-beans-and-spinach/'
             },      
-            {        
-                name:  'Middle Eastern Chicken Stew with White Beans',
-                image: 'https://www.servingdumplings.com/wp-content/uploads/2023/01/middle-eastern-chicken-stew-with-white-beans-4-06e45c71-600x902.jpg',
-                tags: '',
-                vegetarian: false,
-                author: 'Booboos',
-                serves: '6',
-                prep: '5',
-                cook: '25',
-                ingredients: [            
-                    {
-                        group_name : '',
-                        ingredients_element : [
-                            '1 Tbsp olive oil',
-                            '1 small brown onion, finely chopped',
-                            '6 garlic cloves, minced',
-                            '1 tsp each: salt, black pepper, sweet paprika',
-                            '½ tsp each: chili flakes, ground coriander',
-                            '5 Tbsp double concentrated tomato paste',
-                            '1 cup/240 ml chicken broth',
-                            '2 cups/500 ml crushed tomatoes',
-                            '2 cans (14 oz/400 g) white beans, drained',
-                            '1.1 pounds/500 g chicken fillets',
-                            '1 tsp sumac',
-                            '2 bay leaves',
-                            '2 Tbsp chopped dill',
-                        ]
-                    }
-                ],
-                steps : [
-                    {
-                        group_name : 'https://www.servingdumplings.com/recipes/middle-eastern-chicken-stew-with-white-beans/',
-                        steps_elements : [
-                            'Heat oil over medium low in a large heavy bottomed pot. Add garlic and onion, cook for 2 minutes. Stir in salt, pepper, coriander, paprika, chili flakes and tomato paste. Cook for 1 minute.',
-                            'Pour in chicken broth and crushed tomatoes. Add white beans and chicken fillets. Next stir in sumac and bay leaves. Bring to a boil, cover the pot and simmer for 15 minutes.',
-                            'When ready, transfer the chicken fillets onto a clean plate. Shred the chicken using two forks. Hold a fork in each hand, and use them to pull the meat apart. Return the chicken to the pot and add dill. Give it a good stir. Taste and adjust salt. Serve!',
-                        ]
-                    }
-                ],
-                source: ''
-            },
             // TEMPLATE
             {        
                 name:  '',
@@ -5256,7 +5223,7 @@ meals = [
                 name:  'Garlic butter Rainbow Trout',
                 image: 'https://kitchenswagger.com/wp-content/uploads/2017/01/trout-in-foil4.jpg',
                 tags: 'seafood, fish',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Booboos',
                 serves: '4',
                 prep: '10',
@@ -5293,7 +5260,7 @@ meals = [
                 name:  'Oven baked basa fish filets',
                 image: 'https://ilonaspassion.com/wp-content/uploads/2019/02/Baked-Basa-Fish-Fillet-3.jpg',
                 tags: 'seafood',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Booboos',
                 serves: '4',
                 prep: '30',
@@ -5331,7 +5298,7 @@ meals = [
                 name:  'Crevettes à la créole rapides',
                 image: 'https://assets.kraftfoods.com/recipe_images/opendeploy/115893_MXM_K57644V0EC_OR1_CR_640x428.jpg',
                 tags: '',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Grace',
                 serves: '4',
                 prep: '10',
@@ -5366,7 +5333,7 @@ meals = [
                 name:  'Sole Meunière',
                 image: 'https://healthyrecipesblogs.com/wp-content/uploads/2022/07/sole-meuniere-2-NEW.jpg',
                 tags: '',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Booboos',
                 serves: '4',
                 prep: '10',
@@ -5405,7 +5372,7 @@ meals = [
                 name:  'Air Fryer Honey Garlic Salmon',
                 image: 'https://meikoandthedish.com/wp-content/uploads/2022/03/honey-garlic-air-fryer-salmon-1-683x1024.jpg',
                 tags: 'Fish',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Booboos',
                 serves: '',
                 prep: '',
@@ -5459,7 +5426,7 @@ meals = [
                 name:  'Cod with Leeks, Tomatoes, and Olives',
                 image: 'https://images.eatsmarter.com/sites/default/files/styles/facebook/public/cod-fillets-in-tomato-leek-caper-sauce-674121.jpg',
                 tags: '',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Booboos',
                 serves: '4',
                 prep: '15',
@@ -5498,7 +5465,7 @@ meals = [
                 name:  'Doug’s Clams Linguine',
                 image: 'https://img.buzzfeed.com/video-api-prod/assets/8a7e994a197045bdb80239f68d4a5035/clamslinguine_reels.jpg',
                 tags: '',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Booboos',
                 serves: '4',
                 prep: '15',
@@ -5587,7 +5554,7 @@ meals = [
                 name:  'Quick Creole Shrimp',
                 image: 'https://assets.kraftfoods.com/recipe_images/opendeploy/115893_MXM_K57644V0EC_OR1_CR_640x428.jpg',
                 tags: '',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Grace',
                 serves: '4',
                 prep: '10',
@@ -6107,7 +6074,7 @@ meals = [
                 name:  'Lemon couscous',
                 image: 'https://www.cookingclassy.com/wp-content/uploads/2021/01/lemon-couscous-recipe-3.jpg',
                 tags: '',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Booboos',
                 serves: '4',
                 prep: '3',
@@ -6145,7 +6112,7 @@ meals = [
                 name:  'Chaudrée de goberge',
                 image: 'https://producteurslaitiersducanada.ca/sites/default/files/styles/recipe_image/public/image_file_browser/conso_recipe/classic-maritime-seafood-chowder.jpg.jpeg?itok=CLkNqthF',
                 tags: 'Seafood',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Grace',
                 serves: 'x',
                 prep: 'x',
@@ -6183,7 +6150,7 @@ meals = [
                 name:  'Potage chaud au concombre',
                 image: 'https://assets.afcdn.com/recipe/20131024/35059_w640h486c1cx2592cy1728.webp',
                 tags: '',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Grace',
                 serves: 'x',
                 prep: '10',
@@ -6258,34 +6225,7 @@ meals = [
     :......:::..:::::..::........::..:::::..::........::::::........:::..:::::..::........:::......::::......:::....::..::::..:::......:::::......:::*/
     {
         type : "Salad dressings",
-        recipes : [      
-            {        
-                name:  '',
-                image: '',
-                tags: '',
-                vegetarian: false,
-                author: 'Booboos',
-                serves: '',
-                prep: '',
-                cook: '',
-                ingredients: [            
-                    {
-                        group_name : '',
-                        ingredients_element : [
-                            
-                        ]
-                    }
-                ],
-                steps : [
-                    {
-                        group_name : '',
-                        steps_elements : [
-                            
-                        ]
-                    }
-                ],
-                source: ''
-            },      
+        recipes : [         
             // TMEPLATE
             {        
                 name:  '',
@@ -6483,7 +6423,7 @@ if(document.querySelector('.meals_table') !== null) {
                         <span class="author">${recipe.author} added this recipe</span>
                         <h2 class="title">${title}</h2>
                         ${veg}
-                        <div class="img" style="background-image:url(${recipe.image})"></div>
+                        <div class="img" style="background-image:url(${recipe.image})" loading="lazy"></div>
                         <div class="meals_infos">
                             <span>Servings: ${recipe.serves} |</span>
                             <span>Prep Time: ${recipe.prep} min |</span>
@@ -6505,7 +6445,6 @@ if(document.querySelector('.meals_table') !== null) {
                         </div>
                         <span class="source">Source : ${recipe.source}</span>
                         <span class="tags">${recipe.tags}</span>
-                        ${total_recipes}
                     </div>
                 `
             }
@@ -6513,8 +6452,19 @@ if(document.querySelector('.meals_table') !== null) {
         document.querySelector('.meals_list').innerHTML = meals_html;
 
         //table html
-        
-        table_html += `<h2 class="table_meal_title">${meal.type}</h2>`
+        total_meals = recipes.length - 1;
+        table_html += `
+        <h2 class="table_meal_title">
+            <span>
+                ${meal.type}
+                <span class="total">(${total_meals})</span>
+            </span>
+            <span class="toggle">
+                <span class="plus">+</span>
+                <span class="minus">-</span>
+            </span>
+        </h2>
+        <div class="meals_toggle">`
         recipes.forEach(recipe => {
             let title = recipe.name;
             let id = (title.replace(/ /g,"_")).toLowerCase();
@@ -6530,9 +6480,11 @@ if(document.querySelector('.meals_table') !== null) {
             }
             table_html +=
                 `   </h4>
+                    <div class="img_hover"><img src="${recipe.image}"/ loading="lazy"></div>
                 </a>`;
             
         })
+        table_html += `</div>`
         table.innerHTML = table_html;
     })
     let books = document.querySelectorAll('.book');
@@ -6627,6 +6579,20 @@ if(document.querySelector('.meals_table') !== null) {
 
     document.querySelector('.reset-book').click();
 }
+/*
+'########::::'###::::'########::'##:::::::'########:::::'#######::'########:::::'######:::'#######::'##::: ##:'########:'########:'##::: ##:'########::::'########:'####:'########:'##:::::::'########:
+... ##..::::'## ##::: ##.... ##: ##::::::: ##.....:::::'##.... ##: ##.....:::::'##... ##:'##.... ##: ###:: ##:... ##..:: ##.....:: ###:: ##:... ##..:::::... ##..::. ##::... ##..:: ##::::::: ##.....::
+::: ##:::::'##:. ##:: ##:::: ##: ##::::::: ##:::::::::: ##:::: ##: ##:::::::::: ##:::..:: ##:::: ##: ####: ##:::: ##:::: ##::::::: ####: ##:::: ##:::::::::: ##::::: ##::::: ##:::: ##::::::: ##:::::::
+::: ##::::'##:::. ##: ########:: ##::::::: ######:::::: ##:::: ##: ######:::::: ##::::::: ##:::: ##: ## ## ##:::: ##:::: ######::: ## ## ##:::: ##:::::::::: ##::::: ##::::: ##:::: ##::::::: ######:::
+::: ##:::: #########: ##.... ##: ##::::::: ##...::::::: ##:::: ##: ##...::::::: ##::::::: ##:::: ##: ##. ####:::: ##:::: ##...:::: ##. ####:::: ##:::::::::: ##::::: ##::::: ##:::: ##::::::: ##...::::
+::: ##:::: ##.... ##: ##:::: ##: ##::::::: ##:::::::::: ##:::: ##: ##:::::::::: ##::: ##: ##:::: ##: ##:. ###:::: ##:::: ##::::::: ##:. ###:::: ##:::::::::: ##::::: ##::::: ##:::: ##::::::: ##:::::::
+::: ##:::: ##:::: ##: ########:: ########: ########::::. #######:: ##::::::::::. ######::. #######:: ##::. ##:::: ##:::: ########: ##::. ##:::: ##:::::::::: ##::::'####:::: ##:::: ########: ########:
+:::..:::::..:::::..::........:::........::........::::::.......:::..::::::::::::......::::.......:::..::::..:::::..:::::........::..::::..:::::..:::::::::::..:::::....:::::..:::::........::........::
+*/
+$('.table_meal_title').on('click', function(){
+    $(this).toggleClass('active');
+    $(this).next().slideToggle();
+})
 
 /*
 :'######:::'######:::::'###::::'##:::::::'########::::'##::: ##:'##::::'##:'##::::'##:'########::'########:'########::
