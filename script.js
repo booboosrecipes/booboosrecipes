@@ -2127,6 +2127,66 @@ meals = [
                 ],
                 source: 'https://krollskorner.com/recipes/main-dishes/pumpkin-curry-with-chicken/'
             },
+            {        
+                name:  'Instant Pot Chicken Curry',
+                image: 'https://www.pressurecookrecipes.com/wp-content/uploads/2020/04/instant-pot-chicken-curry-1400x885.webp',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '15',
+                cook: '45m',
+                ingredients: [            
+                    {
+                        group_name : 'Main Ingredients',
+                        ingredients_element : [
+                            '1.5 - 2 pounds chicken drumsticks or thighs',
+                            '1 cup unsalted chicken stock',
+                            '3 Tbsp curry powder (try to use High Quality curry powder)',
+                            '2 Tbsp ghee (or unsalted butter or olive oil)',
+                            '1.5 Tbsp regular soy sauce',
+                        ]
+                    },
+                    {
+                        group_name : 'Flavor Enhancing Ingredients',
+                        ingredients_element : [
+                            '2 medium carrots, cut into chunks',
+                            '2 russet potatoes, cut into quarters',
+                            '1 medium onion, diced',
+                            '8 cloves garlic, minced',
+                            '1 Tbsp ginger , minced',
+                            '1 tsp cayenne pepper',
+                            '2 Tbsp tomato paste',
+                            '½ cup coconut milk (optional)',
+                            '1 Tbsp Cornstarch diluted in 1 Tbsp cornstarch'
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Brown Chicken in Instant Pot: Press “Saute” button to “Sauté More” function to heat up Instant Pot. Wait until the indicator says “HOT” (~8 mins).',
+                            'Pat dry the chicken parts with a paper towel, then season one side of the chicken with kosher salt and ground black pepper.',
+                            'Add 2 Tbsp (30g) ghee or unsalted butter in Instant Pot. Place the chicken in Instant Pot (seasoned side face down), then brown for 4 minutes. Season the other side of chicken with salt and ground black pepper. Flip the chicken & brown this side for another 3.5 minutes. Remove and set aside the browned chicken.',
+                            'Sauté Onion: Add diced onions in Instant Pot, then saute for 3 minutes.',
+                            'Sauté Garlic, Ginger, and Spices: Add in minced garlic, ginger, 3 Tbsp (24g) curry powder, ½ - 1 tsp (1.4g - 2.8g) cayenne pepper, and 2 Tbsp (30g) tomato paste, then saute for another minute.',
+                            'Deglaze Instant Pot: Pour in 1 cup (250ml) unsalted chicken stock, then deglaze by scrubbing all the flavorful brown bits off the bottom of the pot. *Pro Tip: Make sure to deglaze really well for this recipe!',
+                            'Turn off the Instant Pot for now as you add in the remaining ingredients.',
+                            'Pressure Cook Chicken Curry: Add in 1.5 Tbsp (22.5) regular soy sauce, then give it a quick mix. Add in the browned chicken & its meat juice. Layer the carrot and potato chunks on top. No need to mix.',
+                            'With Venting Knob in Venting Position, close the lid, then turn Venting Knob to Sealing Position. Pressure cook:',
+                            '-Bone-in Chicken Thighs or Drumsticks: High Pressure for 5 minutes + 10 minutes Natural Release.',
+                            '-Bone-in Chicken Breasts: High Pressure for 4 minutes + 10 minutes Natural Release.',
+                            'Release remaining pressure, then open the lid.',
+                            'Add Coconut Milk: Set aside all the chicken and half of the potatoes & carrots. Bring the curry sauce to a simmer with “Saute More” function. Mix in coconut milk. Add 1 Tbsp Cornstarch',
+                            'Thicken & Season: With a wooden spoon, break down the remaining potatoes in Instant Pot to give the sauce some extra texture & body. Taste and adjust the seasoning by adding more salt.',
+                            '*For reference: We added roughly 1 – 2 large pinches of salt.',
+                            'Serve: Garnish the chicken curry with cilantro (optional) & serve with rice or your favorite side dishes. Enjoy~',
+                        ]
+                    }
+                ],
+                source: 'https://www.pressurecookrecipes.com/instant-pot-chicken-curry/'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -3967,6 +4027,44 @@ meals = [
                 ],
                 source: 'https://cookingwithcocktailrings.com/grilled-chicken-caesar-wrap/'
             },
+            {        
+                name:  'Karaage (から揚げ)',
+                image: 'https://norecipes.com/wp-content/uploads/2012/05/chicken-karaage-002-360x360.jpg',
+                tags: 'asian',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '5',
+                cook: '45',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '⅓ cup soy sauce',
+                            '2 Tbsp sake (or Shaoxing Wine)',
+                            '25g fresh ginger (grated)',
+                            '900g boneless skin-on chicken thighs (cut into bite-size pieces)',
+                            '170g potato starch',
+                            'vegetable oil (for frying)',
+                            '½ lemon (sliced into wedges for serving)',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Whisk the soy sauce, sake and ginger together in a bowl to combine.",
+                            "Add the chicken and mix well to ensure each piece of chicken is coated with the marinade. Cover and refrigerate, allowing the chicken to marinate for at least 1 hour or up to 4 hours.",
+                            "When you are ready to fry the karaage, add 1 inch of vegetable oil in a heavy bottomed pot and heat until the oil reaches 340 degrees F (170 C). Prepare a paper towel-lined rack.",
+                            "While you wait for the oil to come up to temperature, dredge the marinated chicken in potato starch to coat each piece evenly and set the pieces of coated chicken on a tray.",
+                            "When the oil ready, fry the coated chicken in batches. Don't overcrowd the pot, and I recommend batching pieces of chicken that are roughly the same size.",
+                            "When the karaage hits an internal temperature of 160 degrees F (71 C), transfer them to the prepared rack and let them rest for a few minutes before serving them.",
+                        ]
+                    }
+                ],
+                source: 'https://norecipes.com/karaage-recipe/'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -5583,6 +5681,51 @@ meals = [
                 ],
                 source: 'https://www.kraftcanada.ca/recipe/quick-creole-shrimp-563081'
             },
+            {        
+                name:  'Sweet and Sour Fish',
+                image: 'https://tasting.mu/wp-content/uploads/2020/04/Tasting-Mauritius-Poisson-aigre-doux-1024x683.jpg',
+                tags: 'Mauritius, seafood',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '15',
+                cook: '30',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '2 white fish fillets (Basa or Pangasius)',
+                            '100g pineapple',
+                            '1 green pepper',
+                            '1 red pepper',
+                            '1 yellow pepper',
+                            '1 bottle of ready-to-use sweet and sour sauce',
+                            '1 onion',
+                            '1 Tbsp of white vinegar',
+                            '3 Tbsps of tapioca starch',
+                            'chopped green onion',
+                            'Salt and pepper',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Cut the fish into strips, season with salt and pepper, add the cange powder.',
+                            'Mix well and leave to marinate for 15 minutes. Move on to cutting the vegetables. Cut the pineapple into pieces, the peeled cucumber into large cubes, the peppers into pieces and the onion into quarters.',
+                            'Peel the onion pieces.',
+                            'In a pan, fry the pieces of fish with oil while turning them from time to time. Cook until the fish is golden brown and set aside.',
+                            'In a Wok, with a little oil, brown the peppers, onions, cucumber and pineapple and mix. Deglaze everything with vinegar then cook for 2 to 3 minutes, then add the sweet and sour sauce and mix.',
+                            'Continue cooking for 1 minute over normal heat, add the fish. Stir gently so that the fish does not stick to the wok.',
+                            'You can choose to add fresh chopped chili peppers or chili powder as you wish.',
+                            'Serve on a dish and sprinkle with chopped green onion.',
+                            'Your recipe is finished, we wish you a good tasting.',
+                        ]
+                    }
+                ],
+                source: 'https://tasting.mu/recettes-mauriciennes/recette-savoureuse-du-poisson-aigre-doux/'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -6028,7 +6171,67 @@ meals = [
                 ],
                 source: 'The pressure cooker cookbook - Torie Ritchie'
             },
-            // TMEPLATE
+            {        
+                name:  'Million Dollar Stew',
+                image: 'https://www.foodandwine.com/thmb/wVyso4lmxkSZx61jZirm-7LgkWI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/million-dollar-stew-XL-RECIPE2017-7649473a97604ff9b237558aa1d99fed.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '40',
+                cook: '2h05',
+                ingredients: [  
+                    {
+                        group_name : 'Flavoured beans (optionnal, can do normal cooked beans)',
+                        ingredients_element : [
+                            '1 large onion, quartered,',
+                            '4 whole garlic cloves,',
+                            '200g black-eyed peas (or white navy beans), picked over',
+                        ]
+                    },          
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '1.5 pounds boneless pork shoulder, cut into 1-inch pieces',
+                            'Kosher salt',
+                            'Pepper',
+                            '1 Tbsps canola oil',
+                            '1 large onion, finely chopped',
+                            '6 garlic cloves, finely chopped',
+                            '2 tomatoes, crushed by hand',
+                            '1 chipotle chiles in adobo sauce, seeded and minced',
+                            '1 Tbsp chili powder',
+                            '2 tsp ground cumin',
+                            '1 tsp  dried oregano',
+                            '6 cups chicken stock or low-sodium broth',
+                            '1 bunch collard greens (or sub with kale), stemmed and chopped',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : 'Pork and the rest',
+                        steps_elements : [
+                            'Season the pork with salt and pepper. In a large enameled cast-iron casserole, heat the oil until shimmering. Add half the pork and cook over moderately high heat, turning occasionally, until browned all over, about 8 minutes. Using a slotted spoon, transfer to a plate. Repeat with the remaining pork.',
+                            'Add the chopped onion, chopped garlic and a generous pinch of salt to the casserole. Cook over moderate heat, stirring occasionally, until softened and lightly browned, 5 to 7 minutes. Stir in the tomatoes, chipotles, chili powder, cumin and oregano and cook until bubbling. Stir in the stock and bring to a boil over high heat. Stir in the pork, cover and simmer over low heat until tender, about 1 hour.'
+                        ]
+                    },
+                    {
+                        group_name : 'Beans',
+                        steps_elements : [
+                            'Meanwhile, in a large saucepan, combine the black-eyed peas with the quartered onion, whole garlic cloves and 12 cups of water. Bring to a boil, then simmer over low heat until the peas are tender, about 45 minutes. Remove from the heat, add 1 tablespoon of salt and let stand for 5 minutes. Drain well and discard the onion and garlic.'
+                        ]
+                    },
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Stir the collard greens into the stew in large handfuls, letting each handful wilt slightly before adding more. Cover and simmer over low until the pork is very tender and the collards are just softened, about 20 minutes. Stir in the peas, cover and simmer until hot, about 5 minutes. Ladle into bowls and serve.'
+                        ]
+                    }
+                ],
+                source: 'https://www.foodandwine.com/recipes/million-dollar-stew'
+            },
+            // TMEPLATEW
             {        
                 name:  '',
                 image: '',
