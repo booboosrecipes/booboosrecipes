@@ -1973,6 +1973,63 @@ meals = [
                 ],
                 source: 'https://www.budgetbytes.com/pork-peanut-dragon-noodles/'
             },
+            {        
+                name:  'Salmon sushi bake',
+                image: 'https://d2uqlwridla7kt.cloudfront.net/recipe-media/recipe-8le4pwp5h/1kpm4k18le4qi627/spicysalmonsushibake-85-feat-img-jpg',
+                tags: 'Onigiri, Japanese',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '15',
+                cook: '30',
+                ingredients: [            
+                    {
+                        group_name : 'Sushi rice',
+                        ingredients_element : [                                
+                            '3 cups freshly cooked rice (sushi rice or jasmine rice)',
+                            '1½ Tbsp. Rice vinegar',
+                            '½ Tbsp. Sugar',
+                            '1/4 tsp. salt',
+                            'Furikake'
+                        ]
+                    },
+                    {
+                        group_name : 'Salmon mix',
+                        ingredients_element : [
+                            '1 salmon',
+                            '⅓ cup Japanese Mayo',
+                            '2 Tbsps mayonnaise',
+                            "2 green onions, chopped",
+                            "½ package imitation crab meat or crab meat (about 1 cup), shredded"
+                        ]
+                    },
+                    {
+                        group_name : 'Assembly',
+                        ingredients_element : [                        
+                            '¼ cup panko or breadcrumb',
+                            '20 sheets of Korean grilled seaweed (snack size)',
+                            'Sriracha, topping (less spicy optional)',
+                            '1 Tbsp Chopped green onions, garnish (optional)',
+                        ]
+                    },
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Mix cooked rice with the rice seasoning.',
+                            'Preheat oven at 375deg F.',
+                            'Cook salmon in air fryer at 375deg for 10 minutes.',
+                            'Crush cooked salmon with all the other ingredients for salmon mix.',
+                            'Put rice in a baking pan or baking glass, sprinkle furikake over rice. Layer the salmon mix on top and sprinkle with furikake again.',
+                            'Bake for 20 minutes. ',
+                            'Remove from oven, sprinkle panko over, and put back in the oven at Broil for 3 minutes.',
+                            'Remove from oven, put a strip of mayo and another strip of sriracha.'
+                        ]
+                    }
+                ],
+                source: 'https://www.youtube.com/watch?v=FqpTPVPU-V4'
+            },
             // TEMPLATE
             {        
                 name:  '',
