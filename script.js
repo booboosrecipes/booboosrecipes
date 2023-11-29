@@ -1977,7 +1977,7 @@ meals = [
                 name:  'Salmon Sushi Bake',
                 image: 'https://d2uqlwridla7kt.cloudfront.net/recipe-media/recipe-8le4pwp5h/1kpm4k18le4qi627/spicysalmonsushibake-85-feat-img-jpg',
                 tags: 'Onigiri, Japanese',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Booboos',
                 serves: '6',
                 prep: '15',
