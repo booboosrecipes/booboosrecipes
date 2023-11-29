@@ -6190,7 +6190,7 @@ meals = [
                         ]
                     },          
                     {
-                        group_name : '',
+                        group_name : 'Rest of ingredients',
                         ingredients_element : [
                             '1.5 pounds boneless pork shoulder, cut into 1-inch pieces',
                             'Kosher salt',
