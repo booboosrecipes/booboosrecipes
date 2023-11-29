@@ -5685,7 +5685,7 @@ meals = [
                 name:  'Sweet and Sour Fish',
                 image: 'https://tasting.mu/wp-content/uploads/2020/04/Tasting-Mauritius-Poisson-aigre-doux-1024x683.jpg',
                 tags: 'Mauritius, seafood',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Booboos',
                 serves: '4',
                 prep: '15',
@@ -6173,7 +6173,7 @@ meals = [
             },
             {        
                 name:  'Million Dollar Stew',
-                image: 'https://www.foodandwine.com/thmb/wVyso4lmxkSZx61jZirm-7LgkWI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/million-dollar-stew-XL-RECIPE2017-7649473a97604ff9b237558aa1d99fed.jpg',
+                image: 'https://d1yfn1dfres2va.cloudfront.net/007/dc/fb/dcfbd853dbdf363c009ce9abcd725cfe_640m.jpg',
                 tags: '',
                 vegetarian: false,
                 author: 'Booboos',
@@ -6231,7 +6231,7 @@ meals = [
                 ],
                 source: 'https://www.foodandwine.com/recipes/million-dollar-stew'
             },
-            // TMEPLATEW
+            // TMEPLATE
             {        
                 name:  '',
                 image: '',
