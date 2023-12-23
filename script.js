@@ -893,7 +893,7 @@ meals = [
                 source: '5 ingredients 15 min'
             },
             {        
-                name:  'Lok Lak de Yeiyei',
+                name:  'Yeiyeiès Lok Lak',
                 image: 'https://i.pinimg.com/originals/a1/58/c6/a158c6220aa740f5b5a98d28ef83b43e.jpg',
                 tags: 'Summer, fresh, salad',
                 vegetarian: false,
@@ -903,34 +903,44 @@ meals = [
                 cook: '30',
                 ingredients: [            
                     {
-                        group_name : '',
+                        group_name : 'Beef marinade',
                         ingredients_element : [
-                            "Laitue romaine en morceaux",
-                            "2 tomates moyennes coupées en tranches",
-                            "½ oignons rouges en coupes verticales (longs et minces)",
-                            "4 oeufs bouilli à la coque et tranchés",
-                            "450g lanières de boeuf"
+                            "450g beef, sliced",
+                            "2 Tbsp peanut butter",
+                            "2 Tbsp white vinegar",
+                            "2 Tbsp sugar"
                         ]
                     },
                     {
-                        group_name : 'Sauce',
+                        group_name : 'Nước Chấm (seasoned fish sauce)',
                         ingredients_element : [
-                            "Beurre d’arachide (2 cuillères)",
-                            "Sauce poisson",
-                            "Jus de citron ou vinaigre blanc",
-                            "Sucre"
+                            "½ cup fish sauce",
+                            "½ cup water",
+                            "⅓ cup granulated sugar",
+                            "¼ cup distilled white vinegar lemon, or lime juice",
+                            "2 garlic cloves minced",
+                            "1 to 2 red Thai chiles stem removed and minced",
                         ]
-                    }
+                    },
+                    {
+                        group_name : 'To serve',
+                        ingredients_element : [
+                            "2 romaine lettuce",
+                            "2 medium tomatoes, sliced",
+                            "½ red onion, sliced",
+                            "4 boiled eggs, sliced",
+                        ]
+                    },
                 ],
                 steps : [
                     {
                         group_name : '',
-                        steps_elements : [
-                            "Préparer l’assiette: laitue, tomates, d’oeufs et oignons (étaler) ",
-                            "Faire sauter la viande dans l’huile",
-                            "Ajouter le mélange de sauce.",
-                            "Attendre que ça chauffe et que ce soit bien mélangé",
-                            "Mettre le tout (jus et viande) sur la salade."
+                        steps_elements : [                            
+                            "Prepare the plate: lettuce, tomatoes, eggs and onions (spread)",
+                            "Sauté the beef in oil. Add all other beef marinade ingredient.",
+                            "Wait until it heats up mix well",
+                            "Put meat on the plate along with its juice, on the salad.",
+                            "Pour on some Nước Chấm, to desired amount (about one cup)."
                         ]
                     }
                 ],
@@ -2030,6 +2040,103 @@ meals = [
                 ],
                 source: 'https://www.youtube.com/watch?v=FqpTPVPU-V4'
             },
+            {        
+                name:  'BangBang Air Fryer Chicken',
+                image: 'https://thesubversivetable.com/wp-content/uploads/2023/11/Bang-Bang-Chicken-8-1024x819.jpg',
+                tags: 'Korean',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '15',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '4 chicken breasts',
+                            '1 tsp garlic powder ',
+                            '1 tsp onion powder ',
+                            '1 tsp paprika ',
+                            '1 tsp seasoned salt ',
+                        ]
+                    },
+                    {
+                        group_name : 'Bang Bang sauce',
+                        ingredients_element : [
+                            '1 cup mayonnaise',
+                            '½ cup sweet chili sauce ',
+                            '2 Tbsp chili garlic sauce or Sriracha ',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Score the chicken breasts about 1/8-inch deep and 1/2-inch apart. Make cross-hatch cuts. Mix all the spices together (garlic powder, onion powder, paprika, seasoned salt) and season the chicken breasts on both sides. ',
+                            'Make the bang bang sauce - mix together the Mayo, sweet chili sauce and chili garlic sauce or sriracha. Make sure you reserve about a couple tablespoons of the sauce for drizzling on top when serving the dish. ',
+                            'Place the chicken breasts in the air fryer basket and spread about 2 tablespoons of the bang bang sauce on top, then air fry at 390° for about 20 minutes depending on the size of the chicken breasts or until the internal temperature hits 165 degrees.',
+                            'Once done let the chicken rest for about 10 minutes , then serve over white rice drizzle with the reserved bang bang sauce, garnish with some cilantro or green onions and enjoy.',
+                        ]
+                    }
+                ],
+                source: 'https://www.youtube.com/watch?app=desktop&v=akRD3iD9f_A'
+            },
+            {        
+                name:  'Vietnamese Ginger Chicken Stir Fry – Ga Kho Gung',
+                image: 'https://www.wandercooks.com/wp-content/uploads/2022/01/vietnamese-ginger-chicken-3-683x1024.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '5',
+                cook: '25',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "500g chicken thighs boneless and chopped into chunks",
+                            "2 shallots chopped finely, sub onion",
+                            "1 garlic chopped finely",
+                            "7 cm ginger julienned – save some strips to garnish",
+                            "4 cm lemongrass white section of the stalk, sliced into rings",
+                            "1 tsp turmeric fresh chopped finely or ground powder",
+                            "1 tsp chicken stock powder or vegetable stock powder",
+                            "¼ tsp black pepper",
+                            "¼ tsp salt",
+                            "3 tbsp vegetable oil",
+                        ]
+                    },
+                    {
+                        group_name : 'For the caramelisation',
+                        ingredients_element : [
+                            '1.5 tbsp sugar 17g / 0.6 oz',
+                            '1.5 tsp water 5ml / 0.16 fl oz',
+                        ]
+                    },
+                    {
+                        group_name : 'For the braising',
+                        ingredients_element : [
+                            '150 ml water 5 fl oz',
+                            '1.5 tbsp fish sauce',
+                        ]
+                    },
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Heat the vegetable oil in a large frying over a medium high heat. Add in the shallots, garlic, ginger, lemongrass and turmeric. Stir fry for a few minutes until fragrant, then remove from the pan into a small bowl.     ',
+                            'Pour in the sugar and water for the caramelisation into the same frying pan over a medium heat. Note: Watch carefully, as it will bubble like crazy and start to turn golden then darker brown. Don’t let it go past this point as it will burn the sugar, giving you a bitter taste to the chicken. Place the chicken pieces in at this point and mix around to coat them in the caramelised sauce.',
+                            'Once the chicken is coated and lightly browned after around 3 minutes, pour your fried aromatics, chicken stock powder, black pepper and salt over the chicken and continue to cook for a few more minutes, stirring regularly.',
+                            'Now it’s time to braise! Pour in the water and fish sauce and bring it up to a boil over a medium high heat. Once bubbling, bring the heat down to a simmer and place a lid over the top. Braise for around 10 minutes until chicken is cooked through.',
+                            'Remove the lid, and place the heat back up to medium high to allow the sauce to thicken, stirring and coating the chicken as you go. Give it another 5-10 minutes until the sauce is reduced to how you like it! Add a splash of Maggi seasoning sauce here if you want to add some extra salty magic!',
+                            'Serve hot with rice and garnish with optional chilli, salt & pepper and leftover ginger pieces.',
+                        ]
+                    }
+                ],
+                source: 'https://www.wandercooks.com/vietnamese-ginger-chicken/'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -2060,7 +2167,15 @@ meals = [
             }
         ]
     },
-    // INDIAN
+    /*
+    '####:'##::: ##:'########::'####::::'###::::'##::: ##:
+    . ##:: ###:: ##: ##.... ##:. ##::::'## ##::: ###:: ##:
+    : ##:: ####: ##: ##:::: ##:: ##:::'##:. ##:: ####: ##:
+    : ##:: ## ## ##: ##:::: ##:: ##::'##:::. ##: ## ## ##:
+    : ##:: ##. ####: ##:::: ##:: ##:: #########: ##. ####:
+    : ##:: ##:. ###: ##:::: ##:: ##:: ##.... ##: ##:. ###:
+    '####: ##::. ##: ########::'####: ##:::: ##: ##::. ##:
+    ....::..::::..::........:::....::..:::::..::..::::..::*/
     {
         type : "Indian",
         recipes : [
@@ -3679,6 +3794,54 @@ meals = [
                 ],
                 source: 'https://www.recipetineats.com/swedish-meatballs/'
             },
+            {        
+                name:  'Amish Hamburger Steak Bake',
+                image: 'https://sftimes.s3.amazonaws.com/b/a/3/e/ba3ea71ea192a7ffda22af384724c19e.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '2',
+                cook: '15',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '2 pounds ground beef',
+                            '1½ cups saltine crackers, crumbled (1 pack of crackers, approximately)',
+                            '1 cup milk',
+                            '½-1 teaspoon Italian herbs',
+                            '½ teaspoon powdered onion',
+                            '½ teaspoon powdered garlic',
+                            '¼ teaspoon cayenne pepper',
+                            'Flour, for coating',
+                            'Salt and freshly ground pepper, as desired',
+                        ]
+                    },
+                    {
+                        group_name : 'Gravy',
+                        ingredients_element : [
+                            '1½ cups milk',
+                            '2 (10.75 oz.) cans condensed mushroom cream soup',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Preheat the oven to 350°F and grease 9x13 baking dish.',
+                            'In a bowl, mix 2 lbs minced beef, 1 1/2 cups crumbled saltine crackers, 1 cup whole milk, 1/2 tsp Italian herbs, 1/2 tsp powdered garlic, 1/2 tsp powdered onion, 1/4 tsp cayenne, salt, and pepper.',
+                            'Shape the mixture into 1/2-inch-thick hamburger steaks. Dredge them in flour.',
+                            'Brown the steaks in a skillet over medium-high heat, then transfer them to a baking dish.',
+                            'Whisk together 2 cans condensed mushroom soup and 1 1/2 cups whole milk. Pour the mixture over the steaks in the baking dish.',
+                            'Cover with foil and bake for 30 minutes until cooked through and the gravy is bubbly.',
+                            'Let it rest briefly before serving. Garnish however you choose! Enjoy with your choice of side dishes.',
+                        ]
+                    }
+                ],
+                source: 'https://cooktopcove.com/2023/07/18/ive-never-seen-my-guests-enjoy-a-dish-as-much-as-they-do-this-one-when-i-serve-it-at-dinner-parties/?src=fbfan_75168&t=fbsub_slowcookerkitchen_xp&fbclid=IwAR3iQcO6R7E9WCd1sSnsCjJhuVEbaCIO8zoUcBO6rCzz85nteckPatfHNos&epik=dj0yJnU9al82aGFjNk1rVFNnN3JNeWFteEFGNVVZa29GSGlCS2YmcD0wJm49MWQ1dE1fdjBhcVd2UGxoQVl1WWhGZyZ0PUFBQUFBR1ZyMDFR'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -3782,6 +3945,51 @@ meals = [
                     },
                 ],
                 source: 'https://www.savorysweetspoon.com/instant-pot-beef-stew/'
+            },
+            {        
+                name:  'Cajun Jambalaya',
+                image: 'https://hips.hearstapps.com/hmg-prod/images/jambalaya-lead-657a2cfe7a546.jpg',
+                tags: 'Creole',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '20',
+                cook: '40',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '1 tbsp. extra-virgin olive oil',
+                            '1 yellow onion, chopped',
+                            '2 bell peppers, seeds and ribs removed, chopped',
+                            'Kosher salt',
+                            'Freshly ground black pepper',
+                            '1 lb. boneless, skinless chicken breasts, cut into 1" pieces',
+                            '1 tsp. dried oregano',
+                            '6 oz. andouille sausage, sliced',
+                            '2 tbsp. tomato paste',
+                            '2 cloves garlic, finely chopped',
+                            '2 c. low-sodium chicken stock',
+                            '1 (15-oz.) can crushed tomatoes',
+                            '1 c. long-grain rice',
+                            '2 tsp. Old Bay seasoning',
+                            '1 lb. medium shrimp, peeled, deveined',
+                            '2 scallions, thinly sliced',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'In a large pot over medium heat, heat oil. Add onion and bell peppers; season with salt and pepper. Cook, stirring occasionally, until softened, about 7 minutes.',
+                            'Stir in chicken and oregano; season with salt and pepper. Cook, stirring occasionally, until chicken is golden, about 5 minutes. Add sausage, tomato paste, and garlic and cook, stirring, until fragrant, about 1 minute. Add stock, tomatoes, rice, and Old Bay. Reduce heat to medium-low, cover with a tight-fitting lid, and cook until rice is tender and liquid is almost absorbed, about 20 minutes.',
+                            'Add shrimp and cook, tossing to combine, until pink and just cooked through, 3 to 5 minutes.',
+                            'Divide jambalaya among bowls. Top with scallions.',
+                        ]
+                    }
+                ],
+                source: 'https://www.delish.com/cooking/recipe-ideas/a53820/easy-homemade-cajun-jambalaya-recipe/'
             },
             // TEMPLATE
             {        
