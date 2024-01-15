@@ -6090,6 +6090,44 @@ meals = [
                 ],
                 source: 'https://tasting.mu/recettes-mauriciennes/recette-savoureuse-du-poisson-aigre-doux/'
             },
+            {        
+                name:  'Ginger Shrimp and Broccoli Stir-Fry',
+                image: 'https://www.lifesambrosia.com/wp-content/uploads/xginger-shrimp-and-broccoli-stir-fry.jpg.pagespeed.ic.mZjE5VGngO.webp',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '15',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "2 tablespoon peanut oil",
+                            "8 cups fresh broccoli florets (about 2 broccoli head)",
+                            "4 cloves garlic minced",
+                            "1 small onion, minced",
+                            "4 teaspoons fresh minced ginger",
+                            "½ cup water or chicken broth",
+                            "800g medium shrimp peeled and deveined",
+                            "2 tablespoon soy sauce",
+                            "2 teaspoon sesame oil",
+                            "2 teaspoon hot oil optional",
+                            "Crushed peanuts, for garnish"
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Heat peanut oil in a large skillet. Stir garlic, ginger and onion, cook until fragrant. Stir in the broccoli. Pour water or chicken broth over the top. Cover and cook for 5-7 minutes or until the broccoli is slightly tender.",
+                            "Stir in remaining ingredients and cook just until the shrimp are cooked through. About 5 minutes. Serve.",
+                        ]
+                    }
+                ],
+                source: 'https://www.lifesambrosia.com/ginger-shrimp-and-broccoli-stir-fry-recipe/'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -6241,44 +6279,6 @@ meals = [
                     }
                 ],
                 source: 'https://tasty.co/recipe/shrimp-summer-salad-with-creamy-cilantro-dressing'
-            },
-            {        
-                name:  'Ginger Shrimp and Broccoli Stir-Fry',
-                image: 'https://www.lifesambrosia.com/wp-content/uploads/xginger-shrimp-and-broccoli-stir-fry.jpg.pagespeed.ic.mZjE5VGngO.webp',
-                tags: '',
-                vegetarian: false,
-                author: 'Booboos',
-                serves: '6',
-                prep: '15',
-                cook: '20',
-                ingredients: [            
-                    {
-                        group_name : '',
-                        ingredients_element : [
-                            "2 tablespoon peanut oil",
-                            "8 cups fresh broccoli florets (about 2 broccoli head)",
-                            "4 cloves garlic minced",
-                            "1 small onion, minced",
-                            "4 teaspoons fresh minced ginger",
-                            "½ cup water or chicken broth",
-                            "800g medium shrimp peeled and deveined",
-                            "2 tablespoon soy sauce",
-                            "2 teaspoon sesame oil",
-                            "2 teaspoon hot oil optional",
-                            "Crushed peanuts, for garnish"
-                        ]
-                    }
-                ],
-                steps : [
-                    {
-                        group_name : '',
-                        steps_elements : [
-                            "Heat peanut oil in a large skillet. Stir garlic, ginger and onion, cook until fragrant. Stir in the broccoli. Pour water or chicken broth over the top. Cover and cook for 5-7 minutes or until the broccoli is slightly tender.",
-                            "Stir in remaining ingredients and cook just until the shrimp are cooked through. About 5 minutes. Serve.",
-                        ]
-                    }
-                ],
-                source: 'https://www.lifesambrosia.com/ginger-shrimp-and-broccoli-stir-fry-recipe/'
             },
             // TEMPLATE
             {        
