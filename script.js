@@ -2139,7 +2139,7 @@ meals = [
             },
             {        
                 name:  'Grilled Pork Banh Mi',
-                image: 'https://www.allrecipes.com/thmb/HTJHVC_LYKmXaMF54dhe2gZQkNI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/roasted-pork-banh-mi-vietnamese-sandwitch-ddmfs-3X4-0332-cfb4d2e149e7476ab2a2b4030c543f1b.jpg',
+                image: 'https://kikkomanusa.com/foodservice/wp-content/uploads/sites/2/2022/06/East-Side-Bahn-Mi_Kikkoman.jpg',
                 tags: 'Summer',
                 vegetarian: false,
                 author: 'Booboos',
