@@ -6791,9 +6791,9 @@ meals = [
             },
             {        
                 name:  'Do chua',
-                image: 'https://www.simplyrecipes.com/thmb/5wLnVsj_O-StlHMGRHcCEDMXPT0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2011__06__vietnamese-carrot-daikon-pickles-vertical-a-1800-4ff6bf0a1fd84785aa743b1fa9a55813.jpg',
+                image: 'https://www.wandercooks.com/wp-content/uploads/2022/08/pickled-carrots-daikon-do-chua-ft-1.jpg',
                 tags: '',
-                vegetarian: false,
+                vegetarian: true,
                 author: 'Booboos',
                 serves: '1 mason jar',
                 prep: '15',
