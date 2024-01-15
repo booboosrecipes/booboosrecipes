@@ -461,7 +461,7 @@ meals = [
             {        
                 name:  'Smoked Salmon & Green Tea Noodles',
                 image: 'https://cdn.pratico-pratiques.com/app/uploads/sites/2/2020/11/10112956/duo-de-nouilles-vertes-au-saumon.jpg',
-                vegetarian: true,
+                vegetarian: false,
                 tags: 'asian, fish/seafood',
                 author: 'Booboos',
                 serves: '4',
@@ -1987,7 +1987,7 @@ meals = [
                 name:  'Salmon Sushi Bake',
                 image: 'https://d2uqlwridla7kt.cloudfront.net/recipe-media/recipe-8le4pwp5h/1kpm4k18le4qi627/spicysalmonsushibake-85-feat-img-jpg',
                 tags: 'Onigiri, Japanese',
-                vegetarian: true,
+                vegetarian: false,
                 author: 'Booboos',
                 serves: '6',
                 prep: '15',
@@ -2136,6 +2136,52 @@ meals = [
                     }
                 ],
                 source: 'https://www.wandercooks.com/vietnamese-ginger-chicken/'
+            },
+            {        
+                name:  'Grilled Pork Banh Mi',
+                image: 'https://www.allrecipes.com/thmb/HTJHVC_LYKmXaMF54dhe2gZQkNI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/roasted-pork-banh-mi-vietnamese-sandwitch-ddmfs-3X4-0332-cfb4d2e149e7476ab2a2b4030c543f1b.jpg',
+                tags: 'Summer',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6 banh mi',
+                prep: 'Marinate: 4h',
+                cook: '15',
+                ingredients: [            
+                    {
+                        group_name : 'Pork marinade',
+                        ingredients_element : [
+                            "¼ cup fish sauce",
+                            "1 tablespoon honey",
+                            "2 tablespoons sugar",
+                            "1 teaspoon freshly ground black pepper",
+                            "6 scallions, white and tender green parts only, thinly sliced",
+                            "2 garlic cloves, thinly sliced",
+                            "1 ½ pounds pork tenderloin, thinly sliced",
+                        ]
+                    },
+                    {
+                        group_name : 'Assembly',
+                        ingredients_element : [
+                            "<a href='#do_chua'>Đồ Chua</a>",
+                            "6 (8-inch-long) rolls or 2 baguettes, cut into 8-inch lengths and split",
+                            "Hoisin sauce",
+                            "Sriracha chile sauce",
+                            "Vegetable oil, for grilling",
+                            "½ seedless cucumber, cut into 2-½-inch matchsticks",
+                            "1 ½ loosely packed cups cilantro sprigs",
+                        ]
+                    },
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "In a blender, puree the fish sauce with the honey, sugar, pepper, scallions, and garlic. Transfer the marinade to a bowl, add the pork, and toss. Refrigerate for 2 to 4 hours.",
+                            "Spread the rolls with hoisin, mayonnaise and Sriracha. Light a grill and oil the grates. Brush the pork with oil and grill over high heat, turning, until just cooked, 4 minutes. Place 2 skewers in each roll, close, and pull out the skewers. Top with the cucumber and cilantro and serve.",
+                        ]
+                    }
+                ],
+                source: 'https://www.foodandwine.com/recipes/grilled-pork-banh-mi'
             },
             // TEMPLATE
             {        
@@ -2358,6 +2404,59 @@ meals = [
                     }
                 ],
                 source: 'https://www.pressurecookrecipes.com/instant-pot-chicken-curry/'
+            },
+            {        
+                name:  'Brinjal Curry (Eggplant curry)',
+                image: 'https://www.indianhealthyrecipes.com/wp-content/uploads/2022/09/brinjal-curry-eggplant-curry.jpg.webp',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '15',
+                cook: '15',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "250 grams (9 oz) brinjal",
+                            "2 Tbsps oil",
+                            "¼ tsp mustard seeds",
+                            "½ tsp cumin seeds",
+                            "1 Tbsp curry powder (or 1 sprig curry leaves)",
+                            "1 large onion, chopped finely",
+                            "1 green chili",
+                            "¾ to 1 cup tomato, chopped or pureed",
+                            "3 garlic cloves, finely chopped garlic garlic paste,",
+                            "½ to 1 tsp red chili powder",
+                            "⅛ tsp turmeric",
+                            "½ tsp salt",
+                            "2 Tbsp garam masala",
+                            "2 Tbsps coriander leaves, chopped (optional)",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "To make brinjal curry, first add oil to a pan and heat it. Next add mustard & cumin seeds.",
+                            "When they begin to pop, add the curry leaves. Fry for about a minute.",
+                            "Then add onions and green chili. Saute them stirring occasionally until they turn golden.",
+                            "While the onions fry, rinse and cube brinjals. If you find any seeds, cut them up and discard.",
+                            "Keep them immersed in a bowl of water with ¼ tsp salt. This prevents discoloring & avoids bitter taste in the eggplants.",
+                            "When the onions turn golden, add ginger garlic and saute until the raw smell goes off. This takes about 40 to 60 seconds.",
+                            "Then add tomatoes and salt. Fry for 2 mins. Cook covered until the tomatoes turn soft & mushy.",
+                            "Then add red chilli powder, turmeric and garam masala. Saute until the masala turns fragrant.",
+                            "Drain the water and add chopped brinjal to the pan. Saute for 2 to 3 mins on a medium flame.",
+                            "Pour half cup water. Cover and cook till the brinjals turns soft and tender. If you prefer a dry curry then reduce the water.",
+                            "Simmer till the brinjal curry becomes thick & slightly mushy. Taste test and add more salt, red chilli powder or garam masala if needed.",
+                            "For a gravy curry, add thick coconut milk and simmer for a minute.",
+                            "When the curry begins to bubble, turn off the heat and sprinkle coriander leaves.",
+                            "Serve brinjal curry with rice, roti or any flatbreads.",
+                        ]
+                    }
+                ],
+                source: 'https://www.indianhealthyrecipes.com/brinjal-curry-recipe-vankaya-kura-recipe/'
             },
             // TEMPLATE
             {        
@@ -4746,7 +4845,7 @@ meals = [
                 name:  'Spicy Shrimp & Feta pastas',
                 image: 'https://tfpj-s3.troisfoisparjour.com/app/uploads/2022/11/04130701/pate_crevette_feta.jpg',
                 tags: 'seafood',
-                vegetarian: true,
+                vegetarian: false,
                 author: 'Booboos',
                 serves: '4',
                 prep: '15',
@@ -5180,7 +5279,7 @@ meals = [
                 name:  'One-Pot Lemon Garlic Shrimp Pasta',
                 image: 'https://img.buzzfeed.com/video-api-prod/assets/9ee2dadcbfcb4095872e6cdbaa24ff14/Thumb_A_FB.jpg',
                 tags: '',
-                vegetarian: true,
+                vegetarian: false,
                 author: 'Booboos',
                 serves: '4',
                 prep: '15',
@@ -5586,7 +5685,7 @@ meals = [
                 name:  'Garlic butter Rainbow Trout',
                 image: 'https://kitchenswagger.com/wp-content/uploads/2017/01/trout-in-foil4.jpg',
                 tags: 'seafood, fish',
-                vegetarian: true,
+                vegetarian: false,
                 author: 'Booboos',
                 serves: '4',
                 prep: '10',
@@ -5623,7 +5722,7 @@ meals = [
                 name:  'Oven baked basa fish filets',
                 image: 'https://ilonaspassion.com/wp-content/uploads/2019/02/Baked-Basa-Fish-Fillet-3.jpg',
                 tags: 'seafood',
-                vegetarian: true,
+                vegetarian: false,
                 author: 'Booboos',
                 serves: '4',
                 prep: '30',
@@ -5661,7 +5760,7 @@ meals = [
                 name:  'Crevettes à la créole rapides',
                 image: 'https://assets.kraftfoods.com/recipe_images/opendeploy/115893_MXM_K57644V0EC_OR1_CR_640x428.jpg',
                 tags: '',
-                vegetarian: true,
+                vegetarian: false,
                 author: 'Grace',
                 serves: '4',
                 prep: '10',
@@ -5696,7 +5795,7 @@ meals = [
                 name:  'Sole Meunière',
                 image: 'https://healthyrecipesblogs.com/wp-content/uploads/2022/07/sole-meuniere-2-NEW.jpg',
                 tags: '',
-                vegetarian: true,
+                vegetarian: false,
                 author: 'Booboos',
                 serves: '4',
                 prep: '10',
@@ -5735,7 +5834,7 @@ meals = [
                 name:  'Air Fryer Honey Garlic Salmon',
                 image: 'https://meikoandthedish.com/wp-content/uploads/2022/03/honey-garlic-air-fryer-salmon-1-683x1024.jpg',
                 tags: 'Fish',
-                vegetarian: true,
+                vegetarian: false,
                 author: 'Booboos',
                 serves: '',
                 prep: '',
@@ -5789,7 +5888,7 @@ meals = [
                 name:  'Cod with Leeks, Tomatoes, and Olives',
                 image: 'https://images.eatsmarter.com/sites/default/files/styles/facebook/public/cod-fillets-in-tomato-leek-caper-sauce-674121.jpg',
                 tags: '',
-                vegetarian: true,
+                vegetarian: false,
                 author: 'Booboos',
                 serves: '4',
                 prep: '15',
@@ -5828,7 +5927,7 @@ meals = [
                 name:  'Doug’s Clams Linguine',
                 image: 'https://img.buzzfeed.com/video-api-prod/assets/8a7e994a197045bdb80239f68d4a5035/clamslinguine_reels.jpg',
                 tags: '',
-                vegetarian: true,
+                vegetarian: false,
                 author: 'Booboos',
                 serves: '4',
                 prep: '15',
@@ -5871,7 +5970,7 @@ meals = [
                 name:  'Tomato Pesto Salmon and Rice Recipe',
                 image: 'https://diethood.com/wp-content/uploads/2016/02/STAR-Tomato-Pesto-Salmon-and-Rice.jpg',
                 tags: '',
-                vegetarian: true,
+                vegetarian: false,
                 author: 'Booboos',
                 serves: '5',
                 prep: '10',
@@ -5917,7 +6016,7 @@ meals = [
                 name:  'Quick Creole Shrimp',
                 image: 'https://assets.kraftfoods.com/recipe_images/opendeploy/115893_MXM_K57644V0EC_OR1_CR_640x428.jpg',
                 tags: '',
-                vegetarian: true,
+                vegetarian: false,
                 author: 'Grace',
                 serves: '4',
                 prep: '10',
@@ -5950,7 +6049,7 @@ meals = [
                 name:  'Sweet and Sour Fish',
                 image: 'https://tasting.mu/wp-content/uploads/2020/04/Tasting-Mauritius-Poisson-aigre-doux-1024x683.jpg',
                 tags: 'Mauritius, seafood',
-                vegetarian: true,
+                vegetarian: false,
                 author: 'Booboos',
                 serves: '4',
                 prep: '15',
@@ -6090,7 +6189,7 @@ meals = [
                 name:  'Shrimp Summer Salad With Creamy Cilantro Dressing',
                 image: 'https://img.buzzfeed.com/tasty-app-user-assets-prod-us-east-1/recipes/dbccd3ca691b467185d910918146407c.jpeg',
                 tags: 'Summer, salad, seafood',
-                vegetarian: true,
+                vegetarian: false,
                 author: 'Booboos',
                 serves: '4',
                 prep: '20',
@@ -6142,6 +6241,44 @@ meals = [
                     }
                 ],
                 source: 'https://tasty.co/recipe/shrimp-summer-salad-with-creamy-cilantro-dressing'
+            },
+            {        
+                name:  'Ginger Shrimp and Broccoli Stir-Fry',
+                image: 'https://www.lifesambrosia.com/wp-content/uploads/xginger-shrimp-and-broccoli-stir-fry.jpg.pagespeed.ic.mZjE5VGngO.webp',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '15',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "2 tablespoon peanut oil",
+                            "8 cups fresh broccoli florets (about 2 broccoli head)",
+                            "4 cloves garlic minced",
+                            "1 small onion, minced",
+                            "4 teaspoons fresh minced ginger",
+                            "½ cup water or chicken broth",
+                            "800g medium shrimp peeled and deveined",
+                            "2 tablespoon soy sauce",
+                            "2 teaspoon sesame oil",
+                            "2 teaspoon hot oil optional",
+                            "Crushed peanuts, for garnish"
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Heat peanut oil in a large skillet. Stir garlic, ginger and onion, cook until fragrant. Stir in the broccoli. Pour water or chicken broth over the top. Cover and cook for 5-7 minutes or until the broccoli is slightly tender.",
+                            "Stir in remaining ingredients and cook just until the shrimp are cooked through. About 5 minutes. Serve.",
+                        ]
+                    }
+                ],
+                source: 'https://www.lifesambrosia.com/ginger-shrimp-and-broccoli-stir-fry-recipe/'
             },
             // TEMPLATE
             {        
@@ -6651,6 +6788,43 @@ meals = [
                     }
                 ],
                 source: 'https://www.marmiton.org/recettes/recette_potage-chaud-au-concombre_23628.aspx'
+            },
+            {        
+                name:  'Do chua',
+                image: 'https://www.simplyrecipes.com/thmb/5wLnVsj_O-StlHMGRHcCEDMXPT0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2011__06__vietnamese-carrot-daikon-pickles-vertical-a-1800-4ff6bf0a1fd84785aa743b1fa9a55813.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '1 mason jar',
+                prep: '15',
+                cook: '5',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "1 pounds carrots (about 5 medium), peeled and julienned",
+                            "1 pounds daikon radish, peeled and julienned",
+                            "½ cup + 2 tsp sugar",
+                            "1 tsp salt",
+                            "1¼ cups white vinegar",
+                            "1 cups warm water",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Place the carrots and daikon radishes in a large bowl. Sprinkle with 4 teaspoons of sugar and 2 teaspoons of salt. Use your clean hands to toss the carrots and daikon with the salt and sugar until well coated.",
+                            "Continue to mix the carrots and daikon with your hands until they begin to soften, about 3 minutes. They are ready once you can bend a piece of daikon all the way over without it breaking.",
+                            "Transfer the carrots and daikon to a colander, rinse with cool water and drain well.",
+                            "In a bowl (a 8 cup pyrex measuring cup works great for this) mix together one cup of sugar, the white vinegar and the warm water, until the sugar dissolves.",
+                            "Prepare clean jars. Pack the daikon and carrots tightly into the jars. Pour over the pickling liquid to cover. Seal. Refrigerate.",
+                            "The pickles should sit at least overnight before eating; their flavor will improve with time. They should last 4 to 6 weeks in the refrigerator.",
+                        ]
+                    }
+                ],
+                source: 'https://www.simplyrecipes.com/recipes/vietnamese_daikon_and_carrot_pickles/'
             },
             // TMEPLATE
             {        
