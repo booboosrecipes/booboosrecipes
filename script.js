@@ -2183,6 +2183,109 @@ meals = [
                 ],
                 source: 'https://www.foodandwine.com/recipes/grilled-pork-banh-mi'
             },
+            {        
+                name:  'Chinese Chicken Stir-Fry',
+                image: 'https://busycooks.com/wp-content/uploads/2020/01/Chinese-Chicken-Stir-Fry-10-500x750.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '20',
+                cook: '10',
+                ingredients: [    
+                    {
+                        group_name : 'Stir fry sauce',
+                        ingredients_element : [
+                            '2 garlic cloves grated',
+                            '2 inch ginger grated',
+                            '1 teaspoon toasted sesame oil',
+                            '2 tablespoon rice vinegar',
+                            '⅓ cup soy sauce',
+                            '½ cup water',
+                            '2 tablespoons brown sugar',
+                            '1 tablespoon cornstarch',
+                        ]
+                    },        
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "2 chicken breasts boneless and skinless, thinly sliced",
+                            "8 baby bok choys, cut in pieces",
+                            "1 red bell pepper",
+                            "1 green bell pepper",
+                            "2 green onions",
+                            "1 teaspoon avocado oil or any cooking oil",
+                            "Cooked white rice for serving",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'In a bowl, place sliced chicken breast and pour half of the sauce. Mix well and rest while you prepare the vegetables.',
+                            'Meanwhile, slice bok choy’s. Core and slice bell peppers into thin strips. Cut the green onions.',
+                            'Heat a large skillet (I use 12-inch skillet) over medium high heat.',
+                            'Add oil. When it’s simmering add the chicken and spread it out evenly all over the skillet. Cook the meat, undisturbed, for 1-2 minutes, or until they’re nicely browned on the bottom. Then gently stir to cook other side, another 2 minutes. Transfer the chicken onto a clean plate.',
+                            'Add the white part of green onions, bok choy, and bell pepper and stir fry for 2-3 minutes.',
+                            'Pour in the remaining half of the stir-fry sauce and cook until thickened, about a minute.',
+                            'Stir in the chicken and cook until chicken is heated through, about another minute or so.',
+                            'Serve immediately with some rice and green part of green onions.',
+                        ]
+                    }
+                ],
+                source: 'https://busycooks.com/chinese-chicken-stir-fry/'
+            },
+            {        
+                name:  'Szechuan Broccoli & Mushroom Stir-Fry',
+                image: 'https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/60ae4c793109e4794c386b6c-eef9522b.jpg',
+                tags: '',
+                vegetarian: true,
+                author: 'Booboos',
+                serves: '4',
+                prep: '10',
+                cook: '25',
+                ingredients: [    
+                    {
+                        group_name : 'Sauce',
+                        ingredients_element : [
+                            "2 inch ginger, grated or minced",
+                            "1 Tbsp Cornstarch",
+                            "8 Tbsp Sweet Soy Glaze",
+                            "1 lime (for the juice)",
+                            "2 Tbsp Szechuan Paste",
+                            "2 tsp sugar",
+                        ]
+                    },        
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "8oz cremini mushrooms, quartered",
+                            "1 large yellow onion, diced",
+                            "16oz broccoli florets",
+                            "2 cloves garlic, minced",
+                            "4 Tbsp butter",
+                            "Salt and pepper",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "In a small bowl, combine all sauce ingredients together.",
+                            "Heat a large drizzle of oil in a large pan over medium-high heat. Add mushrooms, diced onion, salt, and pepper. Cook, stirring occasionally, until tender and lightly charred, 5-7 minutes. Transfer to a plate.",
+                            "Add broccoli, a splash of water, salt, and pepper to pan; cover and steam for 3 minutes.",
+                            "Uncover and add a large drizzle of oil. Cook, stirring occasionally, until tender and lightly charred, 3-5 minutes more. • Transfer to plate with mushrooms and onion.",
+                            "Add another drizzle of oil to pan. Add garlic; cook, stirring, 30 seconds.",
+                            "Pour in sauce. Bring to a simmer and cook, stirring, until thickened, 2-3 minutes. Turn off heat.",
+                            "Stir in veggies, cashews, and 2 Tbsp butter until coated. Taste and season with salt and pepper. TIP: Stir in a splash more water if your sauce is too thick.",
+                            "Fluff rice with a fork; stir in butter and season with salt and pepper. Serve with remaining lime wedges on the side.",
+                        ]
+                    }
+                ],
+                source: 'https://www.hellofresh.com/recipes/szechuan-broccoli-mushroom-stir-fry-60ae4c793109e4794c386b6c'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -6632,6 +6735,48 @@ meals = [
                     }
                 ],
                 source: 'https://www.foodandwine.com/recipes/million-dollar-stew'
+            },
+            {        
+                name:  'Chickpea and beef stew',
+                image: 'https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/26/69/16/picO5BSJw.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '15',
+                cook: '50',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '¼ cup olive oil',
+                            '1 lb beef, cut into 1/2-inch cubes',
+                            '2 medium onions, chopped',
+                            '½ - 1 fresh hot pepper, finely chopped (such as jalapeno)',
+                            '4 garlic cloves, minced',
+                            '½ cup cilantro, finely chopped',
+                            '2 cans chickpeas (equivalent to 2 cups dry chickpeas, but cooked before)',
+                            '4 medium tomatoes',
+                            'salt and pepper, to taste',
+                            '½ teaspoon cumin',
+                            '½ teaspoon thyme',
+                            '1 cup low sodium beef broth',
+                            '1 cup water',
+                            '¼ cup green olives, pitted and chopped (with pimentos removed)',
+                            '2 tablespoons lemon juice',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "In a saucepan, heat the oil, then saute the meat over medium heat until it begins to brown. Add the onions and hot pepper; saute for 6 minutes. Then add the garlic and cilantro; saute for an additional 1-2 minutes. (Be sure not to let the garlic brown or it will taste bitter.).",
+                            "Stir in the undrained chickpeas, tomatoes, salt, pepper, cumin, thyme, beef broth and water; bring to a boil and then cover and simmer over medium heat for 50 minute or until the meat is done. Then uncover and cook at medium-high for another 10 minutes until the sauce has thickened up just a little. Stir in the olives and lemon juice and simmer over low heat for 5 minutes. Serve with thick slices of rustic bread to soak up the flavorful broth.",
+                        ]
+                    }
+                ],
+                source: 'https://www.food.com/recipe/chickpea-and-beef-stew-266916'
             },
             // TMEPLATE
             {        
