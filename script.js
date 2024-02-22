@@ -4122,6 +4122,76 @@ meals = [
                 ],
                 source: 'https://norecipes.com/karaage-recipe/'
             },
+            {        
+                name:  'Copycat McDonald’s Chicken Nuggets',
+                image: 'https://www.saltysidedish.com/wp-content/uploads/2020/12/copycat-mcdonalds-chicken-nuggets.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '45 nuggets',
+                prep: '15',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '4 chicken breasts',
+                            'salt and pepper',
+                        ]
+                    },
+                    {
+                        group_name : 'Powder mix',
+                        ingredients_element : [
+                            '3 cup flour',
+                            '3 cup cornstarch',
+                            '6 teaspoon salt',
+                            '6 teaspoon onion powder',
+                            '6 teaspoon garlic powder',
+                            '3 teaspoon ground pepper',
+                        ]
+                    },
+                    {
+                        group_name : 'Egg wash (wet mixture)',
+                        ingredients_element : [
+                            '6 eggs',
+                            '1.5 cup water',
+                            '0.75 cup cornstarch',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Make space in freezer to freeze nuggets.',
+                            'Cut chicken breasts into small cubes. Use a blender or food processor to chop chicken into small ground pieces.',
+                            'Place ground chicken into a mixing bowl and season with salt and pepper.',
+                            'Place parchment paper onto a baking sheet.',
+                            'Using wet hands, shape ground chicken into nugget shapes that resemble McDonalds. (About 1 Tbsp per nugget)',
+                            'Place chicken nuggets on parchment paper and freeze for 30 minutes.',
+                            'Take frozen nuggets and dip in wet mixture, then dry mixture and then wet and dry again.'
+                        ]
+                    },
+                    {
+                        group_name : 'Oven baked',
+                        steps_elements : [
+                            'Preheat ovent at 400F.',
+                            'Place nuggets over a wired rack, cook for 20 minutes.',
+                            'Freeze now if not using.',
+                            'To reheat, or to finish with a more crunchy touch, spray a generous amount of oil on nuggets and Air Fry for 8-10min.'
+                        ]
+                    },
+                    {
+                        group_name : 'Deep fry',
+                        steps_elements : [
+                            'Heat hot oil in a skillet and cook chicken for about 7-8 minutes or until browed.',
+                            'Drain chicken nuggets on paper towels.',
+                            'Serve nuggets hot with dipping sauce if desired.',
+                        ]
+                    }
+                ],
+                source: 'https://www.saltysidedish.com/mcdonalds-chicken-nuggets-recipe/'
+            },
             // TEMPLATE
             {        
                 name:  '',
