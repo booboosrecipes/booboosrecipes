@@ -2030,6 +2030,317 @@ meals = [
                 ],
                 source: 'https://www.youtube.com/watch?v=FqpTPVPU-V4'
             },
+            {        
+                name:  'BangBang Air Fryer Chicken',
+                image: 'https://thesubversivetable.com/wp-content/uploads/2023/11/Bang-Bang-Chicken-8-1024x819.jpg',
+                tags: 'Korean',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '15',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '4 chicken breasts',
+                            '1 tsp garlic powder ',
+                            '1 tsp onion powder ',
+                            '1 tsp paprika ',
+                            '1 tsp seasoned salt ',
+                        ]
+                    },
+                    {
+                        group_name : 'Bang Bang sauce',
+                        ingredients_element : [
+                            '1 cup mayonnaise',
+                            '½ cup sweet chili sauce ',
+                            '2 Tbsp chili garlic sauce or Sriracha ',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Score the chicken breasts about 1/8-inch deep and 1/2-inch apart. Make cross-hatch cuts. Mix all the spices together (garlic powder, onion powder, paprika, seasoned salt) and season the chicken breasts on both sides. ',
+                            'Make the bang bang sauce - mix together the Mayo, sweet chili sauce and chili garlic sauce or sriracha. Make sure you reserve about a couple tablespoons of the sauce for drizzling on top when serving the dish. ',
+                            'Place the chicken breasts in the air fryer basket and spread about 2 tablespoons of the bang bang sauce on top, then air fry at 390° for about 20 minutes depending on the size of the chicken breasts or until the internal temperature hits 165 degrees.',
+                            'Once done let the chicken rest for about 10 minutes , then serve over white rice drizzle with the reserved bang bang sauce, garnish with some cilantro or green onions and enjoy.',
+                        ]
+                    }
+                ],
+                source: 'https://www.youtube.com/watch?app=desktop&v=akRD3iD9f_A'
+            },
+            {        
+                name:  'Vietnamese Ginger Chicken Stir Fry – Ga Kho Gung',
+                image: 'https://www.wandercooks.com/wp-content/uploads/2022/01/vietnamese-ginger-chicken-3-683x1024.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '5',
+                cook: '25',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "500g chicken thighs boneless and chopped into chunks",
+                            "2 shallots chopped finely, sub onion",
+                            "1 garlic chopped finely",
+                            "7 cm ginger julienned – save some strips to garnish",
+                            "4 cm lemongrass white section of the stalk, sliced into rings",
+                            "1 tsp turmeric fresh chopped finely or ground powder",
+                            "1 tsp chicken stock powder or vegetable stock powder",
+                            "¼ tsp black pepper",
+                            "¼ tsp salt",
+                            "3 tbsp vegetable oil",
+                        ]
+                    },
+                    {
+                        group_name : 'For the caramelisation',
+                        ingredients_element : [
+                            '1.5 tbsp sugar 17g / 0.6 oz',
+                            '1.5 tsp water 5ml / 0.16 fl oz',
+                        ]
+                    },
+                    {
+                        group_name : 'For the braising',
+                        ingredients_element : [
+                            '150 ml water 5 fl oz',
+                            '1.5 tbsp fish sauce',
+                        ]
+                    },
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Heat the vegetable oil in a large frying over a medium high heat. Add in the shallots, garlic, ginger, lemongrass and turmeric. Stir fry for a few minutes until fragrant, then remove from the pan into a small bowl.     ',
+                            'Pour in the sugar and water for the caramelisation into the same frying pan over a medium heat. Note: Watch carefully, as it will bubble like crazy and start to turn golden then darker brown. Don’t let it go past this point as it will burn the sugar, giving you a bitter taste to the chicken. Place the chicken pieces in at this point and mix around to coat them in the caramelised sauce.',
+                            'Once the chicken is coated and lightly browned after around 3 minutes, pour your fried aromatics, chicken stock powder, black pepper and salt over the chicken and continue to cook for a few more minutes, stirring regularly.',
+                            'Now it’s time to braise! Pour in the water and fish sauce and bring it up to a boil over a medium high heat. Once bubbling, bring the heat down to a simmer and place a lid over the top. Braise for around 10 minutes until chicken is cooked through.',
+                            'Remove the lid, and place the heat back up to medium high to allow the sauce to thicken, stirring and coating the chicken as you go. Give it another 5-10 minutes until the sauce is reduced to how you like it! Add a splash of Maggi seasoning sauce here if you want to add some extra salty magic!',
+                            'Serve hot with rice and garnish with optional chilli, salt & pepper and leftover ginger pieces.',
+                        ]
+                    }
+                ],
+                source: 'https://www.wandercooks.com/vietnamese-ginger-chicken/'
+            },
+            {        
+                name:  'Grilled Pork Banh Mi',
+                image: 'https://kikkomanusa.com/foodservice/wp-content/uploads/sites/2/2022/06/East-Side-Bahn-Mi_Kikkoman.jpg',
+                tags: 'Summer',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6 banh mi',
+                prep: 'Marinate: 4h',
+                cook: '15',
+                ingredients: [            
+                    {
+                        group_name : 'Pork marinade',
+                        ingredients_element : [
+                            "¼ cup fish sauce",
+                            "1 tablespoon honey",
+                            "2 tablespoons sugar",
+                            "1 teaspoon freshly ground black pepper",
+                            "6 scallions, white and tender green parts only, thinly sliced",
+                            "2 garlic cloves, thinly sliced",
+                            "1 ½ pounds pork tenderloin, thinly sliced",
+                        ]
+                    },
+                    {
+                        group_name : 'Assembly',
+                        ingredients_element : [
+                            "<a href='#do_chua'>Đồ Chua</a>",
+                            "6 (8-inch-long) rolls or 2 baguettes, cut into 8-inch lengths and split",
+                            "Hoisin sauce",
+                            "Sriracha chile sauce",
+                            "Vegetable oil, for grilling",
+                            "½ seedless cucumber, cut into 2-½-inch matchsticks",
+                            "1 ½ loosely packed cups cilantro sprigs",
+                        ]
+                    },
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "In a blender, puree the fish sauce with the honey, sugar, pepper, scallions, and garlic. Transfer the marinade to a bowl, add the pork, and toss. Refrigerate for 2 to 4 hours.",
+                            "Spread the rolls with hoisin, mayonnaise and Sriracha. Light a grill and oil the grates. Brush the pork with oil and grill over high heat, turning, until just cooked, 4 minutes. Place 2 skewers in each roll, close, and pull out the skewers. Top with the cucumber and cilantro and serve.",
+                        ]
+                    }
+                ],
+                source: 'https://www.foodandwine.com/recipes/grilled-pork-banh-mi'
+            },
+            {        
+                name:  'Chinese Chicken Stir-Fry',
+                image: 'https://busycooks.com/wp-content/uploads/2020/01/Chinese-Chicken-Stir-Fry-10-500x750.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '20',
+                cook: '10',
+                ingredients: [    
+                    {
+                        group_name : 'Stir fry sauce',
+                        ingredients_element : [
+                            '2 garlic cloves grated',
+                            '2 inch ginger grated',
+                            '1 teaspoon toasted sesame oil',
+                            '2 tablespoon rice vinegar',
+                            '⅓ cup soy sauce',
+                            '½ cup water',
+                            '2 tablespoons brown sugar',
+                            '1 tablespoon cornstarch',
+                        ]
+                    },        
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "2 chicken breasts boneless and skinless, thinly sliced",
+                            "8 baby bok choys, cut in pieces",
+                            "1 red bell pepper",
+                            "1 green bell pepper",
+                            "2 green onions",
+                            "1 teaspoon avocado oil or any cooking oil",
+                            "Cooked white rice for serving",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'In a bowl, place sliced chicken breast and pour half of the sauce. Mix well and rest while you prepare the vegetables.',
+                            'Meanwhile, slice bok choy’s. Core and slice bell peppers into thin strips. Cut the green onions.',
+                            'Heat a large skillet (I use 12-inch skillet) over medium high heat.',
+                            'Add oil. When it’s simmering add the chicken and spread it out evenly all over the skillet. Cook the meat, undisturbed, for 1-2 minutes, or until they’re nicely browned on the bottom. Then gently stir to cook other side, another 2 minutes. Transfer the chicken onto a clean plate.',
+                            'Add the white part of green onions, bok choy, and bell pepper and stir fry for 2-3 minutes.',
+                            'Pour in the remaining half of the stir-fry sauce and cook until thickened, about a minute.',
+                            'Stir in the chicken and cook until chicken is heated through, about another minute or so.',
+                            'Serve immediately with some rice and green part of green onions.',
+                        ]
+                    }
+                ],
+                source: 'https://busycooks.com/chinese-chicken-stir-fry/'
+            },
+            {        
+                name:  'Szechuan Broccoli & Mushroom Stir-Fry',
+                image: 'https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/60ae4c793109e4794c386b6c-eef9522b.jpg',
+                tags: '',
+                vegetarian: true,
+                author: 'Booboos',
+                serves: '4',
+                prep: '10',
+                cook: '25',
+                ingredients: [    
+                    {
+                        group_name : 'Sauce',
+                        ingredients_element : [
+                            "2 inch ginger, grated or minced",
+                            "1 Tbsp Cornstarch",
+                            "8 Tbsp Sweet Soy Glaze",
+                            "1 lime (for the juice)",
+                            "2 Tbsp Szechuan Paste",
+                            "2 tsp sugar",
+                        ]
+                    },        
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "8oz cremini mushrooms, quartered",
+                            "1 large yellow onion, diced",
+                            "16oz broccoli florets",
+                            "2 cloves garlic, minced",
+                            "4 Tbsp butter",
+                            "Salt and pepper",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "In a small bowl, combine all sauce ingredients together.",
+                            "Heat a large drizzle of oil in a large pan over medium-high heat. Add mushrooms, diced onion, salt, and pepper. Cook, stirring occasionally, until tender and lightly charred, 5-7 minutes. Transfer to a plate.",
+                            "Add broccoli, a splash of water, salt, and pepper to pan; cover and steam for 3 minutes.",
+                            "Uncover and add a large drizzle of oil. Cook, stirring occasionally, until tender and lightly charred, 3-5 minutes more. • Transfer to plate with mushrooms and onion.",
+                            "Add another drizzle of oil to pan. Add garlic; cook, stirring, 30 seconds.",
+                            "Pour in sauce. Bring to a simmer and cook, stirring, until thickened, 2-3 minutes. Turn off heat.",
+                            "Stir in veggies, cashews, and 2 Tbsp butter until coated. Taste and season with salt and pepper. TIP: Stir in a splash more water if your sauce is too thick.",
+                            "Fluff rice with a fork; stir in butter and season with salt and pepper. Serve with remaining lime wedges on the side.",
+                        ]
+                    }
+                ],
+                source: 'https://www.hellofresh.com/recipes/szechuan-broccoli-mushroom-stir-fry-60ae4c793109e4794c386b6c'
+            },
+            {        
+                name:  'Sweet and Sour Pork Stir-Fry',
+                image: 'https://www.elizabethskitchendiary.co.uk/wp-content/uploads/2021/04/Easy-sweet-and-sour-pork-stir-fry-recipe-image-EKD.jpeg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '',
+                prep: '',
+                cook: '',
+                ingredients: [            
+                    {
+                        group_name : 'Crispy twice-cooked pork',
+                        ingredients_element : [
+                            "300 grams pork shoulder thinly sliced",
+                            "1 tbsp light soy sauce",
+                            "1 free-range egg yolk",
+                            "7 tbsp cornflour divided",
+                            "sunflower oil for frying",
+                        ]
+                    },
+                    {
+                        group_name : 'Vegetables',
+                        ingredients_element : [
+                            "1.5 red bell peppers or a mix of red, green and/or yellow, chopped",
+                            "1 onion coarsely chopped",
+                            "2 garlic cloves",
+                            "150g pineapples, cut into chunks",
+                            "4 tbsp sunflower oil for cooking",
+                        ]
+                    },
+                    {
+                        group_name : 'Sweet and sour sauce',
+                        ingredients_element : [
+                            "2 tbsp pineapple juice",
+                            "2 tbsp distilled white vinegar",
+                            "3 tbsp caster sugar",
+                            "3 tbsp water",
+                            "3 tbsp tomato ketchup",
+                            "1.5 tsp Shetland sea salt",
+                            "1.5 tsp cornflour",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Prepare pork marinade by combining the soy sauce, egg yolk and 1 tbsp of cornstarch together in a medium sized bowl. Stir in the pork pieces and leave to marinade for 30 minutes.",
+                            "Meanwhile, prepare peppers, onion, garlic and pineapple and place in separate bowls. It can get frantic while cooking and so having everything prepared in advance makes it much easier.",
+                            "Prepare sauce by combining the pineapple juice, vinegar, sugar, water and tomato sauce together in a small bowl. Set aside.",
+                            "Stir the remaining 6 tbsp cornstarch into the pork. It gets a bit gloopy but I find once it's well combined you can separate the pork pieces onto two plates for ease of handling. They'll separate during frying.",
+                            "Heat the oil in a large heavy bottomed pan to 180 °C. Keep the lid nearby just in case the oil gets too hot and catches fire (just pop the lid on to put it out).",
+                            "Deep fry the pork in two batches for 3 minutes. Use a kitchen timer! Remove pork with a slotted spoon and place on a plate next to the cooker.",
+                            "When both batches of pork have been cooked pop them all back into the hot oil for a further 30 seconds. Remove with a slotted spoon and drain in a bowl lined with kitchen towel. Keep warm (I put a plate over the top to keep the heat in).",
+                            "Heat 1 tbsp oil in a wok or frying pan and stir fry the peppers for 2 minutes. Remove peppers and keep warm.",
+                            "Add remaining 3 tbsp oil and stir fry the garlic for 30 seconds. Add the onion and pineapple and stir fry for a further minute.",
+                            "Return peppers to the pan and pour in the sauce.",
+                            "Bring to the boil and stir in the cornflour dissolved in the water to thicken.",
+                            "When thickened stir in the pork pieces and toss lightly to coat the pork in the sauce completely.",
+                            "Serve immediately with rice or noodles.",
+                        ]
+                    }
+                ],
+                source: 'https://www.elizabethskitchendiary.co.uk/sweet-n-sour-pork/'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -2243,6 +2554,130 @@ meals = [
                     }
                 ],
                 source: 'https://www.pressurecookrecipes.com/instant-pot-chicken-curry/'
+            },
+            {        
+                name:  'Brinjal Curry (Eggplant curry)',
+                image: 'https://www.indianhealthyrecipes.com/wp-content/uploads/2022/09/brinjal-curry-eggplant-curry.jpg.webp',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '15',
+                cook: '15',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "250 grams (9 oz) brinjal",
+                            "2 Tbsps oil",
+                            "¼ tsp mustard seeds",
+                            "½ tsp cumin seeds",
+                            "1 Tbsp curry powder (or 1 sprig curry leaves)",
+                            "1 large onion, chopped finely",
+                            "1 green chili",
+                            "¾ to 1 cup tomato, chopped or pureed",
+                            "3 garlic cloves, finely chopped garlic garlic paste,",
+                            "½ to 1 tsp red chili powder",
+                            "⅛ tsp turmeric",
+                            "½ tsp salt",
+                            "2 Tbsp garam masala",
+                            "2 Tbsps coriander leaves, chopped (optional)",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "To make brinjal curry, first add oil to a pan and heat it. Next add mustard & cumin seeds.",
+                            "When they begin to pop, add the curry leaves. Fry for about a minute.",
+                            "Then add onions and green chili. Saute them stirring occasionally until they turn golden.",
+                            "While the onions fry, rinse and cube brinjals. If you find any seeds, cut them up and discard.",
+                            "Keep them immersed in a bowl of water with ¼ tsp salt. This prevents discoloring & avoids bitter taste in the eggplants.",
+                            "When the onions turn golden, add ginger garlic and saute until the raw smell goes off. This takes about 40 to 60 seconds.",
+                            "Then add tomatoes and salt. Fry for 2 mins. Cook covered until the tomatoes turn soft & mushy.",
+                            "Then add red chilli powder, turmeric and garam masala. Saute until the masala turns fragrant.",
+                            "Drain the water and add chopped brinjal to the pan. Saute for 2 to 3 mins on a medium flame.",
+                            "Pour half cup water. Cover and cook till the brinjals turns soft and tender. If you prefer a dry curry then reduce the water.",
+                            "Simmer till the brinjal curry becomes thick & slightly mushy. Taste test and add more salt, red chilli powder or garam masala if needed.",
+                            "For a gravy curry, add thick coconut milk and simmer for a minute.",
+                            "When the curry begins to bubble, turn off the heat and sprinkle coriander leaves.",
+                            "Serve brinjal curry with rice, roti or any flatbreads.",
+                        ]
+                    }
+                ],
+                source: 'https://www.indianhealthyrecipes.com/brinjal-curry-recipe-vankaya-kura-recipe/'
+            },
+            {        
+                name:  'Instant Pot Chicken Tikka Masala',
+                image: 'https://ministryofcurry.com/wp-content/uploads/2019/02/chicken-tikka-masala-1-850x1273.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '10 min + Marinate 20',
+                cook: '30',
+                ingredients: [            
+                    {
+                        group_name : 'Chicken marinade',
+                        ingredients_element : [
+                            '1½ pounds chicken breasts',
+                            '1½ teaspoons kosher salt',
+                            '1 tablespoon lemon juice',
+                            '2 tablespoons plain yogurt',
+                            '2 teaspoons Kashmiri red chili powder',
+                            '1 teaspoon garam masala',
+                            '2 teaspoons ginger grated',
+                            '2 teaspoons garlic minced',
+                            '1 teaspoon oil for basting',
+                        ]
+                    },
+                    {
+                        group_name : 'Sauce / Curry',
+                        ingredients_element : [
+                            '2 tablespoons butter or oil',
+                            '2 medium yellow onions diced',
+                            '1 teaspoon ginger grated',
+                            '1 teaspoon garlic minced',
+                            '3 plum tomatoes chopped or 1.5 cups diced or pureed tomatoes',
+                            '¼ teaspoon ground turmeric',
+                            '1 teaspoon kosher salt',
+                            '1 to 2 teaspoon Kashmiri red chili powder',
+                            '½ to 1 teaspoon garam masala',
+                            '½ cup heavy cream',
+                        ]
+                    },
+                    {
+                        group_name : 'Garnish',
+                        ingredients_element : [
+                            '1 tablespoon dried fenugreek leaves kasoori methi',
+                            '½ cup cilantro chopped',
+                        ]
+                    },
+                    {
+                        group_name : 'To eat with',
+                        ingredients_element : [
+                            '<a href="https://booboosrecipes.github.io/">Quick garlic naan bread (no yeast!)</a>',
+                            '<a href="https://booboosrecipes.github.io/">Kachumber salad</a>',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Make this recipe with the quick Naan recipe + Kachumber salad.',
+                            'Make 2 to 3 slits in the chicken breasts. Apply salt and lemon juice to the chicken breasts. Mix yogurt, red chili powder, garam masala, ginger, and garlic. Apply evenly to the chicken breasts and allow to marinate for 20 minutes or refrigerate if marinating ahead of time. Marinating chicken for 4-5 hours or overnight works well.',
+                            'Set the Instant Pot to Saute mode and heat butter or oil. Add onions and saute for 2 minutes. Add ginger, garlic and mix well. Add tomatoes, turmeric, salt red chili powder, and garam masala. Mix well. Press Cancel. Add 2 tablespoons of water. Deglaze the pot if needed.',
+                            'Place the tall trivet in the main pot. Place the marinated chicken over the trivet. Baste the chicken with oil. Close the Instant Pot with the pressure valve to sealing. Pressure Cook for 8 minutes followed by 10-minute natural pressure release.',
+                            'Open the Instant Pot. Take the chicken and the trivet out. Using an immersion blender, blend the sauce until smooth.',
+                            'Stir in cream and fenugreek leaves.',
+                            'Broil the cooked chicken in a preheated oven for 5 minutes to get some char marks (Optional). Cut the chicken into 2-inch pieces and add them to the sauce.',
+                            'Set the Instant Pot to saute mode and bring the curry to a gentle boil. The sauce will thicken further as it cools down. Garnish with cilantro.',
+                        ]
+                    }
+                ],
+                source: 'https://ministryofcurry.com/chicken-tikka-masala-instant-pot/'
             },
             // TEMPLATE
             {        
@@ -4135,27 +4570,28 @@ meals = [
                     {
                         group_name : '',
                         ingredients_element : [
-                            '4 chicken breasts',
-                            'salt and pepper',
+                            "4 chicken breasts",
+                            "salt and pepper",
                         ]
                     },
                     {
-                        group_name : 'Powder mix',
+                        group_name : 'Dry mixture',
                         ingredients_element : [
-                            '3 cup flour',
-                            '3 cup cornstarch',
-                            '6 teaspoon salt',
-                            '6 teaspoon onion powder',
-                            '6 teaspoon garlic powder',
-                            '3 teaspoon ground pepper',
+                            "3 cup flour",
+                            "3 cup cornstarch",
+                            "2 tsps white pepper",
+                            "6 tsps salt",
+                            "6 tsps onion powder",
+                            "6 tsps garlic powder",
+                            "3 tsps ground pepper",
                         ]
                     },
                     {
-                        group_name : 'Egg wash (wet mixture)',
+                        group_name : 'Egg wash',
                         ingredients_element : [
-                            '6 eggs',
-                            '1.5 cup water',
-                            '0.75 cup cornstarch',
+                            "6 eggs",
+                            "1.5 cup water",
+                            "¾ cup cornstarch",
                         ]
                     }
                 ],
@@ -6005,6 +6441,93 @@ meals = [
                 ],
                 source: 'https://tasty.co/recipe/shrimp-summer-salad-with-creamy-cilantro-dressing'
             },
+            {        
+                name:  'Kachumber Salad – Cucumber Tomato Onion Salad',
+                image: '',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '10',
+                cook: '5',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "1 small onion finely chopped",
+                            "2 medium tomatoes chopped small",
+                            "1 large cucumber chopped small",
+                            "4-5 (4 to 5) red radishes chopped small (optional)",
+                            "1 green chili finely chopped (remove seeds to reduce heat if needed)",
+                            "¼ cup (4 g) packed chopped cilantro",
+                            "¼ tsp (0.25 tsp) or more salt",
+                            "¼ tsp (0.25 tsp) or more freshly ground black pepper",
+                            "¼ tsp (0.25 tsp) or more cayenne pure red chili powder",
+                            "1 tsp or more freshly squeezed lime or lemon juice",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Chop the onions, tomatoes, cucumbers, radishes, wash and drain well. Add to a bowl.",
+                            "Add the veggies and the rest of the ingredients to a bowl. Taste and adjust salt and heat. Serve.",
+                        ]
+                    }
+                ],
+                source: 'https://www.veganricha.com/kachumber-salad-cucumber-tomato-onion-salad-recipe/'
+            },
+            {        
+                name:  'Avocado Corn Salad',
+                image: 'https://sailorbailey.com/wp-content/uploads/2022/06/avocado-corn-salad3.jpg',
+                tags: 'Summer',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '10',
+                cook: '5',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "3 cups cooked corn about 3 medium / large ears of corn",
+                            "1 red bell pepper",
+                            "1 15 oz can of black beans (cooked) rinsed and drained",
+                            "2 avocados",
+                            "¼ cup red onion",
+                            "1 Jalapeño optional",
+                            "4 tbsp fresh cilantro *Note: you need more for the dressing below",
+                        ]
+                    },
+                    {
+                        group_name : 'Dressing',
+                        ingredients_element : [
+                            "¼ cup fresh lime juice",
+                            "1 tbsp apple cider vinegar",
+                            "3 tbsp olive oil",
+                            "1 tbsp honey *see notes",
+                            "1 tsp smoked paprika",
+                            "¾ tsp kosher salt",
+                            "¼ tsp pepper",
+                            "¼ tsp garlic powder",
+                            "2 tbsp fresh cilantro",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Cook your corn on the cob (shucked and cleaned) on the stove top in a large pot for 3-4 minutes in boiling water. Mix up all your dressing ingredients in a small bowl, apple cider vinegar, oil, seasoning, chopped cilantro, honey, lime juice.",
+                            "Chop up your jalapeño, red bell pepper, avocado, onion, and cilantro into bite sized pieces. Try to keep everything close in size. ",
+                            "With a sharp knife and steady hand, place the corn cob on a non slip cutting board vertically and use the knife to slice all the corn kernels off in a downward direction. Gently separate the kernels if they are all stuck together, some stuck together is okay, and looks beautiful in the salad.",
+                            "Assemble salad by adding all the ingredients together, peppers, onion, black beans, cilantro, jalapeño, avocado and pour dressing over the salad. Toss well, serve.",
+                        ]
+                    }
+                ],
+                source: 'https://sailorbailey.com/blog/avocado-corn-salad/'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -6358,6 +6881,92 @@ meals = [
                 ],
                 source: 'https://www.foodandwine.com/recipes/million-dollar-stew'
             },
+            {        
+                name:  'Chickpea and beef stew',
+                image: 'https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/26/69/16/picO5BSJw.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '15',
+                cook: '50',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '¼ cup olive oil',
+                            '1 lb beef, cut into 1/2-inch cubes',
+                            '2 medium onions, chopped',
+                            '½ - 1 fresh hot pepper, finely chopped (such as jalapeno)',
+                            '4 garlic cloves, minced',
+                            '½ cup cilantro, finely chopped',
+                            '2 cans chickpeas (equivalent to 2 cups dry chickpeas, but cooked before)',
+                            '4 medium tomatoes',
+                            'salt and pepper, to taste',
+                            '½ teaspoon cumin',
+                            '½ teaspoon thyme',
+                            '1 cup low sodium beef broth',
+                            '1 cup water',
+                            '¼ cup green olives, pitted and chopped (with pimentos removed)',
+                            '2 tablespoons lemon juice',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "In a saucepan, heat the oil, then saute the meat over medium heat until it begins to brown. Add the onions and hot pepper; saute for 6 minutes. Then add the garlic and cilantro; saute for an additional 1-2 minutes. (Be sure not to let the garlic brown or it will taste bitter.).",
+                            "Stir in the undrained chickpeas, tomatoes, salt, pepper, cumin, thyme, beef broth and water; bring to a boil and then cover and simmer over medium heat for 50 minute or until the meat is done. Then uncover and cook at medium-high for another 10 minutes until the sauce has thickened up just a little. Stir in the olives and lemon juice and simmer over low heat for 5 minutes. Serve with thick slices of rustic bread to soak up the flavorful broth.",
+                        ]
+                    }
+                ],
+                source: 'https://www.food.com/recipe/chickpea-and-beef-stew-266916'
+            },
+            {        
+                name:  'White Beans au Vin',
+                image: 'https://static01.nyt.com/images/2020/11/29/dining/lh-white-beans-au-vin/merlin_168064458_f7a77d72-7bdd-4c1e-b368-8a2473577830-master768.jpg?w=1280&q=75',
+                tags: '',
+                vegetarian: true,
+                author: 'Booboos',
+                serves: '6',
+                prep: '15',
+                cook: '30',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "3 tablespoons unsalted butter",
+                            "3 medium carrots, diced into ½-inch pieces (about 1½ cups)",
+                            "5 medium shallots, chopped (about 1 cup)",
+                            "Kosher salt and black pepper",
+                            "8 ounces cremini mushrooms, trimmed and quartered",
+                            "5 thyme sprigs",
+                            "3 garlic cloves, minced (about 1 tablespoon)",
+                            "½ cup dry red wine, such as Côtes du Rhône",
+                            "2 teaspoons tomato paste",
+                            "2 (15-ounce) cans cannellini beans, rinsed and drained",
+                            "2 cups low-sodium vegetable broth",
+                            "1 tablespoon Cognac or brandy",
+                            "2 tablespoons chopped fresh parsley, plus more to taste",
+                            "1 teaspoon balsamic vinegar",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "In a Dutch oven, melt the butter over medium heat. Add the carrots and shallots, season to taste with salt and pepper, and cook, stirring occasionally, for 5 minutes.",
+                            "Add the mushrooms and cook, stirring occasionally, until all the vegetables are tender, 5 to 7 minutes.",
+                            "Add the thyme sprigs and garlic, and cook until fragrant, about 30 seconds. Add the wine and tomato paste and cook, stirring occasionally, until the wine is almost completely evaporated, 2 to 3 minutes.",
+                            "Add the beans, broth, Cognac, 1 teaspoon salt and ½ teaspoon pepper, and bring to a boil over medium-high heat. Turn the heat to low, partly cover, and simmer, stirring occasionally, until the sauce has reduced and thickened, 25 to 30 minutes.",
+                            "Remove and discard the thyme sprigs. Off the heat, stir in the parsley and balsamic vinegar; season to taste with salt and pepper. Divide among shallow bowls and sprinkle with more parsley, if desired.",
+                        ]
+                    }
+                ],
+                source: 'https://cooking.nytimes.com/recipes/1020859-white-beans-au-vin'
+            },
             // TMEPLATE
             {        
                 name:  '',
@@ -6513,6 +7122,90 @@ meals = [
                     }
                 ],
                 source: 'https://www.marmiton.org/recettes/recette_potage-chaud-au-concombre_23628.aspx'
+            },
+            {        
+                name:  'Do chua',
+                image: 'https://www.wandercooks.com/wp-content/uploads/2022/08/pickled-carrots-daikon-do-chua-ft-1.jpg',
+                tags: '',
+                vegetarian: true,
+                author: 'Booboos',
+                serves: '1 mason jar',
+                prep: '15',
+                cook: '5',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "1 pounds carrots (about 5 medium), peeled and julienned",
+                            "1 pounds daikon radish, peeled and julienned",
+                            "½ cup + 2 tsp sugar",
+                            "1 tsp salt",
+                            "1¼ cups white vinegar",
+                            "1 cups warm water",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Place the carrots and daikon radishes in a large bowl. Sprinkle with 4 teaspoons of sugar and 2 teaspoons of salt. Use your clean hands to toss the carrots and daikon with the salt and sugar until well coated.",
+                            "Continue to mix the carrots and daikon with your hands until they begin to soften, about 3 minutes. They are ready once you can bend a piece of daikon all the way over without it breaking.",
+                            "Transfer the carrots and daikon to a colander, rinse with cool water and drain well.",
+                            "In a bowl (a 8 cup pyrex measuring cup works great for this) mix together one cup of sugar, the white vinegar and the warm water, until the sugar dissolves.",
+                            "Prepare clean jars. Pack the daikon and carrots tightly into the jars. Pour over the pickling liquid to cover. Seal. Refrigerate.",
+                            "The pickles should sit at least overnight before eating; their flavor will improve with time. They should last 4 to 6 weeks in the refrigerator.",
+                        ]
+                    }
+                ],
+                source: 'https://www.simplyrecipes.com/recipes/vietnamese_daikon_and_carrot_pickles/'
+            },
+            {        
+                name:  'Instant Garlic Naan (no yeast!)',
+                image: 'https://i0.wp.com/upbeetanisha.com/wp-content/uploads/2021/07/DSC_7334.jpg?w=1200&ssl=1',
+                tags: 'indian',
+                vegetarian: true,
+                author: 'Booboos',
+                serves: '8 naans',
+                prep: '10',
+                cook: '25',
+                ingredients: [            
+                    {
+                        group_name : 'Naan',
+                        ingredients_element : [
+                            "2 cups all-purpose flour",
+                            "2 tsp baking powder",
+                            "¼ tsp sea salt",
+                            "½ cup greek yogourt",
+                            "⅓ cup lukewarm water",
+                            "1 tsp olive oil",
+                        ]
+                    },
+                    {
+                        group_name : 'Garlic Butter Herb Topping',
+                        ingredients_element : [
+                            "2 tbsp butter, melted",
+                            "3 garlic cloves, minced",
+                            "¼ cup chopped cilantro",
+                        ]
+                    },
+
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Mix flour, baking powder, and sea salt. Make a well and add yogurt and water, a bit at a time. Knead with hands until it comes together. If you over knead, add more flour. Optionally, add olive oil to bring it together really easily.",
+                            "Let the dough rest for about 15 minutes while you make the cilantro garlic butter topping. Simply mix the cilantro, minced garlic, and butter in a small bowl.",
+                            "Separate the dough into 8 pieces.",
+                            "Heat a cast-iron skillet over medium heat. When has clearly heated all over, roll out the dough to ¼-inch thick and place on the skillet.",
+                            "Flip when the surface of the naan has risen with bubbles, which usually takes 2-3 minutes on a well-heated cast-iron. Cook on the other side for around the same amount of time. Be careful not to let the naan burn!",
+                            "As soon as the naan is off the skillet, spread the cilantro garlic butter topping.",
+                            "Repeat with the rest of the dough.",
+                        ]
+                    }
+                ],
+                source: 'https://upbeetanisha.com/instant-garlic-naan-no-yeast/'
             },
             // TMEPLATE
             {        
