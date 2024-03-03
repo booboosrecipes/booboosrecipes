@@ -4218,6 +4218,119 @@ meals = [
                 ],
                 source: 'https://www.savorysweetspoon.com/instant-pot-beef-stew/'
             },
+            {        
+                name:  'Instant Pot Irish Stew',
+                image: 'https://www.familyfreshmeals.com/wp-content/uploads/2020/03/Instant-Pot-Irish-Stew-Our-favorite-St.-Patricks-Day-Recipe.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '10',
+                cook: '30',
+                ingredients: [            
+                    {
+                        group_name : 'Meat',
+                        ingredients_element : [
+                            '1 Tbsp olive oil',
+                            '1.5 pounds stew meat (or inside round, cubed)',
+                            '1 sweet onion diced',
+                            '2 cloves garlic minced',
+                            '1 bottle Guinness beer',
+                        ]
+                    },
+                    {
+                        group_name : 'Stew mix',
+                        ingredients_element : [
+                            '2 cups beef stock',
+                            '2.5 Tbsps tomato paste',
+                            '½ tsp pepper',
+                            '½ tsp salt',
+                            '1 Tbsps Worcestershire sauce',
+                            '3 ribs celery sliced',
+                            '4 sprigs fresh thyme',
+                            '2 bay leaves',
+                        ]
+                    },
+                    {
+                        group_name : 'Vegetables',
+                        ingredients_element : [
+                            '1 pound carrots peeled and roughly chopped',
+                            '2 russet potatoes about 1.5 pounds peeled and chopped',
+                        ]
+                    },
+                    {
+                        group_name : 'Stew thickener',
+                        ingredients_element : [
+                            '1 Tablespoons cornstarch',
+                            '1 Tablespoon water',
+                        ]
+                    },
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Turn the Instant Pot to saute and add olive oil. Season the beef with salt and pepper and add to the Instant Pot. Brown beef on all sides and remove to a plate.',
+                            'Add the diced onion to the Instant Pot and cook until it just starts to caramelize. Add the garlic for the last 30 seconds of cooking. When the onions have started to caramelize add the beer to deglaze the pot. Use a wooden spoon to scrape any browned bits from the bottom of the pot. Let the beer and onion mixture cook for 2-3 minutes.',
+                            'Add the stew mix ingredients to the Instant Pot.',
+                            'Set the pot to the Stew setting and cook for 30 minutes. When the time is up do a quick release of the pressure.',
+                            'Remove the bay leaves and thyme. Add the carrots and potatoes and cook on high pressure for 4 minutes. Do a quick release when the time is up.',
+                            'Mix together corn starch and water and stir it into the stew.',
+                            'Serve warm with a hearty bread and garnished with fresh thyme',
+                        ]
+                    }
+                ],
+                source: 'https://www.familyfreshmeals.com/instant-pot-irish-stew/'
+            },
+            {        
+                name:  'Mediterranean Chickpea Casserole with Spinach and Feta',
+                image: 'https://evergreenkitchen.ca/wp-content/uploads/2021/10/Mediterranean-Chickpea-Casserole-with-Spinach-and-Feta-0-4X5-400x500.jpg',
+                tags: '',
+                vegetarian: true,
+                author: 'Booboos',
+                serves: '4',
+                prep: '5',
+                cook: '40',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '3 tablespoons extra virgin olive oil',
+                            '2 medium red onions, diced (about 3 cups)',
+                            '3 cloves garlic, minced',
+                            '½ teaspoon fine sea salt',
+                            '1 (24 oz/680 ml) jar passata or crushed tomatoes',
+                            '1 cup vegetable broth',
+                            '2 dried bay leaves',
+                            '1 teaspoon dried oregano',
+                            '¼ teaspoon ground cloves',
+                            '¼ teaspoon allspice',
+                            '¼ teaspoon cayenne',
+                            '3 cups cooked chickpeas (2 cans: 15 oz/14 fl oz/398 ml each)',
+                            '3 packed cups baby spinach',
+                            '1 tablespoon cane sugar (or coconut sugar, see note 2)',
+                            'Juice from 1 lemon',
+                            'Black pepper (to taste)',
+                            '⅔ cup crumbled feta cheese (vegan if desired or omit)',
+                            'Chopped flat leaf parsley (for garnish)',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Sauté: Heat olive oil in a large broiler-safe sauté pan or skillet over medium-high heat (see note 3). Add onion, sauté until translucent, about 5 minutes. Reduce heat to medium. Add garlic and salt, cook, stirring frequently, until fragrant, 1 to 2 minutes.',
+                            'Combine and cover: Stir in passata, vegetable broth, bay leaves, oregano, cloves, allspice, and cayenne. Cover the pot with a lid. Bring to a boil and cook for 20 minutes for the flavors to develop.',
+                            'Simmer uncovered: Stir in the chickpeas. Cook uncovered until the liquid has reduced by one-third, 10 to 15 minutes, stirring occasionally. (Reduce heat if the mixture starts to splatter, but keep mixture actively simmering).',
+                            'Turn on broiler: Position a oven rack so that the top of the pot will be 4-inches away from the broiler. Turn oven to broil.',
+                            'Finish cooking: Remove bay leaves. Stir in spinach. Cook until wilted, about 2 minutes. Stir in sugar and lemon juice. Season with salt and pepper, to taste.',
+                            'Broil: Crumble feta overtop. Broil until cheese is golden brown, about 5 minutes (but watch carefully, broil times vary!). Garnish with parsley and serve hot.',
+                        ]
+                    }
+                ],
+                source: 'https://evergreenkitchen.ca/mediterranean-chickpea-casserole/'
+            },
             // TEMPLATE
             {        
                 name:  '',
@@ -5592,6 +5705,67 @@ meals = [
                     }
                 ],
                 source: 'Parents de Maxou'
+            },
+            {        
+                name:  'Mac & Cheese with Bacon Crumbles',
+                image: 'https://images.ricardocuisine.com/services/recipes/496x670_6322-v2.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '4',
+                prep: '20',
+                cook: '20',
+                ingredients: [            
+                    {
+                        group_name : 'Bacon crumble',
+                        ingredients_element : [
+                            '12 slices bacon, chopped',
+                            '2 garlic cloves, chopped',
+                            '1 shallot, chopped',
+                            '1 cup (50 g) baguette croutons, crushed',
+                            '⅓ cup (15 g) flat-leaf parsley, finely chopped',
+                        ]
+                    },
+                    {
+                        group_name : 'Milk mixture',
+                        ingredients_element : [
+                            '1 tbsp corn starch',
+                            '2 cans (12 oz/354 ml each) evaporated milk, or 3 cups (750 ml) milk',
+                            '1 tsp sweet paprika',
+                            '1 tsp mustard powder',
+                            '½ tsp garlic powder',
+                        ]
+                    },
+                    {
+                        group_name : 'Mac & Cheese',
+                        ingredients_element : [
+                            '¾ lb (340 g) elbow macaroni',
+                            '3 tbsp butter',
+                            '2 tbsp unbleached all-purpose flour',
+                            '1 ½ cups (150 g) strong orange cheddar, grated',
+                            '¼ tsp (1 ml) Tabasco-style sauce, or to taste',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : 'Bacon Crumble',
+                        steps_elements : [
+                            'In a non-stick skillet over medium-high heat, brown the bacon. Drain through a sieve into a bowl. Set aside the bacon and bacon fat separately.',
+                            'In the same skillet, add the garlic, shallot and croutons. Add some of the reserved bacon fat, as needed. Cook for 2 minutes, while stirring, or until the croutons begin to brown. Remove from the heat. Add the reserved bacon and parsley. Mix well and keep warm.',
+                        ]
+                    },
+                    {
+                        group_name : 'Mac & Cheese',
+                        steps_elements : [
+                            'In a large pot of boiling salted water, cook the macaroni until well cooked (see note). Set aside 1 cup (250 ml) of the cooking liquid. Drain the pasta.',
+                            'In another pot, melt the butter. Add the flour and cook for 1 minute, while stirring. Whisk in the milk mixture and the milk. Bring to a boil, stirring constantly. Let simmer for 1 minute. Remove from the heat.',
+                            'Add the cheese and stir until completely melted. Season with salt and pepper. Stir in the Tabasco sauce. Add the warm pasta to the post and stir to coat in the sauce. Reheat over low heat as needed, without boiling the sauce. Add some of the pasta cooking liquid if the sauce is too thick.',
+                            'Divide the macaroni and cheese among 4 bowls. Top with bacon crumble.',
+                        ]
+                    }
+                ],
+                source: 'https://www.ricardocuisine.com/en/recipes/6322-macaroni-and-cheese-with-bacon-crumble'
             },
             // TEMPLATE
             {        
