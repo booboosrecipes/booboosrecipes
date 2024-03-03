@@ -2863,94 +2863,6 @@ meals = [
                 ],
                 source: 'http://turniptheoven.com/moroccan-turkey-ragu-with-chickpeas-and-spinach/?fbclid=IwAR311FV9huRq2mXZ_dYSCePi_7s15ApTk2ygoj6Ux4kIEPMuKJXzT8YtIs8'
             },
-            {        
-                name:  'Middle Eastern Chicken Stew with White Beans',
-                image: 'https://www.servingdumplings.com/wp-content/uploads/2023/01/middle-eastern-chicken-stew-with-white-beans-4-06e45c71-600x902.jpg',
-                tags: '',
-                vegetarian: false,
-                author: 'Booboos',
-                serves: '6',
-                prep: '5',
-                cook: '25',
-                ingredients: [            
-                    {
-                        group_name : '',
-                        ingredients_element : [
-                            '1 Tbsp olive oil',
-                            '1 small brown onion, finely chopped',
-                            '6 garlic cloves, minced',
-                            '1 tsp each: salt, black pepper, sweet paprika',
-                            '½ tsp each: chili flakes, ground coriander',
-                            '5 Tbsp double concentrated tomato paste',
-                            '1 cup/240 ml chicken broth',
-                            '2 cups/500 ml crushed tomatoes',
-                            '2 cans (14 oz/400 g) white beans, drained',
-                            '1.1 pounds/500 g chicken fillets',
-                            '1 tsp sumac',
-                            '2 bay leaves',
-                            '2 Tbsp chopped dill',
-                        ]
-                    }
-                ],
-                steps : [
-                    {
-                        group_name : '',
-                        steps_elements : [
-                            'Heat oil over medium low in a large heavy bottomed pot. Add garlic and onion, cook for 2 minutes. Stir in salt, pepper, coriander, paprika, chili flakes and tomato paste. Cook for 1 minute.',
-                            'Pour in chicken broth and crushed tomatoes. Add white beans and chicken fillets. Next stir in sumac and bay leaves. Bring to a boil, cover the pot and simmer for 15 minutes.',
-                            'When ready, transfer the chicken fillets onto a clean plate. Shred the chicken using two forks. Hold a fork in each hand, and use them to pull the meat apart. Return the chicken to the pot and add dill. Give it a good stir. Taste and adjust salt. Serve!',
-                        ]
-                    }
-                ],
-                source: 'https://www.servingdumplings.com/recipes/middle-eastern-chicken-stew-with-white-beans/'
-            },
-            {        
-                name:  'Veal stew with tomatoes and peppers',
-                image: 'pepper.jpg',
-                tags: 'turkish, stew, comfort',
-                vegetarian: false,
-                author: 'Booboos',
-                serves: '6',
-                prep: '20',
-                cook: '2h00',
-                ingredients: [            
-                    {
-                        group_name : 'First ingredients',
-                        ingredients_element : [
-                            '4 Tbsp extra virgin olive oil',
-                            '2 red onions, sliced',
-                            '3 garlic cloves, minced',
-                            '3 jalapenos, sliced',
-                            '1 tsp dried oregano',
-                            '1 tsp dried mint'
-                        ]
-                    },
-                    {
-                        group_name : 'Rest of ingredients',
-                        ingredients_element : [
-                            '2lb veal or pork',
-                            '4 long tomatoes, cubed',
-                            '1 Tbsp tomato paste',
-                            '2 Tbsp Biber Salcasi (Turkish Pepper Paste)',
-                            '1 cinnamon stick',
-                            '2 Bay leaves',
-                            'Salt and pepper'
-                        ]
-                    }
-                ],
-                steps : [
-                    {
-                        group_name : '',
-                        steps_elements : [
-                            'In a casserole, reheat oil at medium-high and sauté all first ingredients group in for 5 min. Transfer to a bowl.',
-                            'Put veal pieces in the same casserole and let brown the veal on all sides for 5-7 min, mixing constantly.',
-                            'Put all the ingredients in the pan, with salt and pepper. Pour water to cover the meat, cover and simmr for 1h30 to 2h, until veal is soft and sauce has thicken.',
-                            'Serve with rice, enjoy!'
-                        ]
-                    }
-                ],
-                source: 'Eat Istanbul - Andy Harris and David Loftus'
-            },
             // TEMPLATE
             {        
                 name:  '',
@@ -4330,6 +4242,196 @@ meals = [
                     }
                 ],
                 source: 'https://evergreenkitchen.ca/mediterranean-chickpea-casserole/'
+            },
+            {        
+                name:  'Million Dollar Stew',
+                image: 'https://d1yfn1dfres2va.cloudfront.net/007/dc/fb/dcfbd853dbdf363c009ce9abcd725cfe_640m.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '40',
+                cook: '2h05',
+                ingredients: [  
+                    {
+                        group_name : 'Flavoured beans (optionnal, can do normal cooked beans)',
+                        ingredients_element : [
+                            '1 large onion, quartered,',
+                            '4 whole garlic cloves,',
+                            '200g black-eyed peas (or white navy beans), picked over',
+                        ]
+                    },          
+                    {
+                        group_name : 'Rest of ingredients',
+                        ingredients_element : [
+                            '1.5 pounds boneless pork shoulder, cut into 1-inch pieces',
+                            'Kosher salt',
+                            'Pepper',
+                            '1 Tbsps canola oil',
+                            '1 large onion, finely chopped',
+                            '6 garlic cloves, finely chopped',
+                            '2 tomatoes, crushed by hand',
+                            '1 chipotle chiles in adobo sauce, seeded and minced',
+                            '1 Tbsp chili powder',
+                            '2 tsp ground cumin',
+                            '1 tsp  dried oregano',
+                            '6 cups chicken stock or low-sodium broth',
+                            '1 bunch collard greens (or sub with kale), stemmed and chopped',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : 'Pork and the rest',
+                        steps_elements : [
+                            'Season the pork with salt and pepper. In a large enameled cast-iron casserole, heat the oil until shimmering. Add half the pork and cook over moderately high heat, turning occasionally, until browned all over, about 8 minutes. Using a slotted spoon, transfer to a plate. Repeat with the remaining pork.',
+                            'Add the chopped onion, chopped garlic and a generous pinch of salt to the casserole. Cook over moderate heat, stirring occasionally, until softened and lightly browned, 5 to 7 minutes. Stir in the tomatoes, chipotles, chili powder, cumin and oregano and cook until bubbling. Stir in the stock and bring to a boil over high heat. Stir in the pork, cover and simmer over low heat until tender, about 1 hour.'
+                        ]
+                    },
+                    {
+                        group_name : 'Beans',
+                        steps_elements : [
+                            'Meanwhile, in a large saucepan, combine the black-eyed peas with the quartered onion, whole garlic cloves and 12 cups of water. Bring to a boil, then simmer over low heat until the peas are tender, about 45 minutes. Remove from the heat, add 1 tablespoon of salt and let stand for 5 minutes. Drain well and discard the onion and garlic.'
+                        ]
+                    },
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Stir the collard greens into the stew in large handfuls, letting each handful wilt slightly before adding more. Cover and simmer over low until the pork is very tender and the collards are just softened, about 20 minutes. Stir in the peas, cover and simmer until hot, about 5 minutes. Ladle into bowls and serve.'
+                        ]
+                    }
+                ],
+                source: 'https://www.foodandwine.com/recipes/million-dollar-stew'
+            },
+            {        
+                name:  'Chickpea and beef stew',
+                image: 'https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/26/69/16/picO5BSJw.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '15',
+                cook: '50',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '¼ cup olive oil',
+                            '1 lb beef, cut into 1/2-inch cubes',
+                            '2 medium onions, chopped',
+                            '½ - 1 fresh hot pepper, finely chopped (such as jalapeno)',
+                            '4 garlic cloves, minced',
+                            '½ cup cilantro, finely chopped',
+                            '2 cans chickpeas (equivalent to 2 cups dry chickpeas, but cooked before)',
+                            '4 medium tomatoes',
+                            'salt and pepper, to taste',
+                            '½ teaspoon cumin',
+                            '½ teaspoon thyme',
+                            '1 cup low sodium beef broth',
+                            '1 cup water',
+                            '¼ cup green olives, pitted and chopped (with pimentos removed)',
+                            '2 tablespoons lemon juice',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "In a saucepan, heat the oil, then saute the meat over medium heat until it begins to brown. Add the onions and hot pepper; saute for 6 minutes. Then add the garlic and cilantro; saute for an additional 1-2 minutes. (Be sure not to let the garlic brown or it will taste bitter.).",
+                            "Stir in the undrained chickpeas, tomatoes, salt, pepper, cumin, thyme, beef broth and water; bring to a boil and then cover and simmer over medium heat for 50 minute or until the meat is done. Then uncover and cook at medium-high for another 10 minutes until the sauce has thickened up just a little. Stir in the olives and lemon juice and simmer over low heat for 5 minutes. Serve with thick slices of rustic bread to soak up the flavorful broth.",
+                        ]
+                    }
+                ],
+                source: 'https://www.food.com/recipe/chickpea-and-beef-stew-266916'
+            },
+            {        
+                name:  'Veal stew with tomatoes and peppers',
+                image: 'pepper.jpg',
+                tags: 'turkish, stew, comfort',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '20',
+                cook: '2h00',
+                ingredients: [            
+                    {
+                        group_name : 'First ingredients',
+                        ingredients_element : [
+                            '4 Tbsp extra virgin olive oil',
+                            '2 red onions, sliced',
+                            '3 garlic cloves, minced',
+                            '3 jalapenos, sliced',
+                            '1 tsp dried oregano',
+                            '1 tsp dried mint'
+                        ]
+                    },
+                    {
+                        group_name : 'Rest of ingredients',
+                        ingredients_element : [
+                            '2lb veal or pork',
+                            '4 long tomatoes, cubed',
+                            '1 Tbsp tomato paste',
+                            '2 Tbsp Biber Salcasi (Turkish Pepper Paste)',
+                            '1 cinnamon stick',
+                            '2 Bay leaves',
+                            'Salt and pepper'
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'In a casserole, reheat oil at medium-high and sauté all first ingredients group in for 5 min. Transfer to a bowl.',
+                            'Put veal pieces in the same casserole and let brown the veal on all sides for 5-7 min, mixing constantly.',
+                            'Put all the ingredients in the pan, with salt and pepper. Pour water to cover the meat, cover and simmr for 1h30 to 2h, until veal is soft and sauce has thicken.',
+                            'Serve with rice, enjoy!'
+                        ]
+                    }
+                ],
+                source: 'Eat Istanbul - Andy Harris and David Loftus'
+            },
+            {        
+                name:  'Middle Eastern Chicken Stew with White Beans',
+                image: 'https://www.servingdumplings.com/wp-content/uploads/2023/01/middle-eastern-chicken-stew-with-white-beans-4-06e45c71-600x902.jpg',
+                tags: '',
+                vegetarian: false,
+                author: 'Booboos',
+                serves: '6',
+                prep: '5',
+                cook: '25',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            '1 Tbsp olive oil',
+                            '1 small brown onion, finely chopped',
+                            '6 garlic cloves, minced',
+                            '1 tsp each: salt, black pepper, sweet paprika',
+                            '½ tsp each: chili flakes, ground coriander',
+                            '5 Tbsp double concentrated tomato paste',
+                            '1 cup/240 ml chicken broth',
+                            '2 cups/500 ml crushed tomatoes',
+                            '2 cans (14 oz/400 g) white beans, drained',
+                            '1.1 pounds/500 g chicken fillets',
+                            '1 tsp sumac',
+                            '2 bay leaves',
+                            '2 Tbsp chopped dill',
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            'Heat oil over medium low in a large heavy bottomed pot. Add garlic and onion, cook for 2 minutes. Stir in salt, pepper, coriander, paprika, chili flakes and tomato paste. Cook for 1 minute.',
+                            'Pour in chicken broth and crushed tomatoes. Add white beans and chicken fillets. Next stir in sumac and bay leaves. Bring to a boil, cover the pot and simmer for 15 minutes.',
+                            'When ready, transfer the chicken fillets onto a clean plate. Shred the chicken using two forks. Hold a fork in each hand, and use them to pull the meat apart. Return the chicken to the pot and add dill. Give it a good stir. Taste and adjust salt. Serve!',
+                        ]
+                    }
+                ],
+                source: 'https://www.servingdumplings.com/recipes/middle-eastern-chicken-stew-with-white-beans/'
             },
             // TEMPLATE
             {        
@@ -6994,108 +7096,6 @@ meals = [
                     }
                 ],
                 source: 'The pressure cooker cookbook - Torie Ritchie'
-            },
-            {        
-                name:  'Million Dollar Stew',
-                image: 'https://d1yfn1dfres2va.cloudfront.net/007/dc/fb/dcfbd853dbdf363c009ce9abcd725cfe_640m.jpg',
-                tags: '',
-                vegetarian: false,
-                author: 'Booboos',
-                serves: '6',
-                prep: '40',
-                cook: '2h05',
-                ingredients: [  
-                    {
-                        group_name : 'Flavoured beans (optionnal, can do normal cooked beans)',
-                        ingredients_element : [
-                            '1 large onion, quartered,',
-                            '4 whole garlic cloves,',
-                            '200g black-eyed peas (or white navy beans), picked over',
-                        ]
-                    },          
-                    {
-                        group_name : 'Rest of ingredients',
-                        ingredients_element : [
-                            '1.5 pounds boneless pork shoulder, cut into 1-inch pieces',
-                            'Kosher salt',
-                            'Pepper',
-                            '1 Tbsps canola oil',
-                            '1 large onion, finely chopped',
-                            '6 garlic cloves, finely chopped',
-                            '2 tomatoes, crushed by hand',
-                            '1 chipotle chiles in adobo sauce, seeded and minced',
-                            '1 Tbsp chili powder',
-                            '2 tsp ground cumin',
-                            '1 tsp  dried oregano',
-                            '6 cups chicken stock or low-sodium broth',
-                            '1 bunch collard greens (or sub with kale), stemmed and chopped',
-                        ]
-                    }
-                ],
-                steps : [
-                    {
-                        group_name : 'Pork and the rest',
-                        steps_elements : [
-                            'Season the pork with salt and pepper. In a large enameled cast-iron casserole, heat the oil until shimmering. Add half the pork and cook over moderately high heat, turning occasionally, until browned all over, about 8 minutes. Using a slotted spoon, transfer to a plate. Repeat with the remaining pork.',
-                            'Add the chopped onion, chopped garlic and a generous pinch of salt to the casserole. Cook over moderate heat, stirring occasionally, until softened and lightly browned, 5 to 7 minutes. Stir in the tomatoes, chipotles, chili powder, cumin and oregano and cook until bubbling. Stir in the stock and bring to a boil over high heat. Stir in the pork, cover and simmer over low heat until tender, about 1 hour.'
-                        ]
-                    },
-                    {
-                        group_name : 'Beans',
-                        steps_elements : [
-                            'Meanwhile, in a large saucepan, combine the black-eyed peas with the quartered onion, whole garlic cloves and 12 cups of water. Bring to a boil, then simmer over low heat until the peas are tender, about 45 minutes. Remove from the heat, add 1 tablespoon of salt and let stand for 5 minutes. Drain well and discard the onion and garlic.'
-                        ]
-                    },
-                    {
-                        group_name : '',
-                        steps_elements : [
-                            'Stir the collard greens into the stew in large handfuls, letting each handful wilt slightly before adding more. Cover and simmer over low until the pork is very tender and the collards are just softened, about 20 minutes. Stir in the peas, cover and simmer until hot, about 5 minutes. Ladle into bowls and serve.'
-                        ]
-                    }
-                ],
-                source: 'https://www.foodandwine.com/recipes/million-dollar-stew'
-            },
-            {        
-                name:  'Chickpea and beef stew',
-                image: 'https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/26/69/16/picO5BSJw.jpg',
-                tags: '',
-                vegetarian: false,
-                author: 'Booboos',
-                serves: '6',
-                prep: '15',
-                cook: '50',
-                ingredients: [            
-                    {
-                        group_name : '',
-                        ingredients_element : [
-                            '¼ cup olive oil',
-                            '1 lb beef, cut into 1/2-inch cubes',
-                            '2 medium onions, chopped',
-                            '½ - 1 fresh hot pepper, finely chopped (such as jalapeno)',
-                            '4 garlic cloves, minced',
-                            '½ cup cilantro, finely chopped',
-                            '2 cans chickpeas (equivalent to 2 cups dry chickpeas, but cooked before)',
-                            '4 medium tomatoes',
-                            'salt and pepper, to taste',
-                            '½ teaspoon cumin',
-                            '½ teaspoon thyme',
-                            '1 cup low sodium beef broth',
-                            '1 cup water',
-                            '¼ cup green olives, pitted and chopped (with pimentos removed)',
-                            '2 tablespoons lemon juice',
-                        ]
-                    }
-                ],
-                steps : [
-                    {
-                        group_name : '',
-                        steps_elements : [
-                            "In a saucepan, heat the oil, then saute the meat over medium heat until it begins to brown. Add the onions and hot pepper; saute for 6 minutes. Then add the garlic and cilantro; saute for an additional 1-2 minutes. (Be sure not to let the garlic brown or it will taste bitter.).",
-                            "Stir in the undrained chickpeas, tomatoes, salt, pepper, cumin, thyme, beef broth and water; bring to a boil and then cover and simmer over medium heat for 50 minute or until the meat is done. Then uncover and cook at medium-high for another 10 minutes until the sauce has thickened up just a little. Stir in the olives and lemon juice and simmer over low heat for 5 minutes. Serve with thick slices of rustic bread to soak up the flavorful broth.",
-                        ]
-                    }
-                ],
-                source: 'https://www.food.com/recipe/chickpea-and-beef-stew-266916'
             },
             {        
                 name:  'White Beans au Vin',
