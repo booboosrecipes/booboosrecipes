@@ -5730,7 +5730,7 @@ meals = [
                         group_name : 'Milk mixture',
                         ingredients_element : [
                             '1 tbsp corn starch',
-                            '2 cans (12 oz/354 ml each) evaporated milk, or 3 cups (750 ml) milk',
+                            '3 cups milk',
                             '1 tsp sweet paprika',
                             '1 tsp mustard powder',
                             '½ tsp garlic powder',
