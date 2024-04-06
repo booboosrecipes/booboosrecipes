@@ -6773,21 +6773,21 @@ meals = [
                             "2 avocados",
                             "¼ cup red onion",
                             "1 Jalapeño optional",
-                            "4 tbsp fresh cilantro *Note: you need more for the dressing below",
+                            "4 Tbsp fresh cilantro *Note: you need more for the dressing below",
                         ]
                     },
                     {
                         group_name : 'Dressing',
                         ingredients_element : [
                             "¼ cup fresh lime juice",
-                            "1 tbsp apple cider vinegar",
-                            "3 tbsp olive oil",
-                            "1 tbsp honey *see notes",
+                            "1 Tbsp apple cider vinegar",
+                            "3 Tbsp olive oil",
+                            "1 Tbsp honey *see notes",
                             "1 tsp smoked paprika",
                             "¾ tsp kosher salt",
                             "¼ tsp pepper",
                             "¼ tsp garlic powder",
-                            "2 tbsp fresh cilantro",
+                            "2 Tbsp fresh cilantro",
                         ]
                     }
                 ],
@@ -6803,6 +6803,58 @@ meals = [
                     }
                 ],
                 source: 'https://sailorbailey.com/blog/avocado-corn-salad/'
+            },
+            {        
+                name:  'Thai Noodle Salad with Peanut Sauce',
+                image: 'https://www.feastingathome.com/wp-content/uploads/2017/08/Thai-Noodle-Salad-with-Peanut-Sauce-100-5.jpg',
+                tags: '',
+                vegetarian: true,
+                author: 'Booboos',
+                serves: '6',
+                prep: '15',
+                cook: '15',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "6 ounces dry noodles (soba noodles, brown rice noodles, pad thai style rice noodles, linguini)",
+                            "3 medium carrots, shredded",
+                            "½ cabbage, shredded (or cut into thin slices)",
+                            "1 red bell pepper, finely sliced",
+                            "3 scallions, sliced",
+                            "½ bunch cilantro, chopped (or sub basil and mint)",
+                            "1 Tbsp jalapeño, finely chopped",
+                            "¼–½ cup roasted, crushed peanuts ( optional garnish)",
+                        ]
+                    },
+                    {
+                        group_name : 'Thai Peanut sauce',
+                        ingredients_element : [
+                            "5 thin slices ginger- cut across the grain, about the size of a quarter.",
+                            "2 cloves garlic",
+                            "½ cup peanut butter ( or sub almond butter!)",
+                            "½ cup fresh orange juice ( roughly 1 large orange)",
+                            "⅓ cup fresh lime juice ( roughly 2 limes)",
+                            "¼ cup soy sauce or GF Braggs Liquid Amino Acids (Note: Tamari will turn this unpleasantly dark)",
+                            "⅓ cup honey, agave, or maple syrup",
+                            "¼ cup toasted sesame oil",
+                            "1 – 1 ½ teaspoons cayenne pepper ( or a squirt of sriracha sauce)",
+                            "1 teaspoon salt",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "Cook pasta according to directions on package. Drain and chill under cold running water.",
+                            "While noodles are cookig, blend the peanut sauce ingredients together using  a blender until smooth. Taste and adjust if needed more sourness or more salt.",
+                            "Place shredded veggies, bell pepper, scallions, cilantro and jalapeño into a serving bowl. Toss. Add the cold noodles to the serving bowl and toss again. Pour some peanut sauce over top and toss well to combine- no need to use all, just use enough to coat well. ( Save the extra sauce for any leftover salad-as it can soak up the sauce overnight.)",
+                            "Garnis with roasted peanuts and cilantro and a lime wedge.",
+                        ]
+                    }
+                ],
+                source: 'https://www.feastingathome.com/thai-noodle-salad-with-peanut-sauce/'
             },
             // TEMPLATE
             {        
@@ -7140,6 +7192,47 @@ meals = [
                     }
                 ],
                 source: 'https://cooking.nytimes.com/recipes/1020859-white-beans-au-vin'
+            },
+            {        
+                name:  'White Bean, Rice and Dill Soup',
+                image: 'https://static01.nyt.com/images/2023/01/24/multimedia/nd-white-bean-rice-and-dill-soup-vqtb/nd-white-bean-rice-and-dill-soup-vqtb-articleLarge.jpg?w=1280&q=75',
+                tags: '',
+                vegetarian: true,
+                author: 'Booboos',
+                serves: '6',
+                prep: '5',
+                cook: '40',
+                ingredients: [            
+                    {
+                        group_name : '',
+                        ingredients_element : [
+                            "¼ cup extra-virgin olive oil",
+                            "6 garlic cloves, roughly chopped",
+                            "2 large carrots, scrubbed and finely chopped",
+                            "2 celery stalks, finely chopped",
+                            "1 large yellow onion, finely chopped",
+                            "Kosher salt (such as Diamond Crystal) and black pepper",
+                            "½ teaspoon ground turmeric",
+                            "Red-pepper flakes (optional), to taste",
+                            "⅓ cup white jasmine rice, rinsed",
+                            "2 (15-ounce) cans navy beans or cannellini beans, rinsed",
+                            "1 tablespoon dried dill or ¼ cup chopped fresh dill",
+                            "6 cups vegetable broth",
+                            "Lemon, for serving",
+                        ]
+                    }
+                ],
+                steps : [
+                    {
+                        group_name : '',
+                        steps_elements : [
+                            "In a large pot, heat the oil over medium. Add the garlic, carrots, celery and onion; season with a good pinch of salt and cook, stirring occasionally, until the vegetables have softened, about 10 minutes.",
+                            "Add the turmeric and red-pepper flakes (if using) and cook until fragrant, about 1 minute. Add the rice, stir and cook for 1 minute. Add the beans and dill; season everything well with salt (about 1½ tablespoons) and black pepper to taste. Stir and cook for 1 minute.",
+                            "Add 6 cups of vegetable broth, stir, partially cover, raise the heat to high and bring to a boil. Cover completely, reduce heat to low and simmer, stirring occasionally, until the rice is completely soft and has released its starchy goodness, and the beans are creamy on the inside, about 30 minutes. Taste for seasoning as the soup simmers. Serve with lemon, if you like.",
+                        ]
+                    }
+                ],
+                source: 'https://cooking.nytimes.com/recipes/1023869-white-bean-rice-and-dill-soup'
             },
             // TMEPLATE
             {        
