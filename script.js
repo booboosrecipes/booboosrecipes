@@ -4717,7 +4717,7 @@ meals = [
         name: "Red Lentil Barley Stew",
         image: "https://static01.nyt.com/images/2024/02/23/multimedia/23BIG-APPETITE-VEGETABLE-STEWSlentil-gfwp/21BIG-APPETITE-VEGETABLE-STEWSrex2-gfwp-master768.jpg?width=1280&quality=75&auto=webp",
         tags: "",
-        vegetarian: false,
+        vegetarian: true,
         author: "Booboos",
         serves: "",
         prep: "15",
