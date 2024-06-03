@@ -2815,7 +2815,7 @@ meals = [
               "1 Tbsp ground coriander",
               "½ Tbsp ground turmeric",
               "½ Tbsp ground cumin",
-              "1/4 - ½ tsp cayenne pepper or chili flakes",
+              "¼ - ½ tsp cayenne pepper or chili flakes",
               "1.5 cups crushed tomatoes (400g)",
               "2.5 cups cooked chickpeas (400g)",
               "½ cup vegetable stock (120 ml)",
