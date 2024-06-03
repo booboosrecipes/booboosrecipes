@@ -2795,6 +2795,55 @@ meals = [
         ],
         source: "https://ministryofcurry.com/chicken-tikka-masala-instant-pot/",
       },
+      {
+        name: "Chickpea Spinach Curry (Chana Palak Masala)",
+        image: "https://www.thefieryvegetarian.com/wp-content/uploads/2019/03/chana-palak-masala.jpg",
+        tags: "",
+        vegetarian: true,
+        author: "Booboos",
+        serves: "6",
+        prep: "5",
+        cook: "20",
+        ingredients: [
+          {
+            group_name: "",
+            ingredients_element: [
+              "3 Tbsp sunflower or canola oil",
+              "1 large onion finely chopped",
+              "4 cloves garlic, crushed",
+              "1 inch ginger, finely grated",
+              "1 Tbsp ground coriander",
+              "½ Tbsp ground turmeric",
+              "½ Tbsp ground cumin",
+              "1/4 - ½ tsp cayenne pepper or chili flakes",
+              "1.5 cups crushed tomatoes (400g)",
+              "2.5 cups cooked chickpeas (400g)",
+              "½ cup vegetable stock (120 ml)",
+              "1 cup frozen chopped spinach or 100gm fresh/frozen chopped spinach",
+              "½ - 1 tsp salt",
+              "1 tsp sugar",
+              "1 tsp garam masala",
+              "OPTIONAL: ¼-½ cup full-fat coconut milk (50-100 ml)",
+              "1 Tbsp lemon juice",
+              "1 Tbsp chopped fresh cilantro leaves (coriander leaves)",
+            ],
+          },
+        ],
+        steps: [
+          {
+            group_name: "",
+            steps_elements: [
+              "Heat the oil in a large pan over a medium-high setting. Sauté the finely chopped onion until golden.",
+              "Add the crushed garlic and grated ginger and cook for 1-2 minutes, stirring frequently, until the garlic doesn't smell raw anymore.",
+              "Mix in the next four ingredients (ground coriander, turmeric, cumin, and cayenne) and toast for two minutes stirring often.",
+              "Add the crushed tomatoes, chickpeas and vegetable stock. Increase the heat to high and once boiling, lower to medium-low to maintain at a simmer for 10 minutes, stirring every now and then.",
+              "Add 1/2 tsp salt, the sugar, and the spinach. If the spinach is frozen increase the heat until the curry is bubbling away again. Simmer for an additional five minutes.",
+              "Add the garam masala, lemon juice and coconut milk and stir. Sprinkle over the chopped cilantro leaves and serve hot.",
+            ],
+          },
+        ],
+        source: "https://www.thefieryvegetarian.com/chickpea-spinach-curry/",
+      },
       // TEMPLATE
       {
         name: "",
@@ -6969,7 +7018,7 @@ meals = [
         image:
           "https://img.buzzfeed.com/tasty-app-user-assets-prod-us-east-1/recipes/dbccd3ca691b467185d910918146407c.jpeg",
         tags: "Summer, salad, seafood",
-        vegetarian: true,
+        vegetarian: false,
         author: "Booboos",
         serves: "4",
         prep: "20",
@@ -7169,7 +7218,7 @@ meals = [
       {
         name: "Chopped Power Salad with Chicken",
         image:
-          "https://www.eatingwell.com/thmb/gbn0y2H8YW_TYA0GPaW2cRiEblI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/chopped-power-salad-with-chicken-0ad93f1931524a679c0f8854d74e6e57.jpg",
+          "https://i.imgur.com/dtuQ9Kg_d.webp?maxwidth=760&fidelity=grand",
         tags: "Summer, salad meal",
         vegetarian: false,
         author: "Booboos",
