@@ -471,7 +471,7 @@ meals = [
         name: "Smoked Salmon & Green Tea Noodles",
         image:
           "https://cdn.pratico-pratiques.com/app/uploads/sites/2/2020/11/10112956/duo-de-nouilles-vertes-au-saumon.jpg",
-        vegetarian: true,
+        vegetarian: false,
         tags: "asian, fish/seafood",
         author: "Booboos",
         serves: "4",
@@ -5697,7 +5697,7 @@ meals = [
         image:
           "https://tfpj-s3.troisfoisparjour.com/app/uploads/2022/11/04130701/pate_crevette_feta.jpg",
         tags: "seafood",
-        vegetarian: true,
+        vegetarian: false,
         author: "Booboos",
         serves: "4",
         prep: "15",
@@ -6138,7 +6138,7 @@ meals = [
         image:
           "https://img.buzzfeed.com/video-api-prod/assets/9ee2dadcbfcb4095872e6cdbaa24ff14/Thumb_A_FB.jpg",
         tags: "",
-        vegetarian: true,
+        vegetarian: false,
         author: "Booboos",
         serves: "4",
         prep: "15",
@@ -6606,7 +6606,7 @@ meals = [
         image:
           "https://kitchenswagger.com/wp-content/uploads/2017/01/trout-in-foil4.jpg",
         tags: "seafood, fish",
-        vegetarian: true,
+        vegetarian: false,
         author: "Booboos",
         serves: "4",
         prep: "10",
@@ -6645,7 +6645,7 @@ meals = [
         image:
           "https://ilonaspassion.com/wp-content/uploads/2019/02/Baked-Basa-Fish-Fillet-3.jpg",
         tags: "seafood",
-        vegetarian: true,
+        vegetarian: false,
         author: "Booboos",
         serves: "4",
         prep: "30",
@@ -6684,7 +6684,7 @@ meals = [
         image:
           "https://assets.kraftfoods.com/recipe_images/opendeploy/115893_MXM_K57644V0EC_OR1_CR_640x428.jpg",
         tags: "",
-        vegetarian: true,
+        vegetarian: false,
         author: "Grace",
         serves: "4",
         prep: "10",
@@ -6720,7 +6720,7 @@ meals = [
         image:
           "https://healthyrecipesblogs.com/wp-content/uploads/2022/07/sole-meuniere-2-NEW.jpg",
         tags: "",
-        vegetarian: true,
+        vegetarian: false,
         author: "Booboos",
         serves: "4",
         prep: "10",
@@ -6760,7 +6760,7 @@ meals = [
         image:
           "https://meikoandthedish.com/wp-content/uploads/2022/03/honey-garlic-air-fryer-salmon-1-683x1024.jpg",
         tags: "Fish",
-        vegetarian: true,
+        vegetarian: false,
         author: "Booboos",
         serves: "",
         prep: "",
@@ -6812,7 +6812,7 @@ meals = [
         image:
           "https://images.eatsmarter.com/sites/default/files/styles/facebook/public/cod-fillets-in-tomato-leek-caper-sauce-674121.jpg",
         tags: "",
-        vegetarian: true,
+        vegetarian: false,
         author: "Booboos",
         serves: "4",
         prep: "15",
@@ -6852,7 +6852,7 @@ meals = [
         image:
           "https://img.buzzfeed.com/video-api-prod/assets/8a7e994a197045bdb80239f68d4a5035/clamslinguine_reels.jpg",
         tags: "",
-        vegetarian: true,
+        vegetarian: false,
         author: "Booboos",
         serves: "4",
         prep: "15",
@@ -6896,7 +6896,7 @@ meals = [
         image:
           "https://diethood.com/wp-content/uploads/2016/02/STAR-Tomato-Pesto-Salmon-and-Rice.jpg",
         tags: "",
-        vegetarian: true,
+        vegetarian: false,
         author: "Booboos",
         serves: "5",
         prep: "10",
@@ -6944,7 +6944,7 @@ meals = [
         image:
           "https://assets.kraftfoods.com/recipe_images/opendeploy/115893_MXM_K57644V0EC_OR1_CR_640x428.jpg",
         tags: "",
-        vegetarian: true,
+        vegetarian: false,
         author: "Grace",
         serves: "4",
         prep: "10",
@@ -6979,7 +6979,7 @@ meals = [
         image:
           "https://tasting.mu/wp-content/uploads/2020/04/Tasting-Mauritius-Poisson-aigre-doux-1024x683.jpg",
         tags: "Mauritius, seafood",
-        vegetarian: true,
+        vegetarian: false,
         author: "Booboos",
         serves: "4",
         prep: "15",
@@ -7176,7 +7176,7 @@ meals = [
         name: "Kachumber Salad – Cucumber Tomato Onion Salad",
         image: "",
         tags: "",
-        vegetarian: false,
+        vegetarian: true,
         author: "Booboos",
         serves: "6",
         prep: "10",
@@ -7215,7 +7215,7 @@ meals = [
         image:
           "https://sailorbailey.com/wp-content/uploads/2022/06/avocado-corn-salad3.jpg",
         tags: "Summer, salad meal",
-        vegetarian: false,
+        vegetarian: true,
         author: "Booboos",
         serves: "4",
         prep: "10",
@@ -7831,7 +7831,7 @@ meals = [
         image:
           "https://producteurslaitiersducanada.ca/sites/default/files/styles/recipe_image/public/image_file_browser/conso_recipe/classic-maritime-seafood-chowder.jpg.jpeg?itok=CLkNqthF",
         tags: "Seafood",
-        vegetarian: true,
+        vegetarian: false,
         author: "Grace",
         serves: "x",
         prep: "x",
