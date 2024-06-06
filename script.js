@@ -2797,7 +2797,8 @@ meals = [
       },
       {
         name: "Instant Pot Chana Saag",
-        image: "https://spicecravings.com/wp-content/uploads/2020/10/Chana-Saag-6.jpg",
+        image:
+          "https://spicecravings.com/wp-content/uploads/2020/10/Chana-Saag-6.jpg",
         tags: "",
         vegetarian: true,
         author: "Booboos",
@@ -2839,7 +2840,8 @@ meals = [
         ],
         steps: [
           {
-            group_name: "Saute Aromatics & Spices, Add Chickpeas & Prepare Rice",
+            group_name:
+              "Saute Aromatics & Spices, Add Chickpeas & Prepare Rice",
             steps_elements: [
               "Select Saute and preheat the pressure cooker. When hot, add oil, cumin seeds and bay leaf. When cumin seeds sizzle, add chopped onions, minced ginger and garlic. Saute 3-4 minutes, until onions soften.",
               "Add crushed tomato along with the spices listed for chana masala. Stir and cook for 2 minutes. ",
@@ -4226,7 +4228,8 @@ meals = [
       },
       {
         name: "Poulet Yassa",
-        image: "https://lowcarbafrica.com/wp-content/uploads/2022/09/Poulet-Yassa-Senegalese-Chicken-Recipe-1.webp",
+        image:
+          "https://lowcarbafrica.com/wp-content/uploads/2022/09/Poulet-Yassa-Senegalese-Chicken-Recipe-1.webp",
         tags: "African, Senegalese",
         vegetarian: false,
         author: "Booboos",
@@ -4267,7 +4270,87 @@ meals = [
             ],
           },
         ],
-        source: "https://lowcarbafrica.com/poulet-yassa-senegalese-chicken-recipe/",
+        source:
+          "https://lowcarbafrica.com/poulet-yassa-senegalese-chicken-recipe/",
+      },
+      {
+        name: "Suqaar Digaag (Chicken Suqaar)",
+        image: "https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2012/8/22/0/CCATH105_Chicken-Suqaar_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1351633393141.jpeg",
+        tags: "Somali, African",
+        vegetarian: false,
+        author: "Booboos",
+        serves: "6",
+        prep: "20",
+        cook: "3h marination + 25",
+        ingredients: [
+          {
+            group_name: "Chicken marinade",
+            ingredients_element: [
+              "4 chicken breasts, sliced horizontally into thirds",
+              "2 tsps Cajun seasoning",
+              "2 tsps paprika",
+              "1 tsp lemon pepper (or 1 Tbsp lemon juice + dash of pepper and salt)",
+              "1 tsp oil"
+            ],
+          },
+          {
+            group_name: "Sautee",
+            ingredients_element: [
+              "2 cups sauteed chopped mixed vegetables, such as corn, carrots, onions, peas and green beans",
+              "1 Tbsp <a href='https://booboosrecipes.github.io#basbaas_(somali_green_hot_sauce)' target='_blank'>Basbaas (Somali hot sauce)</a>",
+            ],
+          },
+          {
+            group_name: "Rice mix",
+            ingredients_element: [
+              "1 cup cold water",
+              "8 cloves garlic",
+              "1 bunch fresh cilantro, stems on",
+              "1 onion, chopped",
+              "1 Tbsp vegetable oil",
+              "3 tsps chicken bouillon",
+              "2 tsps ground cumin",
+              "1 tsp ground cardamom (or ground cinnamon)",
+              "2½ cups hot water",
+              "2 cups Basmati rice, washed and drained",
+              "Kosher salt",
+            ],
+          },
+          {
+            group_name: "For serving",
+            ingredients_element: [
+              "Bananas",
+              "Limes, halved",
+              "Basbaas",
+            ],
+          },
+        ],
+        steps: [
+          {
+            group_name: "For the chicken",
+            steps_elements: [
+              "Put the chicken breasts in a large bowl and sprinkle with the Cajun seasoning, paprika and lemon pepper. Drizzle with the oil and toss to coat. Cover and let marinate in the refrigerator for 3 hours."
+            ],
+          },
+          {
+            group_name: "For the rice",
+            steps_elements: [
+              "Puree the cold water, garlic and cilantro in a blender or food processor.",
+              "In a casserole, saute the onions in the oil in a large ovenproof pan over medium heat, stirring occasionally.",
+              "Add all the rice mix ingredients to the pan, stir and season with salt.",
+              "Cover and cook until the rice is fully cooked and the liquid has been absorbed, 10-15 minutes."
+            ],
+          },
+          {
+            group_name: "Sautee",
+            steps_elements: [
+              "Sear the chicken on a double-burner griddle or in batches in a large skillet over medium-high heat until nearly cooked through.",
+              "Slice the chicken and then return to the griddle with the sauteed mixed vegetables and bisbess and continue cooking until browned.",
+              "Top the rice with the chicken and serve with bananas, limes and bisbess."
+            ],
+          },
+        ],
+        source: "https://www.cookingchanneltv.com/recipes/chicken-suqaar-2125207",
       },
       // TEMPLATE
       {
@@ -4682,7 +4765,8 @@ meals = [
       },
       {
         name: "African chicken peanut stew",
-        image: "https://lowcarbafrica.com/wp-content/uploads/2022/03/African-Chicken-Peanut-Stew-3.webp",
+        image:
+          "https://lowcarbafrica.com/wp-content/uploads/2022/03/African-Chicken-Peanut-Stew-3.webp",
         tags: "African",
         vegetarian: false,
         author: "Booboos",
@@ -4729,7 +4813,8 @@ meals = [
       },
       {
         name: "Red Lentil Barley Stew",
-        image: "https://static01.nyt.com/images/2024/02/23/multimedia/23BIG-APPETITE-VEGETABLE-STEWSlentil-gfwp/21BIG-APPETITE-VEGETABLE-STEWSrex2-gfwp-master768.jpg?width=1280&quality=75&auto=webp",
+        image:
+          "https://static01.nyt.com/images/2024/02/23/multimedia/23BIG-APPETITE-VEGETABLE-STEWSlentil-gfwp/21BIG-APPETITE-VEGETABLE-STEWSrex2-gfwp-master768.jpg?width=1280&quality=75&auto=webp",
         tags: "",
         vegetarian: true,
         author: "Booboos",
@@ -4769,7 +4854,8 @@ meals = [
             ],
           },
         ],
-        source: "https://cooking.nytimes.com/recipes/1025128-red-lentil-barley-stew",
+        source:
+          "https://cooking.nytimes.com/recipes/1025128-red-lentil-barley-stew",
       },
       // TEMPLATE
       {
@@ -7231,8 +7317,7 @@ meals = [
       },
       {
         name: "Chopped Power Salad with Chicken",
-        image:
-          "https://i.imgur.com/dtuQ9Kg_d.webp?maxwidth=760&fidelity=grand",
+        image: "https://i.imgur.com/dtuQ9Kg_d.webp?maxwidth=760&fidelity=grand",
         tags: "Summer, salad meal",
         vegetarian: false,
         author: "Booboos",
@@ -7273,11 +7358,12 @@ meals = [
             group_name: "",
             steps_elements: [
               "Whisk oil, lemon juice, garlic, oregano, sugar, salt and pepper together in a large bowl.",
-              "Add lettuce, spinach, chicken, tomatoes, cucumber, onion and pepperoncini; toss to coat. Serve sprinkled with feta and sunflower seeds."
+              "Add lettuce, spinach, chicken, tomatoes, cucumber, onion and pepperoncini; toss to coat. Serve sprinkled with feta and sunflower seeds.",
             ],
           },
         ],
-        source: "https://www.eatingwell.com/recipe/7917784/chopped-power-salad-with-chicken/",
+        source:
+          "https://www.eatingwell.com/recipe/7917784/chopped-power-salad-with-chicken/",
       },
       // TEMPLATE
       {
@@ -7699,7 +7785,7 @@ meals = [
     . ######::'####: ########:: ########:::: ########::'####:. ######:: ##:::: ##: ########:. ######::
     :......:::....::........:::........:::::........:::....:::......:::..:::::..::........:::......:::*/
   {
-    type: "Side dishes",
+    type: "Side dishes - sauces - salad dressings",
     recipes: [
       {
         name: "Lemon couscous",
@@ -7907,9 +7993,10 @@ meals = [
       },
       {
         name: "Sweet and sour sauce",
-        image: "https://www.daringgourmet.com/wp-content/uploads/2017/04/Sweet-Sour-Sauce-1-768x512.jpg",
+        image:
+          "https://www.daringgourmet.com/wp-content/uploads/2017/04/Sweet-Sour-Sauce-1-768x512.jpg",
         tags: "Asian",
-        vegetarian: false,
+        vegetarian: true,
         author: "Booboos",
         serves: "1 bottle of sweet and sour sauce",
         prep: "",
@@ -7938,44 +8025,41 @@ meals = [
         ],
         source: "https://www.daringgourmet.com/best-sweet-and-sour-sauce/",
       },
-      // TMEPLATE
       {
-        name: "",
-        image: "",
-        tags: "",
-        vegetarian: false,
+        name: "Basbaas (Somali Green Hot Sauce)",
+        image: "https://myhalwad.com/wp-content/uploads/2022/05/basbaas-pic1.jpg?w=141&zoom=2",
+        tags: "Somali, African",
+        vegetarian: true,
         author: "Booboos",
         serves: "",
-        prep: "",
+        prep: "10",
         cook: "",
         ingredients: [
           {
             group_name: "",
-            ingredients_element: [],
+            ingredients_element: [
+              "4 Medium to large jalapenos (diced)",
+              "1 Juice of lemon",
+              "3 Peeled garlics",
+              "3 stalks cilantro",
+              "1 Tsp of salt to taste",
+              "3 Green onions/scallions (chopped)",
+              "¼ green bell pepper",
+            ],
           },
         ],
         steps: [
           {
             group_name: "",
-            steps_elements: [],
+            steps_elements: [
+              "In a blender, combine all ingredients and blend until smooth.",
+              "Pour it in a glass jar with a lid.",                   
+              "Keep the basbaas in the fridge for up to 2 weeks.",
+            ],
           },
         ],
-        source: "",
+        source: "https://myhalwad.com/2022/05/09/basbaas-somali-green-hot-sauce/",
       },
-    ],
-  },
-  /*
-    :'######:::::'###::::'##::::::::::'###::::'########:::::'########::'########::'########::'######:::'######::'####:'##::: ##::'######::::'######::
-    '##... ##:::'## ##::: ##:::::::::'## ##::: ##.... ##:::: ##.... ##: ##.... ##: ##.....::'##... ##:'##... ##:. ##:: ###:: ##:'##... ##::'##... ##:
-    ##:::..:::'##:. ##:: ##::::::::'##:. ##:: ##:::: ##:::: ##:::: ##: ##:::: ##: ##::::::: ##:::..:: ##:::..::: ##:: ####: ##: ##:::..::: ##:::..::
-    . ######::'##:::. ##: ##:::::::'##:::. ##: ##:::: ##:::: ##:::: ##: ########:: ######:::. ######::. ######::: ##:: ## ## ##: ##::'####:. ######::
-    :..... ##: #########: ##::::::: #########: ##:::: ##:::: ##:::: ##: ##.. ##::: ##...:::::..... ##::..... ##:: ##:: ##. ####: ##::: ##:::..... ##:
-    '##::: ##: ##.... ##: ##::::::: ##.... ##: ##:::: ##:::: ##:::: ##: ##::. ##:: ##:::::::'##::: ##:'##::: ##:: ##:: ##:. ###: ##::: ##::'##::: ##:
-    . ######:: ##:::: ##: ########: ##:::: ##: ########::::: ########:: ##:::. ##: ########:. ######::. ######::'####: ##::. ##:. ######:::. ######::
-    :......:::..:::::..::........::..:::::..::........::::::........:::..:::::..::........:::......::::......:::....::..::::..:::......:::::......:::*/
-  {
-    type: "Salad dressings",
-    recipes: [
       // TMEPLATE
       {
         name: "",
