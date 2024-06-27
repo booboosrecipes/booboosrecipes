@@ -2860,6 +2860,128 @@ meals = [
         ],
         source: "https://spicecravings.com/chana-saag",
       },
+      {
+        name: "Butter chicken",
+        image: "https://www.indianhealthyrecipes.com/wp-content/uploads/2023/04/butter-chicken-recipe.jpg.webp",
+        tags: "Indian",
+        vegetarian: false,
+        author: "Booboos",
+        serves: "6",
+        prep: "15",
+        cook: "30",
+        ingredients: [
+          {
+            group_name: "First marination",
+            ingredients_element: [
+              "800g boneless chicken thighs",
+              "¾ tsp Kashimiri red chili powder",
+              "⅓ tsp salt",
+              "1 Tbsp lemon juice"
+            ],
+          },
+          {
+            group_name: "Second marination",
+            ingredients_element: [
+              "⅓ cup Greek Yogourt",
+              "3 cloves garlic, minced",
+              "26g ginger, minced",
+              "⅛ tsp turmeric",
+              "1 tsp garam masala",
+              "½ tsp cumin powder",
+              "1 tsp coriander powder (optionnal)",
+              "1 tsp kasuri methi (optionnal, dried fenugreek leaves)",
+              "1 Tbsp oil"
+            ],
+          },
+          {
+            group_name: "Tomato cashew puree",
+            ingredients_element: [             
+              "1½ cups (130 grams) onions, sliced",
+              "3 cups (600 grams, 24 oz) fresh tomatoes, pureed",
+              "28 (42 grams) whole raw cashews",
+            ],
+          },
+          {
+            group_name: "Curry gravy",
+            ingredients_element: [
+              "2 to 3 Tbsp butter or ghee (divided)",
+              "2 inch cinnamon piece (optionnal)",
+              "2 to 4 green cardamoms (optionnal)",
+              "3 cloves garlic, minced",
+              "26g ginger, minced",
+              "1 green chili, chopped (optionnal)",
+              "½ cup water to blend",
+              "1 tsps Kashmiri chili powder",
+              "1½ tsps garam masala",
+              "1½ tsp coriander powder (optional)",
+              "½ tsp cumin powder (optional)",
+              "½ Tbsp Kasuri methi (dried fenugreek leaves)",
+              "1½ cups hot water",
+            ],
+          },
+          {
+            group_name: "Assembly",
+            ingredients_element: [
+              "½ to ¾ tsp salt",
+              "1 tsp sugar",
+              "⅓ cup (80 to 100 ml) heavy cream or whipping cream",
+              "2 Tbsp coriander leaves (fine chopped to garnish)",
+            ],
+          },
+          {
+            group_name: "To eat with",
+            ingredients_element: [
+              '<a href="https://booboosrecipes.github.io/">Quick garlic naan bread (no yeast!)</a>',
+              '<a href="https://booboosrecipes.github.io/">Kachumber salad</a>',
+            ],
+          },
+        ],
+        steps: [
+          {
+            group_name: "Chicken",
+            steps_elements: [
+              "Marinate chicken with lemon juice, chili powder and salt. Cover and rest for 20 minutes.",
+              "Marinate the second marination ingredients and rest for a minimum of 30 minutes, or overnight for best results. Cover and refrigerate.",
+            ],
+          },
+          {
+            group_name: "Tomato cashew puree",
+            steps_elements: [
+              "Remove the chicken from the refrigerator, to bring it close to room temperature.",   
+              "Sauté onion in 1 tablespoon oil until lightly golden, for 7 minutes. Cool down.",
+              "To a blender, add tomato cashew puree ingredients. Blend to a smooth puree.",
+            ],
+          },
+          {
+            group_name: "Grilling chicken",
+            steps_elements: [      
+              "Spread 1 Tbsp. butter or ghee in a pan and heat it well. Place the marinated chicken pieces, spacing them a little apart",
+              "Fry on a medium heat for 2 mins and turn them. Don’t burn and do not overcook. Cook till the chicken is just cooked and all the marinade dries up. It is not necessary to fully cook.",
+              "Set aside."
+            ],
+          },
+          {
+            group_name: "Curry sauce",
+            steps_elements: [
+              "In the same pan, melt butter in a pan & add all the whole spices – cinnamon, cloves and cardamoms",
+              "When they begin to sizzle, stir in the ginger, ginger & green chilies. Fry on a low heat, for a minute or 2, till it turns fragrant but not burnt",
+              "Turn off the heat and stir in red chili powder, garam masala, cumin and coriander powder",
+              "Stir in the tomato cashew puree. Mix well and cover partially.",
+              "Bring it to a boil on a medium high heat, reduce the heat to low or medium. Cook until the puree thickens, keep stirring occasionally",
+              "Pour hot water and simmer for 10 mins, until the sauce thickens & traces of fats are visible on top of the sauce. Remove the whole spices and discard.",
+            ],
+          },
+          {
+            group_name: "Assembling butter chicken",
+            steps_elements: [
+              "Add chicken to the butter chicken gravy. Pour more hot water if the sauce is too thick. Cover and simmer for about 5 to 7 minutes till it becomes tender.",
+              "Stir in salt, sugar and kasuri methi. Taste test and optionally add more garam masala & another tablespoon butter for additional flavour (both are optional).",
+              "Turn off and stir in the heavy cream. Garnish Butter Chicken with chopped coriander leaves and some cream.",
+            ],
+          },
+        ],
+        source: "https://www.indianhealthyrecipes.com/butter-chicken/",
+      },
       // TEMPLATE
       {
         name: "",
