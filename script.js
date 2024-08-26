@@ -7143,6 +7143,42 @@ meals = [
         source:
           "https://tasting.mu/recettes-mauriciennes/recette-savoureuse-du-poisson-aigre-doux/",
       },
+      {
+        name: "Mauritian Tuna Salad",
+        image: "https://www.je-papote.com/wp-content/uploads/2010/02/salade-thon-mauricienne-930x620.jpg",
+        tags: "Mauritius, fish, summer, no-cook",
+        vegetarian: false,
+        pescatarian: true,
+        author: "Booboos",
+        serves: "4",
+        prep: "15",
+        cook: "0",
+        ingredients: [
+          {
+            group_name: "",
+            ingredients_element: [              
+              "2 medium tomatoes, cut in small cubes",
+              "1 can tuna, strained",
+              "1 bunch cilantro",
+              "1 onion, minced",
+              "1 Tbsp freshly squeezed lemon juice",
+              "1 chili pepper (optionnal)",
+              "1 tsp Olive oil",
+              "1 tsp salt",
+              "Dash of pepper",
+            ],
+          },
+        ],
+        steps: [
+          {
+            group_name: "",
+            steps_elements: [
+              "Mix everything together and let rest in the fridge at least 30 minutes before serving."
+            ],
+          },
+        ],
+        source: "https://www.je-papote.com/salade-thon-mauricienne.html",
+      },
       // TEMPLATE
       {
         name: "",

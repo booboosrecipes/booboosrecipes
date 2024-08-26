@@ -1,0 +1,144 @@
+{
+    "name": "Asian ginger and sesame meatballs",
+    "author": "Booboos",
+    "thumbnail":
+      "https://tfpj-s3.troisfoisparjour.com/app/uploads/2019/11/04090357/boulettes-porc-l-718x1024.jpg",
+    "categories" : [
+        "Meats"
+    ],
+    "difficulty" : 2,
+    "vegetarian": false,
+    "tags": [
+        "pork", "red meat", "oven"
+    ],
+    "nationality" : [
+        "asian"
+    ],
+    "serves": "4",
+    "prep": "15",
+    "cook": "9",
+    "marinate" : "",
+    "ingredients": [
+      {
+        "group_name": "Sauce",
+        "ingredients_element": [
+            {
+                "qty" : 2,
+                "name" : "green onions, minced",
+                "count_in_total_ingredients" : true
+            },
+            {
+                "qty" : 1,
+                "name" : "Tbsp ginger",
+                "count_in_total_ingredients" : true
+            },
+            {
+                "qty" : 2,
+                "name" : "Tbsp kecthup",
+                "count_in_total_ingredients" : false
+            },
+            {
+                "qty" : 0.75,
+                "name" : "cup of soy sauce",
+                "count_in_total_ingredients" : false
+            },
+            {
+                "qty" : 2,
+                "name" : "Tbsp maple syrup",
+                "count_in_total_ingredients" : false
+            },
+            {
+                "qty" : 1,
+                "name" : "tsp sesame oil",
+                "count_in_total_ingredients" : false
+            },
+            {
+                "qty" : 1.5,
+                "name" : "cups chicken broth",
+                "count_in_total_ingredients" : false
+            },
+            {
+                "qty" : 2,
+                "name" : "Tbsp cornstarch, diluted in ¼ cup water",
+                "count_in_total_ingredients" : false
+            },
+            {
+                "qty" : 2,
+                "name" : "tsp roasted sesame seeds",
+                "count_in_total_ingredients" : false
+            }
+        ]
+      },
+      {
+        "group_name": "Boulettes",
+        "ingredients_element": [
+            {
+                "qty" : 2,
+                "name" : "Tbsp vegetable oil",
+                "count_in_total_ingredients" : false
+            },
+            {
+                "qty" : 2,
+                "name" : "green onions, minced",
+                "count_in_total_ingredients" : true
+            },
+            {
+                "qty" : 1,
+                "name" : "Tbsp ginger, chopped",
+                "count_in_total_ingredients" : true
+            },
+            {
+                "qty" : 2,
+                "name" : "cloves of garlic, minced",
+                "count_in_total_ingredients" : true
+            },
+            {
+                "qty" : 1,
+                "name" : "egg",
+                "count_in_total_ingredients" : true
+            },
+            {
+                "qty" : 0.5,
+                "name" : "tsp sesame oil",
+                "count_in_total_ingredients" : false
+            },
+            {
+                "qty" : 1,
+                "name" : "lb ground pork",
+                "count_in_total_ingredients" : true
+            },
+            {
+                "qty" : null,
+                "name" : "Salt and pepper, to taste",
+                "count_in_total_ingredients" : false
+            }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "group_name": "",
+        "steps_elements": [
+          "In a large measuring cup, combine all the ingredients for the sauce, then set aside.",
+          "In a skillet over medium heat, heat 1 tbsp. vegetable oil, then soften the green onions, ginger and garlic. Transfer everything to a bowl and let cool.",
+          "Add the rest of the ingredients “for the dumplings”, then mix well. With your hands, form small balls about 1 ½ inches in diameter, then set aside on a plate.",
+          "In the same pan, over medium heat, heat 1 Tbsp vegetable oil, then brown the meatballs for 6 to 8 minutes.",
+          "Pour the sauce over the meatballs, then cover. Simmer over low heat for 5 to 6 minutes, or until the meatballs are cooked in the center, then serve."
+        ]
+      }
+    ],
+    "source":
+      "https://www.troisfoisparjour.com/fr/recettes/plats-principaux/porc/boulettes-de-porc-asiatiques-sauce-au-gingembre-et-au-sesame/",
+    "ratings" : [
+        {
+            "Booboos" : 1.5
+        },
+        {
+            "Grace" : 3
+        },
+        {
+            "Christella" : 5
+        }
+
+    ]
+}
